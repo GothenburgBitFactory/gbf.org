@@ -1,0 +1,83 @@
+<html>
+<head>
+<title>:: tasktools.org ::</title>
+</head>
+<body>
+<h3>Task performance charts, 3/2/2010</h3>
+<p>
+The performance of the task program is periodically measured.  This alerts us
+to the need for improvement, as features are constantly added, and few are
+ever removed.  This page will be periodically updated, as the charts are
+automatically generated, but this page is not.
+</p>
+<p>
+For more information on task see the project website at http://taskwarrior.org
+</p>
+<p>
+<img src="http://chart.apis.google.com/chart?chtt=Task+Performance&chs=800x200&cht=bhs&chxt=x,y&chdlp=r|l&chbh=a&chdl=initialize|parse|pending|completed|gc|commit|render&chco=D6E99F,B6C97F,5DB9D9,3D99C9,FFA0A0,FF8080,D05050&chm=N*f6*,000000,-1,-1,9|N*f6*,000000,0,-1,9|N*f6*,000000,2,-1,9|N*f6*,000000,3,-1,9|N*f6*,000000,4,-1,9&chxl=1:|1.9.0|1.9.1|2.0.0&chds=0,0.111188&chd=t:0.002714,0.002751,0.001905|0.000238,0.000198,0.000177|0.012756,0.012514,0.011925|0.027950,0.028116,0.027488|0.042427,0.042313,0.041057|0.000001,0.000001,0.000001|0.010102,0.009875,0.010166" alt="Comparison of list report across versions" />
+</p>
+<p>
+A comparison of the three most recent versions shows a slight and gradual
+slowdown in speed as features are added, and performance is ignored.  One
+of the 1.9.x series of releases will address performance.
+</p>
+<p>
+<img src="http://chart.apis.google.com/chart?chtt=Task+Performance&chs=800x200&cht=bhs&chxt=x,y&chdlp=r|l&chbh=a&chdl=initialize|parse|pending|completed|gc|commit|render&chco=D6E99F,B6C97F,5DB9D9,3D99C9,FFA0A0,FF8080,D05050&chm=N*f6*,000000,-1,-1,9|N*f6*,000000,0,-1,9|N*f6*,000000,2,-1,9|N*f6*,000000,3,-1,9|N*f6*,000000,4,-1,9&chxl=1:|list|long|ls&chds=0,0.1579336&chd=t:0.002690,0.002755,0.002605|0.000200,0.000230,0.000227|0.012514,0.012835,0.012862|0.027755,0.027604,0.027789|0.041932,0.042075,0.042561|0.000001,0.000000,0.000000|0.006791,0.058077,0.009952" alt="Comparison of different reports, 1.9.1" />
+</p>
+<p>
+Comparing different reports shows a marked difference in performance, entirely
+due to rendering.  The three reports all have the same length, but different
+widths.  Additional columns in the report not only cause more formatting code
+to be run, but also will include more color control codes which will slow
+terminal display.
+</p>
+<p>
+<img src="http://chart.apis.google.com/chart?chtt=Task+Performance&chs=800x200&cht=bhs&chxt=x,y&chdlp=r|l&chbh=a&chdl=initialize|parse|pending|completed|gc|commit|render&chco=D6E99F,B6C97F,5DB9D9,3D99C9,FFA0A0,FF8080,D05050&chm=N*f6*,000000,-1,-1,9|N*f6*,000000,0,-1,9|N*f6*,000000,2,-1,9|N*f6*,000000,3,-1,9|N*f6*,000000,4,-1,9&chxl=1:|hooks|no-hooks&chds=0,0.1590622&chd=t:0.002721,0.002731|0.000228,0.000202|0.012728,0.012392|0.028149,0.027999|0.042411,0.042071|0.000001,0.000001|0.058364,0.058269" alt="Comparison of with, without hooks" />
+</p>
+<p>
+Comparing two 1.9.1 builds, with and without hook support compiled, shows a
+negligible performance hit when no Lua is running.  This was hoped for - that
+users do not need to pay for features they do not use.
+</p>
+<h3>Areas for Improvement</h3>
+<p>
+There are several parts of task that could use performance improvement.  While
+users are probably not waiting a long time for reports to display, slow
+performance does erode the feeling that the software is fast.  Here are some
+areas that will receive attention in upcoming releases:
+<ul>
+<li>Emission of color control codes need to be optimized.  If two adjacent cells
+    in the output are of the same color, the output looks something like
+
+    <pre>&lt;red&gt; DATA &lt;/red&gt;&lt;red&gt; DATA &lt;/red&gt;</pre>
+
+    This should be located and reduced to:
+
+    <pre>&lt;red&gt; DATA  DATA &lt;/red&gt;</pre>
+
+    This will reduce the volume of output generated, and in need of
+    reinterpretation by the terminal program.
+<li>From the performance charts above, it looks suspiciously like the GC is
+    reading those files a second time.  This needs to be confirmed.
+<li>Some fields in FF4 are unnecessarily quoted.  For example:
+
+    <pre>[priority:"H" start:"1234567890" ... ]</pre>
+
+    The two fields shown may not contain spaces, and so could instead be written
+    as:
+
+    <pre>[priority:H start:1234567890 ... ]</pre>
+
+    which would slightly reduce file parsing time.
+<li>The tags field, in FF4 is a comma-separated list, which is encoded as:
+
+    <pre>[ ... tags:"tag1&comma;tag2&comma;tag3" ... ]</pre>
+
+    This is an example of over enthusiastic protection against characters such
+    as \n:["] from being used within the values.  Either commas should not be
+    encoded, or the delimiter for tags should be changed.  This will have a
+    significant effect on parsing speed.
+</ul>
+</p>
+</body>
+</html>
