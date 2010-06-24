@@ -3,6 +3,24 @@
 <title>:: tasktools.org ::</title>
 </head>
 <body>
+<h3>Task performance charts, 6/23/2010</h3>
+<p>
+Recent efforts in the 1.9.2 branch have dramatically reduced unnecessary file
+I/O in the GC routines.  A new algorithm has removed the need to read the
+completed.data file, parser improvements have reduced the time need to load the
+pending.data file, and an encoding change has eliminated much of the decoding
+on file load.
+</p>
+<p>
+<img src="http://chart.apis.google.com/chart?chtt=Task+Performance&chs=800x200&cht=bhs&chxt=x,y&chdlp=r|l&chbh=a&chdl=initialize|parse|pending|completed|gc|commit|render&chco=D6E99F,B6C97F,5DB9D9,3D99C9,FFA0A0,FF8080,D05050&chm=N*f6*,000000,-1,-1,9|N*f6*,000000,0,-1,9|N*f6*,000000,2,-1,9|N*f6*,000000,3,-1,9|N*f6*,000000,4,-1,9&chxl=1:|1.8.0|1.8.5|1.9.0|1.9.1|1.9.2|2.0.0&chds=0,0.1673474&chd=t:0.002195,0.002692,0.002197,0.002187,0.001585,0.001736|0.000279,0.000279,0.000253,0.000232,0.000225,0.000227|0.016982,0.015478,0.017067,0.016486,0.017121,0.018104|0.050761,0.000000,0.052341,0.050280,0.049457,0.050485|0.063779,0.003848,0.065701,0.063193,0.062507,0.063745|0.000000,0.000000,0.000001,0.000001,0.000000,0.000000|0.013212,0.013349,0.013546,0.013235,0.018018,0.017837" alt="Comparison of list report across versions" />
+</p>
+<p>
+Now there are two equal sized sections, which correspond to reading and parsing
+the pending.data file and rendering the output.  Given that one is reading the
+disk, and the other is pure cpu, it would appear that the rendering is the next
+optimization target.  The table/grid in use by 1.9.2 will be replaced by a
+view/grid in 2.0, which will feature faster data extraction and sorting.
+</p>
 <h3>Task performance charts, 3/2/2010</h3>
 <p>
 The performance of the task program is periodically measured.  This alerts us
@@ -57,26 +75,10 @@ areas that will receive attention in upcoming releases:
 
     This will reduce the volume of output generated, and in need of
     reinterpretation by the terminal program.
-<li>From the performance charts above, it looks suspiciously like the GC is
-    reading those files a second time.  This needs to be confirmed.
-<li>Some fields in FF4 are unnecessarily quoted.  For example:
-
-    <pre>[priority:"H" start:"1234567890" ... ]</pre>
-
-    The two fields shown may not contain spaces, and so could instead be written
-    as:
-
-    <pre>[priority:H start:1234567890 ... ]</pre>
-
-    which would slightly reduce file parsing time.
-<li>The tags field, in FF4 is a comma-separated list, which is encoded as:
-
-    <pre>[ ... tags:"tag1&comma;tag2&comma;tag3" ... ]</pre>
-
-    This is an example of over enthusiastic protection against characters such
-    as \n:["] from being used within the values.  Either commas should not be
-    encoded, or the delimiter for tags should be changed.  This will have a
-    significant effect on parsing speed.
+<li>The rendering portion is now the most cpu intensive, and consists of text
+    formatting and grid sorting.  Neither of these has been the focus of any
+    improvements.  The rendering process needs to be further broken down in
+    order to see where the time is spent.
 </ul>
 </p>
 </body>
