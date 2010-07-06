@@ -3,6 +3,21 @@
 <title>:: tasktools.org ::</title>
 </head>
 <body>
+<h3>Task performance charts, 7/5/2010</h3>
+<p>
+From inspection of the table rendering, several inefficient mechanisms were
+identified that were creating variable-length padding strings of spaces, and
+colored cell contents.  These were converted to std::string methods, which
+has yielded an approximate 25% increase in render speed.
+</p>
+<p>
+<img src="http://chart.apis.google.com/chart?chtt=Task+Performance&chs=800x200&cht=bhs&chxt=x,y&chdlp=r|l&chbh=a&chdl=initialize|parse|pending|completed|gc|commit|render&chco=D6E99F,B6C97F,5DB9D9,3D99C9,FFA0A0,FF8080,D05050&chm=N*f6*,000000,-1,-1,9|N*f6*,000000,0,-1,9|N*f6*,000000,2,-1,9|N*f6*,000000,3,-1,9|N*f6*,000000,4,-1,9&chxl=1:|1.8.0|1.8.5|1.9.0|1.9.1|1.9.2|2.0.0&chds=0,0.1731103&chd=t:0.002088,0.002361,0.002350,0.005959,0.001532,0.001965|0.000236,0.000255,0.000248,0.000242,0.000223,0.000243|0.016579,0.016026,0.016475,0.016650,0.016788,0.016896|0.051052,0.000000,0.053669,0.051838,0.051382,0.054118|0.063840,0.003693,0.066466,0.064915,0.064602,0.067297|0.000001,0.000001,0.000001,0.000001,0.000000,0.000000|0.012752,0.010233,0.013017,0.012439,0.017053,0.016854" alt="Comparison of list report across versions" />
+</p>
+<p>
+Further improvements in render performance will be achieved by replacing the
+Table object with the new View object.
+</p>
+
 <h3>Task performance charts, 6/23/2010</h3>
 <p>
 Recent efforts in the 1.9.2 branch have dramatically reduced unnecessary file
@@ -21,6 +36,7 @@ disk, and the other is pure cpu, it would appear that the rendering is the next
 optimization target.  The table/grid in use by 1.9.2 will be replaced by a
 view/grid in 2.0, which will feature faster data extraction and sorting.
 </p>
+
 <h3>Task performance charts, 3/2/2010</h3>
 <p>
 The performance of the task program is periodically measured.  This alerts us
@@ -79,6 +95,40 @@ areas that will receive attention in upcoming releases:
     formatting and grid sorting.  Neither of these has been the focus of any
     improvements.  The rendering process needs to be further broken down in
     order to see where the time is spent.
+<li>The current mechanism for propagating data from the files to the terminal
+    involves several layers:
+
+    <br />
+    <br />
+    file &rarr; TDB &rarr; Task &rarr; Grid &rarr; Table &rarr; stdout
+    <br />
+    <br />
+
+    This results in several issues, including several copies of the same data,
+    and repeated operations such as splitting and wrapping text within a table
+    cell.
+    <br />
+    <br />
+
+    Given that the TDB already creates a vector of Task objects, which are
+    themselves name/value maps, there is no point in making a data copy in any
+    Grid object, because it cannot be more efficient than doing nothing.
+
+    <br />
+    <br />
+    file &rarr; TDB &rarr; Task &rarr; View &rarr; stdout
+    <br />
+    <br />
+<li>Sorting is currently performed by a Combsort11 algorithm, which should
+    probably be ditched in favor of std::sort.  There are reports of sort
+    instability, ie, these two reports:
+<pre>
+task ls
+task add foo
+task ls
+</pre>
+    result in a different sort order, in some cases.  Performance could also
+    be inferior.
 </ul>
 </p>
 </body>
