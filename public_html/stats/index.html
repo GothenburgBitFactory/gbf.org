@@ -1,0 +1,108 @@
+<html>
+  <head>
+    <title>:: tasktools.org ::</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+    <style>
+      body {font-family: 'Droid Sans Mono', arial, serif; }
+    </style>
+  </head>
+  <body>
+    <h3>Taskwarrior Statistics</h3>
+    <p>
+      Interesting statistics from the taskwarrior web site and repository.
+      These data form a baseline against which to measure marketing efforts.
+      This page will be updated after the end of each month.
+    </p>
+
+    <p>
+      <img src="visits.png" />
+      <br />
+      <br />
+      Visits to taskwarrior.org and tasktools.org.
+
+      The recent uptrend most likely due solely to the Dirk Deimeke articles.
+      <br />
+      <br />
+      <br />
+    </p>
+    <p>
+      <img src="downloads.png" />
+      <br />
+      <br />
+      Note that only downloads directly from taskwarrior.org and sourceforge.com
+      are recorded.  The number of downloads from freshmeat.net and many others
+      are unknown.
+      <br />
+      <br />
+      <br />
+    </p>
+    <p>
+      <img src="commits.png" />
+      <br />
+      <br />
+      Development began in 2006, but used Subversion and that history was not
+      brought into git.  The large spike represent 1.8.0, which was essentially
+      a complete rewrite.
+      <br />
+      <br />
+      <br />
+    </p>
+    <p>
+      <img src="tests.png" />
+      <br />
+      <br />
+      It is expected that there will ultimately be at least 10,000 tests.
+    </p>
+    <p>
+      The more unit tests we add, the harder it becomes to break task and not
+      notice.  More tests should result in fewer bugs, except in the areas of
+      new features, which tend to be buggy at first.
+      <br />
+      <br />
+      <br />
+    </p>
+    <p>
+      <img src="bug-rates.png" />
+      <br />
+      <br />
+      The erratic early bug find rate is probably due to two factors: a small
+      test suite with limited coverage, and a sudden increase in the number of
+      users.
+
+      The fix rate closely matches the find rate, which means that the number of
+      outstanding bugs remains fairly constant.
+      <br />
+      <br />
+      <br />
+    </p>
+    <p>
+      <img src="feature-rates.png" />
+      <br />
+      <br />
+      Feature requests are low, which is expected.  The more features we put
+      into task, the harder it becomes to dream up new ones.  At some point,
+      that will probably go to zero and stay there.
+    </p>
+    <p>
+      There is also the difference between a gap in functionality (which is easy
+      to spot) and a lack of advanced features (which may not occur to people).
+      An example of this is the recent feedback on the proposed burndown chart,
+      which stated "did not realize that I would like/want this until I saw it".
+    </p>
+
+<!-- Piwik -->
+<script type="text/javascript">
+var pkBaseURL = (("https:" == document.location.protocol) ? "https://tasktools.org/piwik/" : "http://tasktools.org/piwik/");
+document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+</script><script type="text/javascript">
+try {
+var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
+piwikTracker.trackPageView();
+piwikTracker.enableLinkTracking();
+} catch( err ) {}
+</script><noscript><p><img src="http://tasktools.org/piwik/piwik.php?idsite=3" style="border:0" alt="" /></p></noscript>
+<!-- End Piwik Tag -->
+
+  </body>
+</html>
