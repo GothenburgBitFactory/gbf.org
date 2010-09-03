@@ -1,0 +1,271 @@
+<html>
+  <head>
+    <title>:: tasktools.org ::</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+    <style>
+      body             {font-family: 'Droid Sans Mono', arial, serif; }
+      TABLE            {font-size: 75%; background:#cccccc}
+      TH               {background:#c0c0c0; color:#333333; text-align:left}
+      TD               {background:white;   color:#444444; vertical-align:top}
+    </style>
+  </head>
+  <body>
+    <h3>Taskwarrior Plans/Goals</h3>
+    <p>
+      There are many interconnected features and technologies in taskwarrior,
+      and each piece has it's own goals.  This matrix allows a simple reading
+      of where things are, and where they are going.  This is a low-resolution
+      time line.
+    </p>
+
+    <table>
+      <tr>
+        <th>Technology/Feature</th>
+        <th>Current 1.9.x</th>
+        <th>2.x<br />2010/2011</th>
+        <th>3.x<br />2011</th>
+      </tr>
+
+      <tr>
+        <td>Command line<br />RFC11<br />RFC16<br />RFC17<br />RFC26<br />RFC27</td>
+        <td>
+          Shift-reduce 'Nibbler'<br />
+        </td>
+        <td colspan="2">
+          Formal BNF grammar<br />
+          Integrated BNF parser<br />
+          Algebraic expressions<br />
+          DOM access<br />
+          task &lt;filter&gt; update &lt;modifications&gt;<br />
+          task /&lt;regex&gt;/<br />
+          Readline support
+        </td>
+      </tr>
+
+      <tr>
+        <td>Reports<br />RFC14</td>
+        <td>
+          Burndown Chart
+        </td>
+        <td>
+          New field formats<br />
+          New view formatting<br />
+          Tunable next report<br />
+          Weekly reports (history, ghistory ...)<br />
+          <i>*_time fields DEPRECATED</i>
+        </td>
+        <td>
+          <i>*_time fields REMOVED</i>
+        </td>
+      </tr>
+
+      <tr>
+        <td>GTD</td>
+        <td>-</td>
+        <td>Review support</td>
+        <td>-</td>
+      </tr>
+
+      <tr>
+        <td>User Interface</td>
+        <td colspan="2">
+          CLI only
+        </td>
+        <td>
+          Full-screen Vitapi<br />
+          Moveable cursor<br />
+          Mouse support
+        </td>
+      </tr>
+
+      <tr>
+        <td>Synchronization</td>
+        <td>
+          task merge &lt;url&gt;<br />
+          task pull &lt;url&gt;<br />
+          task push &lt;url&gt;<br />
+        </td>
+        <td colspan="2">-</td>
+      </tr>
+
+      <tr>
+        <td>Configuration</td>
+        <td colspan="2">Single local .taskrc file</td>
+        <td>Multiple, layered .taskrc files</td>
+      </tr>
+
+      <tr>
+        <td>TDB (task database)</td>
+        <td>
+          Local file locking<br />
+          Single file set<br />
+          Single user
+        </td>
+        <td>
+          Read-only files
+        </td>
+        <td>
+          Multiple file sets<br />
+          Multiple users
+        </td>
+      </tr>
+
+      <tr>
+        <td>Color<br />RFC23</td>
+        <td>
+          CLI: 256-color<br />
+          Themes<br />
+          Color rule precedence
+        </td>
+        <td>
+          <i>fg: bg: DEPRECATED</i>
+        </td>
+        <td>
+          Vitapi 256-color<br />
+          Auto-downsample<br />
+          <i>fg: bg: REMOVED</i>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Key Bindings</td>
+        <td colspan="2">-</td>
+        <td>Configurable</td>
+      </tr>
+
+      <tr>
+        <td>I18n</td>
+        <td>
+          Basic utf8 support
+        </td>
+        <td>
+          Some localized messages<br />
+          Improved utf8 handling
+        </td>
+        <td>Fully localized messages</td>
+      </tr>
+
+      <tr>
+        <td>Import<br />RFC2</td>
+        <td>
+          import (auto-detect)<br />
+          <br />
+          Supporting:<br />
+          task ff2<br />
+          task ff3<br />
+          task ff4<br />
+          CSV<br />
+          todo.sh<br />
+          CLI<br />
+          text<br />
+          YAML 1.1
+        </td>
+        <td>
+          import (auto-detect)<br />
+          <i>import.task.ff2 DEPRECATED</i><br />
+          import.task.ff3<br />
+          import.task.ff4<br />
+          import.csv<br />
+          import.todo.sh<br />
+          import.cli<br />
+          import.txt<br />
+          import.yaml
+        </td>
+        <td>
+          import.xml<br />
+          <i>import.task.ff2 REMOVED</i><br />
+          <i>import.task.ff3 DEPRECATED</i>
+        </td>
+      </tr>
+
+      <tr>
+        <td>Export</td>
+        <td colspan="2">
+          export (alias to export.yaml)<br />
+          export.csv<br />
+          export.ical<br />
+          export.vcalendar (alias to export.ical)
+        </td>
+        <td>
+          export.xml
+        </td>
+      </tr>
+
+      <tr>
+        <td>Packaging</td>
+        <td>
+          Fedora<br />
+          Cygwin<br />
+          FreeBSD<br />
+          OS X<br />
+          Ubuntu<br />
+          Haiku
+        </td>
+        <td colspan="2">
+          msys/MinGW
+        </td>
+      </tr>
+
+      <tr>
+        <td>Distribution</td>
+        <td>
+          taskwarrior.org<br />
+          freshmeat.net<br />
+          sourceforge.com<br />
+          Fedora<br />
+          Cygwin<br />
+          FreeBSD<br />
+          Ubuntu<br />
+          Debian
+        </td>
+        <td colspan="2">
+          Windows
+        </td>
+      </tr>
+
+      <tr>
+        <td>Help</td>
+        <td>
+          man: task<br />
+          man: taskrc<br />
+          man: task-tutorial<br />
+          man: task-color<br />
+          man: task-FAQ<br />
+          youtube: various<br />
+          taskwarrior.org: How-To
+        </td>
+        <td>
+          taskwarrior.com: Support Site<br />
+        </td>
+        <td>
+          F1: minimal help
+        </td>
+      </tr>
+
+      <tr>
+        <td>API/Extension Mechanism<br />RFC5<br />RFC15</td>
+        <td>
+          Documented file format
+        </td>
+        <td colspan="2">
+          Documented file format<br />
+          Lua 5.2 API<br />
+          Hooks
+        </td>
+      </tr>
+
+      <tr>
+        <td>Website</td>
+        <td>
+          taskwarrior.org<br />
+          tasktools.org
+        </td>
+        <td colspan="2">
+          taskwarrior.com
+        </td>
+      </tr>
+
+    </table>
+  </body>
+</html>
