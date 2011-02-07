@@ -19,20 +19,38 @@
       time line.
     </p>
 
+    <p>
+      Last updated 2011-02-02.
+    </p>
+
     <table>
       <tr>
         <th>Technology/Feature</th>
-        <th>Current 1.9.x</th>
-        <th>2.x<br />2010/2011</th>
-        <th>3.x<br />2011</th>
+        <th>1.9.x<br />Current</th>
+        <th>2.0<br />Next</th>
+        <th>2.1+<br />Future</th>
+      </tr>
+
+      <tr>
+        <td>Schedule</td>
+        <td>
+          1.9.3 2010-11-08<br />
+          1.9.4 2011-02
+        </td>
+        <td>
+          First half of 2011
+        </td>
+        <td>
+          2011
+        </td>
       </tr>
 
       <tr>
         <td>Command line<br />RFC11<br />RFC16<br />RFC17<br />RFC26<br />RFC27</td>
-        <td>
+        <td colspan="2">
           Shift-reduce 'Nibbler'<br />
         </td>
-        <td colspan="2">
+        <td>
           Formal BNF grammar<br />
           Integrated BNF parser<br />
           Algebraic expressions<br />
@@ -44,27 +62,126 @@
       </tr>
 
       <tr>
+        <td>
+          Data Fields<br />
+          RFC14<br />
+          <br />
+          <br />
+          <i>
+            Note: the field deprecations<br/>
+            represent a shift from having<br />
+            fields and formats combined,<br />
+            to that of separate fields<br />
+            and formats.
+          </i>
+        </td>
+        <td>
+          id<br />
+          uuid<br />
+          project<br />
+          priority<br />
+          <i>priority_long DEPRECATED</i><br />
+          entry<br />
+          <i>entry_time DEPRECATED</i><br />
+          start<br />
+          <i>start_time DEPRECATED</i><br />
+          end<br />
+          <i>end_time DEPRECATED</i><br />
+          due<br />
+          <i>countdown DEPRECATED</i><br />
+          <i>countdown_compact DEPRECATED</i><br /><br /><br />
+          <i>age DEPRECATED</i><br />
+          <i>age_compact DEPRECATED</i><br />
+          <i>active DEPRECATED</i><br />
+          tags<br />
+          recur<br />
+          <i>recurrence_indicator DEPRECATED</i><br />
+          <i>tag_indicator DEPRECATED</i><br />
+          <i>description_only DEPRECATED</i><br />
+          description<br />
+          wait<br />
+          depends<br />
+          urgency
+        </td>
+        <td>
+          id<br />
+          uuid<br />
+          project<br />
+          priority<br />
+          <i>priority_long DEPRECATED</i><br />
+          entry<br />
+          <i>entry_time DEPRECATED</i><br />
+          start<br />
+          <i>start_time DEPRECATED</i><br />
+          end<br />
+          <i>end_time DEPRECATED</i><br />
+          due<br />
+          <i>countdown DEPRECATED</i><br />
+          <i>countdown_compact DEPRECATED</i><br /><br /><br />
+          <i>age DEPRECATED</i><br />
+          <i>age_compact DEPRECATED</i><br />
+          <i>active DEPRECATED</i><br />
+          tags<br />
+          recur<br />
+          <i>recurrence_indicator DEPRECATED</i><br />
+          <i>tag_indicator DEPRECATED</i><br />
+          <i>description_only DEPRECATED</i><br />
+          description<br />
+          wait<br />
+          depends<br />
+          urgency<br />
+          status
+        </td>
+        <td>
+          id.ordinal (default)<br />
+          id.uuid<br />
+          project<br />
+          priority.short (default)<br />
+          priority.long<br />
+          entry.date (default)<br /><br />
+          start.date (default)<br /><br />
+          end.date (default)<br /><br />
+          due.date (default)<br />
+          due.countdown.long<br />
+          due.countdown.short<br />
+          due.remaining.long<br />
+          due.remaining.short<br />
+          entry.age.long<br />
+          entry.age.short<br />
+          start.indicator<br />
+          tags.list (default)<br />
+          recur.period (default)<br />
+          recur.indicator<br />
+          tags.indicator<br />
+          description.noanno<br />
+          description.all (default)<br />
+          wait<br />
+          depends<br />
+          urgency<br />
+          status
+        </td>
+      </tr>
+
+      <tr>
         <td>Reports<br />RFC14</td>
         <td>
-          Burndown Chart
+          Burndown Charts
+        </td>
+        <td>
+          Tunable next report<br />
         </td>
         <td>
           New field formats<br />
           New view formatting<br />
-          Tunable next report<br />
           Weekly reports (history, ghistory ...)<br />
-          <i>*_time fields DEPRECATED</i>
-        </td>
-        <td>
-          <i>*_time fields REMOVED</i>
         </td>
       </tr>
 
       <tr>
         <td>GTD</td>
         <td>-</td>
-        <td>Review support</td>
         <td>-</td>
+        <td>Review support</td>
       </tr>
 
       <tr>
@@ -86,14 +203,13 @@
           task pull &lt;url&gt;<br />
           task push &lt;url&gt;<br />
         </td>
-        <td>-</td>
-        <td>Client/server version</td>
+        <td>Task server support,<br />single user, multi-client</td>
+        <td>Task server support,<br />multi-user, multi-client</td>
       </tr>
 
       <tr>
         <td>Configuration</td>
-        <td colspan="2">Single local .taskrc file</td>
-        <td>Multiple, layered .taskrc files</td>
+        <td colspan="3">Single local .taskrc file</td>
       </tr>
 
       <tr>
@@ -104,9 +220,9 @@
           Single user
         </td>
         <td>
-          Read-only files
         </td>
         <td>
+          Read-only files<br />
           Multiple file sets<br />
           Multiple users
         </td>
@@ -130,29 +246,22 @@
       </tr>
 
       <tr>
-        <td>Key Bindings</td>
-        <td colspan="2">-</td>
-        <td>Configurable</td>
-      </tr>
-
-      <tr>
         <td>I18N</td>
         <td>
           Basic utf8 support
         </td>
         <td>
-          Some localized messages<br />
           Improved utf8 handling
         </td>
-        <td>Fully localized messages</td>
+        <td>
+          Localized messages
+        </td>
       </tr>
 
       <tr>
         <td>Import<br />RFC2</td>
         <td>
-          import (auto-detect)<br />
-          <br />
-          Supporting:<br />
+          Import supporting:<br />
           task ff2<br />
           task ff3<br />
           task ff4<br />
@@ -163,9 +272,12 @@
           YAML 1.1
         </td>
         <td>
-          import (auto-detect)<br />
-          <i>import.task.ff2 DEPRECATED</i><br />
-          import.task.ff3<br />
+          <i>task ff2 DEPRECATED</i><br />
+        </td>
+        <td>
+          import.xml<br /><br />
+          <i>ff2 REMOVED</i><br />
+          <i>import.task.ff3 DEPRECATED</i><br />
           import.task.ff4<br />
           import.csv<br />
           import.todo.sh<br />
@@ -173,29 +285,35 @@
           import.txt<br />
           import.yaml
         </td>
-        <td>
-          import.xml<br />
-          <i>import.task.ff2 REMOVED</i><br />
-          <i>import.task.ff3 DEPRECATED</i>
-        </td>
       </tr>
 
       <tr>
         <td>Export</td>
-        <td colspan="2">
+        <td>
           export (alias to export.yaml)<br />
-          export.csv<br />
-          export.ical<br />
-          export.vcalendar (alias to export.ical)
+          <i>export.csv DEPRECATED</i><br />
+          <i>export.ical DEPRECATED</i><br />
+          <i>export.vcalendar (alias to export.ical) DEPRECATED</i><br />
+          <i>export.yaml DEPRECATED</i><br />
+          _query helper (alias to export.json)
         </td>
         <td>
-          export.xml
+          Add-ons:<br /><br />
+          export-csv.pl<br />
+          export-yaml.pl<br />
+          export-ical.pl<br />
+          export-xml.pl<br />
+          export-xml.py<br />
+          export-xml.rb
+        </td>
+        <td>
+          -
         </td>
       </tr>
 
       <tr>
         <td>Packaging</td>
-        <td>
+        <td colspan="2">
           Fedora<br />
           Cygwin<br />
           FreeBSD<br />
@@ -203,25 +321,8 @@
           Ubuntu<br />
           Haiku
         </td>
-        <td colspan="2">
-          msys/MinGW
-        </td>
-      </tr>
-
-      <tr>
-        <td>Distribution</td>
         <td>
-          taskwarrior.org<br />
-          freshmeat.net<br />
-          sourceforge.com<br />
-          Fedora<br />
-          Cygwin<br />
-          FreeBSD<br />
-          Ubuntu<br />
-          Debian
-        </td>
-        <td colspan="2">
-          Windows
+          msys/MinGW
         </td>
       </tr>
 
@@ -233,6 +334,7 @@
           man: task-tutorial<br />
           man: task-color<br />
           man: task-FAQ<br />
+          man: task-sync<br />
           youtube: various<br />
           taskwarrior.org: How-To
         </td>
@@ -240,16 +342,16 @@
           taskwarrior.com: Support Site<br />
         </td>
         <td>
-          F1: minimal help
+          -
         </td>
       </tr>
 
       <tr>
         <td>API/Extension Mechanism<br />RFC5<br />RFC15</td>
-        <td>
+        <td colspan="2">
           Documented file format
         </td>
-        <td colspan="2">
+        <td>
           Documented file format<br />
           Lua 5.2 API<br />
           Hooks<br />
@@ -265,7 +367,9 @@
           tasktools.org
         </td>
         <td colspan="2">
-          taskwarrior.com
+          taskwarrior.com<br />
+          taskwarrior.org<br />
+          tasktools.org
         </td>
       </tr>
 
