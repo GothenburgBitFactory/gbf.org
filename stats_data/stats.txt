@@ -1,0 +1,84 @@
+               tw.org  tt.org  hd.net  y.org   tt.org/  bugs   bugs   feat  feat  tw     rank  source  commits  unit
+               visits  visits  visits  visits  latest   found  fixed  req   done  d/l    d/l   forge   task     tests
+               ------  ------  ------  ------  -------  -----  -----  ----  ----  -----  ----  ------  -------  -----
+2008 April                                                                                                   8       
+     May                                                                              8                     51       
+     June                                                                           227                     90       
+     July                                                                           293                     47       
+     August                                                                          56                      2       
+     September                                                                       87                     22       
+     October                                                                        143                     13       
+     November                                                                        99                     24       
+     December                                                                        51                      2       
+
+               tw.org  tt.org  hd.net  y.org   tt.org/  bugs   bugs   feat  feat  tw     rank  source  commits  unit
+               visits  visits  visits  visits  latest   found  fixed  req   done  d/l    d/l   forge   task     tests
+               ------  ------  ------  ------  -------  -----  -----  ----  ----  -----  ----  ------  -------  -----
+2009 January                                                                         44                      3       
+     February                                                                       271                     22       
+     March                                                                          235                    110       
+     April                                                                          238                     31       
+     May                                                   31     12    83     8    285                    186       
+     June                                                  12     15    16    20    268                    258       
+     July                                                  37     21    62     9    624    4               103   1634
+     August      1854                                       9     14    26    11    490             3       25   1681
+     September   3684                                       2      3     5     0    599    5        4       23   1695
+     October     2501                                       2      0     4     3    339            11       20   1631
+     November    2130                               60     14     12    10     3    430            10       35   1631
+     December    2526                                3     13     14    15     9    490             7       55   2171
+
+               tw.org  tt.org  hd.net  y.org   tt.org/  bugs   bugs   feat  feat  tw     rank  source  commits  unit
+               visits  visits  visits  visits  latest   found  fixed  req   done  d/l    d/l   forge   task     tests
+               ------  ------  ------  ------  -------  -----  -----  ----  ----  -----  ----  ------  -------  -----
+2010 January     2221                               17      3      5     3     7    238            13      108   2404
+     February    2249                                2      9      8    10     5    474            24       61   3652
+     March       2044                                0      8      3     3     0    301            21       17   3812
+     April       1944                                0      1      0     1     1    290            23        5   3812
+     May         2672                                1      4      7     0    22    401            83       25   3836
+     June        1991                                0      6     10     7     8    279            28       52   4239
+     July        2808      40                       13     20     18    13     9    514            28      139   4457
+     August      3322     201              10       24      7      7    13    14    327            15       86   4851
+     September   3638     121               5       19      4      2     4     0    433            21       46   4971
+     October     4484     118               3       22      8      1    14     5    511             9      105   4992
+     November    5097     139               6       36     24     13    17     4    892    2       24       55   5195
+     December    4255      91               3       23     15     13    16     5    584           326       43   5261
+
+               tw.org  tt.org  hd.net  y.org   tt.org/  bugs   bugs   feat  feat  tw     rank  source  commits  unit
+               visits  visits  visits  visits  latest   found  fixed  req   done  d/l    d/l   forge   task     tests
+               ------  ------  ------  ------  -------  -----  -----  ----  ----  -----  ----  ------  -------  -----
+2011 January     5326     148              12       30     32     13    38     5    543            56       94   5286
+     February    6590     124       7      16       37     11      9     8     1    735    3        9       37   5302
+     March       7623     211      59      25       53     26     13    10     4    978    1        8       38   5406
+
+
+               OS     OS     OS     OS     OS     OS     OS     OS     OS     OS     OS     OS
+               Linux  Mac    Wind   BSD    iOS    Andrd  Maemo  Symbi  BlkBr  WebOS  SunOS  Other
+               -----  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----  -----
+2009 August      547    739    481     22     29      1                                  4     31
+     September  1360    983   1153     65     59      3                    1             5     55
+     October    1305    374    730     49      7      2                                  2     32
+     November   1019    386    628     38      8      1                                 13     37
+     December   1421    402    611     49     20      2                                  7     14
+2010 January    1198    371    573     29     26      8                    2             6      8
+     February   1140    392    579     93     17      7                    1                   20
+     March       842    362    768     20     21      7                    1             2     21
+     April       774    334    804      3     18      4                                  2      5
+     May        1115    482    991     10     41     11                           1      6     15
+     June        761    477    691     20     20      4                                 13      5
+     July       1486    456    775     33     27     14                    1             1     15
+     August     1663    668    901     19     38     14                    4             1     14
+     September  1720    627   1139     27     41     14                    2      1            48
+     October    2302    808   1231      7     86     25                    2             7     16
+     November   2791    795   1292     26     65     20                                 14    103
+     December   2271    704   1099     10     55     18                                 17     81
+2011 January    2767    990   1354     29     76     46     11      1                   13     39
+     February   2877   1548   1846     28    159     83      8             2      1      9     29
+     March      3512   1624   2188     60    107     54     25      2      3            14     34
+
+
+               tw.org  tw.com  tt.org  y.org   hd.net
+               yahoo   yahoo   yahoo   yahoo   yahoo
+               back-l  back-l  back-l  back-l  back-l
+               ------  ------  ------  ------  ------
+2011 March       2723              10       7      13
+

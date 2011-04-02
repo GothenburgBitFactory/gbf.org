@@ -1,0 +1,552 @@
+June 2009
+
+     2 task-1.4.1.pkg
+     1 task-1.4.2.pkg
+     1 task-1.4.3.pkg
+     2 task-1.5.0.pkg
+   170 task-1.7.1.tar.gz
+    12 task_1.7.1-0ubuntu1_i386.deb
+     1 task-1.7.1-2.fc10.i386.rpm
+
+    79 beckingham.net
+  ----
+   267
+
+July 2009
+
+     1 task-1.0.0.tar.gz
+     2 task-1.0.1.tar.gz
+     1 task-1.1.0.tar.gz
+     1 task_1.1.0-1_i386.deb
+     1 task-1.2.0.tar.gz
+     2 task-1.3.0.tar.gz
+     1 task_1.3.0-0_i386.deb
+     1 task-1.3.1.tar.gz
+     1 task_1.3.1-1_i386.deb
+     2 task-1.4.0.tar.gz
+     2 task_1.4.0-1_i386.deb
+     1 task-1.4.1.tar.gz
+     1 task-1.4.1.pkg
+     2 task_1.4.1-1_i386.deb
+     1 task-1.4.2.tar.gz
+     1 task-1.4.2.pkg
+     1 task_1.4.2-1_i386.deb
+     2 task-1.4.3.tar.gz
+     1 task-1.4.3.pkg
+     1 task_1.4.3-1_i386.deb
+     2 task-1.5.0.tar.gz
+     3 task-1.5.0.pkg
+     3 task_1.5.0-1_i386.deb
+     1 task-1.6.0.tar.gz
+     1 task-1.6.1.tar.gz
+     1 task-1.7.0.tar.gz
+   162 task-1.7.1.tar.gz
+     2 task-1.7.1-2.fc10.i386.rpm
+     1 task-1.7.1-2.fc10.src.rpm
+     9 task_1.7.1-0ubuntu1_i386.deb
+    15 task-1.8.0.beta1.tar.gz
+     3 task-1.8.0.beta1-1.fc11.i586.rpm
+     5 task_1.8.0.beta1-0ubuntu1_i386.deb
+    18 task-1.8.0.beta2.tar.gz
+     4 task-1.8.0.beta2-1.fc11.i586.rpm
+    12 task_1.8.0.beta2-0ubuntu1_i386.deb
+    17 task-1.8.0.beta3.tar.gz
+     4 task-1.8.0.beta3-1.fc11.i586.rpm
+    11 task_1.8.0.beta3-0ubuntu1_i386.deb
+   223 task-1.8.0.tar.gz
+    18 task-1.8.0.pkg
+     4 task-1.8.0-1.fc10.i386.rpm
+     4 task-1.8.0-1.fc10.src.rpm
+     2 task-1.8.0-1.fc11.i586.rpm
+     3 task-1.8.0-1.fc11.src.rpm
+     3 task-1.8.0-1.i386.rpm
+     2 task-1.8.0-1.src.rpm
+    20 task_1.8.0-0ubuntu1_i386.deb
+
+     0 beckingham.net
+  ----
+   579
+
+August 2009
+
+    10 task-1.7.1.tar.gz
+     1 task_1.7.1-0ubuntu1_i386.deb
+   123 task-1.8.0.tar.gz
+     8 task-1.8.0.pkg
+    14 task_1.8.0-0ubuntu1_i386.deb
+     1 task-1.8.0-1.i386.rpm
+   236 task-1.8.1.tar.gz
+    13 task_1.8.1-0ubuntu1_i386.deb
+     2 task-1.8.1-1.fc10.i386.rpm
+     2 task-1.8.1-1.fc10.src.rpm
+     1 task-1.8.1-1.fc11.i386.rpm
+     3 task-1.8.1-1.fc11.i586.rpm
+     3 task-1.8.1-1.fc11.src.rpm
+     3 task-1.8.1-1.i386.rpm
+     2 task-1.8.1-1.src.rpm
+    56 task-1.8.1.pkg
+    12 task-1.8.1-sl.pkg
+  ----
+   490
+
+September 2009
+
+     1 task-1.0.1.tar.gz
+     5 task-1.7.1.tar.gz
+     1 task_1.7.1-0ubuntu1_i386.deb
+    17 task-1.8.0.tar.gz
+    64 task-1.8.1.tar.gz
+    12 task_1.8.1-0ubuntu1_i386.deb
+     1 task-1.8.1-1.i386.rpm
+    10 task-1.8.1.pkg
+     5 task-1.8.1-sl.pkg
+   306 task-1.8.2.tar.gz
+    72 task_1.8.2-0ubuntu1_i386.deb
+     5 task-1.8.2-1.fc10.i386.rpm
+     5 task-1.8.2-1.fc10.src.rpm
+     4 task-1.8.2-1.fc11.i586.rpm
+     4 task-1.8.2-1.fc11.i386.rpm
+     7 task-1.8.2-1.fc11.src.rpm
+     5 task-1.8.2-1.i386.rpm
+     2 task-1.8.2-1.src.rpm
+    34 task-1.8.2.pkg
+    39 task-1.8.2-sl.pkg
+  ----
+   599
+
+October 2009
+
+     1 task-1.0.1.tar.gz
+     1 task-1.1.0.tar.gz
+     1 task-1.2.0.tar.gz
+     1 task-1.3.1.tar.gz
+     1 task-1.4.3.tar.gz
+     1 task-1.5.0-1.i386.rpm
+     1 task-1.5.0.tar.gz
+     1 task-1.6.1.tar.gz
+     2 task-1.7.1-1.fc10.i386.rpm
+     2 task-1.7.1-1.fc10.src.rpm
+     6 task-1.7.1.tar.gz
+     1 task-1.8.0-1.fc10.i386.rpm
+     1 task-1.8.0-1.fc10.src.rpm
+     1 task-1.8.0-1.fc11.i586.rpm
+     1 task-1.8.0-1.fc11.src.rpm
+     1 task-1.8.0-1.i386.rpm
+     1 task-1.8.0-1.src.rpm
+     1 task-1.8.0.tar.gz
+     1 task-1.8.1-1.fc10.i386.rpm
+     1 task-1.8.1-1.fc10.src.rpm
+     1 task-1.8.1-1.fc11.i586.rpm
+     1 task-1.8.1-1.fc11.src.rpm
+     1 task-1.8.1-1.i386.rpm
+     1 task-1.8.1-1.src.rpm
+     4 task-1.8.1.tar.gz
+    38 task_1.8.2-0ubuntu1_i386.deb
+     1 task-1.8.2-1.fc10.i386.rpm
+     1 task-1.8.2-1.fc10.src.rpm
+     3 task-1.8.2-1.fc11.i586.rpm
+     1 task-1.8.2-1.fc11.src.rpm
+     2 task-1.8.2-1.i386.rpm
+     1 task-1.8.2-1.src.rpm
+   113 task-1.8.2.tar.gz
+    18 task-1.8.2.pkg
+    18 task-1.8.2-sl.pkg
+    17 task_1.8.3-0ubuntu1_i386.deb
+     2 task-1.8.3-1.fc10.i386.rpm
+     1 task-1.8.3-1.fc10.src.rpm
+     3 task-1.8.3-1.fc11.i586.rpm
+     1 task-1.8.3-1.fc11.src.rpm
+     2 task-1.8.3-1.i386.rpm
+     1 task-1.8.3-1.src.rpm
+    79 task-1.8.3.tar.gz
+     2 task-1.8.3-sl.pkg
+  ----
+   340
+
+November 2009
+
+     4 task-1.7.1.tar.gz
+    14 task-1.8.2.pkg
+     8 task-1.8.2-sl.pkg
+    24 task-1.8.2.tar.gz
+    20 task_1.8.3-0ubuntu1_i386.deb
+    21 task_1.8.3-1ubuntu1_i386.deb
+     2 task-1.8.3-1.fc10.i386.rpm
+     2 task-1.8.3-1.fc11.i586.rpm
+     1 task-1.8.3-1.fc10.src.rpm
+     2 task-1.8.3-1.i386.rpm
+   102 task-1.8.3.tar.gz
+     4 task-cygwin/release/task/task-1.8.4-0.tar.bz2
+   181 task-1.8.4.tar.gz
+     4 task_1.8.4-0ubuntu1_i386.deb
+    13 task_1.8.4-1ubuntu1_i386.deb
+     3 task-1.8.4-1.fc11.i586.rpm
+     3 task-1.8.4-1.fc12.i686.rpm
+     2 task-1.8.4-1.fc11.src.rpm
+     2 task-1.8.4-1.fc12.src.rpm
+     4 task-1.8.4-1.i386.rpm
+     3 task-1.8.4-1.src.rpm
+    11 task-1.8.4-sl.pkg
+  ----
+   429
+
+December 2009
+
+     6 task-1.8.2.pkg
+     1 task_1.8.3-1ubuntu1_i386.deb
+     2 task-1.8.3.tar.gz
+    14 task_1.8.4-0ubuntu1_i386.deb
+     8 task_1.8.4-1ubuntu1_i386.deb
+     2 task-1.8.4-1.fc11.i586.rpm
+     5 task-1.8.4-1.fc11.src.rpm
+     1 task-1.8.4-1.fc12.i686.rpm
+     2 task-1.8.4-1.fc12.src.rpm
+     2 task-1.8.4-1.i386.rpm
+    12 task-1.8.4-1.src.rpm
+     6 task-1.8.4-sl.pkg
+    65 task-1.8.4.tar.gz
+    17 task_1.8.5-0ubuntu2_i386.deb
+    31 task_1.8.5-1ubuntu2_i386.deb
+     4 task-1.8.5-2.fc11.i586.rpm
+     3 task-1.8.5-2.fc11.src.rpm
+     4 task-1.8.5-2.fc12.i686.rpm
+     2 task-1.8.5-2.fc12.src.rpm
+     5 task-1.8.5-2.i386.rpm
+     3 task-1.8.5-2.src.rpm
+    30 task-1.8.5-sl.pkg
+   265 task-1.8.5.tar.gz
+  ----
+   490
+
+January 2010
+
+     3 task-1.8.2.pkg
+     1 task_1.8.4-0ubuntu1_i386.deb
+     4 task-1.8.4-sl.pkg
+     7 task-1.8.4.tar.gz
+    34 task_1.8.5-1ubuntu2_i386.deb
+     2 task-1.8.5-2.fc11.i586.rpm
+     1 task-1.8.5-2.fc12.i686.rpm
+     1 task-1.8.5-2.fc12.src.rpm
+    25 task-1.8.5-sl.pkg
+   160 task-1.8.5.tar.gz
+  ----
+   238
+
+February 2010
+
+     3 task-1.8.2.pkg
+
+     2 task_1.8.4-0ubuntu1_i386.deb
+     2 task-1.8.4-sl.pkg
+     3 task-1.8.4.tar.gz
+
+    13 task_1.8.5-0ubuntu2_i386.deb
+     2 task-1.8.5-2.fc11.i586.rpm
+     1 task-1.8.5-2.fc12.i686.rpm
+     1 task-1.8.5-2.src.rpm
+     9 task-1.8.5-sl.pkg
+    71 task-1.8.5.tar.gz
+
+     1 task-1.9.0.beta1-1.fc12.i686.rpm
+     7 task_1.9.0-1ubuntu1~beta1_i386.deb
+    23 task-1.9.0.beta1.tar.gz
+
+    12 task_1.9.0-1ubuntu1~beta2_i386.deb
+     2 task-1.9.0.beta2-1.fc12.i686.rpm
+    10 task-1.9.0.beta2-sl.pkg
+    26 task-1.9.0.beta2.tar.gz
+
+    14 task_1.9.0-1ubuntu1~beta3_i386.deb
+     3 task-1.9.0.beta3-1.fc12.i686.rpm
+     7 task-1.9.0.beta3-sl.pkg
+    21 task-1.9.0.beta3.tar.gz
+
+    23 task_1.9.0-0ubuntu1_i386.deb
+     3 task-1.9.0-1.fc12.i686.rpm
+     1 task-1.9.0-1.fc12.src.rpm
+     2 task-1.9.0-1.i386.rpm
+     1 task-1.9.0-1.src.rpm
+    16 task-1.9.0-sl.pkg
+   195 task-1.9.0.tar.gz
+  ----
+   474
+
+    31 beta1
+    50 beta2
+    45 beta3
+
+March 2010
+
+     7 task-1.8.2.pkg
+
+     1 task_1.8.4-0ubuntu1_i386.deb
+     5 task-1.8.4-sl.pkg
+     8 task-1.8.4.tar.gz
+
+     1 task_1.8.5-1ubuntu2_i386.deb
+     5 task-1.8.5-sl.pkg
+    26 task-1.8.5.tar.gz
+
+    29 task_1.9.0-0ubuntu1_i386.deb
+     4 task-1.9.0-1.fc12.i686.rpm
+     3 task-1.9.0-1.fc12.src.rpm
+     2 task-1.9.0-1.i386.rpm
+     2 task-1.9.0-1.src.rpm
+    25 task-1.9.0-sl.pkg
+   183 task-1.9.0.tar.gz
+  ----
+   301
+
+April 2010
+
+     3 task-1.8.2.pkg
+
+     1 task_1.8.4-0ubuntu1_i386.deb
+     2 task-1.8.4-sl.pkg
+     5 task-1.8.4.tar.gz
+
+     1 task_1.8.5-1ubuntu2_i386.deb
+     5 task-1.8.5-sl.pkg
+    13 task-1.8.5.tar.gz
+
+    44 task_1.9.0-0ubuntu1_i386.deb
+     5 task-1.9.0-1.fc12.i686.rpm
+     3 task-1.9.0-1.fc12.src.rpm
+     1 task-1.9.0-1.i386.rpm
+    19 task-1.9.0-sl.pkg
+   188 task-1.9.0.tar.gz
+  ----
+   290
+
+May 2010
+
+     3 task-1.8.2.pkg
+
+     3 task-1.8.4-sl.pkg
+     4 task-1.8.4.tar.gz
+
+     3 task-1.8.5-sl.pkg
+     8 task-1.8.5.tar.gz
+
+    47 task_1.9.0-1ubuntu1_i386.deb
+    25 task-1.9.0-sl.pkg
+   153 task-1.9.0.tar.gz
+
+    21 task_1.9.1-1ubuntu1_i386.deb
+     1 task-1.9.1-1.fc12.i686.rpm
+     1 task-1.9.1-1.fc12.src.rpm
+     5 task-1.9.1-sl.pkg
+   155 task-1.9.1.tar.gz
+  ----
+   429
+
+June 2010
+
+     2 task-1.9.0-1.i386.rpm
+     1 task-1.9.0-1.src.rpm
+     3 task-1.9.0-sl.pkg
+    15 task-1.9.0.tar.gz
+
+     3 task_1.9.1-0ubuntu1_i386.deb
+     6 task-1.9.1-1.fc12.i686.rpm
+     2 task-1.9.1-1.fc12.src.rpm
+     9 task_1.9.1-1ubuntu1_i386.deb
+    23 task_1.9.1-2ubuntu1_i386.deb
+    22 task-1.9.1-sl.pkg
+   193 task-1.9.1.tar.gz
+  ----
+   279
+
+July 2010
+
+     6 task-1.9.0.tar.gz
+
+     1 task_1.9.1-0ubuntu1_i386.deb
+     1 task_1.9.1-1ubuntu1_i386.deb
+     7 task_1.9.1-2ubuntu1_i386.deb
+     1 task-1.9.1-1.fc12.src.rpm
+    11 task-1.9.1-sl.pkg
+    83 task-1.9.1.tar.gz
+
+    59 task_1.9.2-2ubuntu1_i386.deb
+     1 task-1.9.2-2.fc12.i686.rpm
+     3 task-1.9.2-2.fc12.src.rpm
+     3 task-1.9.2-2.fc12.i686.rpm
+     4 task-1.9.2-2.fc13.src.rpm
+     2 task-1.9.2-2.el5.i386.rpm
+     4 task-1.9.2-2.el5.src.rpm
+     8 task-1.9.2.pkg
+    18 task-1.9.2-sl.pkg
+   302 task-1.9.2.tar.gz
+  ----
+   514
+
+August 2010
+
+     2 task_1.9.2-0ubuntu1_i386.deb
+     5 task_1.9.2-1ubuntu1_i386.deb
+    30 task_1.9.2-2ubuntu1_i386.deb
+     5 task-1.9.2-2.fc12.i686.rpm
+     3 task-1.9.2-2.fc12.src.rpm
+     3 task-1.9.2-2.fc13.i686.rpm
+     2 task-1.9.2-2.el5.i386.rpm
+     3 task-1.9.2-2.el5.src.rpm
+     9 task-1.9.2.pkg
+    21 task-1.9.2-sl.pkg
+   244 task-1.9.2.tar.gz
+  ----
+   327
+
+September 2010
+
+    10 task_1.9.2-0ubuntu1_i386.deb
+    13 task_1.9.2-1ubuntu1_i386.deb
+    46 task_1.9.2-2ubuntu1_i386.deb
+     3 task-1.9.2-2.fc13.i686.rpm
+     1 task-1.9.2-2.fc13.src.rpm
+     6 task-1.9.2-2.el5.i386.rpm
+     1 task-1.9.2-2.el5.src.rpm
+    11 task-1.9.2.pkg
+    39 task-1.9.2-sl.pkg
+   303 task-1.9.2.tar.gz
+  ----
+   433
+
+October 2010
+
+    16 task_1.9.2-0ubuntu1_i386.deb
+     1 task_1.9.2-1ubuntu1_i386.deb
+    42 task_1.9.2-2ubuntu1_i386.deb
+     1 task-1.9.2-2.fc12.i686.rpm
+     1 task-1.9.2-2.fc13.src.rpm
+     2 task-1.9.2-2.el5.i386.rpm
+    17 task-1.9.2.pkg
+    44 task-1.9.2-sl.pkg
+   290 task-1.9.2.tar.gz
+    55 task-1.9.3.beta1.tar.gz
+    42 task-1.9.3.beta2.tar.gz
+  ----
+   511
+
+November 2010
+
+     1 task-1.9.2-2.fc12.i686.rpm
+     1 task-1.9.2-2.fc13.i686.rpm
+     8 task_1.9.2-2ubuntu1_i386.deb
+     8 task-1.9.2.pkg
+    14 task-1.9.2-sl.pkg
+    92 task-1.9.2.tar.gz
+
+    53 task_1.9.3-0ubuntu1~karmic1_i386.deb
+    56 task_1.9.3-0ubuntu1~maverick1_i386.deb
+    14 task-1.9.3-1.el5.i386.rpm
+     3 task-1.9.3-1.el6.i686.rpm
+     4 task-1.9.3-1.fc13.i686.rpm
+     3 task-1.9.3-1.fc14.i686.rpm
+    32 task-1.9.3.beta2.tar.gz
+     6 task-1.9.3.pkg
+    50 task-1.9.3-sl.pkg
+   547 task-1.9.3.tar.gz
+  ----
+   892
+
+December 2010
+
+     1 task-1.9.2-2.fc13.src.rpm
+     3 task-1.9.2.pkg
+     2 task-1.9.2-sl.pkg
+     6 task-1.9.2.tar.gz
+
+    54 task_1.9.3-0ubuntu1~karmic1_i386.deb
+    41 task_1.9.3-0ubuntu1~maverick1_i386.deb
+     4 task-1.9.3-1.el5.i386.rpm
+     2 task-1.9.3-1.el6.i686.rpm
+     6 task-1.9.3-1.fc13.i686.rpm
+     4 task-1.9.3-1.fc14.i686.rpm
+     9 task-1.9.3.pkg
+    54 task-1.9.3-sl.pkg
+   398 task-1.9.3.tar.gz
+  ----
+   584
+
+January 2011
+
+     2 task-1.9.2.pkg
+     2 task-1.9.2-sl.pkg
+     4 task-1.9.2.tar.gz
+    37 task_1.9.3-0ubuntu1~karmic1_i386.deb
+     1 task_1.9.3-0ubuntu1~lucid1_i386.deb
+    48 task_1.9.3-0ubuntu1~maverick1_i386.deb
+     2 task-1.9.3-1.el5.i386.rpm
+     1 task-1.9.3-1.el6.i686.rpm
+    13 task-1.9.3.pkg
+    62 task-1.9.3-sl.pkg
+   371 task-1.9.3.tar.gz
+  ----
+   543
+
+    37 vittk-1.0.tar.gz
+    22 vittk-1.1.1.tar.gz
+  ----
+    59
+
+February 2011
+
+     2 task-1.9.2.pkg
+     2 task-1.9.2-sl.pkg
+     6 task-1.9.2.tar.gz
+
+    39 task_1.9.3-0ubuntu1~karmic1_i386.deb
+    52 task_1.9.3-0ubuntu1~maverick1_i386.deb
+     5 task-1.9.3-1.el5.i386.rpm
+     2 task-1.9.3-1.el6.i686.rpm
+     1 task-1.9.3-1.fc13.i686.rpm
+     3 task-1.9.3-1.fc14.i686.rpm
+    13 task-1.9.3.pkg
+    88 task-1.9.3-sl.pkg
+   411 task-1.9.3.tar.gz
+
+   111 task-1.9.4.beta1.tar.gz
+  ----
+   735
+
+     2 vittk-1.0.tar.gz
+    34 vittk-1.1.1.tar.gz
+     1 vittk-1.1.tar.gz
+    57 vittk-1.2.tar.gz
+    47 vittk-1.3.tar.gz
+  ----
+   141
+
+March 2011
+
+     2 task-1.9.2-sl.pkg
+     2 task-1.9.2.pkg
+     2 task-1.9.2.tar.gz
+
+     1 task-1.9.3-1.el5.i386.rpm
+     7 task-1.9.3-sl.pkg
+     1 task-1.9.3.pkg
+    91 task-1.9.3.tar.gz
+    15 task_1.9.3-0ubuntu1~karmic1_i386.deb
+     9 task_1.9.3-0ubuntu1~maverick1_i386.deb
+
+     8 task-1.9.4-1.el5.i386.rpm
+     5 task-1.9.4-1.el6.i686.rpm
+     4 task-1.9.4-1.fc13.i686.rpm
+    12 task-1.9.4-1.fc14.i686.rpm
+    98 task-1.9.4-sl.pkg
+    20 task-1.9.4.beta1.tar.gz
+   579 task-1.9.4.tar.gz
+    45 task_1.9.4-0ubuntu1~lucid2_i386.deb
+    77 task_1.9.4-0ubuntu1~maverick2_i386.deb
+  ----
+   978
+
+     2 vittk-1.0.tar.gz
+    42 vittk-1.3.tar.gz
+  ----
+    44
+
+---
