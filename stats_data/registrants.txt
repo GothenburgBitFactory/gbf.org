@@ -218,23 +218,29 @@ tomf            Tom            Fawcett        tom.fawcett@gmail.com            0
 ddimitriadis    Dimitris       Dimitriadis    dimitris@ontologicon.com         02/27/2011
 souterrain      Christopher J. Pilkington     cjp@0x1.net                      02/28/2011
 --------------  -------------  -------------  -------------------------------  ----------
-tomuo	          Tom	           Duffy	        tduffy@tascam.com		             03/01/2011
-livenono	      Arnaud	       K	            arnaud.k@gmail.com		           03/02/2011
-mantas	        Mantas	       Povilaitis	    mantas@povilaitis.eu		         03/08/2011
-doug.renfrew	  Doug	         Renfrew	      doug.renfrew+task@gmail.com		   03/08/2011
-maldoror	      Andre	         Breton	        taskwarrior@nospam.frostglow.com 03/08/2011
-Atlantic777	    Nikola	       Hardi	        atlantic777@lugons.org		       03/09/2011
-dkorzhevin	    Dmitry	       K	            dkorzhevin@gmail.com		         03/10/2011
-hrubi	          Jan	           Hruban	        hrubi13@gmail.com		             03/10/2011
-samh	          Sam	           Hartsfield	    samh.public@gmail.com		         03/15/2011
-etihwnad	      Dan	           White	        dan@whiteaudio.com		           03/15/2011
-nixternal	      Richard	       Johnson	      nixternal@gmail.com		           03/16/2011
-sasvari	        Bernhard	     B	            q.8@gmx.net		                   03/18/2011
-pfhawkins	      P. F.	         Hawkins	      pf@pfhawkins.com		             03/20/2011
-perdalum	      Per	           Møldrup-Dalum	dalum@me.com		                 03/21/2011
-iconco	        Valentin	     Podkovyrov	    podkovirov@gmail.com		         03/24/2011
-erichschroeter	Erich	         Schroeter	    erichschroeter@gmail.com		     03/24/2011
-youam	          Uli	           Martens	      uli@youam.net		                 03/27/2011
-Ealianis	      Sean	         Hobbs	        SeanH@Sean-Hobbs.com		         03/29/2011
+tomuo           Tom            Duffy          tduffy@tascam.com                03/01/2011
+livenono        Arnaud         K              arnaud.k@gmail.com               03/02/2011
+mantas          Mantas         Povilaitis     mantas@povilaitis.eu             03/08/2011
+doug.renfrew    Doug           Renfrew        doug.renfrew+task@gmail.com      03/08/2011
+maldoror        Andre          Breton         taskwarrior@nospam.frostglow.com 03/08/2011
+Atlantic777     Nikola         Hardi          atlantic777@lugons.org           03/09/2011
+dkorzhevin      Dmitry         K              dkorzhevin@gmail.com             03/10/2011
+hrubi           Jan            Hruban         hrubi13@gmail.com                03/10/2011
+samh            Sam            Hartsfield     samh.public@gmail.com            03/15/2011
+etihwnad        Dan            White          dan@whiteaudio.com               03/15/2011
+nixternal       Richard        Johnson        nixternal@gmail.com              03/16/2011
+sasvari         Bernhard       B              q.8@gmx.net                      03/18/2011
+pfhawkins       P. F.          Hawkins        pf@pfhawkins.com                 03/20/2011
+perdalum        Per            Møldrup-Dalum  dalum@me.com                     03/21/2011
+iconco          Valentin       Podkovyrov     podkovirov@gmail.com             03/24/2011
+erichschroeter  Erich          Schroeter      erichschroeter@gmail.com         03/24/2011
+youam           Uli            Martens        uli@youam.net                    03/27/2011
+Ealianis        Sean           Hobbs          SeanH@Sean-Hobbs.com             03/29/2011
 --------------  -------------  -------------  -------------------------------  ----------
+Sleep_Walker    Tomas          Cech           sleep_walker@suse.cz             04/05/2011
+ag              Arkady         Grudzinsky     agrudzinsky@gmail.com            04/06/2011
+jmhammond       John           Hammond        jmhammond@gmail.com              04/08/2011
+neilhwatson     Neil           Watson         neil@watson-wilson.ca            04/08/2011
+funkyhat        Matt           Wheeler        m@funkyhat.org                   04/09/2011
+sarunas.saulis  Sarunas        Saulis         sarunas.saulis@gmail.com         04/12/2011
 
