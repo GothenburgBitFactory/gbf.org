@@ -243,4 +243,14 @@ jmhammond       John           Hammond        jmhammond@gmail.com              0
 neilhwatson     Neil           Watson         neil@watson-wilson.ca            04/08/2011
 funkyhat        Matt           Wheeler        m@funkyhat.org                   04/09/2011
 sarunas.saulis  Sarunas        Saulis         sarunas.saulis@gmail.com         04/12/2011
+Celsius1414     Robert         Daeley         robert@celsius1414.com           04/14/2011
+apl             andrew         lannan         aplannan2@gmail.com              04/14/2011
+dwaddle         Duane          Waddle         duane.waddle@gmail.com           04/18/2011
+iamnafets       Stefan         Mai            taskwarrior@iamnafets.com        04/20/2011
+sak102010       Stefan         Keel           sak.102010@gmail.com             04/22/2011
+Eckhard         Eckhard        Wiemann        wiemann@mail.upb.de              04/24/2011
+greg            Greg           Grossmeier     greg@grossmeier.net              04/24/2011
+sparklenostril  Forest         Monsen         forest.monsen@gmail.com          04/27/2011
+Ruthan          Ruthan         Freese         alphasqix@gmail.com              04/28/2011
+--------------  -------------  -------------  -------------------------------  ----------
 
