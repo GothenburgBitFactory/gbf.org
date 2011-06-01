@@ -39,7 +39,7 @@ Total              79
 2011 February      12
 2011 March         18
 2011 April         15
-2011 May           20
+2011 May           21
                   ---
 Total              78
 
@@ -255,25 +255,26 @@ greg            Greg           Grossmeier     greg@grossmeier.net               
 sparklenostril  Forest         Monsen         forest.monsen@gmail.com                04/27/2011
 Ruthan          Ruthan         Freese         alphasqix@gmail.com                    04/28/2011
 --------------  -------------  -------------  -------------------------------------  ----------
-dabeeeenster    Ben            Rometsch       ben@solidstategroup.com                05/31/2011
-mulander        Adam           Wolk           netprobe@gmail.com                     05/30/2011
-arc_of_descent  Rohan          Almeida        rohan@almeida.in                       05/29/2011
-TheFox          The            Fox            taskwarrior@fox21.at                   05/29/2011
-ravl            Rene           Vergara        rene.a.vergara@gmail.com               05/28/2011
-litwol          Oleg           Terenchuk      litwol@gmail.com                       05/26/2011
-caseyjones      Casey          Jones          taskwarrior@doctorcolossus.e4ward.com  05/25/2011
-egonschiele     aditya         bhargava       bluemangroupie@gmail.com               05/20/2011
-wbsch           Wim            Schuermann     wimschuermann@googlemail.com           05/17/2011
-asmodeus        Achim          Staebler       4sm0d3us@gmail.com                     05/15/2011
-righdforsa      Christopher    Peters         righdforsa@gmail.com                   05/12/2011
-marlowe         Patrick        McDonald       marlowe@antagonism.org                 05/11/2011
-jhankins        Jonathan       Hankins        jonathan.hankins@gmail.com             05/10/2011
-devemouse       Dariusz        Synowiec       darek129@gmail.com                     05/10/2011
-Erulisse        Daniel         Wilcox         deathofself@gmail.com                  05/09/2011
-sknowles43      Scott          Knowles        scott.knowles@baml.com                 05/09/2011
-stan100         Stan           Schwertly      stan@schwertly.com                     05/08/2011
-K_REY_C         Kyle           Conway         kyle.r.conway@gmail.com                05/06/2011
-JanLo           Jan            Losinski       losinski@wh2.tu-dresden.de             05/03/2011
 McSvenster      Sven           Koesling       mcsvenster@yahoo.de                    05/02/2011
+JanLo           Jan            Losinski       losinski@wh2.tu-dresden.de             05/03/2011
+K_REY_C         Kyle           Conway         kyle.r.conway@gmail.com                05/06/2011
+stan100         Stan           Schwertly      stan@schwertly.com                     05/08/2011
+sknowles43      Scott          Knowles        scott.knowles@baml.com                 05/09/2011
+Erulisse        Daniel         Wilcox         deathofself@gmail.com                  05/09/2011
+devemouse       Dariusz        Synowiec       darek129@gmail.com                     05/10/2011
+jhankins        Jonathan       Hankins        jonathan.hankins@gmail.com             05/10/2011
+marlowe         Patrick        McDonald       marlowe@antagonism.org                 05/11/2011
+righdforsa      Christopher    Peters         righdforsa@gmail.com                   05/12/2011
+asmodeus        Achim          Staebler       4sm0d3us@gmail.com                     05/15/2011
+wbsch           Wim            Schuermann     wimschuermann@googlemail.com           05/17/2011
+egonschiele     aditya         bhargava       bluemangroupie@gmail.com               05/20/2011
+caseyjones      Casey          Jones          taskwarrior@doctorcolossus.e4ward.com  05/25/2011
+litwol          Oleg           Terenchuk      litwol@gmail.com                       05/26/2011
+ravl            Rene           Vergara        rene.a.vergara@gmail.com               05/28/2011
+TheFox          The            Fox            taskwarrior@fox21.at                   05/29/2011
+arc_of_descent  Rohan          Almeida        rohan@almeida.in                       05/29/2011
+mulander        Adam           Wolk           netprobe@gmail.com                     05/30/2011
+dabeeeenster    Ben            Rometsch       ben@solidstategroup.com                05/31/2011
+pi3ch           Pedram         Ha             pi3ch@gmx.com                          05/31/2011
 --------------  -------------  -------------  -------------------------------------  ----------
 
