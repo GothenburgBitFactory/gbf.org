@@ -593,5 +593,27 @@ May 2011
   ----
     66
 
+June 2011
+
+     1 task-1.9.3.pkg
+    10 task-1.9.4-1.el5.i386.rpm
+     2 task-1.9.4-1.el6.i686.rpm
+     4 task-1.9.4-1.fc13.i686.rpm
+     7 task-1.9.4-1.fc14.i686.rpm
+   127 task-1.9.4-sl.pkg
+   480 task-1.9.4.tar.gz
+    39 task_1.9.4-0ubuntu1~lucid2_i386.deb
+    15 task_1.9.4-0ubuntu1~maverick2_i386.deb
+    46 task_1.9.4-0ubuntu1~natty1_i386.deb
+     1 task_1.9.4-0ubuntu1~natty1_x86_64.deb
+  ----
+   732
+
+   147 task.ref.pdf
+
+     1 vittk-1.0.tar.gz
+    62 vittk-1.3.tar.gz
+  ----
+    63
 
 ---

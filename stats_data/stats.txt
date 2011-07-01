@@ -37,11 +37,15 @@
      November    5097     139               6       36     24     13    17     4    892    3       24       55   5195
      December    4255      91               3       23     15     13    16     5    584           326       43   5261
 
+               tw.org  tt.org  hd.net  y.org   tt.org/  bugs   bugs   feat  feat  tw     rank  source  commits  unit
+               visits  visits  visits  visits  latest   found  fixed  req   done  d/l    d/l   forge   task     tests
+               ------  ------  ------  ------  -------  -----  -----  ----  ----  -----  ----  ------  -------  -----
 2011 January     5326     148              12       30     32     13    38     5    543            56       94   5286
      February    6590     124       7      16       37     11      9     8     1    735    5        9       37   5302
      March       7623     211      59      25       53     26     13    10     4    978    2        8       38   5406
      April       7459     215      46      12       71     15     11    19    31    770    4       24       78   5099
      May        17708     229      56      32       57     17     13     5    22   1607    1       23      150   5129
+     June        9768     200       8      17       38      8     13     6    13    732            10      103   5220
 
 
                OS     OS     OS     OS     OS     OS     OS     OS     OS     OS     OS     OS
@@ -69,4 +73,5 @@
      March      3512   1624   2188     60    107     54     25      2      3            14     34
      April      3283   1502   2386     28    162     58     11      1      2      1      3     22
      May        5052   5384   4867     77   1739    491     21      8     25      3      2     39
+     June       3946   2508   1717     54    343    127      4      5      6            49      9
 

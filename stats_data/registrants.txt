@@ -40,6 +40,7 @@ Total              79
 2011 March         18
 2011 April         15
 2011 May           21
+2011 June          14
                   ---
 Total              78
 
@@ -276,5 +277,20 @@ arc_of_descent  Rohan          Almeida        rohan@almeida.in                  
 mulander        Adam           Wolk           netprobe@gmail.com                     05/30/2011
 dabeeeenster    Ben            Rometsch       ben@solidstategroup.com                05/31/2011
 pi3ch           Pedram         Ha             pi3ch@gmx.com                          05/31/2011
+--------------  -------------  -------------  -------------------------------------  ----------
+kaulian         kaulian        --             kaulian@gmail.com                      06/29/2011
+GilTheARM       Gilbert        Hamilton       gil.a.hamilton@gmail.com               06/28/2011
+ridicter        John           Richter        johndavidrichter@gmail.com             06/26/2011
+Beacraxette     Clelmigazinna  Clelmigazinna  lulubconcarlyjeremiah@hotmail.com      06/24/2011
+GTND            Martin         U              von.taskwarrior@martin-ueding.de       06/20/2011
+mdomerofski     Matt           Domerofski     matt.domerofski@gmail.com              06/12/2011
+nszolik         Naref          Szolik         nszolik@hotmail.com                    06/11/2011
+forbajato       Thomas         Hicks          paradox@pobox.com                      06/07/2011
+elliot42        Owen           Clarke         o.clarke@gmail.com                     06/07/2011
+albeus          alberto        eusebi         alberto@biodec.com                     06/07/2011
+rhombus         Tom            Thompson       tom@recursionfairy.com                 06/03/2011
+MichaelM        Michael        McCann         michael.charles.mccann@gmail.com       06/02/2011
+pudgereyem      Victor         Meyer          victor.reyem@gmail.com                 06/02/2011
+simonvc         Simon          VC             taskwarrior@simon.vc                   06/01/2011
 --------------  -------------  -------------  -------------------------------------  ----------
 
