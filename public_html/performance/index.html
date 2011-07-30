@@ -3,6 +3,28 @@
 <title>:: tasktools.org ::</title>
 </head>
 <body>
+<h3>Taskwarrior performance, 7/29/2011</h3>
+<p>
+The 2.0 release has addressed several issues that pertain to performance,
+namely:
+<ul>
+<li>File I/O through TDB2 is now layered, and performs read-on-demand,
+    split-on-demand and parse-on-demand.  The code now assumes that all data
+    is available all the time, with TDB2 intercepting accesses to perform the
+    necessary read/split/parse.  Freeing the code from concerns about which
+    data is loaded results in less I/O.</li>
+<li>The rendering mechanisms have been replaced.  The old Table code, that
+    duplicated data in a grid and then sorted the grid before rendering the grid
+    had many shortcomings, mostly performance and redundant data copies.  The
+    new ViewTask renderer does not make copies of the data and sorts the
+    underlying std::vector by means of an external index.  The result is better
+    rendering perofrmance.  An additional saving is that by not sorting the grid
+    data, certain data items no longer need to be reparsed.</li>
+<li>Data sorting now uses std::sort instead of an implementation of
+    CombSort11.</li>
+</ul>
+</p>
+
 <h3>Task performance charts, 7/5/2010</h3>
 <p>
 From inspection of the table rendering, several inefficient mechanisms were
@@ -90,45 +112,13 @@ areas that will receive attention in upcoming releases:
     <pre>&lt;red&gt; DATA  DATA &lt;/red&gt;</pre>
 
     This will reduce the volume of output generated, and in need of
-    reinterpretation by the terminal program.
-<li>The rendering portion is now the most cpu intensive, and consists of text
-    formatting and grid sorting.  Neither of these has been the focus of any
-    improvements.  The rendering process needs to be further broken down in
-    order to see where the time is spent.
-<li>The current mechanism for propagating data from the files to the terminal
-    involves several layers:
-
-    <br />
-    <br />
-    file &rarr; TDB &rarr; Task &rarr; Grid &rarr; Table &rarr; stdout
-    <br />
-    <br />
-
-    This results in several issues, including several copies of the same data,
-    and repeated operations such as splitting and wrapping text within a table
-    cell.
-    <br />
-    <br />
-
-    Given that the TDB already creates a vector of Task objects, which are
-    themselves name/value maps, there is no point in making a data copy in any
-    Grid object, because it cannot be more efficient than doing nothing.
-
-    <br />
-    <br />
-    file &rarr; TDB &rarr; Task &rarr; View &rarr; stdout
-    <br />
-    <br />
-<li>Sorting is currently performed by a Combsort11 algorithm, which should
-    probably be ditched in favor of std::sort.  There are reports of sort
-    instability, ie, these two reports:
-<pre>
-task ls
-task add foo
-task ls
-</pre>
-    result in a different sort order, in some cases.  Performance could also
-    be inferior.
+    reinterpretation by the terminal program.</li>
+<li>More heuristics may be needed for analysis of filters, with the intention
+    of reading less data.</li>
+<li>Optimization of code hot spots such as: E9::eval, Record::parse,
+    extractLines.</li>
+<li>With the prevalence of multi-core and multi-cpu machines, threads could now
+    be used to parallelize certain operations.  Those operations include:  data load/parse, ViewTask rendering, E9::eval, TDB2::gc.</li>
 </ul>
 </p>
 <!-- Piwik -->
