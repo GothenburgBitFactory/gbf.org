@@ -2,9 +2,9 @@ New Users
 
 2009               46
 2010               79
-2011               43
+2011              106
                   ---
-                  138
+                  231
 
 
 2009 May            5
@@ -41,8 +41,9 @@ Total              79
 2011 April         15
 2011 May           21
 2011 June          14
+2011 July          13
                   ---
-Total              78
+Total             106
 
 
 ---
@@ -292,5 +293,19 @@ rhombus         Tom            Thompson       tom@recursionfairy.com            
 MichaelM        Michael        McCann         michael.charles.mccann@gmail.com       06/02/2011
 pudgereyem      Victor         Meyer          victor.reyem@gmail.com                 06/02/2011
 simonvc         Simon          VC             taskwarrior@simon.vc                   06/01/2011
+--------------  -------------  -------------  -------------------------------------  ----------
+miguel          Miguel         de Val Borro   miguel.deval@gmail.com                 07/05/2011
+bgroper         Brian G        Roper          bgroper@bur.st                         07/21/2011
+flickerfly      Josiah         Ritchie        josiah@josiahritchie.com               07/21/2011
+doubi           Ryan           Jendoubi       ryan.jendoubi@gmail.com                07/22/2011
+yanndavin       Yann           Davin          yann.davin@gmail.com                   07/22/2011
+NightMonkey     Jesse          Adelman        someone@boldandbusted.com              07/24/2011
+kgunnIT         Kevin          Gunn           kgunnIT@gmail.com                      07/24/2011
+bomeara         Brian          O'Meara        omeara.brian@gmail.com                 07/24/2011
+kraai           Matt           Kraai          kraai@ftbfs.org                        07/24/2011
+killy9999       Janek          Stolarek       fremenzone@poczta.onet.pl              07/25/2011
+daniel.kullmann Daniel         Kullmann       daniel.kullmann@gmx.de                 07/27/2011
+JJ              John           Jones          jj@hush.ai                             07/28/2011
+tknv            Takanobu       Watanabe       rreedd555@gmail.com                    07/29/2011
 --------------  -------------  -------------  -------------------------------------  ----------
 
