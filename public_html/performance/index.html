@@ -3,105 +3,23 @@
 <title>:: tasktools.org ::</title>
 </head>
 <body>
-<h3>Taskwarrior performance, 7/29/2011</h3>
+<h3>Taskwarrior Performance, 8/20/2011</h3>
 <p>
-The 2.0 release has addressed several issues that pertain to performance,
-namely:
+While performance has not yet been addressed in the 2.0 product, this list
+of potential areas for improvement is being gathered.
+</p>
+<p>
 <ul>
-<li>File I/O through TDB2 is now layered, and performs read-on-demand,
-    split-on-demand and parse-on-demand.  The code now assumes that all data
-    is available all the time, with TDB2 intercepting accesses to perform the
-    necessary read/split/parse.  Freeing the code from concerns about which
-    data is loaded results in less I/O.</li>
-<li>The rendering mechanisms have been replaced.  The old Table code, that
-    duplicated data in a grid and then sorted the grid before rendering the grid
-    had many shortcomings, mostly performance and redundant data copies.  The
-    new ViewTask renderer does not make copies of the data and sorts the
-    underlying std::vector by means of an external index.  The result is better
-    rendering perofrmance.  An additional saving is that by not sorting the grid
-    data, certain data items no longer need to be reparsed.</li>
-<li>Data sorting now uses std::sort instead of an implementation of
-    CombSort11.</li>
-</ul>
-</p>
-
-<h3>Task performance charts, 7/5/2010</h3>
-<p>
-From inspection of the table rendering, several inefficient mechanisms were
-identified that were creating variable-length padding strings of spaces, and
-colored cell contents.  These were converted to std::string methods, which
-has yielded an approximate 25% increase in render speed.
-</p>
-<p>
-<img src="http://chart.apis.google.com/chart?chtt=Task+Performance&chs=800x200&cht=bhs&chxt=x,y&chdlp=r|l&chbh=a&chdl=initialize|parse|pending|completed|gc|commit|render&chco=D6E99F,B6C97F,5DB9D9,3D99C9,FFA0A0,FF8080,D05050&chm=N*f6*,000000,-1,-1,9|N*f6*,000000,0,-1,9|N*f6*,000000,2,-1,9|N*f6*,000000,3,-1,9|N*f6*,000000,4,-1,9&chxl=1:|1.8.0|1.8.5|1.9.0|1.9.1|1.9.2|2.0.0&chds=0,0.1731103&chd=t:0.002088,0.002361,0.002350,0.005959,0.001532,0.001965|0.000236,0.000255,0.000248,0.000242,0.000223,0.000243|0.016579,0.016026,0.016475,0.016650,0.016788,0.016896|0.051052,0.000000,0.053669,0.051838,0.051382,0.054118|0.063840,0.003693,0.066466,0.064915,0.064602,0.067297|0.000001,0.000001,0.000001,0.000001,0.000000,0.000000|0.012752,0.010233,0.013017,0.012439,0.017053,0.016854" alt="Comparison of list report across versions" />
-</p>
-<p>
-Further improvements in render performance will be achieved by replacing the
-Table object with the new View object.
-</p>
-
-<h3>Task performance charts, 6/23/2010</h3>
-<p>
-Recent efforts in the 1.9.2 branch have dramatically reduced unnecessary file
-I/O in the GC routines.  A new algorithm has removed the need to read the
-completed.data file, parser improvements have reduced the time need to load the
-pending.data file, and an encoding change has eliminated much of the decoding
-on file load.
-</p>
-<p>
-<img src="http://chart.apis.google.com/chart?chtt=Task+Performance&chs=800x200&cht=bhs&chxt=x,y&chdlp=r|l&chbh=a&chdl=initialize|parse|pending|completed|gc|commit|render&chco=D6E99F,B6C97F,5DB9D9,3D99C9,FFA0A0,FF8080,D05050&chm=N*f6*,000000,-1,-1,9|N*f6*,000000,0,-1,9|N*f6*,000000,2,-1,9|N*f6*,000000,3,-1,9|N*f6*,000000,4,-1,9&chxl=1:|1.8.0|1.8.5|1.9.0|1.9.1|1.9.2|2.0.0&chds=0,0.1673474&chd=t:0.002195,0.002692,0.002197,0.002187,0.001585,0.001736|0.000279,0.000279,0.000253,0.000232,0.000225,0.000227|0.016982,0.015478,0.017067,0.016486,0.017121,0.018104|0.050761,0.000000,0.052341,0.050280,0.049457,0.050485|0.063779,0.003848,0.065701,0.063193,0.062507,0.063745|0.000000,0.000000,0.000001,0.000001,0.000000,0.000000|0.013212,0.013349,0.013546,0.013235,0.018018,0.017837" alt="Comparison of list report across versions" />
-</p>
-<p>
-Now there are two equal sized sections, which correspond to reading and parsing
-the pending.data file and rendering the output.  Given that one is reading the
-disk, and the other is pure cpu, it would appear that the rendering is the next
-optimization target.  The table/grid in use by 1.9.2 will be replaced by a
-view/grid in 2.0, which will feature faster data extraction and sorting.
-</p>
-
-<h3>Task performance charts, 3/2/2010</h3>
-<p>
-The performance of the task program is periodically measured.  This alerts us
-to the need for improvement, as features are constantly added, and few are
-ever removed.  This page will be periodically updated, as the charts are
-automatically generated, but this page is not.
-</p>
-<p>
-For more information on task see the project website at http://taskwarrior.org
-</p>
-<p>
-<img src="http://chart.apis.google.com/chart?chtt=Task+Performance&chs=800x200&cht=bhs&chxt=x,y&chdlp=r|l&chbh=a&chdl=initialize|parse|pending|completed|gc|commit|render&chco=D6E99F,B6C97F,5DB9D9,3D99C9,FFA0A0,FF8080,D05050&chm=N*f6*,000000,-1,-1,9|N*f6*,000000,0,-1,9|N*f6*,000000,2,-1,9|N*f6*,000000,3,-1,9|N*f6*,000000,4,-1,9&chxl=1:|1.9.0|1.9.1|2.0.0&chds=0,0.111188&chd=t:0.002714,0.002751,0.001905|0.000238,0.000198,0.000177|0.012756,0.012514,0.011925|0.027950,0.028116,0.027488|0.042427,0.042313,0.041057|0.000001,0.000001,0.000001|0.010102,0.009875,0.010166" alt="Comparison of list report across versions" />
-</p>
-<p>
-A comparison of the three most recent versions shows a slight and gradual
-slowdown in speed as features are added, and performance is ignored.  One
-of the 1.9.x series of releases will address performance.
-</p>
-<p>
-<img src="http://chart.apis.google.com/chart?chtt=Task+Performance&chs=800x200&cht=bhs&chxt=x,y&chdlp=r|l&chbh=a&chdl=initialize|parse|pending|completed|gc|commit|render&chco=D6E99F,B6C97F,5DB9D9,3D99C9,FFA0A0,FF8080,D05050&chm=N*f6*,000000,-1,-1,9|N*f6*,000000,0,-1,9|N*f6*,000000,2,-1,9|N*f6*,000000,3,-1,9|N*f6*,000000,4,-1,9&chxl=1:|list|long|ls&chds=0,0.1579336&chd=t:0.002690,0.002755,0.002605|0.000200,0.000230,0.000227|0.012514,0.012835,0.012862|0.027755,0.027604,0.027789|0.041932,0.042075,0.042561|0.000001,0.000000,0.000000|0.006791,0.058077,0.009952" alt="Comparison of different reports, 1.9.1" />
-</p>
-<p>
-Comparing different reports shows a marked difference in performance, entirely
-due to rendering.  The three reports all have the same length, but different
-widths.  Additional columns in the report not only cause more formatting code
-to be run, but also will include more color control codes which will slow
-terminal display.
-</p>
-<p>
-<img src="http://chart.apis.google.com/chart?chtt=Task+Performance&chs=800x200&cht=bhs&chxt=x,y&chdlp=r|l&chbh=a&chdl=initialize|parse|pending|completed|gc|commit|render&chco=D6E99F,B6C97F,5DB9D9,3D99C9,FFA0A0,FF8080,D05050&chm=N*f6*,000000,-1,-1,9|N*f6*,000000,0,-1,9|N*f6*,000000,2,-1,9|N*f6*,000000,3,-1,9|N*f6*,000000,4,-1,9&chxl=1:|hooks|no-hooks&chds=0,0.1590622&chd=t:0.002721,0.002731|0.000228,0.000202|0.012728,0.012392|0.028149,0.027999|0.042411,0.042071|0.000001,0.000001|0.058364,0.058269" alt="Comparison of with, without hooks" />
-</p>
-<p>
-Comparing two 1.9.1 builds, with and without hook support compiled, shows a
-negligible performance hit when no Lua is running.  This was hoped for - that
-users do not need to pay for features they do not use.
-</p>
-<h3>Areas for Improvement</h3>
-<p>
-There are several parts of task that could use performance improvement.  While
-users are probably not waiting a long time for reports to display, slow
-performance does erode the feeling that the software is fast.  Here are some
-areas that will receive attention in upcoming releases:
-<ul>
+<li>Convert Arg::_category to enum</li>
+<li>Convert Arg::_type to enum</li>
+<li>DOM lookup caching</li>
+<li>E9 can reserve N/2 slots in the value stack</li>
+<li>If a filter sequence contains only IDs and no UUIDs, then only pending.data
+    need be read, unless inversion operators are involved</li>
+<li>TDB2 can reserve space according to the number of lines in a file</li>
+<li>Detect invariants in a filter, and short-circuit</li>
+<li>Identify candidates for threading, which include: data load/parse, ViewTask
+    rendering, E9::eval, TDB2::gc.</li>
 <li>Emission of color control codes need to be optimized.  If two adjacent cells
     in the output are of the same color, the output looks something like
 
@@ -113,14 +31,66 @@ areas that will receive attention in upcoming releases:
 
     This will reduce the volume of output generated, and in need of
     reinterpretation by the terminal program.</li>
-<li>More heuristics may be needed for analysis of filters, with the intention
-    of reading less data.</li>
-<li>Optimization of code hot spots such as: E9::eval, Record::parse,
+<li>Optimization of code hot spots such as: E9::eval, Task::parse,
     extractLines.</li>
-<li>With the prevalence of multi-core and multi-cpu machines, threads could now
-    be used to parallelize certain operations.  Those operations include:  data load/parse, ViewTask rendering, E9::eval, TDB2::gc.</li>
 </ul>
 </p>
+
+<h3>Taskwarrior Performance, 8/19/2011</h3>
+<p>
+Taskwarrior 2.0 has several new components, which impact performance:
+</p>
+<p>
+<ul>
+<li>The TDB database accessor is replaced by TDB2, which provides a layered
+    implementation (file <--> string <--> lines <--> tasks) which allows for
+    on-demand parsing lines into tasks, rather than always parsing every
+    line.  TDB2 also implements the concept of the backlog, which are the
+    collection of offline changes that are not yet synched to the server.
+    TDB2 is expected to be faster, except when server communication is
+    involved.</li>
+<li>The filtering mechanism is replaced by a more complex, but significantly
+    more capable E9 expression evaluator.  This allows much greater flexibility
+    in terms of filter complexity, by introducing operators, precedence, AND,
+    OR, XOR and date math.  The filtering is expected to be slower.</li>
+<li>Sorting now uses std::sort instead of an implementation of CombSort11,
+    and is expected to be faster.  This is countered by the on-demand parsing,
+    which may now occur during sorting, skewing results.</li>
+<li>Rendering has been upgraded, from the old Table code that had several
+    very inefficient steps: (1) it made copies of all data, (2) the data copies
+    were involved in the sorting, which in the case of dates required re-parsing
+    the values.  The new rendering does not copy data, but uses references
+    into the TDB2 data.  Sorting is decoupled from rendering.  This new ViewTask
+    is expected to be faster.</li>
+</ul>
+</p>
+<p>
+The combination of the above changes means that it is no longer valid to compare
+2.0 to earlier versions.  Earlier data has been dropped, and 2.0 will be the
+performance baseline.
+</p>
+
+<h3>Standardized Testing Data</h3>
+<p>
+A standard data set has been defined for performance testing.  'Hamlet', Act I,
+has been loaded as a set of tasks.  Each line spoken is a task description,
+all speakers are added as tags, any royal titles are projects, anything Hamlet
+says is logged instead of added, and all lines spoken by Ghost are annotations
+to the prior line.
+</p>
+
+<p>
+This result is a nice mix of pending versus completed, short and long
+descriptions.  There are 194 tasks, and will exercise the data load and
+rendering.
+</p>
+
+<p>
+A nightly run of several reports against the standard testing data is being
+performed, and data is being accumulated.  The performance results of this will
+be made available online.
+</p>
+
 <!-- Piwik -->
 <script type="text/javascript">
 var pkBaseURL = (("https:" == document.location.protocol) ? "https://tasktools.org/piwik/" : "http://tasktools.org/piwik/");
