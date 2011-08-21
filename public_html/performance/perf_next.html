@@ -1,0 +1,254 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>:: Performance Monitoring ::</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono:regular' rel='stylesheet' type='text/css'>
+    <style>
+      body {font-family: 'Droid Sans Mono', arial, serif; }
+
+      table.legend
+      {
+        font-size: 75%;
+      }
+
+      div.bar
+      {
+        position:relative;
+        width:800px;
+        height:24px;
+        background-color:#EEE;
+      }
+
+      div.init
+      {
+        position:absolute;
+        top:0px;
+        height:24px;
+        background-color:#ACD3C3;
+        border-right:1px #FFF solid;
+      }
+
+      div.load
+      {
+        position:absolute;
+        top:0px;
+        height:24px;
+        background-color:#5E8C6A;
+        border-right:1px #FFF solid;
+      }
+
+      div.synch
+      {
+        position:absolute;
+        top:0px;
+        height:24px;
+        background-color:#88A65E;
+        border-right:1px #FFF solid;
+      }
+
+      div.gc
+      {
+        position:absolute;
+        top:0px;
+        height:24px;
+        background-color:#8C2318;
+        border-right:1px #FFF solid;
+      }
+
+      div.filter
+      {
+        position:absolute;
+        top:0px;
+        height:24px;
+        background-color:#EC5E57;
+        border-right:1px #FFF solid;
+      }
+
+      div.commit
+      {
+        position:absolute;
+        top:0px;
+        height:24px;
+        background-color:#D65A0D;
+        border-right:1px #FFF solid;
+      }
+
+      div.sort
+      {
+        position:absolute;
+        top:0px;
+        height:24px;
+        background-color:#BFB35A;
+        border-right:1px #FFF solid;
+      }
+
+      div.render
+      {
+        position:absolute;
+        top:0px;
+        height:24px;
+        background-color:#F2C45A;
+        border-right:1px #FFF solid;
+      }
+
+      .init:hover   { color:#FFF; background-color:#000; }
+      .load:hover   { color:#FFF; background-color:#000; }
+      .synch:hover  { color:#FFF; background-color:#000; }
+      .gc:hover     { color:#FFF; background-color:#000; }
+      .filter:hover { color:#FFF; background-color:#000; }
+      .sort:hover   { color:#FFF; background-color:#000; }
+      .render:hover { color:#FFF; background-color:#000; }
+    </style>
+  </head>
+
+  <body>
+    <h2>task next rc.debug=1</h2>
+    <hr />
+    <h3>Legend</h3>
+    <p>
+      <table class="legend">
+        <tr>
+          <td style="background-color:#ACD3C3">Initialization</td>
+          <td>
+            Configuration file loading and parsing, command line parsing.
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color:#5E8C6A">Data Load</td>
+          <td>
+            Loading and parsing the task data potentially from multiple files.
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color:#88A65E">Synchronization</td>
+          <td>
+            All communication with the task server.
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color:#8C2318">Garbage Collection</td>
+          <td>
+            Moving completed and deleted tasks from pending.data to
+            completed.data, moving pending tasks from completed.data back to
+            pending.data, waking tasks from the wait state.
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color:#EC5E57">Filtering</td>
+          <td>
+            Application of command line filters to data.
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color:#D65A0D">Data Writes</td>
+          <td>
+            Writing any changed data back to disk.
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color:#BFB35A">Data Sorting</td>
+          <td>
+            Due to the widespread use of on-demand data load/calc, sorting costs
+            can include task urgency calculations.
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color:#F2C45A">View Rendering</td>
+          <td>
+            Time taken to compose and render the output into a string, but does
+            not include any time taken by the Terminal to buffer and render.
+          </td>
+        </tr>
+      </table>
+    </p>
+    <p>
+      All times are in microseconds, and subject to variations in system load at time of test.
+    </p>
+    <hr />
+    <p>
+      <table>
+        <tr>
+          <td>20110817T085703Z bfad448</td>
+          <td>54942</td>
+          <td width="800">
+            <div class="bar">
+              <div class="init"   style="left:0px;                  width:65px; ">4891</div>
+              <div class="load"   style="left:66px;   width:52px; ">3934</div>
+              <div class="synch"  style="left:119px;   width:0px; ">0</div>
+              <div class="gc"     style="left:120px;   width:74px; ">5531</div>
+              <div class="filter" style="left:195px;   width:89px; ">6659</div>
+              <div class="commit" style="left:285px;   width:0px; ">0</div>
+              <div class="sort"   style="left:286px;   width:439px; ">32781</div>
+              <div class="render" style="left:726px;   width:15px; ">1146</div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>20110818T085703Z 08fcb53</td>
+          <td>59137</td>
+          <td width="800">
+            <div class="bar">
+              <div class="init"   style="left:0px;                  width:70px; ">5266</div>
+              <div class="load"   style="left:71px;   width:53px; ">4004</div>
+              <div class="synch"  style="left:125px;   width:0px; ">0</div>
+              <div class="gc"     style="left:126px;   width:71px; ">5324</div>
+              <div class="filter" style="left:198px;   width:88px; ">6609</div>
+              <div class="commit" style="left:287px;   width:0px; ">0</div>
+              <div class="sort"   style="left:288px;   width:492px; ">36807</div>
+              <div class="render" style="left:781px;   width:15px; ">1127</div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>20110819T085704Z 08fcb53</td>
+          <td>53985</td>
+          <td width="800">
+            <div class="bar">
+              <div class="init"   style="left:0px;                  width:69px; ">5196</div>
+              <div class="load"   style="left:70px;   width:53px; ">3984</div>
+              <div class="synch"  style="left:124px;   width:0px; ">0</div>
+              <div class="gc"     style="left:125px;   width:71px; ">5346</div>
+              <div class="filter" style="left:197px;   width:88px; ">6635</div>
+              <div class="commit" style="left:286px;   width:0px; ">0</div>
+              <div class="sort"   style="left:287px;   width:424px; ">31684</div>
+              <div class="render" style="left:712px;   width:15px; ">1140</div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>20110820T030240Z 7dd3e08</td>
+          <td>53662</td>
+          <td width="800">
+            <div class="bar">
+              <div class="init"   style="left:0px;                  width:66px; ">4960</div>
+              <div class="load"   style="left:67px;   width:52px; ">3893</div>
+              <div class="synch"  style="left:120px;   width:0px; ">0</div>
+              <div class="gc"     style="left:121px;   width:70px; ">5248</div>
+              <div class="filter" style="left:192px;   width:86px; ">6447</div>
+              <div class="commit" style="left:279px;   width:0px; ">0</div>
+              <div class="sort"   style="left:280px;   width:428px; ">31987</div>
+              <div class="render" style="left:709px;   width:15px; ">1127</div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>20110821T085703Z 9086f51</td>
+          <td>50278</td>
+          <td width="800">
+            <div class="bar">
+              <div class="init"   style="left:0px;                  width:62px; ">4635</div>
+              <div class="load"   style="left:63px;   width:51px; ">3846</div>
+              <div class="synch"  style="left:115px;   width:0px; ">0</div>
+              <div class="gc"     style="left:116px;   width:68px; ">5142</div>
+              <div class="filter" style="left:185px;   width:61px; ">4607</div>
+              <div class="commit" style="left:247px;   width:0px; ">0</div>
+              <div class="sort"   style="left:248px;   width:414px; ">30934</div>
+              <div class="render" style="left:663px;   width:14px; ">1114</div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </p>
+  </body>
+</html>
