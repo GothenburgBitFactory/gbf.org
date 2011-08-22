@@ -12,20 +12,22 @@
   </head>
 <body>
 <h3><img src="/tw-m.png" align="center" />Taskwarrior Performance</h3>
+
 <h3>Benchmark Results</h3>
+<p>
 The results of the nightly benchmark runs:<br />
 <a href="perf_all.html">task all</a><br />
 <a href="perf_list.html">task list</a><br />
 <a href="perf_next.html">task next</a>
-<h3>Possibilities 8/20/2011</h3>
+</p>
+
+<h3>Potential Improvements</h3>
 <p>
 While performance has not yet been addressed in the 2.0 product, this list
 of potential areas for improvement is being gathered.
 </p>
 <p>
 <ul>
-<li>Convert Arg::_category to enum</li>
-<li>Convert Arg::_type to enum</li>
 <li>DOM lookup caching</li>
 <li>E9 can reserve N/2 slots in the value stack</li>
 <li>If a filter sequence contains only IDs and no UUIDs, then only pending.data
@@ -50,7 +52,20 @@ of potential areas for improvement is being gathered.
 </ul>
 </p>
 
-<h3>New Baseline 8/19/2011</h3>
+<h3>Arg:: enum Conversions 2011-08-21</h3>
+<p>
+Modifying Arg::_category and Arg::_type from std::string to enum has made a
+significantly larger gain in E9::eval performance than expected.  Using the
+standard test data and queries, average filter times dropped from:
+
+<pre>
+  task all    8514 &rarr; 5829 = 31%
+  task list   6711 &rarr; 4644 = 30%
+  task next   6587 &rarr; 4607 = 30%
+</pre>
+</p>
+
+<h3>New Baseline 2011-08-19</h3>
 <p>
 Taskwarrior 2.0 has several new components, which impact performance:
 </p>
