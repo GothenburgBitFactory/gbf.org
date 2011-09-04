@@ -2,9 +2,9 @@ New Users
 
 2009               46
 2010               79
-2011              106
+2011              123
                   ---
-                  231
+                  248
 
 
 2009 May            5
@@ -42,8 +42,9 @@ Total              79
 2011 May           21
 2011 June          14
 2011 July          13
+2011 August        17
                   ---
-Total             106
+Total             123
 
 
 ---
@@ -307,5 +308,23 @@ killy9999       Janek          Stolarek       fremenzone@poczta.onet.pl         
 daniel.kullmann Daniel         Kullmann       daniel.kullmann@gmx.de                 07/27/2011
 JJ              John           Jones          jj@hush.ai                             07/28/2011
 tknv            Takanobu       Watanabe       rreedd555@gmail.com                    07/29/2011
+--------------  -------------  -------------  -------------------------------------  ----------
+jdevera	        Jacobo	       de Vera	      devel@jacobodevera.com		     08/01/2011
+asqui	        Dani	       Asqui	      daniasqui+taskwarriorforum@gmail.com   08/02/2011
+sbhatti	        S	       Bhatti	      sbhatti@peak6.com		             08/03/2011
+mjmoch	        Michael	       Moch	      michael.moch@gmail.com		     08/04/2011
+dathaifrench	Dave	       French	      dathaifrench@gmail.com		     08/04/2011
+dyfet	        David	       Sugar	      dyfet@gnutelephony.org		     08/05/2011
+amautx	        x	       rishi	      furrespa@nycap.rr.com		     08/07/2011
+sepehr	        Sepehr	       Lajevardi      lajevardi@gmail.com		     08/07/2011
+efazati	        mohamad	       efazati	      mohammad@efazati.org		     08/08/2011
+khaeru	        Paul	       Kishimoto      account+taskwarrior@paul.kishimoto.name08/09/2011
+paulo	        Paulo	       Almeida	      paulo@diasalmeida.com		     08/10/2011
+mzelina	        Mike	       Zelina	      mike.zelina@gmail.com		     08/15/2011
+jamur2	        John	       Murphy	      jackie.murphy@gmail.com		     08/18/2011
+tidixon	        Tim	       Dixon	      tidixon@gmail.com		             08/20/2011
+jholloway7	Joe	       Holloway	      jholloway7@gmail.com		     08/24/2011
+boomshankerx	Lorne	       Guse	      boomshankerx@hotmail.com		     08/27/2011
+katjam	        Katja	       Müller	      katja_mueller@lavabit.com		     08/28/2011
 --------------  -------------  -------------  -------------------------------------  ----------
 
