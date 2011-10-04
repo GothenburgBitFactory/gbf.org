@@ -1,0 +1,190 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>:: Performance Monitoring ::</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono:regular' rel='stylesheet' type='text/css'>
+    <style>
+      body {font-family: 'Droid Sans Mono', arial, serif; }
+
+      table.legend
+      {
+        font-size: 75%;
+      }
+
+      div.bar
+      {
+        position:relative;
+        width:800px;
+        height:24px;
+        background-color:#EEE;
+      }
+
+      div.init
+      {
+        position:absolute;
+        top:0px;
+        height:24px;
+        background-color:#ACD3C3;
+        border-right:1px #FFF solid;
+      }
+
+      div.load
+      {
+        position:absolute;
+        top:0px;
+        height:24px;
+        background-color:#5E8C6A;
+        border-right:1px #FFF solid;
+      }
+
+      div.synch
+      {
+        position:absolute;
+        top:0px;
+        height:24px;
+        background-color:#88A65E;
+        border-right:1px #FFF solid;
+      }
+
+      div.gc
+      {
+        position:absolute;
+        top:0px;
+        height:24px;
+        background-color:#8C2318;
+        border-right:1px #FFF solid;
+      }
+
+      div.filter
+      {
+        position:absolute;
+        top:0px;
+        height:24px;
+        background-color:#EC5E57;
+        border-right:1px #FFF solid;
+      }
+
+      div.commit
+      {
+        position:absolute;
+        top:0px;
+        height:24px;
+        background-color:#D65A0D;
+        border-right:1px #FFF solid;
+      }
+
+      div.sort
+      {
+        position:absolute;
+        top:0px;
+        height:24px;
+        background-color:#BFB35A;
+        border-right:1px #FFF solid;
+      }
+
+      div.render
+      {
+        position:absolute;
+        top:0px;
+        height:24px;
+        background-color:#F2C45A;
+        border-right:1px #FFF solid;
+      }
+
+      .init:hover   { color:#FFF; background-color:#000; }
+      .load:hover   { color:#FFF; background-color:#000; }
+      .synch:hover  { color:#FFF; background-color:#000; }
+      .gc:hover     { color:#FFF; background-color:#000; }
+      .filter:hover { color:#FFF; background-color:#000; }
+      .sort:hover   { color:#FFF; background-color:#000; }
+      .render:hover { color:#FFF; background-color:#000; }
+    </style>
+  </head>
+
+  <body>
+    <h2>task add This is a task with an average sized description length project:P priority:H +tag1 +tag2 rc.debug=1</h2>
+    <hr />
+    <h3>Legend</h3>
+    <p>
+      <table class="legend">
+        <tr>
+          <td style="background-color:#ACD3C3">Initialization</td>
+          <td>
+            Configuration file loading and parsing, command line parsing.
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color:#5E8C6A">Data Load</td>
+          <td>
+            Loading and parsing the task data potentially from multiple files.
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color:#88A65E">Synchronization</td>
+          <td>
+            All communication with the task server.
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color:#8C2318">Garbage Collection</td>
+          <td>
+            Moving completed and deleted tasks from pending.data to
+            completed.data, moving pending tasks from completed.data back to
+            pending.data, waking tasks from the wait state.
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color:#EC5E57">Filtering</td>
+          <td>
+            Application of command line filters to data.
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color:#D65A0D">Data Writes</td>
+          <td>
+            Writing any changed data back to disk.
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color:#BFB35A">Data Sorting</td>
+          <td>
+            Due to the widespread use of on-demand data load/calc, sorting costs
+            can include task urgency calculations.
+          </td>
+        </tr>
+        <tr>
+          <td style="background-color:#F2C45A">View Rendering</td>
+          <td>
+            Time taken to compose and render the output into a string, but does
+            not include any time taken by the Terminal to buffer and render.
+          </td>
+        </tr>
+      </table>
+    </p>
+    <p>
+      All times are in microseconds, and subject to variations in system load at time of test.
+    </p>
+    <hr />
+    <p>
+      <table>
+        <tr>
+          <td>20111004T063116Z 4a98cfa</td>
+          <td>17192</td>
+          <td width="800">
+            <div class="bar">
+              <div class="init"   style="left:0px;                  width:247px; ">5370</div>
+              <div class="load"   style="left:248px;   width:532px; ">11554</div>
+              <div class="synch"  style="left:781px;   width:0px; ">0</div>
+              <div class="gc"     style="left:782px;   width:0px; ">0</div>
+              <div class="filter" style="left:783px;   width:0px; ">0</div>
+              <div class="commit" style="left:784px;   width:12px; ">268</div>
+              <div class="sort"   style="left:797px;   width:0px; ">0</div>
+              <div class="render" style="left:798px;   width:0px; ">0</div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </p>
+  </body>
+</html>
