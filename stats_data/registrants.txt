@@ -2,9 +2,9 @@ New Users
 
 2009               46
 2010               79
-2011              123
+2011              131
                   ---
-                  248
+                  256
 
 
 2009 May            5
@@ -43,8 +43,9 @@ Total              79
 2011 June          14
 2011 July          13
 2011 August        17
+2011 September      8
                   ---
-Total             123
+Total             131
 
 
 ---
@@ -326,5 +327,14 @@ tidixon         Tim            Dixon          tidixon@gmail.com                 
 jholloway7      Joe            Holloway       jholloway7@gmail.com                    08/24/2011
 boomshankerx    Lorne          Guse           boomshankerx@hotmail.com                08/27/2011
 katjam          Katja          Müller         katja_mueller@lavabit.com               08/28/2011
+--------------  -------------  -------------  --------------------------------------  ----------
+petrica         petrica        borcan         aurel2011@hotmail.com                   2011-09-01
+curious         Patrick        Gibbs          patrick0@riseup.net                     2011-09-04
+balthamos       Kevin          N              balthamos89@gmail.com                   2011-09-05
+farazdagi       Victor         Farazdagi      simple.square@gmail.com                 2011-09-05
+earnette        Eric           Arnette        earnette+taskwarrior@gmail.com          2011-09-06
+elf-pavlik      Pavlik         elf            perpetual-tripper@wwelves.org           2011-09-07
+ron             R              Palotai        palotai.robin@gmail.com                 2011-09-09
+philipp         Philipp        Woelfel        woelfel@gmx.net                         2011-09-11
 --------------  -------------  -------------  --------------------------------------  ----------
 
