@@ -2,9 +2,9 @@ New Users
 
 2009               46
 2010               79
-2011              131
+2011              143
                   ---
-                  256
+                  268
 
 
 2009 May            5
@@ -44,8 +44,9 @@ Total              79
 2011 July          13
 2011 August        17
 2011 September      8
+2011 October       12
                   ---
-Total             131
+Total             143
 
 
 ---
@@ -337,4 +338,16 @@ elf-pavlik      Pavlik         elf            perpetual-tripper@wwelves.org     
 ron             R              Palotai        palotai.robin@gmail.com                 2011-09-09
 philipp         Philipp        Woelfel        woelfel@gmx.net                         2011-09-11
 --------------  -------------  -------------  --------------------------------------  ----------
-
+temporas        Urs            Schuerch       outway@gmx.ch                           2011-10-08
+liquidweaver    Joshua         Weaver         joshuaweaver@gmail.com                  2011-10-10
+ArrowJ          Aaron          Jackson        jacksonaaronc@gmail.com                 2011-10-10
+keithchristian  Keith          Christian      keithchristian@yahoo.com                2011-10-17
+CGenie          Przemek        K.             cgenie@gmail.com                        2011-10-19
+Saul            Tyler          Abair          tyler.abair@gmail.com                   2011-10-20
+encbladexp      Stefan         Betz           info@stefan-betz.net                    2011-10-20
+xeon123         P              C              psdc1978@gmail.com                      2011-10-25
+noqqe           Florian        Baumann        flo@noqqe.de                            2011-10-27
+bmeeks          Barton         Meeks          barton.meeks@pobox.com                  2011-10-28
+Lars            Lars           Kumbier        larsscheithauer@googlemail.com          2011-10-29
+kovtunos        Andriy         Kovtun         kovtunos@yandex.ru                      2011-10-31
+--------------  -------------  -------------  --------------------------------------  ----------
