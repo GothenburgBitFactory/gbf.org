@@ -2,9 +2,9 @@ New Users
 
 2009               46
 2010               79
-2011              143
+2011              148
                   ---
-                  268
+                  273
 
 
 2009 May            5
@@ -45,8 +45,9 @@ Total              79
 2011 August        17
 2011 September      8
 2011 October       12
+2011 November       5
                   ---
-Total             143
+Total             148
 
 
 ---
@@ -351,3 +352,10 @@ bmeeks          Barton         Meeks          barton.meeks@pobox.com            
 Lars            Lars           Kumbier        larsscheithauer@googlemail.com          2011-10-29
 kovtunos        Andriy         Kovtun         kovtunos@yandex.ru                      2011-10-31
 --------------  -------------  -------------  --------------------------------------  ----------
+Tempos          Constantine    Kozlov         tempor.demonius@gmail.com               2011-11-15
+elliottw        elliott        williams       elliottw@gmail.com                      2011-11-15
+likid0          daniel         parkes         liquidsmail@gmail.com                   2011-11-16
+xancorreu       Xan            Bol            xancorreu@gmail.com                     2011-11-17
+ignoramus       Karl           Maihofer       ignoramus@gmx.de                        2011-11-19
+--------------  -------------  -------------  --------------------------------------  ----------
+
