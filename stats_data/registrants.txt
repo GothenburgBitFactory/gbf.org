@@ -2,9 +2,9 @@ New Users
 
 2009               46
 2010               79
-2011              148
+2011              159
                   ---
-                  273
+                  284
 
 
 2009 May            5
@@ -46,8 +46,9 @@ Total              79
 2011 September      8
 2011 October       12
 2011 November       5
+2011 December      11
                   ---
-Total             148
+Total             159
 
 
 ---
@@ -358,4 +359,15 @@ likid0          daniel         parkes         liquidsmail@gmail.com             
 xancorreu       Xan            Bol            xancorreu@gmail.com                     2011-11-17
 ignoramus       Karl           Maihofer       ignoramus@gmx.de                        2011-11-19
 --------------  -------------  -------------  --------------------------------------  ----------
-
+alexe           clark          david          clark7812@gmail.com                     2011-12-03
+ishan.chhabra   Ishan          Chhabra        ishan.chhabra@gmail.com                 2011-12-03
+nuatteMot       nuatteMot      nuatteMot      wheedlepepart@articlenewsflasher.com    2011-12-04
+djm             Dave           Morriss        Dave.Morriss@gmail.com                  2011-12-06
+skroon          Steve          Kroon          kroon@sun.ac.za                         2011-12-08
+oadams          Oliver         Adams          oliver.adams@gmail.com                  2011-12-12
+threebean       Ralph          Bean           ralph.bean@gmail.com                    2011-12-15
+nikolavp        Nikola         Petrov         nikolavp@gmail.com                      2011-12-27
+dsambor         Dmitriy        Samborskiy     samborsky_d@yahoo.com                   2011-12-28
+sholtz          Stephen        Holtz          stephenlholtz@gmail.com                 2011-12-29
+paullik         Paul           Gheorghe       paullik.paul@gmail.com                  2011-12-29
+--------------  -------------  -------------  --------------------------------------  ----------
