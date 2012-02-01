@@ -3,8 +3,9 @@ New Users
 2009               46
 2010               79
 2011              159
+2012               14
                   ---
-                  284
+                  298
 
 
 2009 May            5
@@ -49,6 +50,11 @@ Total              79
 2011 December      11
                   ---
 Total             159
+
+
+2012 January       14
+                  ---
+Total              14
 
 
 ---
@@ -370,4 +376,20 @@ nikolavp        Nikola         Petrov         nikolavp@gmail.com                
 dsambor         Dmitriy        Samborskiy     samborsky_d@yahoo.com                   2011-12-28
 sholtz          Stephen        Holtz          stephenlholtz@gmail.com                 2011-12-29
 paullik         Paul           Gheorghe       paullik.paul@gmail.com                  2011-12-29
+--------------  -------------  -------------  --------------------------------------  ----------
+taskwarrior     Taskwarrior    Team           support@taskwarrior.org                 2012-01-01
+Sussana         Sussana        Hooper         sussana@xtra.co.nz                      2012-01-02
+vittorio        Vittorio       G              taskwarrior@vittorio.me                 2012-01-05
+Anonymous       Anon           ymous          christopherbickner@gmail.com            2012-01-05
+Sergey          Sergey         K.             sergey@sergeyk.com                      2012-01-08
+elev007         Eli            Lev            elev007@gmail.com                       2012-01-12
+jantman         Jason          Antman         jason@jasonantman.com                   2012-01-12
+DorGuelmDrone   DorGuelmDrone  DorGuelmDrone  ensuececubcub@gmail.com                 2012-01-17
+celfred         Fred           Lieutaud       flieutaud@gmail.com                     2012-01-20
+albonaleckson   albon          aleckson       albonaleckson@hotmail.com               2012-01-20
+jenpc           Jennifer       Cormier        jenpc@users.sf.net                      2012-01-20
+Lynoure         Lynoure        Braakman       lynoure@gmail.com                       2012-01-23
+adam7962        adam           7962           adam7962@gmail.com                      2012-01-25
+apollodman      apollo         dman           albertmpowers@yahoo.com                 2012-01-26
+martyppace      marty          ppace          martyppace@yahoo.com                    2012-01-27
 --------------  -------------  -------------  --------------------------------------  ----------

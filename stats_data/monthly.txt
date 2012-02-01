@@ -767,5 +767,31 @@ December 2011
 
     27 vittk-1.3.tar.gz
 
+January 2012
+
+     5 task-1.9.4-1.el6.i686.rpm
+     3 task-1.9.4-1.fc14.i686.rpm
+    62 task-1.9.4-sl.pkg
+   267 task-1.9.4.tar.gz
+    25 task_1.9.4-0ubuntu1~lucid2_i386.deb
+     5 task_1.9.4-0ubuntu1~maverick2_i386.deb
+    34 task_1.9.4-0ubuntu1~natty1_i386.deb
+  ----
+   401
+
+   249 task-2.0.0.beta4.tar.gz
+
+    86 task-1.9.2.ref.pdf
+   216 task-2.0.0.ref.pdf
+  ----
+   302
+
+    64 tw-ubcde11.pdf
+
+     2 vittk-1.0.tar.gz
+    39 vittk-1.3.tar.gz
+  ----
+    41
+
 ---
 
