@@ -3,9 +3,9 @@ New Users
 2009               46
 2010               79
 2011              159
-2012               14
+2012               19
                   ---
-                  298
+                  303
 
 
 2009 May            5
@@ -53,8 +53,9 @@ Total             159
 
 
 2012 January       14
+2012 February       5
                   ---
-Total              14
+Total              19
 
 
 ---
@@ -393,3 +394,10 @@ adam7962        adam           7962           adam7962@gmail.com                
 apollodman      apollo         dman           albertmpowers@yahoo.com                 2012-01-26
 martyppace      marty          ppace          martyppace@yahoo.com                    2012-01-27
 --------------  -------------  -------------  --------------------------------------  ----------
+asterisc        Rares          Pop            astero2005@yahoo.ca                     2012-02-15
+darklajid       Benjamin       Podszun        dar@darklajid.de                        2012-02-16
+JennyTay        Jenny          Tay            sussane_sth@Hotmail.com                 2012-02-19
+kalafut         Jim            Kalafut        jim@kalafut.net                         2012-02-21
+urgetech4       urge           tech4          theurgetech4@yahoo.com                  2012-02-29
+--------------  -------------  -------------  --------------------------------------  ----------
+
