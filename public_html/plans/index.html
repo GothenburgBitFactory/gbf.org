@@ -1,372 +1,348 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <title>:: tasktools.org ::</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <!-- <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'> -->
+    <meta charset="utf-8">
+    <title>tasktools.org | Plans</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono:regular' rel='stylesheet' type='text/css'>
+
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
     <style>
-      body             {font-family: 'Droid Sans Mono', arial, serif; }
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+
       TABLE            {font-size: 75%; background:#cccccc}
-      TH               {background:#c0c0c0; color:#333333; text-align:left}
-      TD               {background:white;   color:#444444; vertical-align:top}
+      TH               {background:#c0c0c0; color:#333333; text-align:left; border: 1px solid gray;}
+      TD               {background:white;   color:#444444; vertical-align:top; border: 1px solid gray;}
     </style>
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
   </head>
+
   <body>
-    <h3>Taskwarrior Plans/Goals</h3>
-    <p>
-      There are many interconnected features and technologies in taskwarrior,
-      and each piece has it's own goals.  This matrix allows a simple reading
-      of where things are, and where they are going.  This is a low-resolution
-      time line.
-    </p>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="http://tasktools.org">tasktools.org</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="http://taskwarrior.org">taskwarrior.org</a></li>
+            </ul>
 
-    <p>
-      Last updated 2011-02-02.
-    </p>
+            <ul class="nav pull-right">
+              <li><a href="../about.html">About</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="mailto:support@taskwarrior.org">taskwarrior Support</a></li>
+                  <li><a href="mailto:support@yootabory.org">yootabory Support</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
 
-    <table>
-      <tr>
-        <th>Technology/Feature</th>
-        <th>1.9.x<br />Current</th>
-        <th>2.0<br />Next</th>
-        <th>2.1+<br />Future</th>
-      </tr>
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span12">
+          <h3>Taskwarrior Plans/Goals</h3>
+          <p>
+            There are many interconnected features and technologies in taskwarrior,
+            and each piece has it's own goals.  This matrix allows a simple reading
+            of where things are, and where they are going.  This is a low-resolution
+            time line.
+          </p>
 
-      <tr>
-        <td>Schedule</td>
-        <td>
-          1.9.3 2010-11-08<br />
-          1.9.4 2011-03-03
-        </td>
-        <td>
-          Second half of 2011
-        </td>
-        <td>
-          2012
-        </td>
-      </tr>
+          <p>
+            Last updated 2012-03-21.
+          </p>
 
-      <tr>
-        <td>Command line<br />RFC11<br />RFC16<br />RFC17<br />RFC26<br />RFC27</td>
-        <td>
-          Shift-reduce 'Nibbler'<br />
-        </td>
-        <td>
-          Shift-reduce 'Nibbler'<br />
-          Algebraic expressions<br />
-          DOM access<br />
-          task &lt;filter&gt; update &lt;modifications&gt;<br />
-          task /&lt;regex&gt;/<br />
-        <td>
-          Readline support
-        </td>
-      </tr>
+          <table>
+            <tr>
+              <th>Technology/Feature</th>
+              <th>2.0<br />Current</th>
+              <th>2.1<br />Next</th>
+              <th>2.2+<br />Future</th>
+            </tr>
 
-      <tr>
-        <td>
-          Data Fields<br />
-          RFC14<br />
-          <br />
-          <br />
-          <i>
-            Note: the field deprecations<br/>
-            represent a shift from having<br />
-            fields and formats combined,<br />
-            to that of separate fields<br />
-            and formats.
-          </i>
-        </td>
-        <td>
-          id<br />
-          uuid<br />
-          project<br />
-          priority<br />
-          <i>priority_long DEPRECATED</i><br />
-          entry<br />
-          <i>entry_time DEPRECATED</i><br />
-          start<br />
-          <i>start_time DEPRECATED</i><br />
-          end<br />
-          <i>end_time DEPRECATED</i><br />
-          due<br />
-          <i>countdown DEPRECATED</i><br />
-          <i>countdown_compact DEPRECATED</i><br /><br /><br />
-          <i>age DEPRECATED</i><br />
-          <i>age_compact DEPRECATED</i><br />
-          <i>active DEPRECATED</i><br />
-          tags<br />
-          recur<br />
-          <i>recurrence_indicator DEPRECATED</i><br />
-          <i>tag_indicator DEPRECATED</i><br />
-          <i>description_only DEPRECATED</i><br />
-          description<br />
-          wait<br />
-          depends<br />
-          urgency
-        </td>
-        <td>
-          id<br />
-          uuid<br />
-          project<br />
-          priority<br />
-          <i>priority_long DEPRECATED</i><br />
-          entry<br />
-          <i>entry_time DEPRECATED</i><br />
-          start<br />
-          <i>start_time DEPRECATED</i><br />
-          end<br />
-          <i>end_time DEPRECATED</i><br />
-          due<br />
-          <i>countdown DEPRECATED</i><br />
-          <i>countdown_compact DEPRECATED</i><br /><br /><br />
-          <i>age DEPRECATED</i><br />
-          <i>age_compact DEPRECATED</i><br />
-          <i>active DEPRECATED</i><br />
-          tags<br />
-          recur<br />
-          <i>recurrence_indicator DEPRECATED</i><br />
-          <i>tag_indicator DEPRECATED</i><br />
-          <i>description_only DEPRECATED</i><br />
-          description<br />
-          wait<br />
-          depends<br />
-          urgency<br />
-          status
-        </td>
-        <td>
-          id.ordinal (default)<br />
-          id.uuid<br />
-          project<br />
-          priority.short (default)<br />
-          priority.long<br />
-          entry.date (default)<br /><br />
-          start.date (default)<br /><br />
-          end.date (default)<br /><br />
-          due.date (default)<br />
-          due.countdown.long<br />
-          due.countdown.short<br />
-          due.remaining.long<br />
-          due.remaining.short<br />
-          entry.age.long<br />
-          entry.age.short<br />
-          start.indicator<br />
-          tags.list (default)<br />
-          recur.period (default)<br />
-          recur.indicator<br />
-          tags.indicator<br />
-          description.noanno<br />
-          description.all (default)<br />
-          wait<br />
-          depends<br />
-          urgency<br />
-          status
-        </td>
-      </tr>
+            <tr>
+              <td>Schedule</td>
+              <td>2.0.0 2012-03-17</td>
+              <td>Summer 2012</td>
+              <td></td>
+            </tr>
 
-      <tr>
-        <td>Reports<br />RFC14</td>
-        <td>
-          Burndown Charts
-        </td>
-        <td>
-          Tunable next report<br />
-          New field formats<br />
-          New view formatting<br />
-        </td>
-        <td>
-          Weekly reports (history, ghistory ...)<br />
-        </td>
-      </tr>
+            <tr>
+              <td>Command line<br />RFC11<br />RFC16<br />RFC17<br />RFC26<br />RFC27</td>
+              <td>
+                Shift-reduce 'Nibbler'<br />
+                Algebraic expressions<br />
+                DOM access<br />
+                task &lt;filter&gt; update &lt;modifications&gt;<br />
+                task /&lt;regex&gt;/<br />
+              </td>
+              <td>
+                Binary classifiers
+              </td>
+              <td></td>
+            </tr>
 
-      <tr>
-        <td>GTD</td>
-        <td>-</td>
-        <td>-</td>
-        <td>Review support</td>
-      </tr>
+            <tr>
+              <td>
+                Attributes<br />
+                RFC14<br />
+                <br />
+                <br />
+                <i>
+                  Note: the field deprecations<br/>
+                  represent a shift from having<br />
+                  fields and formats combined,<br />
+                  to that of separate fields<br />
+                  and formats.
+                </i>
+              </td>
+              <td>
+                id<br />
+                uuid<br />
+                project<br />
+                priority<br />
+                <i>priority_long DEPRECATED</i><br />
+                entry<br />
+                <i>entry_time DEPRECATED</i><br />
+                start<br />
+                <i>start_time DEPRECATED</i><br />
+                end<br />
+                <i>end_time DEPRECATED</i><br />
+                due<br />
+                <i>countdown DEPRECATED</i><br />
+                <i>countdown_compact DEPRECATED</i><br /><br /><br />
+                <i>age DEPRECATED</i><br />
+                <i>age_compact DEPRECATED</i><br />
+                <i>active DEPRECATED</i><br />
+                tags<br />
+                recur<br />
+                <i>recurrence_indicator DEPRECATED</i><br />
+                <i>tag_indicator DEPRECATED</i><br />
+                <i>description_only DEPRECATED</i><br />
+                description<br />
+                wait<br />
+                depends<br />
+                urgency<br />
+                status<br />
+              </td>
+              <td>
+                User Defined Attributes (UDA)
+              </td>
+              <td>
+              </td>
+            </tr>
 
-      <tr>
-        <td>User Interface</td>
-        <td colspan="3">
-          CLI only
-        </td>
-      </tr>
+            <tr>
+              <td>Reports<br />RFC14</td>
+              <td>
+                [Standard Report Set]<br />
+                Tunable next report<br />
+                New view formatting<br />
+              </td>
+              <td>
+                Additional field formats
+              </td>
+              <td>
+                Weekly reports (history, ghistory ...)<br />
+              </td>
+            </tr>
 
-      <tr>
-        <td>Synchronization</td>
-        <td>
-          task merge &lt;url&gt;<br />
-          task pull &lt;url&gt;<br />
-          task push &lt;url&gt;<br />
-        </td>
-        <td>Task server support,<br />single user, multi-client</td>
-        <td>Task server support,<br />multi-user, multi-client</td>
-      </tr>
+            <tr>
+              <td>Synchronization</td>
+              <td>
+                task merge &lt;url&gt;<br />
+                task pull &lt;url&gt;<br />
+                task push &lt;url&gt;<br />
+              </td>
+              <td>Task server support,<br />single user, multi-client</td>
+              <td>Task server support,<br />multi-user, multi-client</td>
+            </tr>
 
-      <tr>
-        <td>Configuration</td>
-        <td colspan="3">Single local .taskrc file</td>
-      </tr>
+            <tr>
+              <td>Configuration</td>
+              <td>Single local .taskrc file</td>
+              <td></td>
+              <td></td>
+            </tr>
 
-      <tr>
-        <td>TDB (task database)</td>
-        <td>
-          Local file locking<br />
-          Single file set<br />
-          Single user
-        </td>
-        <td>
-          Read-only files
-        </td>
-        <td>
-          Multiple file sets<br />
-          Multiple users
-        </td>
-      </tr>
+            <tr>
+              <td>TDB (task database)</td>
+              <td>
+                Local file locking<br />
+                Single file set<br />
+                Single user
+              </td>
+              <td>
+                Read-only files
+              </td>
+              <td>
+                Multiple file sets<br />
+                Multiple users
+              </td>
+            </tr>
 
-      <tr>
-        <td>Color<br />RFC23</td>
-        <td>
-          CLI: 256-color<br />
-          Themes<br />
-          Color rule precedence
-        </td>
-        <td>
-          <i>fg: bg: DEPRECATED</i>
-        </td>
-        <td>
-          Vitapi 256-color<br />
-          Auto-downsample<br />
-          <i>fg: bg: REMOVED</i>
-        </td>
-      </tr>
+            <tr>
+              <td>Color<br />RFC23</td>
+              <td>
+                CLI: 256-color<br />
+                Themes<br />
+                Color rule precedence<br />
+                <i>fg: bg: DEPRECATED</i>
+              </td>
+              <td>
+                <i>fg: bg: REMOVED</i>
+              </td>
+              <td>
+                Vitapi 256-color<br />
+                Auto-downsample<br />
+              </td>
+            </tr>
 
-      <tr>
-        <td>I18N</td>
-        <td>
-          Basic utf8 support
-        </td>
-        <td>
-          Improved utf8 handling
-          Localized messages
-        </td>
-        <td>
-        </td>
-      </tr>
+            <tr>
+              <td>I18N</td>
+              <td>
+                UTF-8 support<br />
+                Localized messages<br />
+              </td>
+              <td>
+              </td>
+              <td>
+              </td>
+            </tr>
 
-      <tr>
-        <td>Import<br />RFC2</td>
-        <td>
-          Import supporting:<br />
-          task ff2<br />
-          task ff3<br />
-          task ff4<br />
-          CSV<br />
-          todo.sh<br />
-          CLI<br />
-          text<br />
-          YAML 1.1
-        </td>
-        <td>
-          <i>task ff2 DEPRECATED</i><br />
-        </td>
-        <td>
-          import.xml<br /><br />
-          <i>ff2 REMOVED</i><br />
-          <i>import.task.ff3 DEPRECATED</i><br />
-          import.task.ff4<br />
-          import.csv<br />
-          import.todo.sh<br />
-          import.cli<br />
-          import.txt<br />
-          import.yaml
-        </td>
-      </tr>
+            <tr>
+              <td>Import<br />RFC2</td>
+              <td>
+                JSON (internal)<br />
+                todo.sh (external)<br />
+                YAML 1.1 (external)<br />
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
 
-      <tr>
-        <td>Export</td>
-        <td>
-          export (alias to export.yaml)<br />
-          <i>export.csv DEPRECATED</i><br />
-          <i>export.ical DEPRECATED</i><br />
-          <i>export.vcalendar (alias to export.ical) DEPRECATED</i><br />
-          <i>export.yaml DEPRECATED</i><br />
-          _query helper (alias to export.json)
-        </td>
-        <td>
-          Add-ons:<br /><br />
-          export-csv.pl<br />
-          export-yaml.pl<br />
-          export-ical.pl<br />
-          export-xml.pl<br />
-          export-xml.py<br />
-          export-xml.rb
-        </td>
-        <td>
-          -
-        </td>
-      </tr>
+            <tr>
+              <td>Export</td>
+              <td>
+                JSON (internal)<br />
+                CSV (external)<br />
+                HTML (external)<br />
+                XML (external)<br />
+                iCal (external)<br />
+                SQL (external)<br />
+                YAD (external)<br />
+                YAML (external)<br />
+              </td>
+              <td></td>
+              <td></td>
+            </tr>
 
-      <tr>
-        <td>Packaging</td>
-        <td colspan="2">
-          Fedora<br />
-          Cygwin<br />
-          FreeBSD<br />
-          OS X<br />
-          Ubuntu<br />
-          Haiku
-        </td>
-        <td>
-          msys/MinGW?
-        </td>
-      </tr>
+            <tr>
+              <td>Help</td>
+              <td>
+                man: task<br />
+                man: taskrc<br />
+                man: task-tutorial<br />
+                man: task-color<br />
+                man: task-FAQ<br />
+                man: task-sync<br />
+                youtube: various<br />
+                taskwarrior.org: How-To<br />
+                taskwarrior.org: Features<br />
+              </td>
+              <td>
+              </td>
+              <td>
+                taskwarrior.com: Support Site<br />
+              </td>
+            </tr>
 
-      <tr>
-        <td>Help</td>
-        <td>
-          man: task<br />
-          man: taskrc<br />
-          man: task-tutorial<br />
-          man: task-color<br />
-          man: task-FAQ<br />
-          man: task-sync<br />
-          youtube: various<br />
-          taskwarrior.org: How-To
-        </td>
-        <td>
-        </td>
-        <td>
-          taskwarrior.com: Support Site<br />
-        </td>
-      </tr>
+            <tr>
+              <td>API/Extension Mechanism<br />RFC5<br />RFC15</td>
+              <td>
+                Documented file format<br />
+              </td>
+              <td>
+                <i>Shadow files DEPRECATED</i>
+              </td>
+              <td>
+                Lua 5.2 API<br />
+                Hooks<br />
+                Samples include shadow file alternative<br />
+              </td>
+            </tr>
 
-      <tr>
-        <td>API/Extension Mechanism<br />RFC5<br />RFC15</td>
-        <td colspan="2">
-          Documented file format
-        </td>
-        <td>
-          Documented file format<br />
-          Lua 5.2 API<br />
-          Hooks<br />
-          Samples include shadow file alternative<br />
-          <i>Shadow files DEPRECATED</i>
-        </td>
-      </tr>
+            <tr>
+              <td>Website</td>
+              <td>
+                taskwarrior.org<br />
+                tasktools.org
+              </td>
+              <td></td>
+              <td>
+                taskwarrior.com<br />
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
 
-      <tr>
-        <td>Website</td>
-        <td colspan="2">
-          taskwarrior.org<br />
-          tasktools.org
-        </td>
-        <td>
-          taskwarrior.com<br />
-          taskwarrior.org<br />
-          tasktools.org
-        </td>
-      </tr>
+      <hr />
+      Copyright &copy; 2012,
+      <a href="http://yootabory.org">Göteborg Bit Factory</a>.
+    </div> <!-- /container -->
 
-    </table>
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+    var pkBaseURL = (("https:" == document.location.protocol) ? "https://tasktools.org/piwik/" : "http://tasktools.org/piwik/");
+    document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+    </script><script type="text/javascript">
+    try {
+    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
+    piwikTracker.trackPageView();
+    piwikTracker.enableLinkTracking();
+    } catch( err ) {}
+    </script><noscript><p><img src="http://tasktools.org/piwik/piwik.php?idsite=3" style="border:0" alt="" /></p></noscript>
+    <!-- End Piwik Tag -->
   </body>
 </html>
+

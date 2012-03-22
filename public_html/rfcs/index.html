@@ -1,55 +1,133 @@
-<html>
-<head>
-  <title>:: tasktools.org ::</title>
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <!-- <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono' rel='stylesheet' type='text/css'> -->
-  <style>
-    body {font-family: 'Droid Sans Mono', arial, serif; }
-  </style>
-</head>
-<body>
-<h3>tasktools.org</h3>
-<p>
-This repository contains design and specification documents related to the
-development of task.
-</p>
-<p>
-For more information on task see the project website at <a href="http://taskwarrior.org">http://taskwarrior.org</a>.
-</p>
-<p>
-<a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc4-grid.txt;hb=HEAD">RFC4 Grid</a><br>
-<a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc5-hooks.txt;hb=HEAD">RFC5 Hooks</a><br>
-<a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc7-storage.txt;hb=HEAD">RFC7 Storage</a><br>
-<a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc8-special-tags.txt;hb=HEAD">RFC8 Special Tags</a><br>
-<a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc9-filters.txt;hb=HEAD">RFC9 Filters</a><br>
-<a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc11-command-line.txt;hb=HEAD">RFC11 Command Line</a><br>
-<a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc12-searching.txt;hb=HEAD">RFC12 Searching</a><br>
-<a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc13-performance.txt;hb=HEAD">RFC13 Performance</a><br>
-<a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc14-fields.txt;hb=HEAD">RFC14 Fields</a><br>
-<a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc15-file-format.txt;hb=HEAD">RFC15 File Format</a><br>
-<a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc16-dom.txt;hb=HEAD">RFC16 DOM</a><br>
-<a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc22-substitutions.txt;hb=HEAD">RFC22 Substitutions</a><br>
-<a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc23-color-rules.txt;hb=HEAD">RFC23 Color Rules</a><br>
-<a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc27-dependencies.txt;hb=HEAD">RFC27 Dependencies</a><br>
-<a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc29-escalation.txt;hb=HEAD">RFC29 Escalation</a><br>
-<a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc30-accomplishinterval.txt;hb=HEAD">RFC30 Accomplish Interval</a><br>
-<a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc31-urgency.txt;hb=HEAD">RFC31 Urgency</a><br>
-<a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc32-recurrences.txt;hb=HEAD">RFC32 Recurrences</a><br>
-<a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc33-projects-as-tasks.txt;hb=HEAD">RFC33 Projects as Tasks</a><br>
-<a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc34-uda.txt;hb=HEAD">RFC34 User Defined Attributes</a><br>
-<a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc35-threads.txt;hb=HEAD">RFC35 Threads</a><br>
-</p>
-<!-- Piwik -->
-<script type="text/javascript">
-var pkBaseURL = (("https:" == document.location.protocol) ? "https://tasktools.org/piwik/" : "http://tasktools.org/piwik/");
-document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-</script><script type="text/javascript">
-try {
-var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
-piwikTracker.trackPageView();
-piwikTracker.enableLinkTracking();
-} catch( err ) {}
-</script><noscript><p><img src="http://tasktools.org/piwik/piwik.php?idsite=3" style="border:0" alt="" /></p></noscript>
-<!-- End Piwik Tag -->
-</body>
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>tasktools.org | RFCs</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono:regular' rel='stylesheet' type='text/css'>
+
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="http://tasktools.org">tasktools.org</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="http://taskwarrior.org">taskwarrior.org</a></li>
+            </ul>
+
+            <ul class="nav pull-right">
+              <li><a href="../about.html">About</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="mailto:support@taskwarrior.org">taskwarrior Support</a></li>
+                  <li><a href="mailto:support@yootabory.org">yootabory Support</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span12">
+          <h3>RFCs</h3>
+          <p>
+            This repository contains design and specification documents related
+            to the development of task.  These represent discussions about some
+            of the larger features.
+          </p>
+          <p>
+            <a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc4-grid.txt;hb=HEAD">RFC4 Grid</a><br>
+            <a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc5-hooks.txt;hb=HEAD">RFC5 Hooks</a><br>
+            <a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc7-storage.txt;hb=HEAD">RFC7 Storage</a><br>
+            <a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc8-special-tags.txt;hb=HEAD">RFC8 Special Tags</a><br>
+            <a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc9-filters.txt;hb=HEAD">RFC9 Filters</a><br>
+            <a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc11-command-line.txt;hb=HEAD">RFC11 Command Line</a><br>
+            <a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc12-searching.txt;hb=HEAD">RFC12 Searching</a><br>
+            <a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc13-performance.txt;hb=HEAD">RFC13 Performance</a><br>
+            <a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc14-fields.txt;hb=HEAD">RFC14 Fields</a><br>
+            <a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc15-file-format.txt;hb=HEAD">RFC15 File Format</a><br>
+            <a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc16-dom.txt;hb=HEAD">RFC16 DOM</a><br>
+            <a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc22-substitutions.txt;hb=HEAD">RFC22 Substitutions</a><br>
+            <a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc23-color-rules.txt;hb=HEAD">RFC23 Color Rules</a><br>
+            <a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc27-dependencies.txt;hb=HEAD">RFC27 Dependencies</a><br>
+            <a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc29-escalation.txt;hb=HEAD">RFC29 Escalation</a><br>
+            <a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc30-accomplishinterval.txt;hb=HEAD">RFC30 Accomplish Interval</a><br>
+            <a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc31-urgency.txt;hb=HEAD">RFC31 Urgency</a><br>
+            <a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc32-recurrences.txt;hb=HEAD">RFC32 Recurrences</a><br>
+            <a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc33-projects-as-tasks.txt;hb=HEAD">RFC33 Projects as Tasks</a><br>
+            <a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc34-uda.txt;hb=HEAD">RFC34 User Defined Attributes</a><br>
+            <a href="http://tasktools.org/gitweb/gitweb.cgi?p=rfc.git;a=blob_plain;f=rfc35-threads.txt;hb=HEAD">RFC35 Threads</a><br>
+          </p>
+        </div>
+      </div>
+
+      <br />
+
+      <hr />
+      Copyright &copy; 2012,
+      <a href="http://yootabory.org">Göteborg Bit Factory</a>.
+    </div> <!-- /container -->
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+    var pkBaseURL = (("https:" == document.location.protocol) ? "https://tasktools.org/piwik/" : "http://tasktools.org/piwik/");
+    document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+    </script><script type="text/javascript">
+    try {
+    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
+    piwikTracker.trackPageView();
+    piwikTracker.enableLinkTracking();
+    } catch( err ) {}
+    </script><noscript><p><img src="http://tasktools.org/piwik/piwik.php?idsite=3" style="border:0" alt="" /></p></noscript>
+    <!-- End Piwik Tag -->
+  </body>
 </html>
+
