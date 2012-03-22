@@ -1,137 +1,231 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="description" content="Technology support site for the Taskwarrior, Vitapi and Vramsteg projects." />
-    <meta name="keywords" content="Task, Taskwarrior, Vitapi, Vramsteg, TODO, GTD, OSS, git, repository, tinderbox, continuous integration, RFC, progress bar, 256-color, terminal, unit tests" />
-    <title>:: tasktools.org ::</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <title>tasktools.org</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono:regular' rel='stylesheet' type='text/css'>
+
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
     <style>
-      body {font-family: 'Droid Sans Mono', arial, serif; }
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
     </style>
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
   </head>
-<body>
-<h3><img src="/tw-m.png" align="center" />Taskwarrior Performance</h3>
 
-<h3>Benchmark Results</h3>
-<p>
-The results of the nightly benchmark runs:<br />
-<a href="perf_all.html">task all</a><br />
-<a href="perf_list.html">task list</a><br />
-<a href="perf_next.html">task next</a><br />
-<a href="perf_add.html">task add</a><br />
-</p>
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="http://tasktools.org">tasktools.org</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="http://taskwarrior.org">taskwarrior.org</a></li>
+            </ul>
 
-<h3>Potential Improvements</h3>
-<p>
-While performance has not yet been addressed in the 2.0 product, this list
-of potential areas for improvement is being gathered.
-</p>
-<p>
-<ul>
-<li>DOM lookup caching</li>
-<li>E9 can reserve N/2 slots in the value stack</li>
-<li>If a filter sequence contains only IDs and no UUIDs, then only pending.data
-    need be read, unless inversion operators are involved</li>
-<li>TDB2 can reserve space according to the number of lines in a file</li>
-<li>Detect invariants in a filter, and short-circuit</li>
-<li>Identify candidates for threading, which include: data load/parse, ViewTask
-    rendering, E9::eval, TDB2::gc.</li>
-<li>Emission of color control codes need to be optimized.  If two adjacent cells
-    in the output are of the same color, the output looks something like
+            <ul class="nav pull-right">
+              <li><a href="../about.html">About</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="mailto:support@taskwarrior.org">taskwarrior Support</a></li>
+                  <li><a href="mailto:support@yootabory.org">yootabory Support</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
 
-    <pre>&lt;red&gt; DATA &lt;/red&gt;&lt;red&gt; DATA &lt;/red&gt;</pre>
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span12">
+          <h3>Benchmark Results</h3>
+          <p>
+            The results of the nightly benchmark runs:<br />
+            <a href="perf_all.html">task all</a><br />
+            <a href="perf_list.html">task list</a><br />
+            <a href="perf_next.html">task next</a><br />
+            <a href="perf_add.html">task add</a><br />
+          </p>
+        </div>
+      </div>
 
-    This should be located and reduced to:
+      <hr />
 
-    <pre>&lt;red&gt; DATA  DATA &lt;/red&gt;</pre>
+      <div class="row-fluid">
+        <div class="span12">
+          <h3>Potential Improvements</h3>
+          <p>
+            While performance has not yet been addressed in the 2.0 product, this list
+            of potential areas for improvement is being gathered.
+          </p>
+          <ul>
+            <li>DOM lookup caching</li>
+            <li>E9 can reserve N/2 slots in the value stack</li>
+            <li>If a filter sequence contains only IDs and no UUIDs, then only pending.data
+                need be read, unless inversion operators are involved</li>
+            <li>TDB2 can reserve space according to the number of lines in a file</li>
+            <li>Detect invariants in a filter, and short-circuit</li>
+            <li>Identify candidates for threading, which include: data load/parse, ViewTask
+                rendering, E9::eval, TDB2::gc.</li>
+            <li>Emission of color control codes need to be optimized.  If two adjacent cells
+                in the output are of the same color, the output looks something like
 
-    This will reduce the volume of output generated, and in need of
-    reinterpretation by the terminal program.</li>
-<li>Optimization of code hot spots such as: E9::eval, Task::parse,
-    extractLines.</li>
-</ul>
-</p>
+                <pre>&lt;red&gt; DATA &lt;/red&gt;&lt;red&gt; DATA &lt;/red&gt;</pre>
 
-<h3>Arg:: enum Conversions 2011-08-21</h3>
-<p>
-Modifying Arg::_category and Arg::_type from std::string to enum has made a
-significantly larger gain in E9::eval performance than expected.  Using the
-standard test data and queries, average filter times dropped from:
+                This should be located and reduced to:
 
-<pre>
-  task all    8514 &rarr; 5829 = 31%
-  task list   6711 &rarr; 4644 = 30%
-  task next   6587 &rarr; 4607 = 30%
-</pre>
-</p>
+                <pre>&lt;red&gt; DATA  DATA &lt;/red&gt;</pre>
 
-<h3>New Baseline 2011-08-19</h3>
-<p>
-Taskwarrior 2.0 has several new components, which impact performance:
-</p>
-<p>
-<ul>
-<li>The TDB database accessor is replaced by TDB2, which provides a layered
-    implementation (file <--> string <--> lines <--> tasks) which allows for
-    on-demand parsing lines into tasks, rather than always parsing every
-    line.  TDB2 also implements the concept of the backlog, which are the
-    collection of offline changes that are not yet synched to the server.
-    TDB2 is expected to be faster, except when server communication is
-    involved.</li>
-<li>The filtering mechanism is replaced by a more complex, but significantly
-    more capable E9 expression evaluator.  This allows much greater flexibility
-    in terms of filter complexity, by introducing operators, precedence, AND,
-    OR, XOR and date math.  The filtering is expected to be slower.</li>
-<li>Sorting now uses std::sort instead of an implementation of CombSort11,
-    and is expected to be faster.  This is countered by the on-demand parsing,
-    which may now occur during sorting, skewing results.</li>
-<li>Rendering has been upgraded, from the old Table code that had several
-    very inefficient steps: (1) it made copies of all data, (2) the data copies
-    were involved in the sorting, which in the case of dates required re-parsing
-    the values.  The new rendering does not copy data, but uses references
-    into the TDB2 data.  Sorting is decoupled from rendering.  This new ViewTask
-    is expected to be faster.</li>
-</ul>
-</p>
-<p>
-The combination of the above changes means that it is no longer valid to compare
-2.0 to earlier versions.  Earlier data has been dropped, and 2.0 will be the
-performance baseline.
-</p>
+                This will reduce the volume of output generated, and in need of
+                reinterpretation by the terminal program.</li>
+            <li>Optimization of code hot spots such as: E9::eval, Task::parse,
+                extractLines.</li>
+            </ul>
+          </p>
+        </div>
+      </div>
 
-<h3>Standardized Testing Data</h3>
-<p>
-A standard data set has been defined for performance testing.  'Hamlet', Act I,
-has been loaded as a set of tasks.  Each line spoken is a task description,
-all speakers are added as tags, any royal titles are projects, anything Hamlet
-says is logged instead of added, and all lines spoken by Ghost are annotations
-to the prior line.
-</p>
+      <hr />
 
-<p>
-This result is a nice mix of pending versus completed, short and long
-descriptions.  There are 194 tasks, and will exercise the data load and
-rendering.
-</p>
+      <div class="row-fluid">
+        <div class="span12">
+          <h3>Arg:: enum Conversions 2011-08-21</h3>
+          <p>
+            Modifying Arg::_category and Arg::_type from std::string to enum has made a
+            significantly larger gain in E9::eval performance than expected.  Using the
+            standard test data and queries, average filter times dropped from:
 
-<p>
-A nightly run of several reports against the standard testing data is being
-performed, and data is being accumulated.  The performance results of this will
-be made available online.
-</p>
+            <pre>
+              task all    8514 &rarr; 5829 = 31%
+              task list   6711 &rarr; 4644 = 30%
+              task next   6587 &rarr; 4607 = 30%</pre>
+          </p>
+        </div>
+      </div>
 
-<!-- Piwik -->
-<script type="text/javascript">
-var pkBaseURL = (("https:" == document.location.protocol) ? "https://tasktools.org/piwik/" : "http://tasktools.org/piwik/");
-document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
-</script><script type="text/javascript">
-try {
-var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
-piwikTracker.trackPageView();
-piwikTracker.enableLinkTracking();
-} catch( err ) {}
-</script><noscript><p><img src="http://tasktools.org/piwik/piwik.php?idsite=3" style="border:0" alt="" /></p></noscript>
-<!-- End Piwik Tag -->
-</body>
+      <hr />
+
+      <div class="row-fluid">
+        <div class="span12">
+          <h3>New Baseline 2011-08-19</h3>
+          <p>
+            Taskwarrior 2.0 has several new components, which impact performance:
+          </p>
+          <p>
+            <ul>
+              <li>The TDB database accessor is replaced by TDB2, which provides a layered
+                  implementation (file <--> string <--> lines <--> tasks) which allows for
+                  on-demand parsing lines into tasks, rather than always parsing every
+                  line.  TDB2 also implements the concept of the backlog, which are the
+                  collection of offline changes that are not yet synched to the server.
+                  TDB2 is expected to be faster, except when server communication is
+                  involved.</li>
+              <li>The filtering mechanism is replaced by a more complex, but significantly
+                  more capable E9 expression evaluator.  This allows much greater flexibility
+                  in terms of filter complexity, by introducing operators, precedence, AND,
+                  OR, XOR and date math.  The filtering is expected to be slower.</li>
+              <li>Sorting now uses std::sort instead of an implementation of CombSort11,
+                  and is expected to be faster.  This is countered by the on-demand parsing,
+                  which may now occur during sorting, skewing results.</li>
+              <li>Rendering has been upgraded, from the old Table code that had several
+                  very inefficient steps: (1) it made copies of all data, (2) the data copies
+                  were involved in the sorting, which in the case of dates required re-parsing
+                  the values.  The new rendering does not copy data, but uses references
+                  into the TDB2 data.  Sorting is decoupled from rendering.  This new ViewTask
+                  is expected to be faster.</li>
+            </ul>
+          </p>
+          <p>
+            The combination of the above changes means that it is no longer valid to compare
+            2.0 to earlier versions.  Earlier data has been dropped, and 2.0 will be the
+            performance baseline.
+          </p>
+        </div>
+      </div>
+
+      <hr />
+
+      <div class="row-fluid">
+        <div class="span12">
+          <h3>Standardized Testing Data</h3>
+          <p>
+            A standard data set has been defined for performance testing.  'Hamlet', Act I,
+            has been loaded as a set of tasks.  Each line spoken is a task description,
+            all speakers are added as tags, any royal titles are projects, anything Hamlet
+            says is logged instead of added, and all lines spoken by Ghost are annotations
+            to the prior line.
+          </p>
+
+          <p>
+            This result is a nice mix of pending versus completed, short and long
+            descriptions.  There are 194 tasks, and will exercise the data load and
+            rendering.
+          </p>
+
+          <p>
+            A nightly run of several reports against the standard testing data is being
+            performed, and data is being accumulated.  The performance results of this will
+            be made available online.
+          </p>
+        </div>
+      </div>
+
+      <br />
+
+      <hr />
+      Copyright &copy; 2012,
+      <a href="http://yootabory.org">Göteborg Bit Factory</a>.
+    </div> <!-- /container -->
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+    var pkBaseURL = (("https:" == document.location.protocol) ? "https://tasktools.org/piwik/" : "http://tasktools.org/piwik/");
+    document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+    </script><script type="text/javascript">
+    try {
+    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
+    piwikTracker.trackPageView();
+    piwikTracker.enableLinkTracking();
+    } catch( err ) {}
+    </script><noscript><p><img src="http://tasktools.org/piwik/piwik.php?idsite=3" style="border:0" alt="" /></p></noscript>
+    <!-- End Piwik Tag -->
+  </body>
 </html>
+
