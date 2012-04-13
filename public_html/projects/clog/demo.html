@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>tasktools.org</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono:regular' rel='stylesheet' type='text/css'>
+
+    <link href="../../assets/css/bootstrap.css" rel="stylesheet">
+    <style>
+      body {
+        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+      }
+    </style>
+    <link href="../../assets/css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../../assets/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+
+  <body>
+    <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="http://tasktools.org">tasktools.org</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="http://taskwarrior.org">taskwarrior.org</a></li>
+            </ul>
+
+            <ul class="nav pull-right">
+              <li><a href="../../about.html">About</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="mailto:support@taskwarrior.org">taskwarrior Support</a></li>
+                  <li><a href="mailto:support@yootabory.org">yootabory Support</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span8">
+          <h3>Demo</h3>
+          <p>
+            Clog is a colorized log viewer.  It can spot text on a line in a log
+            file and apply color to it, a little like this:
+          </p>
+          <p><img src="clog-sed.png" /></p>
+          <p>
+            This would spot the text ' error ' in access.log and mark up the
+            matched text.  This is what clog does.
+          </p>
+          <h3>Sample Data</h3>
+          <p>
+            We start with a fragment of text, from the opening scene of Hamlet.
+            This is just an example, but will illustrate how clog can be applied
+            to log files.
+          </p>
+          <p><img src="clog-hamlet.png" /></p>
+          <h3>Simple Filter</h3>
+          <p>
+            By default, clog is a pass-through filter that does nothing:
+          </p>
+          <p><img src="clog-nothing.png" /></p>
+          <h3>Timestamps</h3>
+          <p>
+            Clog has some basic features, for example it can prepend timestamps
+            to the lines:
+          </p>
+          <p><img src="clog-timestamp.png" /></p>
+          <h3>Rules</h3>
+          <p>
+            Now we add a rule to colorize some text:
+          </p>
+          <p><img src="clog-rule.png" /></p>
+          <p>
+            This rules says that if the text "HORATIO" is found, then the
+            matching text is colored red.  The 'default' keyword is a rule
+            section, which allows multiple rules sets - more on that later.
+          </p>
+          <p><img src="clog-rule1.png" /></p>
+          <p>
+            Another rule:
+          </p>
+          <p><img src="clog-rule2.png" /></p>
+          <p>
+            This rule says that if the text "MARCELLUS" is found, then the
+            matching line is colored with a blue background.
+          </p>
+          <p><img src="clog-rule12.png" /></p>
+          <p>
+            Additionally lines may be suppressed:
+          </p>
+          <p><img src="clog-rule3.png" /></p>
+          <p>
+            This rule will suppress the line, instead of coloring it:
+          </p>
+          <p><img src="clog-rule123.png" /></p>
+          <h3>Regular Expressions</h3>
+          <p>
+            So far the rules have all involved text string matches.
+            Clog also supports regular expressions, with a slight modification
+            to the rule syntax:
+          </p>
+          <p><img src="clog-regex.png" /></p>
+          <p>
+            These rules color 'Who' or 'who' red and the word 'night' (indeed
+            anything matching n...t blue.
+          </p>
+          <p><img src="clog-r12.png" /></p>
+          <h3>Rule Sets</h3>
+          <p>
+            The section name can be used to maintain several rule sets.  Here
+            there are two rule sets:
+          </p>
+          <p><img src="clog-sets.png" /></p>
+          <p>
+            Now we can invoke the default set by not specifying a rule set:
+          </p>
+          <p><img src="clog-set1.png" /></p>
+          <p>
+            Or we can select just the Shakespeare set, by providing the rule
+            set name as an argument:
+          </p>
+          <p><img src="clog-set2.png" /></p>
+          <p>
+            Or we can select multiple rule sets if we wish, but these will
+            not include the default set:
+          </p>
+          <p><img src="clog-set12.png" /></p>
+        </div>
+      </div>
+
+      <br />
+
+      <hr />
+      Copyright &copy; 2012,
+      <a href="http://tasktools.org/about.html">Göteborg Bit Factory</a>.
+    </div> <!-- /container -->
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../../assets/js/jquery.js"></script>
+    <script src="../../assets/js/bootstrap-transition.js"></script>
+    <script src="../../assets/js/bootstrap-alert.js"></script>
+    <script src="../../assets/js/bootstrap-modal.js"></script>
+    <script src="../../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../../assets/js/bootstrap-tab.js"></script>
+    <script src="../../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../../assets/js/bootstrap-popover.js"></script>
+    <script src="../../assets/js/bootstrap-button.js"></script>
+    <script src="../../assets/js/bootstrap-collapse.js"></script>
+    <script src="../../assets/js/bootstrap-carousel.js"></script>
+    <script src="../../assets/js/bootstrap-typeahead.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+    var pkBaseURL = (("https:" == document.location.protocol) ? "https://tasktools.org/piwik/" : "http://tasktools.org/piwik/");
+    document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+    </script><script type="text/javascript">
+    try {
+    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
+    piwikTracker.trackPageView();
+    piwikTracker.enableLinkTracking();
+    } catch( err ) {}
+    </script><noscript><p><img src="http://tasktools.org/piwik/piwik.php?idsite=3" style="border:0" alt="" /></p></noscript>
+    <!-- End Piwik Tag -->
+  </body>
+</html>
+
