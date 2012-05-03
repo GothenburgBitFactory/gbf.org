@@ -3,9 +3,9 @@ New Users
 2009               46
 2010               78
 2011              159
-2012               37
+2012               71
                   ---
-                  320
+                  354
 
 
 2009 May            5
@@ -55,8 +55,9 @@ Total             159
 2012 January       14
 2012 February       5
 2012 March         18
+2012 April         34
                   ---
-Total              37
+Total              71
 
 
 ---
@@ -418,5 +419,40 @@ sumanagrl342      sumana         grl                sumana.grl342@gmail.com     
 alexmartin019     alex           martin             alexmartin019@gmail.com                 2012-03-24
 franksmith366     frank          smith              streetmandonald@yahoo.com               2012-03-26
 stasg             no             no                 stas@gobunov.com                        2012-03-28
+----------------  -------------  -----------------  --------------------------------------  ----------
+seanh             Sean           Hammond            snhmnd@gmail.com                        2012-04-01
+sumanji           sumanji        sumanji            sumanji42@gmail.com                     2012-04-02
+npiv              Nick           Valindi            tantram@gmail.com                       2012-04-02
+mmirate           Milo           Mirate             mmirate@gmx.com                         2012-04-03
+LambdaDriver      Dave           Snigier            dsnigier@gmail.com                      2012-04-03
+kierun            Yann           Golanski           taskwarrior@kierun.org                  2012-04-03
+xer0x             Drew           Miller             drew666@gmail.com                       2012-04-03
+snovak            Stefan         Novak              stefan.louis.novak@gmail.com            2012-04-04
+thrombomodulin    Peter          Van Wieren         p_vw@sbcglobal.net                      2012-04-06
+tuxitop           Ali            Mousavi            ali.mousavi@gmail.com                   2012-04-06
+dil               David          Lehn               dil@lehn.org                            2012-04-07
+matse             Mathias        Anselmann          mathias.anselmann@linux.com             2012-04-08
+chabot            Alex           Chabot             alexandre.chabot.leclerc@gmail.com      2012-04-08
+hmpf              dirk           sarpe              dns_hmpf@web.de                         2012-04-09
+vroetman          Victor         Roetman            vroetman@yahoo.com                      2012-04-09
+jrheard           JR             Heard              ewingpatriarch@gmail.com                2012-04-12
+bbigras           Bruno          Bigras             bigras.bruno@gmail.com                  2012-04-12
+atnt              Oleksii        Tsai               oleksii.tsai@googlemail.com             2012-04-12
+fok               Marek          Vitek              fok@seznam.cz                           2012-04-12
+helmut            Helmut         Grohne             helmut@subdivi.de                       2012-04-13
+PezHead           David          B                  dbireta@gmail.com                       2012-04-13
+raid1             Andy           Spiegl             taskwarrior.andy@spiegl.de              2012-04-14
+walther_wasser    walther        wasser             tra001@fedux.org                        2012-04-16
+drbig             Piotr          Staszewski         p.staszewski@gmail.com                  2012-04-18
+tzok              Tomasz         Żok                tomasz.zok@gmail.com                    2012-04-19
+canon             Louis-Claude   Canon              louis-claude.canon@inria.fr             2012-04-21
+erikw             Erik           Westrup            erik.westrup@gmail.com                  2012-04-22
+SEJeff            Jeff           Schroeder          jeffschroeder@computer.org              2012-04-25
+vsbabu            Satheesh       Vattekkat          vsbabu@gmail.com                        2012-04-25
+ijauer            Ingo           Jauer              ijauer@uni-bremen.de                    2012-04-25
+Karunamon         Michael        Parks              mparks@tkware.info                      2012-04-26
+domingodoogan4    domingo        doogan             domingodoogan4@hotmail.com              2012-04-27
+hessianerd        Hessian        Nerd               hessianerd@gmail.com                    2012-04-27
+locker99          Mohammed       Nur                baddacas@gmail.com                      2012-04-29
 ----------------  -------------  -----------------  --------------------------------------  ----------
 
