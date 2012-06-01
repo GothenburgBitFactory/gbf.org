@@ -3,9 +3,9 @@ New Users
 2009               46
 2010               78
 2011              159
-2012               71
+2012               86
                   ---
-                  354
+                  369
 
 
 2009 May            5
@@ -56,8 +56,9 @@ Total             159
 2012 February       5
 2012 March         18
 2012 April         34
+2012 May           15
                   ---
-Total              71
+Total              86
 
 
 ---
@@ -455,4 +456,19 @@ domingodoogan4    domingo        doogan             domingodoogan4@hotmail.com  
 hessianerd        Hessian        Nerd               hessianerd@gmail.com                    2012-04-27
 locker99          Mohammed       Nur                baddacas@gmail.com                      2012-04-29
 ----------------  -------------  -----------------  --------------------------------------  ----------
-
+dimonf            Dmitri         Kourbatsky         camel109@gmail.com                      2012-05-03
+richboss          Richard        Boß                richboss@gmail.com                      2012-05-04
+jaromil           Jaromil        Rojo               jaromil@dyne.org                        2012-05-05
+ryanmerritt       ryan           merritt            ryan@ryanmerritt.com                    2012-05-07
+khb8468           Ken            Brown              khb8468@gmail.com                       2012-05-09
+lydgate           Bryan          Kam                taskwarrior@vo.racio.us                 2012-05-10
+vladimir108       vladimir       108                vl@dimir.cz                             2012-05-10
+wichtounet        Baptiste       Wicht              baptistewicht@gmail.com                 2012-05-11
+fsavigny          Florian v.     Savigny            florian@fsavigny.de                     2012-05-11
+henrytask         Henry          Bremridge          henry+taskwarrior@xobie.com             2012-05-14
+taskii            tomoth         chen               duply.han@gmail.com                     2012-05-14
+jenniferdave      jennifer       dave               harkerdon@yahoo.com                     2012-05-17
+lastcoolname      Peter          Fischer            letzterfreiercoolername@googlemail.com  2012-05-18
+gujiaxi           Isaac          Koo                gujiaxi@msn.com                         2012-05-24
+bcomnes           Bret           Comnes             bcomnes@gmail.com                       2012-05-28
+----------------  -------------  -----------------  --------------------------------------  ----------
