@@ -3,9 +3,9 @@ New Users
 2009               46
 2010               78
 2011              159
-2012               86
+2012               98
                   ---
-                  369
+                  381
 
 
 2009 May            5
@@ -57,8 +57,9 @@ Total             159
 2012 March         18
 2012 April         34
 2012 May           15
+2012 June          12
                   ---
-Total              86
+Total              98
 
 
 ---
@@ -472,3 +473,17 @@ lastcoolname      Peter          Fischer            letzterfreiercoolername@goog
 gujiaxi           Isaac          Koo                gujiaxi@msn.com                         2012-05-24
 bcomnes           Bret           Comnes             bcomnes@gmail.com                       2012-05-28
 ----------------  -------------  -----------------  --------------------------------------  ----------
+singularity       Stanley        G                  xxsingularityxx@gmail.com               2012-06-04
+nichorab          Nicholas E.    Rabenau            nerab@gmx.at                            2012-06-08
+freespinsbets     John           Marsh              Johnmarsh72@buzzingmovies.com           2012-06-12
+GMX               Jim            B                  gunmetalx@gmail.com                     2012-06-14
+Jonas             Jonas          Persson            l.j.persson@gmail.com                   2012-06-15
+jab               joe            a                  tw@abendroth.info                       2012-06-18
+chriskelly        Chris          Kelly              eurochriskelly@gmail.com                2012-06-21
+jimu              Jim            Urbas              taskwarrior@jimu.net                    2012-06-26
+nictMalltenue     nictMalltenue  nictMalltenue      Inarlynen@gmail.com                     2012-06-27
+isaacaggrey       Isaac          Aggrey             theisaac1@gmail.com                     2012-06-27
+clange            Christoph      Lange              christoph@clange.de                     2012-06-28
+asfallows         Andrew         Fallows            asfallows@gmail.com                     2012-06-28
+----------------  -------------  -----------------  --------------------------------------  ----------
+
