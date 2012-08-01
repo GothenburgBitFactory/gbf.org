@@ -3,9 +3,9 @@ New Users
 2009               46
 2010               78
 2011              159
-2012               98
+2012              116
                   ---
-                  381
+                  399
 
 
 2009 May            5
@@ -58,8 +58,9 @@ Total             159
 2012 April         34
 2012 May           15
 2012 June          12
+2012 July          18
                   ---
-Total              98
+Total             116
 
 
 ---
@@ -485,5 +486,24 @@ nictMalltenue     nictMalltenue  nictMalltenue      Inarlynen@gmail.com         
 isaacaggrey       Isaac          Aggrey             theisaac1@gmail.com                     2012-06-27
 clange            Christoph      Lange              christoph@clange.de                     2012-06-28
 asfallows         Andrew         Fallows            asfallows@gmail.com                     2012-06-28
+----------------  -------------  -----------------  --------------------------------------  ----------
+lightningdb       David          Bolton             david@davidbolton.net                   2012-07-05
+Roman753          Roman          Li                 wvvwprv@gmail.com                       2012-07-07
+roseharvey        Rose           Harvey             aliceb.maria1988@gmail.com              2012-07-11
+spbnick           Nikolai        Kondrashov         spbnick@gmail.com                       2012-07-12
+StepanHenek       Štěpán         Henek              stepan.henek@seznam.cz                  2012-07-15
+jagipson          JEFFREY        GIPSON             jeffagipson@gmail.com                   2012-07-17
+scottk            Scott          Kostyshak          scott.kostyshak@gmail.com               2012-07-18
+andro             lun            wei                sendtofaraway@gmail.com                 2012-07-19
+sullivan.t        Thomas         Sullivan           sullivan.t@gmail.com                    2012-07-20
+symp              stéphane       pezennec           stephane.pezennec@gmail.com             2012-07-23
+laladafil1972     edisf1986      edisf1986          indexmefastmi@gmail.com                 2012-07-23
+chstr             lukas          linus              chesster@jabster.pl                     2012-07-23
+Szkolejrf8        Firmyktx0      Firmyktx0          transpo|kpc8@muniado.waw.pl             2012-07-23
+padzzwncn         padzzweeb      padzzweeb          iop6h9m@gmail.com                       2012-07-24
+Speesiabype       Speesiabype    Speesiabype        david.berutz@aol.com                    2012-07-24
+WhedlyThype23     WhedlyThype96  WhedlyThype96      jokolowsa123@prokonto.pl                2012-07-24
+jdcpar5           Jeff           Chasin             jeff@jeffchasin.com                     2012-07-26
+joon              Joon           Ro                 joonpyro@gmail.com                      2012-07-30
 ----------------  -------------  -----------------  --------------------------------------  ----------
 

@@ -901,5 +901,38 @@ June 2012
 
     29 vittk-1.3.tar.gz
 
+July 2012
+     5 task-2.0.0-1.fc16.i686.rpm
+    38 task-2.0.0.pkg
+   351 task-2.0.0.tar.gz
+    24 task_2.0.0-0deb
+    17 task_2.0.0-0ubuntu2~oneiric2_i386.deb
+  ----
+   435
+
+     8 task-2.1.0-l.pkg
+    12 task-2.1.0.beta1.tar.gz
+    18 task-2.1.0.beta2.tar.gz
+    41 task-2.1.0.beta3.tar.gz
+   104 task-2.1.0.tar.gz
+  ----
+   183
+
+    22 task-2.1.1-l.pkg
+     4 task-2.1.1-ml.pkg
+   286 task-2.1.1.tar.gz
+  ----
+   312
+
+   286 task-2.0.0.ref.pdf
+    30 task-2.1.0.ref.pdf
+   120 task-2.1.1.ref.pdf
+  ----
+   436
+
+    26 tw-ubcde11.pdf
+
+    31 vittk-1.3.tar.gz
+
 ---
 
