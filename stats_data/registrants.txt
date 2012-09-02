@@ -3,9 +3,9 @@ New Users
 2009               46
 2010               78
 2011              159
-2012              116
+2012              127
                   ---
-                  399
+                  410
 
 
 2009 May            5
@@ -59,20 +59,21 @@ Total             159
 2012 May           15
 2012 June          12
 2012 July          18
+2012 August        11
                   ---
-Total             116
+Total             127
 
 
 ---
 
-LOGIN             FIRSTNAME      LASTNAME           EMAIL                                   CREATED
-----------------  -------------  -----------------  --------------------------------------  ----------
+LOGIN                   FIRSTNAME      LASTNAME           EMAIL                                   CREATED
+----------------------  -------------  -----------------  --------------------------------------  ----------
 classpath         Jin-young      Heo                classpath@gmail.com                     05/29/2009
 paul              Paul           Beckingham         paul@beckingham.net                     05/25/2009
 ultrafredde       Federico       Hernandez          ultrafredde@gmail.com                   05/25/2009
 djp               David          Patrick            djp@linuxcaffe.ca                       05/25/2009
 admin             Jamon          Camisso            jamonation@gmail.com                    05/25/2009
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 jflorian          John           Florian            john@doubledog.org                      06/12/2009
 fgaughan          Fintan         Gaughan            fgaughan@gmail.com                      06/12/2009
 skn               S              K                  sk.list@gmail.com                       06/10/2009
@@ -83,18 +84,18 @@ darthjames        James          Salazar            darth.james@gmail.com       
 tcyun             t charles      yun                tcyun.home@gmail.com                    06/06/2009
 kchmck            Mick           Koch               kchmck@gmail.com                        06/06/2009
 ArchiMark         Mark           Srebnik            msrebnik@earthlink.net                  06/06/2009
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 gahr              Pietro         Cerutti            gahr@FreeBSD.org                        07/23/2009
 stas              Stas           Antons             stas.antons@gmail.com                   07/21/2009
 eafarris          eric           Farris             eric@eafarris.com                       07/07/2009
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 bjj               Ben            Jackson            ben@ben.com                             08/31/2009
 rfquerin          Richard        Querin             rfquerin@gmail.com                      08/24/2009
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 prooftheory       Frank          LeHouillier        prooftheory@yahoo.com                   09/28/2009
 rsandilands       Richard        Sandilands         richard@infoarts.info                   09/15/2009
 AndreasBWagner    Andreas        Wagner             AndreasBWagner@gmail.com                09/08/2009
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 ivotron           Ivo            Jimenez            ivo.jimenez@gmail.com                   10/27/2009
 madiot            p              madiot             pierre.madiot@gmail.com                 10/26/2009
 limon             Levent         Dane               limon@koli.be                           10/25/2009
@@ -107,7 +108,7 @@ slitt             Steve          Litt               slitt@troubleshooters.com   
 losgann           John           Porubek            jporubek@gmail.com                      10/15/2009
 kula              ku             La                 kula@kulisz.net                         10/15/2009
 ilSignorCarlo     Carlo          Carlo              mr.spoon21@gmail.com                    10/07/2009
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 tbourke           Timothy        Bourke             timothybourke@gmail.com                 11/29/2009
 jue               Juergen        Daubert            juergen.daubert@gmx.net                 11/25/2009
 kartal            kartal         kartal             gecicigec@fastmail.fm                   11/22/2009
@@ -115,32 +116,32 @@ cav               Cory           Donnelly           cory@onryou.com             
 wonsungi          John           Murphy             wonsungi@gmail.com                      11/14/2009
 Jopey             Joe            Pulliam            joe.pulliam@daimler.com                 11/09/2009
 thomasaaron       Thomas         Aaron              tbaaron@gmail.com                       11/05/2009
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 alparo            Gleb           Javorsky           javorsky.gleb@gmail.com                 12/30/2009
 icebrain          André          Paramés            icebraining@gmail.com                   12/18/2009
 swk               Pawel          Sowinski           admin@mmtech.pl                         12/08/2009
 kpulo             Kevin          Pulo               kev@pulo.com.au                         12/06/2009
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 parsifal          Sean           Gilbertson         sean.gilbertson@gmail.com               01/05/2010
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 zbyhoo            zbyhoo         _                  zbyhoo@gmail.com                        02/12/2010
 supersobbie       Super          SoBBie             supersobbie@gmail.com                   02/10/2010
 alexbevi          Alex           Bevilacqua         alexbevi@gmail.com                      02/03/2010
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 ddeimeke          Dirk           Deimeke            dirk@deimeke.net                        03/19/2010
 bmwchicken        m              tao                bmwchicken@yahoo.com                    03/15/2010
 monkey            Andy           Novikov            seemonkeymagic@gmail.com                03/11/2010
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 13warrior         Sharad         Ganapathy          sharadgana@gmail.com                    04/23/2010
 oschrenk          Oliver         Schrenk            oliver.schrenk@gmail.com                04/13/2010
 theunraveler      Jake           Bell               jake.b.bell@gmail.com                   04/01/2010
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 frznchckn         Russell        Friesenhahn        frznchckn@gmail.com                     05/28/2010
 cedardoc          Dave           Parker             cedardocster@gmail.com                  05/25/2010
 locke             Robert         Gill               locke@sdf.lonestar.org                  05/18/2010
 blueyed           Daniel         Hahler             taskwarrior@thequod.de                  05/12/2010
 vali              Johannes       Schlatow           johannes.schlatow@googlemail.com        05/09/2010
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 hotte             Andreas        Kalex              aklex@gmx-topmail.de                    06/30/2010
 FlaySterMs        FlaySterMs     FlaySterMs         guthrie.leslie@gmail.com                06/29/2010
 madmerry          Regis A.       Despres            taskwarrior@junk.indolore.net           06/25/2010
@@ -149,12 +150,12 @@ crane             Michelle       Crane              michellelcrane@gmail.com    
 daniloz           Danilo         Zanatta            dan.zanatta@gmail.com                   06/18/2010
 mjos              Michal         Josífko            mjos@volny.cz                           06/17/2010
 axyjo             Akshay         Joshi              joshi.a@gmail.com                       06/02/2010
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 zeltak            zed            b.                 zeltak@gmail.com                        07/27/2010
 sfauzia           Sara           Fauzia             sara@archlinux.us                       07/25/2010
 JXDavid           JXDavid        JXDavid            vasiliicelyh@mail.ru                    07/01/2010
 kevin_o           Kevin          Owens              kevin.j.ownes@gmail.com                 07/01/2010
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 ephzero           Eph            Zero               eph.zero@gmail.com                      08/06/2010
 hide              anon           ymous              violetcitron@gmail.com                  08/23/2010
 AntuanXlll        José Antonio   Islas              josantonioislas@yahoo.com.mx            08/23/2010
@@ -171,18 +172,18 @@ jos@xos.nl        Jos            Vos                jos@xos.nl                  
 urlwolf           Jose           Quesada            quesada@gmail.com                       08/25/2010
 nbkr              Benjamin       Fleckenstein       bfnbkr@web.de                           08/26/2010
 VeronnikaVIP      VeronnikaVIP   VeronnikaVIP       oxidenigree@mail.ru                     08/27/2010
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 xl666             Xavier         L                  xavi004@gmail.com                       09/02/2010
 hairymail         Peter          Barry              hairymail@gmail.com                     09/17/2010
 TasklessWarrior   -              -                  emma.urquhart@gmail.com                 09/21/2010
 jmyost            Joshua         Yost               jmyost@gmail.com                        09/23/2010
 turquoise1        turquo         ise                iletigonder@plecxus.com                 09/29/2010
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 emaxson           Elizabeth      Maxson             maxson.elizabeth@gmail.com              10/01/2010
 jostber           Jostein        Berntsen           jbernts@broadpark.no                    10/10/2010
 fornve            Marek          Dajnowski          marek@dajnowski.net                     10/15/2010
 pdp               Peter          De Poorter         pdp_dev@scarlet.be                      10/19/2010
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 rossarn           Ross           Arnold             rossarn@gmail.com                       11/09/2010
 xales             Jake           Greenfield         jakehp55@gmail.com                      11/10/2010
 maxmuller         Max            Muller             maxmuller@gmail.com                     11/12/2010
@@ -195,7 +196,7 @@ Sander_Marechal   Sander         Marechal           s.marechal@jejik.com        
 Ryan              Ryan           Chris              superryan@gmail.com                     11/23/2010
 narkster          Nicholas       Herring            nicholas.herring@gmail.com              11/27/2010
 suhlig            Steffen        Uhlig              steffen@familie-uhlig.net               11/29/2010
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 Rense             Rense          Corten             rcorten@gmail.com                       12/02/2010
 mathstuf          Ben            Boeckel            mathstuf@gmail.com                      12/09/2010
 andreafranco82    andrea         franco             a.franco82@yahoo.it                     12/11/2010
@@ -210,7 +211,7 @@ lynchs61          Sean           Lynch              lynchseanm@gmail.com        
 ericfluger        Eric           Fluger             ef@panix.com                            12/27/2010
 mnajem            Muhammad Najmi Ahmad Zabidi       najmi.zabidi@gmail.com                  12/28/2010
 rader             steve          rader              rader@hep.wisc.edu                      12/29/2010
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 kokaku            Andy           Kriger             andy@householder-yogi.net               01/02/2011
 pmz253            Pete           Morrison           jmthethird@gmail.com                    01/05/2011
 louipc            Loui           C                  louipc.ist@gmail.com                    01/09/2011
@@ -224,7 +225,7 @@ cbgrey            Christopher    Grey               chrisgrey09@gmail.com       
 enannarty         enannarty      enannarty          maccek55@gmx.us                         01/29/2011
 robertbrook       Robert         Brook              mail@robertbrook.com                    01/29/2011
 framallo          Federico       Ramallo            framallo@gmail.com                      01/31/2011
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 sparky            Nathan         Acks               nathan.acks@gmail.com                   02/05/2011
 abowen            Alan           Bowen              bowen@tcnj.edu                          02/05/2011
 telmich           Nico           Schottelius        nico-taskwarrior.org@schottelius.org    02/10/2011
@@ -237,7 +238,7 @@ drednout          Alexei         Romanoff           drednout.by@gmail.com       
 tomf              Tom            Fawcett            tom.fawcett@gmail.com                   02/27/2011
 ddimitriadis      Dimitris       Dimitriadis        dimitris@ontologicon.com                02/27/2011
 souterrain        Christopher J. Pilkington         cjp@0x1.net                             02/28/2011
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 tomuo             Tom            Duffy              tduffy@tascam.com                       03/01/2011
 livenono          Arnaud         K                  arnaud.k@gmail.com                      03/02/2011
 mantas            Mantas         Povilaitis         mantas@povilaitis.eu                    03/08/2011
@@ -256,7 +257,7 @@ iconco            Valentin       Podkovyrov         podkovirov@gmail.com        
 erichschroeter    Erich          Schroeter          erichschroeter@gmail.com                03/24/2011
 youam             Uli            Martens            uli@youam.net                           03/27/2011
 Ealianis          Sean           Hobbs              SeanH@Sean-Hobbs.com                    03/29/2011
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 Sleep_Walker      Tomas          Cech               sleep_walker@suse.cz                    04/05/2011
 ag                Arkady         Grudzinsky         agrudzinsky@gmail.com                   04/06/2011
 jmhammond         John           Hammond            jmhammond@gmail.com                     04/08/2011
@@ -272,7 +273,7 @@ Eckhard           Eckhard        Wiemann            wiemann@mail.upb.de         
 greg              Greg           Grossmeier         greg@grossmeier.net                     04/24/2011
 sparklenostril    Forest         Monsen             forest.monsen@gmail.com                 04/27/2011
 Ruthan            Ruthan         Freese             alphasqix@gmail.com                     04/28/2011
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 McSvenster        Sven           Koesling           mcsvenster@yahoo.de                     05/02/2011
 JanLo             Jan            Losinski           losinski@wh2.tu-dresden.de              05/03/2011
 K_REY_C           Kyle           Conway             kyle.r.conway@gmail.com                 05/06/2011
@@ -294,7 +295,7 @@ arc_of_descent    Rohan          Almeida            rohan@almeida.in            
 mulander          Adam           Wolk               netprobe@gmail.com                      05/30/2011
 dabeeeenster      Ben            Rometsch           ben@solidstategroup.com                 05/31/2011
 pi3ch             Pedram         Ha                 pi3ch@gmx.com                           05/31/2011
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 kaulian           kaulian        --                 kaulian@gmail.com                       06/29/2011
 GilTheARM         Gilbert        Hamilton           gil.a.hamilton@gmail.com                06/28/2011
 ridicter          John           Richter            johndavidrichter@gmail.com              06/26/2011
@@ -309,7 +310,7 @@ rhombus           Tom            Thompson           tom@recursionfairy.com      
 MichaelM          Michael        McCann             michael.charles.mccann@gmail.com        06/02/2011
 pudgereyem        Victor         Meyer              victor.reyem@gmail.com                  06/02/2011
 simonvc           Simon          VC                 taskwarrior@simon.vc                    06/01/2011
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 miguel            Miguel         de Val Borro       miguel.deval@gmail.com                  07/05/2011
 bgroper           Brian G        Roper              bgroper@bur.st                          07/21/2011
 flickerfly        Josiah         Ritchie            josiah@josiahritchie.com                07/21/2011
@@ -323,7 +324,7 @@ killy9999         Janek          Stolarek           fremenzone@poczta.onet.pl   
 daniel.kullmann   Daniel         Kullmann           daniel.kullmann@gmx.de                  07/27/2011
 JJ                John           Jones              jj@hush.ai                              07/28/2011
 tknv              Takanobu       Watanabe           rreedd555@gmail.com                     07/29/2011
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 jdevera           Jacobo         de Vera            devel@jacobodevera.com                  08/01/2011
 asqui             Dani           Asqui              daniasqui+taskwarriorforum@gmail.com    08/02/2011
 sbhatti           S              Bhatti             sbhatti@peak6.com                       08/03/2011
@@ -341,7 +342,7 @@ tidixon           Tim            Dixon              tidixon@gmail.com           
 jholloway7        Joe            Holloway           jholloway7@gmail.com                    08/24/2011
 boomshankerx      Lorne          Guse               boomshankerx@hotmail.com                08/27/2011
 katjam            Katja          Müller             katja_mueller@lavabit.com               08/28/2011
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 petrica           petrica        borcan             aurel2011@hotmail.com                   2011-09-01
 curious           Patrick        Gibbs              patrick0@riseup.net                     2011-09-04
 balthamos         Kevin          N                  balthamos89@gmail.com                   2011-09-05
@@ -350,7 +351,7 @@ earnette          Eric           Arnette            earnette+taskwarrior@gmail.c
 elf-pavlik        Pavlik         elf                perpetual-tripper@wwelves.org           2011-09-07
 ron               R              Palotai            palotai.robin@gmail.com                 2011-09-09
 philipp           Philipp        Woelfel            woelfel@gmx.net                         2011-09-11
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 temporas          Urs            Schuerch           outway@gmx.ch                           2011-10-08
 liquidweaver      Joshua         Weaver             joshuaweaver@gmail.com                  2011-10-10
 ArrowJ            Aaron          Jackson            jacksonaaronc@gmail.com                 2011-10-10
@@ -363,13 +364,13 @@ noqqe             Florian        Baumann            flo@noqqe.de                
 bmeeks            Barton         Meeks              barton.meeks@pobox.com                  2011-10-28
 Lars              Lars           Kumbier            larsscheithauer@googlemail.com          2011-10-29
 kovtunos          Andriy         Kovtun             kovtunos@yandex.ru                      2011-10-31
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 Tempos            Constantine    Kozlov             tempor.demonius@gmail.com               2011-11-15
 elliottw          elliott        williams           elliottw@gmail.com                      2011-11-15
 likid0            daniel         parkes             liquidsmail@gmail.com                   2011-11-16
 xancorreu         Xan            Bol                xancorreu@gmail.com                     2011-11-17
 ignoramus         Karl           Maihofer           ignoramus@gmx.de                        2011-11-19
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 alexe             clark          david              clark7812@gmail.com                     2011-12-03
 ishan.chhabra     Ishan          Chhabra            ishan.chhabra@gmail.com                 2011-12-03
 nuatteMot         nuatteMot      nuatteMot          wheedlepepart@articlenewsflasher.com    2011-12-04
@@ -381,7 +382,7 @@ nikolavp          Nikola         Petrov             nikolavp@gmail.com          
 dsambor           Dmitriy        Samborskiy         samborsky_d@yahoo.com                   2011-12-28
 sholtz            Stephen        Holtz              stephenlholtz@gmail.com                 2011-12-29
 paullik           Paul           Gheorghe           paullik.paul@gmail.com                  2011-12-29
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 taskwarrior       Taskwarrior    Team               support@taskwarrior.org                 2012-01-01
 Sussana           Sussana        Hooper             sussana@xtra.co.nz                      2012-01-02
 vittorio          Vittorio       G                  taskwarrior@vittorio.me                 2012-01-05
@@ -397,13 +398,13 @@ Lynoure           Lynoure        Braakman           lynoure@gmail.com           
 adam7962          adam           7962               adam7962@gmail.com                      2012-01-25
 apollodman        apollo         dman               albertmpowers@yahoo.com                 2012-01-26
 martyppace        marty          ppace              martyppace@yahoo.com                    2012-01-27
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 asterisc          Rares          Pop                astero2005@yahoo.ca                     2012-02-15
 darklajid         Benjamin       Podszun            dar@darklajid.de                        2012-02-16
 JennyTay          Jenny          Tay                sussane_sth@Hotmail.com                 2012-02-19
 kalafut           Jim            Kalafut            jim@kalafut.net                         2012-02-21
 urgetech4         urge           tech4              theurgetech4@yahoo.com                  2012-02-29
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 mjheagle          mike           h                  mjheagle8@gmail.com                     2012-03-01
 stephenhay        Stephen        Hay                haymail@gmail.com                       2012-03-05
 sschuldenzucker   Steffen        Schuldenzucker     sschuldenzucker@uni-bonn.de             2012-03-07
@@ -422,7 +423,7 @@ sumanagrl342      sumana         grl                sumana.grl342@gmail.com     
 alexmartin019     alex           martin             alexmartin019@gmail.com                 2012-03-24
 franksmith366     frank          smith              streetmandonald@yahoo.com               2012-03-26
 stasg             no             no                 stas@gobunov.com                        2012-03-28
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 seanh             Sean           Hammond            snhmnd@gmail.com                        2012-04-01
 sumanji           sumanji        sumanji            sumanji42@gmail.com                     2012-04-02
 npiv              Nick           Valindi            tantram@gmail.com                       2012-04-02
@@ -457,7 +458,7 @@ Karunamon         Michael        Parks              mparks@tkware.info          
 domingodoogan4    domingo        doogan             domingodoogan4@hotmail.com              2012-04-27
 hessianerd        Hessian        Nerd               hessianerd@gmail.com                    2012-04-27
 locker99          Mohammed       Nur                baddacas@gmail.com                      2012-04-29
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 dimonf            Dmitri         Kourbatsky         camel109@gmail.com                      2012-05-03
 richboss          Richard        Boß                richboss@gmail.com                      2012-05-04
 jaromil           Jaromil        Rojo               jaromil@dyne.org                        2012-05-05
@@ -473,7 +474,7 @@ jenniferdave      jennifer       dave               harkerdon@yahoo.com         
 lastcoolname      Peter          Fischer            letzterfreiercoolername@googlemail.com  2012-05-18
 gujiaxi           Isaac          Koo                gujiaxi@msn.com                         2012-05-24
 bcomnes           Bret           Comnes             bcomnes@gmail.com                       2012-05-28
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 singularity       Stanley        G                  xxsingularityxx@gmail.com               2012-06-04
 nichorab          Nicholas E.    Rabenau            nerab@gmx.at                            2012-06-08
 freespinsbets     John           Marsh              Johnmarsh72@buzzingmovies.com           2012-06-12
@@ -486,7 +487,7 @@ nictMalltenue     nictMalltenue  nictMalltenue      Inarlynen@gmail.com         
 isaacaggrey       Isaac          Aggrey             theisaac1@gmail.com                     2012-06-27
 clange            Christoph      Lange              christoph@clange.de                     2012-06-28
 asfallows         Andrew         Fallows            asfallows@gmail.com                     2012-06-28
-----------------  -------------  -----------------  --------------------------------------  ----------
+----------------------  -------------  -----------------  --------------------------------------  ----------
 lightningdb       David          Bolton             david@davidbolton.net                   2012-07-05
 Roman753          Roman          Li                 wvvwprv@gmail.com                       2012-07-07
 roseharvey        Rose           Harvey             aliceb.maria1988@gmail.com              2012-07-11
@@ -505,5 +506,16 @@ Speesiabype       Speesiabype    Speesiabype        david.berutz@aol.com        
 WhedlyThype23     WhedlyThype96  WhedlyThype96      jokolowsa123@prokonto.pl                2012-07-24
 jdcpar5           Jeff           Chasin             jeff@jeffchasin.com                     2012-07-26
 joon              Joon           Ro                 joonpyro@gmail.com                      2012-07-30
-----------------  -------------  -----------------  --------------------------------------  ----------
-
+----------------------  -------------  -----------------  --------------------------------------  ----------
+airwalker               Winfried    Wilberg     mail@nikno.de           2012-08-02                  07:58:36
+johnkelly               John        Kelly       johnkelly766@gmail.com  2012-08-10                  10:57:16
+moosh                   Christophe  Gesché      christophe@gesche.org   2012-08-12                  07:33:19
+joshhowlett             Josh        Howlett     josh.howlett@gmail.com  2012-08-13                  13:18:19
+robin.wenglewski        Robin       Wenglewski  robin@wenglewski.de     2012-08-15                  04:25:54
+taskwarrior@ch.pkts.ca  Penelope    Fudd        taskwarrior@ch.pkts.ca  2012-08-15                  16:06:53
+llg                     Loïc        Le          Guyader                 loic.leguyader@laposte.net  2012-08-20  11:31:13
+lammermann              Benjamin    Kober       kober@web.de            2012-08-21                  14:30:12
+fxkr                    Felix       Kaiser      felix.kaiser@fxkr.net   2012-08-24                  11:04:44
+oivvio                  oivvio      polite      m4@polite.se            2012-08-27                  20:31:16
+greenrd                 Robin       Green       greenrd@greenrd.org     2012-08-28                  19:01:03
+----------------------  -------------  -----------------  --------------------------------------  ----------
