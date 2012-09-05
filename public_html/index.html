@@ -8,35 +8,37 @@
     <meta name="author" content="">
 
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono:regular' rel='stylesheet' type='text/css'>
-
-    <link href="./assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="assets/css/docs.css" rel="stylesheet">
     <style>
       body {
-        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+        font-family: "Droid Sans Mono", Helvetica, Arial, sans-serif;
+        font-size: 13px;
       }
     </style>
-    <link href="./assets/css/bootstrap-responsive.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="shortcut icon" href="./assets/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="./assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
   </head>
 
   <body>
-    <div class="navbar navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
         <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </a>
-          <a class="brand" href="http://tasktools.org">tasktools.org</a>
+          </button>
+          <a class="brand" href="./index.html">tasktools.org</a>
           <div class="nav-collapse">
             <ul class="nav">
               <li><a href="http://taskwarrior.org">taskwarrior.org</a></li>
@@ -56,6 +58,13 @@
         </div>
       </div>
     </div>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span6">
+        </div>
+      </div>
+    </div> <!-- /container -->
 
     <div class="container-fluid">
       <div class="row-fluid">
@@ -102,7 +111,7 @@
         <div class="span4">
           <h3><a href="projects/libtaskd.html">libtaskd</a></h3>
           <p>
-            <span class="badge badge-error">0.9.0</span> Not yet available
+            <span class="badge badge-important">0.9.0</span> Not yet available
           </p>
           <p>
             &nbsp;
@@ -121,7 +130,7 @@
         <div class="span4">
           <h3><a href="projects/taskd.html">taskd</a></h3>
           <p>
-            <span class="badge badge-error">0.7.0</span> Not yet available
+            <span class="badge badge-important">0.7.0</span> Not yet available
           </p>
           <p>
             &nbsp;
@@ -194,7 +203,7 @@
         <div class="span4">
           <h3>tegelsten</h3>
           <p>
-            <span class="badge badge-error">0.8.0</span> Not yet available
+            <span class="badge badge-important">0.8.0</span> Not yet available
           </p>
           <p>
             &nbsp;
@@ -203,34 +212,35 @@
             It means 'brick' in Swedish, and is a fully customizable, fully
             scripted UI building block for CLI applications.
           </p>
-<!--
-          <ul class="unstyled">
-            <li><a href="http://tasktools.org/tinderbox/tegelsten.html">Tinderbox</a></li>
-            <li><a href="http://www.youtube.com/watch?v=_AqOTofeIJw">Early demonstration</a></li>
-          </ul>
--->
         </div>
       </div>
-
-      <hr />
-      Copyright &copy; 2012,
-      <a href="http://tasktools.org/about.html">Göteborg Bit Factory</a>.
     </div> <!-- /container -->
 
+    <footer class="footer">
+      <div class="container">
+        <p>
+          Copyright &copy; 2012,
+          <a href="http://tasktools.org/about.html">Göteborg Bit Factory</a>.
+        </p>
+      </div>
+    </footer>
+
     <!-- Placed at the end of the document so the pages load faster -->
-    <script src="./assets/js/jquery.js"></script>
-    <script src="./assets/js/bootstrap-transition.js"></script>
-    <script src="./assets/js/bootstrap-alert.js"></script>
-    <script src="./assets/js/bootstrap-modal.js"></script>
-    <script src="./assets/js/bootstrap-dropdown.js"></script>
-    <script src="./assets/js/bootstrap-scrollspy.js"></script>
-    <script src="./assets/js/bootstrap-tab.js"></script>
-    <script src="./assets/js/bootstrap-tooltip.js"></script>
-    <script src="./assets/js/bootstrap-popover.js"></script>
-    <script src="./assets/js/bootstrap-button.js"></script>
-    <script src="./assets/js/bootstrap-collapse.js"></script>
-    <script src="./assets/js/bootstrap-carousel.js"></script>
-    <script src="./assets/js/bootstrap-typeahead.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/google-code-prettify/prettify.js"></script>
+    <script src="assets/js/bootstrap-transition.js"></script>
+    <script src="assets/js/bootstrap-alert.js"></script>
+    <script src="assets/js/bootstrap-modal.js"></script>
+    <script src="assets/js/bootstrap-dropdown.js"></script>
+    <script src="assets/js/bootstrap-scrollspy.js"></script>
+    <script src="assets/js/bootstrap-tab.js"></script>
+    <script src="assets/js/bootstrap-tooltip.js"></script>
+    <script src="assets/js/bootstrap-popover.js"></script>
+    <script src="assets/js/bootstrap-button.js"></script>
+    <script src="assets/js/bootstrap-collapse.js"></script>
+    <script src="assets/js/bootstrap-carousel.js"></script>
+    <script src="assets/js/bootstrap-typeahead.js"></script>
+    <script src="assets/js/bootstrap-affix.js"></script>
 
     <!-- Piwik -->
     <script type="text/javascript">
@@ -246,4 +256,3 @@
     <!-- End Piwik Tag -->
   </body>
 </html>
-
