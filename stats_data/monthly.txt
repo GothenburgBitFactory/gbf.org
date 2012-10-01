@@ -947,5 +947,25 @@ August 2012
 
     38 vittk-1.3.tar.gz
 
+September 2012
+    21 task-2.1.1-l.pkg
+    28 task-2.1.1-ml.pkg
+   394 task-2.1.1.tar.gz
+  ----
+   443
+
+   490 task-2.1.2.tar.gz
+  ----
+   490
+
+   383 task-2.1.1.ref.pdf
+   171 task-2.1.2.ref.pdf
+  ----
+   554
+
+    29 tw-ubcde11.pdf
+
+    32 vittk-1.3.tar.gz
+
 ---
 
