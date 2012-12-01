@@ -1,15 +1,16 @@
 
-                TW.org     List  Twitter  Google+
-                ------     ----  -------  -------
-2012 January       276        -        -        -
-     February      291        -        -        -
-     March         313        -      297       61
-     April         346        -      327      108
-     May           369        -      341      119
-     June          381        -      349      124
-     July          399        -      356      127
-     August        410        -      383      186
-     September     430        -      397      204
-     October       441        -      409      218
-                ------     ----  -------  -------
+                TW.org  Twitter  Google+  Dev Ls  User Ls
+                ------  -------  -------  ------  -------
+2012 January       276        -        -       -        -
+     February      291        -        -       -        -
+     March         313      297       61       -        -
+     April         346      327      108       -        -
+     May           369      341      119       -        -
+     June          381      349      124       -        -
+     July          399      356      127       -        -
+     August        410      383      186       -        -
+     September     430      397      204       -        -
+     October       441      409      218       -        -
+     November      446      419      224       8        9
+                ------  -------  -------  ------  -------
 

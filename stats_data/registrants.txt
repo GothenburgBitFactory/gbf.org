@@ -3,9 +3,9 @@ New Users
 2009               46
 2010               78
 2011              159
-2012              158
+2012              163
                   ---
-                  441
+                  446
 
 
 2009 May            5
@@ -62,8 +62,9 @@ Total             159
 2012 August        11
 2012 September     20
 2012 October       11
+2012 November       5
                   ---
-Total             158
+Total             163
 
 
 ---
@@ -553,4 +554,10 @@ cls                      Christian       Staudt             christian.staudt@kit
 rstnerkeny               rstnerk         billaaa            chuanghu888@126.com                     2012-10-26
 umonkey                  Justin          Forest             hex@umonkey.net                         2012-10-27
 jorarard                 Zed             Jorarard           acc+taskwarriororg@iera.de              2012-10-31
+-----------------------  --------------  -----------------  --------------------------------------  ----------
+apparat                  Tim             None               tim@zoidworks.net                       2012-11-11
+irl                      Iain            Learmonth          irl@sdf.org                             2012-11-12
+remmy                    Remco           Rijnders           r+taskwarrior@r78.nl                    2012-11-14
+reclaw                   Jim             Walker             jim@jameswwalker.com                    2012-11-19
+pierrechtux              Pierre          Chevalier          pierrechevaliergeol@free.fr             2012-11-26
 -----------------------  --------------  -----------------  --------------------------------------  ----------
