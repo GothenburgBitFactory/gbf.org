@@ -3,9 +3,10 @@ New Users
 2009               46
 2010               78
 2011              159
-2012              163
+2012              168
+2013               20
                   ---
-                  446
+                  471
 
 
 2009 May            5
@@ -63,9 +64,15 @@ Total             159
 2012 September     20
 2012 October       11
 2012 November       5
+2012 December       5
                   ---
-Total             163
+Total             168
 
+
+2013 January       12
+2013 February       8
+                  ---
+Total              20
 
 ---
 
@@ -560,4 +567,32 @@ irl                      Iain            Learmonth          irl@sdf.org         
 remmy                    Remco           Rijnders           r+taskwarrior@r78.nl                    2012-11-14
 reclaw                   Jim             Walker             jim@jameswwalker.com                    2012-11-19
 pierrechtux              Pierre          Chevalier          pierrechevaliergeol@free.fr             2012-11-26
+-----------------------  --------------  -----------------  --------------------------------------  ----------
+bwe                      Benjamin        Weber              one@bwe.im                              2012-12-02
+archmonk                 Abhinav         Gopalakrishnan     abhixecutor@gmail.com                   2012-12-03
+brianhicks               Brian           Hicks              therealcaffeine@gmail.com               2012-12-03
+Linkid                   François        Magimel            cucumania@gmail.com                     2012-12-08
+bacardi55                raphael         khaiat             raphael@khaiat.org                      2012-12-18
+-----------------------  --------------  -----------------  --------------------------------------  ----------
+futuresoon               Nick            Person             person.nick@gmail.com                   2013-01-05
+trhd                     Hemmo           Nieminen           hemmo.nieminen@iki.fi                   2013-01-10
+MichiX                   Michael         Jaeger             michael.jaeger@in-flux.de               2013-01-11
+MZAWeb                   Daniel          Dvorkin            productos@mzaweb.com                    2013-01-21
+ddvorkin                 Daniel          Dvorkin            daniel@mzaweb.com                       2013-01-22
+dirkk0                   Dirk            Krause             dirkk0@googlemail.com                   2013-01-22
+kostajh                  Kosta           H                  kostajh@gmail.com                       2013-01-22
+benoit                   Benoît          Knecht             benoit.knecht@fsfe.org                  2013-01-24
+Keoma                    Tobias          Landes             taskwarrior@spam.b.gone.fastmail.fm     2013-01-25
+cynicaljoy               Darren          Cunningham         cynicaljoy@gmail.com                    2013-01-25
+hadret                   Filip           Chabik             hadret+task@gmail.com                   2013-01-27
+ubuntudroid              Sven            Bendel             ubuntudroid@gmail.com                   2013-01-30
+-----------------------  --------------  -----------------  --------------------------------------  ----------
+jwilk                    Jakub           Wilk               jwilk@jwilk.net                         2013-02-06
+qemqemqem                Andrew Keenan   Richardson         qemqemqem@gmail.com                     2013-02-08
+markewallace             Mark            Wallace            markwallac@gmail.com                    2013-02-10
+ljoannis                 Leon            Joannis            ljoannis@netx.com.mx                    2013-02-14
+ccx                      Jan             Pobříslo           ccx@webprojekty.cz                      2013-02-14
+raimue                   Rainer          Müller             raimue@codingfarm.de                    2013-02-20
+Sh1ken                   Felipe          Larenas            felipe.larenas@usach.cl                 2013-02-22
+russells                 Russell         Steicke            russells@adelie.cx                      2013-02-24
 -----------------------  --------------  -----------------  --------------------------------------  ----------

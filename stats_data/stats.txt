@@ -1,7 +1,7 @@
                tw.org  tt.org  hd.net  y.org   tt.org/  flod.us  bugs   bugs   feat  feat  tw     rank  source  commits  unit
                visits  visits  visits  visits  latest   visits   found  fixed  req   done  d/l    d/l   forge   task     tests
                ------  ------  ------  ------  -------  -------  -----  -----  ----  ----  -----  ----  ------  -------  -----
-2008          April                                                                                                   8       
+2008 April                                                                                     8       
      May                                                                                       8                     51       
      June                                                                                    227                     90       
      July                                                                                    293                     47       
@@ -63,7 +63,7 @@
                ------  ------  ------  ------  -------  -------  -----  -----  ----  ----  -----  ----  ------  -------  -----
 2012 January     9712     143      53       6       46              14     15    10     4    650            33       31   4817
      February    8798     139      75      13       31              15     19    11     5    680            18       63   5099
-     March      11320     234      61      21       45              14     15     2     3   1141     2      20       55   5118
+     March      11320     234      61      21       45              14     15     2     3   1106     2      20       55   5118
      April      12233     254      48                9              26     15    13     4   1111     3      20       43   5118
      May         9071     144      44                3               9      8     4     4    663            11       44   5177
      June        6133     109      33                               11      4     3     3    582            25       27   5196
@@ -72,8 +72,18 @@
      September   8445     603      32                2       73      7      5     9     4    933     5      52       29   5350
      October     8135     408      49                7       42      8      1           2    664            60       25   5361
      November    7392     290      28               10       16     13      7     5     8    572            50        6   5393
+     December    7133     164      29               59       12     13      6     5     4    477            24       25   5414
                ------  ------  ------  ------  -------  -------  -----  -----  ----  ----  -----  ----  ------  -------  -----
-                98854    2960     480      40      155      149    151    143    91    60   8859           340      466
+               105987    3124     509      40      214      161    164    149    96    64   9301           364      491
+
+               tw.org  tt.org  hd.net  y.org   tt.org/  flod.us  bugs   bugs   feat  feat  tw     rank  source  commits  unit
+               visits  visits  visits  visits  latest   visits   found  fixed  req   done  d/l    d/l   forge   task     tests
+               ------  ------  ------  ------  -------  -------  -----  -----  ----  ----  -----  ----  ------  -------  -----
+2013 January     8243     215      37               60       13      9      7    12     1    506            54       23   5484
+     February    6668     134      15               77       16     11     12     1     0    406            69       22   5477
+               ------  ------  ------  ------  -------  -------  -----  -----  ----  ----  -----  ----  ------  -------  -----
+                14911     349      52              137       29     20     19    13     1    912           123       45
+
 
                OS     OS     OS     OS     OS     OS     OS     OS     OS     OS     OS     OS
                Linux  Mac    Wind   BSD    iOS    Andrd  Maemo  Symbi  BlkBr  WebOS  SunOS  Other
@@ -122,4 +132,6 @@
      September  3574   1360   2816     30    280    326      4             5             5     45
      October    3515   1458   2555     25    233    257      4      1      4             4     79
      November   3205   1180   2422     14    198    278      5             2             4     84
-
+     December   3311   1118   2210     25    237    353      5                           3     71
+2013 January    3772   1462   2409     25    274    240      4             2             4     51
+     February   2850   1174   2094     23    199    277      5             5            14     27
