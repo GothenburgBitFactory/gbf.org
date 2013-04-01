@@ -4,9 +4,9 @@ New Users
 2010               78
 2011              159
 2012              168
-2013               20
+2013               40
                   ---
-                  471
+                  491
 
 
 2009 May            5
@@ -71,8 +71,9 @@ Total             168
 
 2013 January       12
 2013 February       8
+2013 March         20
                   ---
-Total              20
+Total              40
 
 ---
 
@@ -596,3 +597,24 @@ raimue                   Rainer          Müller             raimue@codingfarm.d
 Sh1ken                   Felipe          Larenas            felipe.larenas@usach.cl                 2013-02-22
 russells                 Russell         Steicke            russells@adelie.cx                      2013-02-24
 -----------------------  --------------  -----------------  --------------------------------------  ----------
+roylez                   Roy             Zuo                roylzuo@gmail.com                       2013-03-02
+keigezellig              M               Joosten            mh.joosten666@gmail.com                 2013-03-08
+hgad                     Haitham         Gad                haithamgad@gmail.com                    2013-03-09
+bkerensa@ubuntu.com      Benjamin        Kerensa            bkerensa@ubuntu.com                     2013-03-11
+nemocorp                 Jean-Philippe   Rutault            rutault.jp@gmail.com                    2013-03-12
+aelesbao                 Augusto         Elesbão            aelesbao@gmail.com                      2013-03-14
+gp                       Georgios        Politis            gp@superpointer.com                     2013-03-16
+fv_heusler               Friedrich       Heusler            friedrich.von.heusler@gmail.com         2013-03-18
+seschwar                 Sebastian       Schwarz            seschwar@gmail.com                      2013-03-19
+deopardiclau             deopardic       OLIVIER            james_zhi@126.com                       2013-03-19
+rflenardromeo            rflenardro      ken                ccaoeiuu@163.com                        2013-03-20
+rbjorklin                Robin           Björklin           robin.bjorklin@gmail.com                2013-03-21
+toepfer                  Adam            Toepfer            adam.toepfer@hotmail.com                2013-03-27
+adamtoepfer              Adam            Toepfer            adam.mason@hotmail.com                  2013-03-27
+x-rayman                 John            Warren             g54Zvkbg2mAQ@x-rayman.co.uk             2013-03-28
+rdbaltzellmilla          rdbaltzellmi    OLIVIER            sloondular@sohu.com                     2013-03-28
+mttimabl                 mttim           Holland            b82fc520@yeah.net                       2013-03-29
+sj4nz                    Simon           Janes              sj4nz@asperatu.info                     2013-03-29
+eayremonr                eayrem          OLIVIER            zihuang37951@tom.com                    2013-03-29
+oedwinrowmoham           oedwinrowmo     ken                fh59925683@163.com                      2013-03-31
+
