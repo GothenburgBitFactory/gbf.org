@@ -4,9 +4,9 @@ New Users
 2010               78
 2011              159
 2012              168
-2013               40
+2013               48
                   ---
-                  491
+                  499
 
 
 2009 May            5
@@ -71,9 +71,10 @@ Total             168
 
 2013 January       12
 2013 February       8
-2013 March         20
+2013 March         17
+2013 April         11
                   ---
-Total              40
+Total              48
 
 ---
 
@@ -606,15 +607,24 @@ aelesbao                 Augusto         Elesbão            aelesbao@gmail.com 
 gp                       Georgios        Politis            gp@superpointer.com                     2013-03-16
 fv_heusler               Friedrich       Heusler            friedrich.von.heusler@gmail.com         2013-03-18
 seschwar                 Sebastian       Schwarz            seschwar@gmail.com                      2013-03-19
-deopardiclau             deopardic       OLIVIER            james_zhi@126.com                       2013-03-19
 rflenardromeo            rflenardro      ken                ccaoeiuu@163.com                        2013-03-20
 rbjorklin                Robin           Björklin           robin.bjorklin@gmail.com                2013-03-21
 toepfer                  Adam            Toepfer            adam.toepfer@hotmail.com                2013-03-27
 adamtoepfer              Adam            Toepfer            adam.mason@hotmail.com                  2013-03-27
 x-rayman                 John            Warren             g54Zvkbg2mAQ@x-rayman.co.uk             2013-03-28
-rdbaltzellmilla          rdbaltzellmi    OLIVIER            sloondular@sohu.com                     2013-03-28
 mttimabl                 mttim           Holland            b82fc520@yeah.net                       2013-03-29
 sj4nz                    Simon           Janes              sj4nz@asperatu.info                     2013-03-29
-eayremonr                eayrem          OLIVIER            zihuang37951@tom.com                    2013-03-29
 oedwinrowmoham           oedwinrowmo     ken                fh59925683@163.com                      2013-03-31
+-----------------------  --------------  -----------------  --------------------------------------  ----------
+ybsar                    YBSA            R                  gybsar@gmail.com                        2013-04-04
+shushcat                 John            Brickley           obryan.brickley@gmail.com               2013-04-07
+nabranninlucr            nabranninl      Holland            mbp9207957637@163.com                   2013-04-14
+mar_kon                  Marek           Konopka            marek.kon@gmail.com                     2013-04-18
+rcicora                  Roger           Cicora             rcicora@gmail.com                       2013-04-19
+madsurgeon               David           Andel              andel@ifi.uzh.ch                        2013-04-21
+martindemling            Martin          Demling            martin@martin-demling.de                2013-04-23
+duanedesign              Duane           Hinnen             duanedesign@yahoo.com                   2013-04-28
+dghate                   Devendra        Ghate              devendra.ghate@gmail.com                2013-04-28
+toolleeo                 Tullio          Facchinetti        tullio.facchinetti@unipv.it             2013-04-29
+nocejo                   Fidel           Mato               fidel.mato@gmail.com                    2013-04-30
 
