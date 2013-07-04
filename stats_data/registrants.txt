@@ -4,9 +4,9 @@ New Users
 2010               78
 2011              159
 2012              168
-2013               48
+2013               65
                   ---
-                  499
+                  516
 
 
 2009 May            5
@@ -73,8 +73,10 @@ Total             168
 2013 February       8
 2013 March         17
 2013 April         11
+2013 May            8
+2013 June           9
                   ---
-Total              48
+Total              65
 
 ---
 
@@ -627,4 +629,23 @@ duanedesign              Duane           Hinnen             duanedesign@yahoo.co
 dghate                   Devendra        Ghate              devendra.ghate@gmail.com                2013-04-28
 toolleeo                 Tullio          Facchinetti        tullio.facchinetti@unipv.it             2013-04-29
 nocejo                   Fidel           Mato               fidel.mato@gmail.com                    2013-04-30
-
+-----------------------  --------------  -----------------  --------------------------------------  ----------
+cs_student               Joseph          Pond               register@josephpond.com                 2013-05-04
+wimute                   Joris           Stork              joris@wintermute.eu                     2013-05-07
+catch22                  Ludo            Beckers            lazylew@gmail.com                       2013-05-10
+ager-wick                Ronny           Ager-Wick          ronny@ager-wick.com                     2013-05-11
+wdetmar                  Mike            Detmar             mike@detmar.org                         2013-05-15
+sgfault                  Dmitriy         Matrosov           sgf.dma@gmail.com                       2013-05-20
+den                      Denis           Krivosheev         den@lavabit.com                         2013-05-26
+fmang                    Frédéric        Mangano            fmang@mg0.fr                            2013-05-30
+-----------------------  --------------  -----------------  --------------------------------------  ----------
+svij                     Sujeevan        Vijayakumaran      mail@svij.org                           2013-06-02
+jwest23                  John            West               jwest23@gmail.com                       2013-06-03
+lima                     Liam            Brown              liams.toaster@gmail.com                 2013-06-03
+juanfra684               Juan            Francisco          iam@juanfra.info                        2013-06-09
+jared                    Jared           Smith              taskwarriorforums@mailinator.com        2013-06-13
+commandlinejunky         Joe             Smith              commandtask@mailinator.com              2013-06-13
+dearess                  kevin           schoon             kevinschoon@gmail.com                   2013-06-19
+ViPa                     Vivenzio        Pagliari           vivenzio@web.de                         2013-06-21
+mbusck                   Mattias         Busck              mattias@busck.net                       2013-06-28
+-----------------------  --------------  -----------------  --------------------------------------  ----------
