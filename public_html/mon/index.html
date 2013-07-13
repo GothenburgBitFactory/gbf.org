@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Task Server | Monitoring</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono:regular' rel='stylesheet' type='text/css'>
+    <link href="../assets/css/bootstrap.css" rel="stylesheet">
+    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="../assets/css/docs.css" rel="stylesheet">
+    <style>
+      body {
+        font-family: "Droid Sans Mono", Helvetica, Arial, sans-serif;
+        font-size: 13px;
+      }
+    </style>
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="../index.html">tasktools.org</a>
+          <div class="nav-collapse">
+            <ul class="nav">
+              <li><a href="http://taskwarrior.org">taskwarrior.org</a></li>
+            </ul>
+
+            <ul class="nav pull-right">
+              <li><a href="../about.html">About</a></li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="mailto:support@taskwarrior.org">taskwarrior Support</a></li>
+                  <li><a href="mailto:support@yootabory.org">yootabory Support</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span3">
+          <br />
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header">Contents</li>
+              <li><a href="#bytes">Bytes</a></li>
+              <li><a href="#idle">Idle</a></li>
+              <li><a href="#service">Service</a></li>
+              <li><a href="#total_bytes">Total Bytes</a></li>
+              <li><a href="#tps">TPS</a></li>
+              <li><a href="#txns">Transactions</a></li>
+              <li><a href="#uptime">Uptime</a></li>
+              <li><a href="#orgs">Organizations</a></li>
+              <li><a href="#users">Users</a></li>
+              <li><a href="#data">User Data</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="span9">
+          <div class="row-fluid">
+            <div>
+              <a name="bytes"></a>
+              <h3>Bytes</h3>
+              <p>
+                Average request bytes is an average size of all incoming
+                messages from the satellites.  During idle time, this is just a
+                small "is there work?" message, but during build times this is
+                a full log of events.  Average response bytes represents the
+                status messages returned to the satellites, and is typically
+                small and consistent.
+              </p>
+              <img src="bytes.png" />
+            </div>
+            <div>
+              <a name="idle"></a>
+              <h3>Idle</h3>
+              <p>
+                Idle is the percentage of time the central server stands doing
+                nothing.  Even when builds are in progress, central does little,
+                with most of the work being done by the satellites.
+              </p>
+              <img src="idle.png" />
+            </div>
+            <div>
+              <a name="service"></a>
+              <h3>Service</h3>
+              <p>
+                Service time represents the average time to process a request
+                from a client, in seconds.  As the server is single-threaded,
+                this reflects load.  The max service time is a high-water mark
+                that can reflect central server downtime.
+              </p>
+              <img src="service.png" />
+            </div>
+            <div>
+              <a name="total_bytes"></a>
+              <h3>Total Bytes</h3>
+              <p>
+                Total bytes in and out in the form of requests and responses.
+                This is a cumulative quantity that is reset on central restart.
+              </p>
+              <img src="total_bytes.png" />
+            </div>
+            <div>
+              <a name="tps"></a>
+              <h3>TPS</h3>
+              <p>
+                Transactions per second.
+              </p>
+              <img src="tps.png" />
+            </div>
+            <div>
+              <a name="txns"></a>
+              <h3>Transactions</h3>
+              <p>
+                Transaction count is a cumulative quantity that is reset on
+                central restart.
+              </p>
+              <img src="txns.png" />
+            </div>
+
+            <div>
+              <a name="uptime"></a>
+              <h3>Uptime</h3>
+              <p>
+                Uptime is a count of the seconds of uptime that is reset on
+                taskd restart.
+              </p>
+              <img src="uptime.png" />
+            </div>
+            <div>
+              <a name="orgs"></a>
+              <h3>Organizations</h3>
+              <p>
+                The number of organizations supported by the dev server.
+              </p>
+              <img src="orgs.png" />
+            </div>
+            <div>
+              <a name="users"></a>
+              <h3>Users</h3>
+              <p>
+                The number of user accounts on the dev server.
+              </p>
+              <img src="users.png" />
+            </div>
+            <div>
+              <a name="data"></a>
+              <h3>User Data</h3>
+              <p>
+                The amount of user data on the dev server.
+              </p>
+              <img src="data.png" />
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div> <!-- /container -->
+
+    <footer class="footer">
+      <div class="container">
+        <p>
+          Copyright &copy; 2013,
+          <a href="http://tasktools.org/about.html">Göteborg Bit Factory</a>.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/google-code-prettify/prettify.js"></script>
+    <script src="../assets/js/bootstrap-transition.js"></script>
+    <script src="../assets/js/bootstrap-alert.js"></script>
+    <script src="../assets/js/bootstrap-modal.js"></script>
+    <script src="../assets/js/bootstrap-dropdown.js"></script>
+    <script src="../assets/js/bootstrap-scrollspy.js"></script>
+    <script src="../assets/js/bootstrap-tab.js"></script>
+    <script src="../assets/js/bootstrap-tooltip.js"></script>
+    <script src="../assets/js/bootstrap-popover.js"></script>
+    <script src="../assets/js/bootstrap-button.js"></script>
+    <script src="../assets/js/bootstrap-collapse.js"></script>
+    <script src="../assets/js/bootstrap-carousel.js"></script>
+    <script src="../assets/js/bootstrap-typeahead.js"></script>
+    <script src="../assets/js/bootstrap-affix.js"></script>
+
+    <!-- Piwik --> 
+    <script type="text/javascript">
+    var pkBaseURL = (("https:" == document.location.protocol) ? "https://tasktools.org/piwik/" : "http://tasktools.org/piwik/");
+    document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+    </script><script type="text/javascript">
+    try {
+    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 6);
+    piwikTracker.trackPageView();
+    piwikTracker.enableLinkTracking();
+    } catch( err ) {}
+    </script><noscript><p><img src="http://tasktools.org/piwik/piwik.php?idsite=6" style="border:0" alt="" /></p></noscript>
+    <!-- End Piwik Tracking Code -->
+  </body>
+</html>
+
