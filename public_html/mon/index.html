@@ -87,11 +87,10 @@
               <h3>Bytes</h3>
               <p>
                 Average request bytes is an average size of all incoming
-                messages from the satellites.  During idle time, this is just a
-                small "is there work?" message, but during build times this is
-                a full log of events.  Average response bytes represents the
-                status messages returned to the satellites, and is typically
-                small and consistent.
+                messages from clients.
+
+                These messages are usually small for a sync with no data, but
+                can be arbitrarily large.
               </p>
               <img src="bytes.png" />
             </div>
@@ -99,9 +98,8 @@
               <a name="idle"></a>
               <h3>Idle</h3>
               <p>
-                Idle is the percentage of time the central server stands doing
-                nothing.  Even when builds are in progress, central does little,
-                with most of the work being done by the satellites.
+                Idle is the percentage of time the Task Server stands doing
+                nothing.
               </p>
               <img src="idle.png" />
             </div>
@@ -111,8 +109,7 @@
               <p>
                 Service time represents the average time to process a request
                 from a client, in seconds.  As the server is single-threaded,
-                this reflects load.  The max service time is a high-water mark
-                that can reflect central server downtime.
+                this reflects load.
               </p>
               <img src="service.png" />
             </div>
@@ -121,7 +118,7 @@
               <h3>Total Bytes</h3>
               <p>
                 Total bytes in and out in the form of requests and responses.
-                This is a cumulative quantity that is reset on central restart.
+                This is a cumulative quantity that is reset on server restart.
               </p>
               <img src="total_bytes.png" />
             </div>
@@ -138,7 +135,7 @@
               <h3>Transactions</h3>
               <p>
                 Transaction count is a cumulative quantity that is reset on
-                central restart.
+                server restart.
               </p>
               <img src="txns.png" />
             </div>
@@ -148,7 +145,7 @@
               <h3>Uptime</h3>
               <p>
                 Uptime is a count of the seconds of uptime that is reset on
-                taskd restart.
+                server restart.
               </p>
               <img src="uptime.png" />
             </div>
