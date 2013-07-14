@@ -113,8 +113,8 @@
               <h3>Service</h3>
               <p>
                 Service time represents the average time to process a request
-                from a client, in seconds.  As the server is single-threaded,
-                this reflects load.
+                from a client, in seconds.  High load can push this time
+                upwards.
               </p>
               <img src="service.png" />
             </div>
@@ -150,7 +150,7 @@
               <h3>Uptime</h3>
               <p>
                 Uptime is a count of the seconds of uptime that is reset on
-                server restart.
+                server restart.  This is a measure of server stability.
               </p>
               <img src="uptime.png" />
             </div>
@@ -159,6 +159,7 @@
               <h3>Organizations</h3>
               <p>
                 The number of organizations supported by the dev server.
+                This is not expected to change much.
               </p>
               <img src="orgs.png" />
             </div>
