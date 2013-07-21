@@ -64,16 +64,19 @@
         <div class="span6">
           <h3>libtaskd</h3>
           <p>
-            <span class="badge badge-important">0.9.0</span> Not yet available
+            <span class="badge badge-warning">0.9.0</span> Development
           </p>
           <p>
-            &nbsp;
+            <code>git clone git://tasktools.org/libtaskd.git</code>
           </p>
           <p>
-            libtaskd is a client-side library that accesses the task server.
-            It implements the transport API between a client and the server, and
-            provides server ticket management.
+            libtaskd is a client-side library that accesses the Task Server.
+            It implements the encrypted communication with the Task Server using
+            GnuTLS.
           </p>
+          <ul class="unstyled">
+            <li><a href="../tinderbox/libtaskd.html">Tinderbox</a></li>
+          </ul>
         </div>
         <div class="span6">
           <h3>About</h3>
@@ -84,9 +87,8 @@
           </p>
           <h3>Development</h3>
           <p>
-            The libtaskd library will provide JSON over SSL access to the task
-            server, and a set of helper functions for encoding and decoding
-            tickets.
+            The libtaskd library will provide a simple interface to the Task
+            Server that manages sync operations.
           </p>
           <p>
             In conjunction with taskwarrior and taskd, libtaskd will be made
@@ -99,7 +101,7 @@
     <footer class="footer">
       <div class="container">
         <p>
-          Copyright &copy; 2012,
+          Copyright &copy; 2013,
           <a href="http://tasktools.org/about.html">Göteborg Bit Factory</a>.
         </p>
       </div>
