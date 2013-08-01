@@ -4,9 +4,9 @@ New Users
 2010               78
 2011              159
 2012              168
-2013               65
+2013               78
                   ---
-                  516
+                  529
 
 
 2009 May            5
@@ -75,8 +75,9 @@ Total             168
 2013 April         11
 2013 May            8
 2013 June           9
+2013 July          13
                   ---
-Total              65
+Total              78
 
 ---
 
@@ -648,4 +649,18 @@ commandlinejunky         Joe             Smith              commandtask@mailinat
 dearess                  kevin           schoon             kevinschoon@gmail.com                   2013-06-19
 ViPa                     Vivenzio        Pagliari           vivenzio@web.de                         2013-06-21
 mbusck                   Mattias         Busck              mattias@busck.net                       2013-06-28
+-----------------------  --------------  -----------------  --------------------------------------  ----------
+anthonie                 anthonie        _                  anthonie@stoethaspel.com                2013-07-01
+jakelowen                Jake            Lowen              jake@kansasgrassroots.com               2013-07-03
+LevGivon                 Lev             Givon              lev@columbia.edu                        2013-07-05
+SANJAYNAY502@GMAIL.COM   SANJAY          NAYAK              SANJAYNAYAK502@GMAIL.COM                2013-07-05
+fifigyuri                György          Frivolt            gyorgy.frivolt@gmail.com                2013-07-08
+kunderjan                Jan             Kunder             jan.kunder@gmail.com                    2013-07-13
+suter.andrew             Andrew          Suter              suter.andrew@gmail.com                  2013-07-18
+akiva                    Akiva           Levy               deselect@gmail.com                      2013-07-18
+KenAdams                 Ken             Adams              wnlearn+taskwarrior@gmail.com           2013-07-19
+vkvn                     Vimalkumar      Velayudhan         vimalkumarvelayudhan@gmail.com          2013-07-19
+fmisle                   Faisal          Misle              faisal@fmisle.com                       2013-07-27
+sezuan                   Matthias        Rieber             matthias@zu-con.org                     2013-07-28
+SynrG                    Ben             Armstrong          synergism@gmail.com                     2013-07-31
 -----------------------  --------------  -----------------  --------------------------------------  ----------
