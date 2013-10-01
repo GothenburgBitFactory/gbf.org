@@ -4,9 +4,9 @@ New Users
 2010               78
 2011              159
 2012              168
-2013               87
+2013               94
                   ---
-                  538
+                  545
 
 
 2009 May            5
@@ -77,8 +77,9 @@ Total             168
 2013 June           9
 2013 July          13
 2013 August         9
+2013 September      7
                   ---
-Total              87
+Total              94
 
 ---
 
@@ -674,5 +675,13 @@ King_DuckZ               Michele         Santullo           king_duckz@gmx.com  
 ISF                      Ivan            Freitas            ivansichfreitas@gmail.com               2013-08-25
 bensaylor                Ben             Saylor             brsaylor@gmail.com                      2013-08-26
 joefromct                Joe             R                  joe.rochette@gmail.com                  2013-08-29
+-----------------------  --------------  -----------------  --------------------------------------  ----------
+awwaiid                  Brock           Wilcox             awwaiid@thelackthereof.org              2013-09-01
+steadmon                 Josh            Steadmon           steadmon@gmail.com                      2013-09-02
+Enribrili                Enribrili       Enribrili          qiuzizim@xlxe.pl                        2013-09-08
+luisfersom               Fernando        Soto               luisfersom@gmail.com                    2013-09-16
+garnenia                 Kim             Watrud             garnenia@gmail.com                      2013-09-26
+agschaid                 Axel            Gschaider          axel.gschaider@gmail.com                2013-09-26
+skroll                   Scott           Kroll              skroll@gmail.com                        2013-09-30
 -----------------------  --------------  -----------------  --------------------------------------  ----------
 

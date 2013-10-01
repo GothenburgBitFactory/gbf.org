@@ -651,7 +651,7 @@ August 2011
     28 task_1.9.4-0ubuntu1~maverick2_i386.deb
     76 task_1.9.4-0ubuntu1~natty1_i386.deb
   ----
-   765    
+   765
 
    118 task.ref.pdf
 
@@ -807,7 +807,7 @@ February 2012
     26 task_1.9.4-0ubuntu1~natty1_i386.deb
   ----
    397
-  
+
    177 task-2.0.0.beta4.tar.gz
    106 task-2.0.0.beta5.tar.gz
   ----
@@ -1108,6 +1108,17 @@ August 2013
     27 tw-ubcde11.pdf
 
      9 vittk-1.3.tar.gz
+
+September 2013
+
+   496 task-2.2.0.tar.gz
+   133 task-2.3.0.beta1.tar.gz
+    73 taskd-1.0.0.beta1.tar.gz
+    44 vramsteg-1.0.1.tar.gz
+    10 vittk-1.3.tar.gz
+
+   362 task-2.2.0.ref.pdf
+    23 tw-ubcde11.pdf
 
 ---
 
