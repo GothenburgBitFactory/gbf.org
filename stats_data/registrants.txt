@@ -4,9 +4,9 @@ New Users
 2010               78
 2011              159
 2012              168
-2013               94
+2013              114
                   ---
-                  545
+                  565
 
 
 2009 May            5
@@ -78,8 +78,9 @@ Total             168
 2013 July          13
 2013 August         9
 2013 September      7
+2013 October       20
                   ---
-Total              94
+Total             114
 
 ---
 
@@ -684,4 +685,24 @@ garnenia                 Kim             Watrud             garnenia@gmail.com  
 agschaid                 Axel            Gschaider          axel.gschaider@gmail.com                2013-09-26
 skroll                   Scott           Kroll              skroll@gmail.com                        2013-09-30
 -----------------------  --------------  -----------------  --------------------------------------  ----------
-
+hsasnachezterea          hsasnachezte    vigorda            looperdwk@hotmail.com                   2013-10-02
+ocataco                  Taco            van Dijk           taco@yavin4.nl                          2013-10-04
+Vasco                    Vasco           Godinho            vascoferreiragodinho@gmail.com          2013-10-04
+BitSchupser              Alex            Rampp              deb@axgr.de                             2013-10-05
+SJack                    Jack            S                  scrumpyjack@me.com                      2013-10-07
+rakeshuv                 rakesh          vattakottil        uvrakeshthecoder@gmail.com              2013-10-08
+Profpatsch               Profpatsch      -                  mail@profpatsch.de                      2013-10-08
+bmbove                   Brian           Bove               bmbove@gmail.com                        2013-10-10
+edro                     Ed              Robitaille         edro4838@gmail.com                      2013-10-11
+NoreenIMRU               Noreen          Schwartz           noreenschwartz@swift-mail.com           2013-10-14
+bmx007                   Max             B                  bmx007@gmail.com                        2013-10-15
+ch3sh1r                  Alexey          Bednyakov          ch3sh1r@ya.ru                           2013-10-16
+taziden                  Julien          Rabier             taziden@flexiden.org                    2013-10-18
+merakisv                 Moises          Larin              mooslarin@gmail.com                     2013-10-20
+JerryPalacios            Jerry           Palacios           jerrypalacios@freenet.de                2013-10-21
+masterkorp               Alfredo         Palhares           masterkorp@masterkorp.net               2013-10-22
+krzysztek                Krzysztof       Piasecki           krzysiekpiasecki@gmail.com              2013-10-23
+kilian                   Kilian          Sprotte            kilian.sprotte@gmail.com                2013-10-29
+Ahed91                   Ahed            Eid                ahedeid@gmail.com                       2013-10-30
+quanta                   Quan Tong       Anh                anhquankitty@gmail.com                  2013-10-30
+-----------------------  --------------  -----------------  --------------------------------------  ----------
