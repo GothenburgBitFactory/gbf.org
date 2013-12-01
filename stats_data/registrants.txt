@@ -4,9 +4,9 @@ New Users
 2010               78
 2011              159
 2012              168
-2013              114
+2013              132
                   ---
-                  565
+                  583
 
 
 2009 May            5
@@ -79,8 +79,9 @@ Total             168
 2013 August         9
 2013 September      7
 2013 October       20
+2013 November      18
                   ---
-Total             114
+Total             132
 
 ---
 
@@ -705,4 +706,23 @@ krzysztek                Krzysztof       Piasecki           krzysiekpiasecki@gma
 kilian                   Kilian          Sprotte            kilian.sprotte@gmail.com                2013-10-29
 Ahed91                   Ahed            Eid                ahedeid@gmail.com                       2013-10-30
 quanta                   Quan Tong       Anh                anhquankitty@gmail.com                  2013-10-30
+-----------------------  --------------  -----------------  --------------------------------------  ----------
+teranex                  Jeroen          Budts              accounts+taskwarrior@lightyear.be       2013-11-03
+nXqd                     Dzung           Nguyen             nxqd.inbox@gmail.com                    2013-11-04
+evanton                  Evan            Ton                evanton@tut.by                          2013-11-09
+hellowelcome             David           .                  david@kattfest.se                       2013-11-09
+rouzier                  James           Rouzier            rouzier@gmail.com                       2013-11-11
+husky                    Friedemann      Schorer            friedemann@schorers.org                 2013-11-11
+Karsten                  Karsten         Krohn              k.krohn@gmail.com                       2013-11-15
+defkev                                                      defkev@gmail.com                        2013-11-17
+eridius                  Kevin           Ballard            kevin@sb.org                            2013-11-19
+poohsen                  Chris           Thunderlink        poohsen@gmx.de                          2013-11-19
+dcb                      David           Binderman          dcb314@hotmail.com                      2013-11-19
+Dersu                    bruno           wu                 awayme@gmail.com                        2013-11-20
+guillermovn              Guillermo       Velasco Navarro    tareasdeguille@gmail.com                2013-11-22
+vimja                    Niklaus         Hofer              niklaus@mykolab.ch                      2013-11-23
+tststs                   TS              TS                 mail@titus-stahl.de                     2013-11-24
+smilinmonki666           Nigel           Greenway           nigel_greenway@me.com                   2013-11-24
+rumpelsepp               Stefan          Tatschner          stefan@sevenbyte.org                    2013-11-25
+holger                   Holger          Weiß               holger@zedat.fu-berlin.de               2013-11-27
 -----------------------  --------------  -----------------  --------------------------------------  ----------

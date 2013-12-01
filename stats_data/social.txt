@@ -24,4 +24,6 @@
      August        530      528      395      24       43     696
      September     545      541      412      24       43     453
      October       557      551      494      24       43     203
+     November      583      567      501      24       43     494
+     December                                Obs      Obs
 

@@ -1130,5 +1130,19 @@ October 2013
    413 task-2.2.0.ref.pdf
     29 tw-ubcde11.pdf
 
+November 2013
+
+   588 task-2.2.0.tar.gz
+    24 task-2.3.0.beta1.tar.gz
+   314 task-2.3.0.beta2.tar.gz
+    11 taskd-1.0.0.beta1.tar.gz
+   144 taskd-1.0.0.beta2.tar.gz
+    33 vramsteg-1.0.1.tar.gz
+
+   428 task-2.2.0.ref.pdf
+    31 tw-ubcde11.pdf
+
+    43 vit-1.1.tar.gz
+
 ---
 
