@@ -90,9 +90,9 @@
      September   8969     476      30               51       27     20      7    23    10    629            24       55   5571
      October     8674     423      38               49       25     19     17    21     6    605            31      112   5577
      November    9107     452      26               79       48     12      6    15     2    926            59      157   5577
-     December
+     December             340      42               52       28      6      2                586            14      246   5577
                ------  ------  ------  ------  -------  -------  -----  -----  ----  ----  -----  ----  ------  -------  -----
-                80926    2789     372              713      263    156     95   154    44   6387           442      729
+                         3129     414              765      291    162     97   154    44   6973           456      995
 
                tw.org  tt.org  hd.net  tt.org/  flod.us  bugs   bugs   feat  feat  unit
                visits  visits  visits  latest   visits   found  fixed  req   done  tests
@@ -169,3 +169,4 @@
                Linux  Mac    Wind   BSD    iOS    Andrd  Maemo  BlkBr  Other
                -----  -----  -----  -----  -----  -----  -----  -----  -----
 2014 January
+

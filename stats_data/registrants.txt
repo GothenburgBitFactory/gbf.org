@@ -4,9 +4,9 @@ New Users
 2010               78
 2011              159
 2012              168
-2013              132
+2013              141
                   ---
-                  583
+                  592
 
 
 2009 May            5
@@ -80,8 +80,9 @@ Total             168
 2013 September      7
 2013 October       20
 2013 November      18
+2013 December       9
                   ---
-Total             132
+Total             141
 
 ---
 
@@ -725,4 +726,14 @@ tststs                   TS              TS                 mail@titus-stahl.de 
 smilinmonki666           Nigel           Greenway           nigel_greenway@me.com                   2013-11-24
 rumpelsepp               Stefan          Tatschner          stefan@sevenbyte.org                    2013-11-25
 holger                   Holger          Weiß               holger@zedat.fu-berlin.de               2013-11-27
+-----------------------  --------------  -----------------  --------------------------------------  ----------
+rwangum                  Jean-philippe   evritemonslip      swan.benoit@gmail.com                   2013-12-07
+GrouchyGaijin            John            Niendorf           john@jfniendorf.org                     2013-12-08
+vainikkaj                Juha            Vainikka           vainikkaj@gmail.com                     2013-12-10
+Whopper                  William         Hopper             wjhopper510@gmail.com                   2013-12-16
+kunalc333                kunal           chaudhari          kunalchaudhari30@gmail.com              2013-12-18
+Oozaru_Hunter            Mario           von Stein          oozaru_hunter@web.de                    2013-12-20
+mattn                    Yasuhiro        Matsumoto          mattn.jp@gmail.com                      2013-12-21
+happy_request            Happy           Request            not_a_spammer@leaving-a-request.com     2013-12-28
+dooling                  Rick            Dooling            rpdooling@gmail.com                     2013-12-30
 -----------------------  --------------  -----------------  --------------------------------------  ----------
