@@ -5,8 +5,9 @@ New Users
 2011              159
 2012              168
 2013              141
+2014               26
                   ---
-                  592
+                  618
 
 
 2009 May            5
@@ -83,6 +84,11 @@ Total             168
 2013 December       9
                   ---
 Total             141
+
+
+2014 January       26
+                  ---
+                   26
 
 ---
 
@@ -737,3 +743,29 @@ mattn                    Yasuhiro        Matsumoto          mattn.jp@gmail.com  
 happy_request            Happy           Request            not_a_spammer@leaving-a-request.com     2013-12-28
 dooling                  Rick            Dooling            rpdooling@gmail.com                     2013-12-30
 -----------------------  --------------  -----------------  --------------------------------------  ----------
+nanooq                   n               anooq              taskwarrior@nanooq.org                  2014-01-06
+AP                       Andreas         Poisel             ap@automatisch.cc                       2014-01-06
+taborj                   Jon             Tabor              taborj@jontabor.dyndns.org              2014-01-06
+goltoof                  L               L                  llieske@gmail.com                       2014-01-07
+Dunkit                   Fabian          Nick               fp.nick@gmail.com                       2014-01-09
+jck                      Keerthan        Jaic               jckeerthan@gmail.com                    2014-01-10
+grantbow                 Grant           Bowman             grantbow@ubuntu.com                     2014-01-13
+lopezdelerena            Jose            lopez              jmlerena@itertek.es                     2014-01-16
+otherdave                David           Stahl              otherdave@gmail.com                     2014-01-17
+harciga                  Hector          Arciga             hector.arciga@gmail.com                 2014-01-20
+eom                      Nate            Tart               eom_taskwarrior@notmailinator.com       2014-01-20
+ReneFroger               Rene            Froger             ernstdehart@gmail.com                   2014-01-21
+makefu                   make            fu                 taskwarrior.org@syntax-fehler.de        2014-01-21
+sitaramc                 Sitaram         Chamarty           sitaramc@gmail.com                      2014-01-21
+Unode                    Renato          Alves              simpledark+taskwarrior@gmail.com        2014-01-22
+eliasp                   Elias           Probst             mail@eliasprobst.eu                     2014-01-22
+adithyavr                adithya         djd                adithya.we.r@gmail.com                  2014-01-25
+pralku                   Lukas           Persson            lukas.persson@gmail.com                 2014-01-26
+dotancohen               Dotan           Cohen              taskwarrior.org@dotancohen.com          2014-01-27
+walton                   Walton          Jones              waltonjones@gmail.com                   2014-01-27
+ncopa                    Natanael        Copa               ncopa@alpinelinux.org                   2014-01-27
+ziv667                   Max             Schnücke           maximilian.schnuecke@posteo.de          2014-01-28
+Nical                    Nicolas         Appriou            nicolas.appriou@gmail.com               2014-01-29
+PaulB54                  Paul            Baardman           paul.baardman@gmail.com                 2014-01-29
+objSeer                  Leon            Feng               lfeng1013@gmail.com                     2014-01-29
+susu                     Marton          Suranyi            marton.suranyi@gmail.com                2014-01-30
