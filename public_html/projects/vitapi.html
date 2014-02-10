@@ -43,41 +43,44 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12 main">
-          <h3>VIT</h3>
+          <h3>Vitapi</h3>
           <p>
-            VIT (Visual Interactive Taskwarrior) is a lightweight, curses-based
-            front end for Taskwarrior that provides a convenient way to quickly
-            navigate and process tasks.
+            Vitapi (it started as an acronym) is a lightweight, easy to use, and
+            above all, simple alternative to ncurses, without the legacy
+            support, and without complex features.  It targets mostly modern
+            xterm capabilities, supports 256 colors, the mouse, and a nice
+            powerful color model.
+            It provides a C API, for maximum utility.
           </p>
           <ul>
-            <li><code>git clone git://tasktools.org/vit.git</code></li>
+            <li><code>git clone git://tasktools.org/vitapi.git</code></li>
+            <li><a href="http://tasktools.org/tinderbox/vitapi.html">Flod testing 1.0.0</a></li>
+            <li><a href="http://www.youtube.com/watch?v=mSPsRabNJhw">Color quantization demo</a></li>
           </ul>
 
           <h3>About</h3>
           <p>
-            VIT allows you to interact with tasks in a Vi-intuitive way.
-          </p>
-          <p>
-            A goal of VIT is to allow you to customize the way in which you
-            use Taskwarrior's core commands as well as to provide a framework
-            for easily dispatching external commands (both user scripts and
-            Taskwarrior's many
-            <a href="http://taskwarrior.org/projects/1/wiki/ExternalScripts">External Scripts</a>).
-          </p>
-
-          <h3>Development</h3>
-          <p>
-            VIT 1.2 will implement keybindings, which allow the user to run an
-            external program or script on a task with the press of a key.
+            Vitapi provides a C API that offers these capabilities:
+            <ul>
+              <li>Off-screen buffering of output</li>
+              <li>Ability to place colored text anywhere on a screen</li>
+              <li>Primitive support - colored rectangles</li>
+              <li>Mouse input</li>
+              <li>Keyboard input - function keys, ctrl, shift etc</li>
+              <li>256-color support</li>
+              <li>Color combination (weak blending)</li>
+              <li>Several color addressing schemes</li>
+              <li>Conversion between 256, 16 and 8 colors</li>
+              <li>Terminal width/height determination</li>
+              <li>Fast and portable</li>
+            </ul
           </p>
         </div>
       </div>
 
       <hr>
       <footer>
-        Copyright &copy; 2014, Scott Kostyshak.
-        <br />
-        Copyright &copy; 2012 - 2013, Steve Rader.
+        Copyright &copy; 2014, <a href="/about.html">Göteborg Bit Factory</a>.
       </footer>
     </div>
 

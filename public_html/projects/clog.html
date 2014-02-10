@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>tasktools.org</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://tasktools.org">tasktools.org</a>
+          <a class="navbar-brand" href="http://taskwarrior.org">taskwarrior.org</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <!-- Use class="active" -->
+            <li><a href="/index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+            <li><a href="/about.html"><span class="glyphicon glyphicon-info-sign"></span> About</a></li>
+            <li><a href="mailto:support@tasktools.org"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <h2>&nbsp;</h2>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 main">
+          <h3>Clog</h3>
+          <p>
+            Clog is a colorized log tail utility.  It can spot patterns in an
+            input stream and colorize or suppress the lines.  It can also
+            decorate the lines with time- or date-stamps.
+          </p>
+          <ul class="unstyled">
+            <li><code>git clone git://tasktools.org/clog.git</code></li>
+            <li><a href="../../tinderbox/clog-1.2.0.html">Flod testing 1.2.0</a></li>
+          </ul>
+
+          <h3>About</h3>
+          <p>
+            Clog is useful for watching log files.  It can highlight important
+            information or hide it.
+            <ul>
+              <li>Colorize patterns in the input</li>
+              <li>Colorize lines in the input</li>
+              <li>Suppress lines matching a pattern in the input</li>
+              <li>Add timestamps to all lines</li>
+              <li>Add datestamps to all lines</li>
+            </ul
+          </p>
+
+          <h3>Demo</h3>
+          <p>
+            Clog is a colorized log viewer.  It can spot text on a line in a log
+            file and apply color to it, a little like this:
+          </p>
+          <p><img src="clog/clog-sed.png" /></p>
+          <p>
+            This would spot the text ' error ' in access.log and mark up the
+            matched text.  This is what clog does.
+          </p>
+          <h3>Sample Data</h3>
+          <p>
+            We start with a fragment of text, from the opening scene of Hamlet.
+            This is just an example, but will illustrate how clog can be applied
+            to log files.
+          </p>
+          <p><img src="clog/clog-hamlet.png" /></p>
+          <h3>Simple Filter</h3>
+          <p>
+            By default, clog is a pass-through filter that does nothing:
+          </p>
+          <p><img src="clog/clog-nothing.png" /></p>
+          <h3>Timestamps</h3>
+          <p>
+            Clog has some basic features, for example it can prepend timestamps
+            to the lines:
+          </p>
+          <p><img src="clog/clog-timestamp.png" /></p>
+          <h3>Rules</h3>
+          <p>
+            Now we add a rule to colorize some text:
+          </p>
+          <p><img src="clog/clog-rule.png" /></p>
+          <p>
+            This rules says that if the text "HORATIO" is found, then the
+            matching text is colored red.  The 'default' keyword is a rule
+            section, which allows multiple rules sets - more on that later.
+          </p>
+          <p><img src="clog/clog-rule1.png" /></p>
+          <p>
+            Another rule:
+          </p>
+          <p><img src="clog/clog-rule2.png" /></p>
+          <p>
+            This rule says that if the text "MARCELLUS" is found, then the
+            matching line is colored with a blue background.
+          </p>
+          <p><img src="clog/clog-rule12.png" /></p>
+          <p>
+            Additionally lines may be suppressed:
+          </p>
+          <p><img src="clog/clog-rule3.png" /></p>
+          <p>
+            This rule will suppress the line, instead of coloring it:
+          </p>
+          <p><img src="clog/clog-rule123.png" /></p>
+          <h3>Regular Expressions</h3>
+          <p>
+            So far the rules have all involved text string matches.
+            Clog also supports regular expressions, with a slight modification
+            to the rule syntax:
+          </p>
+          <p><img src="clog/clog-regex.png" /></p>
+          <p>
+            These rules color 'Who' or 'who' red and the word 'night' (indeed
+            anything matching n...t blue.
+          </p>
+          <p><img src="clog/clog-r12.png" /></p>
+          <h3>Rule Sets</h3>
+          <p>
+            The section name can be used to maintain several rule sets.  Here
+            there are two rule sets:
+          </p>
+          <p><img src="clog/clog-sets.png" /></p>
+          <p>
+            Now we can invoke the default set by not specifying a rule set:
+          </p>
+          <p><img src="clog/clog-set1.png" /></p>
+          <p>
+            Or we can select just the Shakespeare set, by providing the rule
+            set name as an argument:
+          </p>
+          <p><img src="clog/clog-set2.png" /></p>
+          <p>
+            Or we can select multiple rule sets if we wish, but these will
+            not include the default set:
+          </p>
+          <p><img src="clog/clog-set12.png" /></p>
+        </div>
+      </div>
+
+      <hr>
+      <footer>
+        Copyright &copy; 2014, <a href="/about.html">Göteborg Bit Factory</a>.
+      </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+    var pkBaseURL = (("https:" == document.location.protocol) ? "https://tasktools.org/piwik/" : "http://tasktools.org/piwik/");
+    document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+    </script><script type="text/javascript">
+    try {
+    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
+    piwikTracker.trackPageView();
+    piwikTracker.enableLinkTracking();
+    } catch( err ) {}
+    </script><noscript><p><img src="http://tasktools.org/piwik/piwik.php?idsite=3" style="border:0" alt="" /></p></noscript>
+  </body>
+</html>
