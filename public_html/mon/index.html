@@ -2,227 +2,176 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Taskserver | Monitoring</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tasktools.org</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
 
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono:regular' rel='stylesheet' type='text/css'>
-    <link href="../assets/css/bootstrap.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="../assets/css/docs.css" rel="stylesheet">
-    <style>
-      body {
-        font-family: "Droid Sans Mono", Helvetica, Arial, sans-serif;
-        font-size: 13px;
-      }
-    </style>
-
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
   </head>
 
   <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="../index.html">tasktools.org</a>
-          <div class="nav-collapse">
-            <ul class="nav">
-              <li><a href="http://taskwarrior.org">taskwarrior.org</a></li>
-            </ul>
-
-            <ul class="nav pull-right">
-              <li><a href="../about.html">About</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="mailto:support@taskwarrior.org">taskwarrior Support</a></li>
-                  <li><a href="mailto:support@yootabory.org">yootabory Support</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div><!--/.nav-collapse -->
+          <a class="navbar-brand" href="http://tasktools.org">tasktools.org</a>
+          <a class="navbar-brand" href="http://taskwarrior.org">taskwarrior.org</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <!-- Use class="active" -->
+            <li><a href="/index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+            <li><a href="/about.html"><span class="glyphicon glyphicon-info-sign"></span> About</a></li>
+            <li><a href="mailto:support@tasktools.org"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+          </ul>
         </div>
       </div>
     </div>
+    <h2>&nbsp;</h2>
 
     <div class="container-fluid">
-      <div class="row-fluid">
-        <div class="span3">
-          <br />
-          <div class="well sidebar-nav">
-            <ul class="nav nav-list">
-              <li class="nav-header">Contents</li>
-              <li><a href="#bytes">Bytes</a></li>
-              <li><a href="#idle">Idle</a></li>
-              <li><a href="#service">Service</a></li>
-              <li><a href="#total_bytes">Total Bytes</a></li>
-              <li><a href="#tps">TPS</a></li>
-              <li><a href="#txns">Transactions</a></li>
-              <li><a href="#uptime">Uptime</a></li>
-              <li><a href="#orgs">Organizations</a></li>
-              <li><a href="#users">Users</a></li>
-              <li><a href="#data">User Data</a></li>
-            </ul>
-          </div>
+      <div class="row">
+        <div class="col-md-12 main">
+          <h2>Development Taskserver</h2>
+          <p>
+            This monitoring is for the development instance of the Task
+            Server used for testing purposes.
+          </p>
         </div>
 
-        <div class="span9">
-          <div class="row-fluid">
-            <div>
-              <h2>Development Taskserver</h2>
-              <p>
-                This monitoring is for the development instance of the Task
-                Server used for testing purposes.
-              </p>
-              <a name="bytes"></a>
-              <h3>Bytes</h3>
-              <p>
-                Average request bytes is an average size of all incoming
-                messages from clients.
-
-                These messages are usually small for a sync with no data, but
-                can be arbitrarily large.
-              </p>
+        <div class="col-md-12">
+          <div class="col-md-3">
+            <a href="bytes.png" class="thumbnail">
               <img src="bytes.png" />
-            </div>
-            <div>
-              <a name="idle"></a>
-              <h3>Idle</h3>
-              <p>
-                Idle is the percentage of time the Taskserver stands doing
-                nothing.
-              </p>
-              <img src="idle.png" />
-            </div>
-            <div>
-              <a name="service"></a>
-              <h3>Service</h3>
-              <p>
-                Service time represents the average time to process a request
-                from a client, in seconds.  High load can push this time
-                upwards.
-              </p>
-              <img src="service.png" />
-            </div>
-            <div>
-              <a name="total_bytes"></a>
-              <h3>Total Bytes</h3>
-              <p>
-                Total bytes in and out in the form of requests and responses.
-                This is a cumulative quantity that is reset on server restart.
-              </p>
-              <img src="total_bytes.png" />
-            </div>
-            <div>
-              <a name="tps"></a>
-              <h3>TPS</h3>
-              <p>
-                Transactions per second.
-              </p>
-              <img src="tps.png" />
-            </div>
-            <div>
-              <a name="txns"></a>
-              <h3>Transactions</h3>
-              <p>
-                Transaction count is a cumulative quantity that is reset on
-                server restart.
-              </p>
-              <img src="txns.png" />
-            </div>
-
-            <div>
-              <a name="uptime"></a>
-              <h3>Uptime</h3>
-              <p>
-                Uptime is a count of the seconds of uptime that is reset on
-                server restart.  This is a measure of server stability.
-              </p>
-              <img src="uptime.png" />
-            </div>
-            <div>
-              <a name="orgs"></a>
-              <h3>Organizations</h3>
-              <p>
-                The number of organizations supported by the dev server.
-                This is not expected to change much.
-              </p>
-              <img src="orgs.png" />
-            </div>
-            <div>
-              <a name="users"></a>
-              <h3>Users</h3>
-              <p>
-                The number of user accounts on the dev server.
-              </p>
-              <img src="users.png" />
-            </div>
-            <div>
-              <a name="data"></a>
-              <h3>User Data</h3>
-              <p>
-                The amount of user data on the dev server.
-              </p>
-              <img src="data.png" />
-            </div>
-
+            </a>
           </div>
+          Average request bytes is an average size of all incoming
+          messages from clients.
+
+          These messages are usually small for a sync with no data, but
+          can be arbitrarily large.
+        </div>
+
+        <div class="col-md-12">
+          <div class="col-md-3">
+            <a href="idle.png" class="thumbnail">
+              <img src="idle.png" />
+            </a>
+          </div>
+          Idle is the percentage of time the Taskserver stands doing
+          nothing.
+        </div>
+
+        <div class="col-md-12">
+          <div class="col-md-3">
+            <a href="service.png" class="thumbnail">
+              <img src="service.png" />
+            </a>
+          </div>
+          Service time represents the average time to process a request
+          from a client, in seconds.  High load can push this time
+          upwards.
+        </div>
+
+        <div class="col-md-12">
+          <div class="col-md-3">
+            <a href="total_bytes.png" class="thumbnail">
+              <img src="total_bytes.png" />
+            </a>
+          </div>
+          Total bytes in and out in the form of requests and responses.
+          This is a cumulative quantity that is reset on server restart.
+        </div>
+
+        <div class="col-md-12">
+          <div class="col-md-3">
+            <a href="tps.png" class="thumbnail">
+              <img src="tps.png" />
+            </a>
+          </div>
+          Transactions per second.
+        </div>
+
+        <div class="col-md-12">
+          <div class="col-md-3">
+            <a href="txns.png" class="thumbnail">
+              <img src="txns.png" />
+            </a>
+          </div>
+          Transaction count is a cumulative quantity that is reset on
+          server restart.
+        </div>
+
+        <div class="col-md-12">
+          <div class="col-md-3">
+            <a href="uptime.png" class="thumbnail">
+              <img src="uptime.png" />
+            </a>
+          </div>
+          Uptime is a count of the seconds of uptime that is reset on
+          server restart.  This is a measure of server stability.
+        </div>
+
+        <div class="col-md-12">
+          <div class="col-md-3">
+            <a href="orgs.png" class="thumbnail">
+              <img src="orgs.png" />
+            </a>
+          </div>
+          The number of organizations supported by the dev server.
+          This is not expected to change much.
+        </div>
+
+        <div class="col-md-12">
+          <div class="col-md-3">
+            <a href="users.png" class="thumbnail">
+              <img src="users.png" />
+            </a>
+          </div>
+          The number of user accounts on the dev server.
+        </div>
+
+        <div class="col-md-12">
+          <div class="col-md-3">
+            <a href="data.png" class="thumbnail">
+              <img src="data.png" />
+            </a>
+          </div>
+          The amount of user data on the dev server.
         </div>
       </div>
-    </div> <!-- /container -->
 
-    <footer class="footer">
-      <div class="container">
-        <p>
-          Copyright &copy; 2014,
-          <a href="http://tasktools.org/about.html">Göteborg Bit Factory</a>.
-        </p>
-      </div>
-    </footer>
+      <hr>
+      <footer>
+        Copyright &copy; 2014, <a href="/about.html">Göteborg Bit Factory</a>.
+      </footer>
+    </div>
 
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../assets/js/jquery.js"></script>
-    <script src="../assets/js/google-code-prettify/prettify.js"></script>
-    <script src="../assets/js/bootstrap-transition.js"></script>
-    <script src="../assets/js/bootstrap-alert.js"></script>
-    <script src="../assets/js/bootstrap-modal.js"></script>
-    <script src="../assets/js/bootstrap-dropdown.js"></script>
-    <script src="../assets/js/bootstrap-scrollspy.js"></script>
-    <script src="../assets/js/bootstrap-tab.js"></script>
-    <script src="../assets/js/bootstrap-tooltip.js"></script>
-    <script src="../assets/js/bootstrap-popover.js"></script>
-    <script src="../assets/js/bootstrap-button.js"></script>
-    <script src="../assets/js/bootstrap-collapse.js"></script>
-    <script src="../assets/js/bootstrap-carousel.js"></script>
-    <script src="../assets/js/bootstrap-typeahead.js"></script>
-    <script src="../assets/js/bootstrap-affix.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- Piwik --> 
+    <!-- Piwik -->
     <script type="text/javascript">
     var pkBaseURL = (("https:" == document.location.protocol) ? "https://tasktools.org/piwik/" : "http://tasktools.org/piwik/");
     document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
     </script><script type="text/javascript">
     try {
-    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 6);
+    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
     piwikTracker.trackPageView();
     piwikTracker.enableLinkTracking();
     } catch( err ) {}
-    </script><noscript><p><img src="http://tasktools.org/piwik/piwik.php?idsite=6" style="border:0" alt="" /></p></noscript>
-    <!-- End Piwik Tracking Code -->
+    </script><noscript><p><img src="http://tasktools.org/piwik/piwik.php?idsite=3" style="border:0" alt="" /></p></noscript>
   </body>
 </html>
-

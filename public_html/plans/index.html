@@ -2,70 +2,48 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>tasktools.org | Plans</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tasktools.org</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
 
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono:regular' rel='stylesheet' type='text/css'>
-    <link href="../assets/css/bootstrap.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="../assets/css/docs.css" rel="stylesheet">
-    <style>
-      body {
-        font-family: "Droid Sans Mono", Helvetica, Arial, sans-serif;
-        font-size: 13px;
-      }
-
-      TABLE            {font-size: 75%; background:#cccccc}
-      TH               {background:#c0c0c0; color:#333333; text-align:left; border: 1px solid gray;}
-      TD               {background:white;   color:#444444; vertical-align:top; border: 1px solid gray;}
-    </style>
-
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
   </head>
 
   <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="../index.html">tasktools.org</a>
-          <div class="nav-collapse">
-            <ul class="nav">
-              <li><a href="http://taskwarrior.org">taskwarrior.org</a></li>
-            </ul>
-
-            <ul class="nav pull-right">
-              <li><a href="../about.html">About</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="mailto:support@taskwarrior.org">taskwarrior Support</a></li>
-                  <li><a href="mailto:support@yootabory.org">yootabory Support</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div><!--/.nav-collapse -->
+          <a class="navbar-brand" href="http://tasktools.org">tasktools.org</a>
+          <a class="navbar-brand" href="http://taskwarrior.org">taskwarrior.org</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <!-- Use class="active" -->
+            <li><a href="/index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+            <li><a href="/about.html"><span class="glyphicon glyphicon-info-sign"></span> About</a></li>
+            <li><a href="mailto:support@tasktools.org"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+          </ul>
         </div>
       </div>
     </div>
+    <h2>&nbsp;</h2>
 
     <div class="container-fluid">
-      <div class="row-fluid">
-        <div class="span12">
+      <div class="row">
+        <div class="col-md-12 main">
           <h3>Taskwarrior Plans/Goals</h3>
           <p>
             There are many interconnected features and technologies in taskwarrior,
@@ -75,22 +53,22 @@
           </p>
 
           <p>
-            Last updated 2013-05-12.
+            Last updated 2014-02-10.
           </p>
 
-          <table>
+          <table class="table table-bordered">
             <tr>
               <th>Technology/Feature</th>
-              <th>2.2<br />Current</th>
-              <th>2.3<br />Next</th>
-              <th>2.4+<br />Future</th>
+              <th>2.3<br />Current</th>
+              <th>2.4<br />Next</th>
+              <th>2.x<br />Future</th>
             </tr>
 
             <tr>
               <td>Schedule</td>
-              <td>2.2.0 2013-04-07</td>
-              <td>Mid 2013</td>
-              <td>End 2013</td>
+              <td>2014-01-14</td>
+              <td>Mid 2014</td>
+              <td>Early 2015</td>
             </tr>
 
             <tr>
@@ -98,10 +76,10 @@
               <td>
               </td>
               <td>
-                Hooks
+                Algebraic expressions
               </td>
               <td>
-                Algebraic expressions<br />
+                Hooks
               </td>
             </tr>
 
@@ -111,45 +89,20 @@
                 User Defined Attributes (UDA)
               </td>
               <td>
-                id<br />
-                uuid<br />
-                project<br />
-                priority<br />
-                <i>priority_long DEPRECATED</i><br />
-                entry<br />
-                <i>entry_time DEPRECATED</i><br />
-                start<br />
-                <i>start_time DEPRECATED</i><br />
-                end<br />
-                <i>end_time DEPRECATED</i><br />
-                due<br />
-                <i>countdown DEPRECATED</i><br />
-                <i>countdown_compact DEPRECATED</i><br /><br /><br />
-                <i>age DEPRECATED</i><br />
-                <i>age_compact DEPRECATED</i><br />
-                <i>active DEPRECATED</i><br />
-                tags<br />
-                recur<br />
-                <i>recurrence_indicator DEPRECATED</i><br />
-                <i>tag_indicator DEPRECATED</i><br />
-                <i>description_only DEPRECATED</i><br />
-                description<br />
-                wait<br />
-                depends<br />
-                urgency<br />
-                status<br />
+                modified
               </td>
+              <td></td>
               <td>
-              </td>
-              <td>
+                org<br />
+                group<br />
               </td>
             </tr>
 
             <tr>
               <td>Reports</td>
+              <td></td>
               <td>
-              </td>
-              <td>
+                Redesigned layouts (DJP)
               </td>
               <td>
                 Weekly reports (history, ghistory ...)<br />
@@ -159,13 +112,11 @@
             <tr>
               <td>Synchronization</td>
               <td>
-                task merge &lt;url&gt;<br />
-                task pull &lt;url&gt;<br />
-                task push &lt;url&gt;<br />
+                Taskserver support<br />
+                multi user, multi-client<br />
               </td>
-              <td>Taskserver support,<br />multi user, multi-client</td>
-              <td>
-              </td>
+              <td></td>
+              <td></td>
             </tr>
 
             <tr>
@@ -191,11 +142,8 @@
 
             <tr>
               <td>Color<br />RFC23</td>
-              <td>
-                <i>fg: bg: REMOVED</i>
-              </td>
-              <td>
-              </td>
+              <td></td>
+              <td></td>
               <td>
                 Auto-downsample<br />
               </td>
@@ -205,21 +153,20 @@
               <td>I18N</td>
               <td>
                 UTF-8 support<br />
-                en-US, es-ES<br />
+                en-US<br />
+                es-ES<br />
+                it-IT<br />
               </td>
               <td>
-                it-IT, fr-FR
+                fr-FR
               </td>
-              <td>
-              </td>
+              <td></td>
             </tr>
 
             <tr>
               <td>Import<br />RFC2</td>
               <td>
-                JSON (internal)<br />
-                todo.sh (external)<br />
-                YAML 1.1 (external)<br />
+                JSON
               </td>
               <td></td>
               <td></td>
@@ -228,14 +175,7 @@
             <tr>
               <td>Export</td>
               <td>
-                JSON (internal)<br />
-                CSV (external)<br />
-                HTML (external)<br />
-                XML (external)<br />
-                iCal (external)<br />
-                SQL (external)<br />
-                YAD (external)<br />
-                YAML (external)<br />
+                JSON
               </td>
               <td></td>
               <td></td>
@@ -251,11 +191,9 @@
                 man: task-FAQ<br />
                 man: task-sync<br />
                 youtube: various<br />
-                taskwarrior.org: How-To<br />
-                taskwarrior.org: Features<br />
+                taskwarrior.org<br />
               </td>
-              <td>
-              </td>
+              <td></td>
               <td>
                 taskwarrior.com: Support Site<br />
               </td>
@@ -266,8 +204,7 @@
               <td>
                 Documented file format<br />
               </td>
-              <td>
-              </td>
+              <td></td>
               <td>
                 <i>Shadow files DEPRECATED</i>
                 Hooks<br />
@@ -283,39 +220,21 @@
               </td>
               <td></td>
               <td>
-                taskwarrior.com<br />
+                taskwarrior.com
               </td>
             </tr>
           </table>
         </div>
       </div>
-    </div> <!-- /container -->
 
-    <footer class="footer">
-      <div class="container">
-        <p>
-          Copyright &copy; 2014,
-          <a href="http://tasktools.org/about.html">Göteborg Bit Factory</a>.
-        </p>
-      </div>
-    </footer>
+      <hr>
+      <footer>
+        Copyright &copy; 2014, <a href="/about.html">Göteborg Bit Factory</a>.
+      </footer>
+    </div>
 
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../assets/js/jquery.js"></script>
-    <script src="../assets/js/google-code-prettify/prettify.js"></script>
-    <script src="../assets/js/bootstrap-transition.js"></script>
-    <script src="../assets/js/bootstrap-alert.js"></script>
-    <script src="../assets/js/bootstrap-modal.js"></script>
-    <script src="../assets/js/bootstrap-dropdown.js"></script>
-    <script src="../assets/js/bootstrap-scrollspy.js"></script>
-    <script src="../assets/js/bootstrap-tab.js"></script>
-    <script src="../assets/js/bootstrap-tooltip.js"></script>
-    <script src="../assets/js/bootstrap-popover.js"></script>
-    <script src="../assets/js/bootstrap-button.js"></script>
-    <script src="../assets/js/bootstrap-collapse.js"></script>
-    <script src="../assets/js/bootstrap-carousel.js"></script>
-    <script src="../assets/js/bootstrap-typeahead.js"></script>
-    <script src="../assets/js/bootstrap-affix.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Piwik -->
     <script type="text/javascript">
@@ -328,7 +247,5 @@
     piwikTracker.enableLinkTracking();
     } catch( err ) {}
     </script><noscript><p><img src="http://tasktools.org/piwik/piwik.php?idsite=3" style="border:0" alt="" /></p></noscript>
-    <!-- End Piwik Tag -->
   </body>
 </html>
-

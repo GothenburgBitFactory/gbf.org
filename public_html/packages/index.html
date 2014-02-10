@@ -2,66 +2,48 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>tasktools.org | Packages</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tasktools.org</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
 
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans+Mono:regular' rel='stylesheet' type='text/css'>
-    <link href="../assets/css/bootstrap.css" rel="stylesheet">
-    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
-    <link href="../assets/css/docs.css" rel="stylesheet">
-    <style>
-      body {
-        font-family: "Droid Sans Mono", Helvetica, Arial, sans-serif;
-        font-size: 13px;
-      }
-    </style>
-
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
   </head>
 
   <body>
-    <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="brand" href="../index.html">tasktools.org</a>
-          <div class="nav-collapse">
-            <ul class="nav">
-              <li><a href="http://taskwarrior.org">taskwarrior.org</a></li>
-            </ul>
-
-            <ul class="nav pull-right">
-              <li><a href="../about.html">About</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact<b class="caret"></b></a>
-                <ul class="dropdown-menu">
-                  <li><a href="mailto:support@taskwarrior.org">taskwarrior Support</a></li>
-                  <li><a href="mailto:support@yootabory.org">yootabory Support</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div><!--/.nav-collapse -->
+          <a class="navbar-brand" href="http://tasktools.org">tasktools.org</a>
+          <a class="navbar-brand" href="http://taskwarrior.org">taskwarrior.org</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <!-- Use class="active" -->
+            <li><a href="/index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+            <li><a href="/about.html"><span class="glyphicon glyphicon-info-sign"></span> About</a></li>
+            <li><a href="mailto:support@tasktools.org"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+          </ul>
         </div>
       </div>
     </div>
+    <h2>&nbsp;</h2>
 
     <div class="container-fluid">
-      <div class="row-fluid">
-        <div class="span10">
+      <div class="row">
+        <div class="col-md-12 main">
           <h3>Packaging</h3>
           <p>
             The packaging effort begins with a source tarball release.
@@ -75,15 +57,7 @@
           <p>
             Don't be surprised if it takes a week or more for the packages to appear.
           </p>
-        </div>
-      </div>
-    </div>
 
-    <br />
-
-    <div class="container-fluid">
-      <div class="row-fluid">
-        <div class="span10">
           <h3>Taskwarrior Package Status</h3>
           <table class="table table-bordered table-striped table-condensed">
             <tr>
@@ -616,33 +590,15 @@
           </table>
         </div>
       </div>
-    </div> <!-- /container -->
 
-    <footer class="footer">
-      <div class="container">
-        <p>
-          Copyright &copy; 2014,
-          <a href="http://tasktools.org/about.html">Göteborg Bit Factory</a>.
-        </p>
-      </div>
-    </footer>
+      <hr>
+      <footer>
+        Copyright &copy; 2014, <a href="/about.html">Göteborg Bit Factory</a>.
+      </footer>
+    </div>
 
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="../assets/js/jquery.js"></script>
-    <script src="../assets/js/google-code-prettify/prettify.js"></script>
-    <script src="../assets/js/bootstrap-transition.js"></script>
-    <script src="../assets/js/bootstrap-alert.js"></script>
-    <script src="../assets/js/bootstrap-modal.js"></script>
-    <script src="../assets/js/bootstrap-dropdown.js"></script>
-    <script src="../assets/js/bootstrap-scrollspy.js"></script>
-    <script src="../assets/js/bootstrap-tab.js"></script>
-    <script src="../assets/js/bootstrap-tooltip.js"></script>
-    <script src="../assets/js/bootstrap-popover.js"></script>
-    <script src="../assets/js/bootstrap-button.js"></script>
-    <script src="../assets/js/bootstrap-collapse.js"></script>
-    <script src="../assets/js/bootstrap-carousel.js"></script>
-    <script src="../assets/js/bootstrap-typeahead.js"></script>
-    <script src="../assets/js/bootstrap-affix.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
 
     <!-- Piwik -->
     <script type="text/javascript">
@@ -655,6 +611,5 @@
     piwikTracker.enableLinkTracking();
     } catch( err ) {}
     </script><noscript><p><img src="http://tasktools.org/piwik/piwik.php?idsite=3" style="border:0" alt="" /></p></noscript>
-    <!-- End Piwik Tag -->
   </body>
 </html>
