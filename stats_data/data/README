@@ -1,0 +1,17 @@
+# cat/zcat /var/log/apache2/taskwarrior-access* > tw.log
+# vi tw.log
+
+# Current month.
+:v/\/May\/d
+
+:v/GET \/download/d
+:g/GET \/download\/ /d
+:g/GET \/download /d
+:g/" 206 /d
+:g/" 4.. /d
+:g/" 3.. /d
+:1,$s/^.\+GET //
+:1,$s/ HTTP.\+$//
+:1,$s/\/download\///
+:1,$sort
+
