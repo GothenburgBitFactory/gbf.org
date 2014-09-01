@@ -1,8 +1,13 @@
+# ssh flo
+# sudo su -
+# cd /var/log/apache2
+# cat/zcat /var/log/apache2/tasktools-access* > tt.log
 # cat/zcat /var/log/apache2/taskwarrior-access* > tw.log
+# vi tt.log
 # vi tw.log
 
 # Current month.
-:v/\/Jul\/d
+:v/\/Aug\/d
 
 :v/GET \/download/d
 :g/GET \/download\/ /d
