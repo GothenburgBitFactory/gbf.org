@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>tasktools.org</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Google Chart -->
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(drawChart);
+      function drawChart() {
+
+        // Next
+        var data = google.visualization.arrayToDataTable([
+          ['Version', 'Init', 'Load', 'GC', 'Filter', 'Commit', 'Sort', 'Render', 'Hooks', { role: 'annotation' }],
+          ['2.1.2',       3950, 211310, 67132,  44231, 0, 85757, 792, 0, ''],
+          ['2.2.0',       3261, 183350, 46011,  36789, 1, 59132, 741, 0, ''],
+          ['2.3.0',       2103,  92588, 42621,  21907, 4, 31486, 397, 0, ''],
+          ['2.4.0.beta1', 2383, 109974, 48248, 107538, 3, 11244, 442, 1, ''],
+          ['2.4.0.beta2', 2105, 104975, 46378, 100163, 3, 13679, 864, 0, '']
+        ]);
+
+        var options = {
+          legend: { position: 'top', maxLines: 3 },
+          bar: { groupWidth: '75%' },
+          isStacked: true
+        };
+
+        var chart = new google.visualization.BarChart(document.getElementById('chart_next'));
+        chart.draw(data, options);
+
+        // List
+        data = google.visualization.arrayToDataTable([
+          ['Version', 'Init', 'Load', 'GC', 'Filter', 'Commit', 'Sort', 'Render', 'Hooks', { role: 'annotation' }],
+          ['2.1.2',       3394, 177398, 49632,  36044, 0, 58022, 205272, 0, ''],
+          ['2.2.0',       3163, 179983, 48537,  33584, 0, 55691, 128616, 0, ''],
+          ['2.3.0',       2027,  93138, 43789,  17572, 6, 38197,  71398, 0, ''],
+          ['2.4.0.beta1', 2047, 106705, 48439, 107971, 3, 36926, 111601, 1, ''],
+          ['2.4.0.beta2', 2091, 106123, 47198, 102237, 3, 33370, 116229, 0, '']
+        ]);
+
+        options = {
+          legend: { position: 'top', maxLines: 3 },
+          bar: { groupWidth: '75%' },
+          isStacked: true
+        };
+
+        var chart = new google.visualization.BarChart(document.getElementById('chart_list'));
+        chart.draw(data, options);
+
+        // All
+        data = google.visualization.arrayToDataTable([
+          ['Version', 'Init', 'Load', 'GC', 'Filter', 'Commit', 'Sort', 'Render', 'Hooks', { role: 'annotation' }],
+          ['2.1.2',       3666, 191901, 64996, 170394, 1,  58823, 1346275, 0, ''],
+          ['2.2.0',       2954, 204159, 59522, 164240, 2,  75924,  900832, 0, ''],
+          ['2.3.0',       2067,  91497, 43829,  58223, 5,  14153,  393992, 0, ''],
+          ['2.4.0.beta1', 2137, 102276, 46846,  28404, 3, 197306,  536383, 2, ''],
+          ['2.4.0.beta2', 2207, 101127, 48134,  28324, 3, 193305,  533324, 0, '']
+        ]);
+
+        options = {
+          legend: { position: 'top', maxLines: 3 },
+          bar: { groupWidth: '75%' },
+          isStacked: true
+        };
+
+        var chart = new google.visualization.BarChart(document.getElementById('chart_all'));
+        chart.draw(data, options);
+
+        // Add
+        data = google.visualization.arrayToDataTable([
+          ['Version', 'Init', 'Load', 'GC', 'Filter', 'Commit', 'Sort', 'Render', 'Hooks', { role: 'annotation' }],
+          ['2.1.2',       8624,  60408, 0, 0, 238, 0, 0,  0, ''],
+          ['2.2.0',       3544,  52141, 0, 0, 241, 0, 0,  0, ''],
+          ['2.3.0',       2151,  27167, 0, 0, 226, 0, 0,  0, ''],
+          ['2.4.0.beta1', 2267, 107518, 0, 0, 230, 0, 0, 24, ''],
+          ['2.4.0.beta2', 2222, 102614, 0, 0, 376, 0, 0,  0, '']
+        ]);
+
+        options = {
+          legend: { position: 'top', maxLines: 3 },
+          bar: { groupWidth: '75%' },
+          isStacked: true
+        };
+
+        var chart = new google.visualization.BarChart(document.getElementById('chart_add'));
+        chart.draw(data, options);
+
+        // Export
+        data = google.visualization.arrayToDataTable([
+          ['Version', 'Init', 'Load', 'GC', 'Filter', 'Commit', 'Sort', 'Render', 'Hooks', { role: 'annotation' }],
+          ['2.1.2',       4212, 202917, 53943, 32410, 0, 0, 0, 0, ''],
+          ['2.2.0',       2685, 184988, 48323, 32882, 1, 0, 0, 0, ''],
+          ['2.3.0',       2034,  94067, 45910, 26007, 2, 0, 0, 0, ''],
+          ['2.4.0.beta1', 2375, 109112, 43982, 29799, 3, 0, 0, 1, ''],
+          ['2.4.0.beta2', 2538, 102908, 46050, 30696, 3, 0, 0, 0, '']
+        ]);
+
+        options = {
+          legend: { position: 'top', maxLines: 3 },
+          bar: { groupWidth: '75%' },
+          isStacked: true
+        };
+
+        var chart = new google.visualization.BarChart(document.getElementById('chart_export'));
+        chart.draw(data, options);
+
+        // Import
+        data = google.visualization.arrayToDataTable([
+          ['Version', 'Init', 'Load', 'GC', 'Filter', 'Commit', 'Sort', 'Render', 'Hooks', { role: 'annotation' }],
+          ['2.1.2',       3516, 138, 0, 0, 334239, 0, 0,      0, ''],
+          ['2.2.0',       3157, 136, 0, 0, 268719, 0, 0,      0, ''],
+          ['2.3.0',       2176, 402, 0, 0, 175970, 0, 0,      0, ''],
+          ['2.4.0.beta1', 2157, 542, 0, 0, 203209, 0, 0, 165710, ''],
+          ['2.4.0.beta2', 2648, 221, 0, 0, 204065, 0, 0,      0, '']
+        ]);
+
+        options = {
+          legend: { position: 'top', maxLines: 3 },
+          bar: { groupWidth: '75%' },
+          isStacked: true
+        };
+
+        var chart = new google.visualization.BarChart(document.getElementById('chart_import'));
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://tasktools.org">tasktools.org</a>
+          <a class="navbar-brand" href="http://taskwarrior.org">taskwarrior.org</a>
+          <a class="navbar-brand" href="http://holidata.net">holidata.net</a>
+          <a class="navbar-brand" href="http://flod.us">flod.us</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+            <li><a href="/about.html"><span class="glyphicon glyphicon-info-sign"></span> About</a></li>
+            <li><a href="mailto:support@tasktools.org"><span class="glyphicon glyphicon-envelope"></span> Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <h2>&nbsp;</h2>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 main">
+          <h2>Taskwarrior Performance Testing</h2>
+          <p>
+            The performance charts are generated using
+            <a href="https://google-developers.appspot.com/chart/">Google Charts</a>,
+            and represent the results from running <code>make performance</code>
+            for a release build. All times shown are microseconds (μs).
+
+            <a href="http://en.wikipedia.org/wiki/Microsecond">
+              The average human eye blink takes 350,000 μs
+            </a>.
+          </p>
+
+          <p>
+            The data used is the text of all the Shakespeare tragedies, with
+            data manipulation that turns every spoken line into a task. Why not?
+            The result is a sample data set that includes 2,129 pending tasks
+            and 5,957 completed tasks. This yields an 8,086 task database.
+            This data is then queried twice to warm any caches.
+          </p>
+
+          <p>
+            The tests are all run on the same hardware, OS, and under similar
+            load. Because of this, and OS upgrade or new hardware requires all
+            tests to be re-run, and sometimes this is not possible because of
+            toolchain differences.  It is expected that there will be minor
+            variations between tests.
+          </p>
+
+          <h3><code>task next</code></h3>
+          <p>
+            This test yields only the pending tasks.
+            <div id="chart_next"></div>
+          </p>
+
+          <h3><code>task list</code></h3>
+          <p>
+            This test yields only the pending tasks.
+            <div id="chart_list"></div>
+          </p>
+
+          <h3><code>task all</code></h3>
+          <p>
+            This test yields all pending and completed tasks.
+            <div id="chart_all"></div>
+          </p>
+
+          <h3><code>task add</code></h3>
+          <p>
+            This test adds a task with project, priority, tags and an average-sized description.
+            <div id="chart_add"></div>
+          </p>
+
+          <h3><code>task export</code></h3>
+          <p>
+            This test exports all 8,086 tasks to a JSON file.
+            <div id="chart_export"></div>
+          </p>
+
+          <h3><code>task import</code></h3>
+          <p>
+             This test imports all 8,086 tasks from a JSON file.
+            <div id="chart_import"></div>
+        </div>
+      </div>
+
+      <hr>
+      <footer>
+        Copyright &copy; 2014, <a href="/about.html">Göteborg Bit Factory</a>.
+      </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+    var pkBaseURL = (("https:" == document.location.protocol) ? "https://see.tasktools.org/piwik/" : "http://see.tasktools.org/piwik/");
+    document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+    </script><script type="text/javascript">
+    try {
+    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
+    piwikTracker.trackPageView();
+    piwikTracker.enableLinkTracking();
+    } catch( err ) {}
+    </script><noscript><p><img src="http://see.tasktools.org/piwik/piwik.php?idsite=3" style="border:0" alt="" /></p></noscript>
+  </body>
+</html>
