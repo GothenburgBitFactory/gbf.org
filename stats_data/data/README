@@ -7,7 +7,7 @@
 # vi tw.log
 
 # Current month.
-:v/\/Aug\/d
+:v/\/Sep\/d
 
 :v/GET \/download/d
 :g/GET \/download\/ /d
