@@ -1,4 +1,4 @@
-# ssh flo
+# ssh twa
 # sudo su -
 # cd /var/log/apache2
 # cat/zcat /var/log/apache2/tasktools-access* > tt.log
@@ -6,17 +6,20 @@
 # vi tt.log
 # vi tw.log
 
-# Current month.
-:v/\/Oct\/d
+# tw.log
+:v/\/Nov\/d
 
 :v/GET \/download/d
 :g/GET \/download\/ /d
 :g/GET \/download /d
-:g/" 206 /d
-:g/" 4.. /d
-:g/" 3.. /d
+:v/" 200 /d
 :1,$s/^.\+GET //
 :1,$s/ HTTP.\+$//
 :1,$s/\/download\///
 :1,$sort
 
+# tt.log
+:v/\/Nov\/d
+
+:v/GET \/latest /d
+:v/" 200 /d

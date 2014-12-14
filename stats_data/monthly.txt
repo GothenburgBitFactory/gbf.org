@@ -1362,5 +1362,29 @@ October 2014
   ----
    463
 
+November 2014
+
+   854 task-2.3.0.tar.gz
+    85 task-2.4.0.beta1.tar.gz
+   165 task-2.4.0.beta2.tar.gz
+   174 task-2.4.0.beta3.tar.gz
+   346 taskd-1.0.0.tar.gz
+    45 tasksh-1.0.0.beta1.tar.gz
+    14 clog-1.1.0.tar.gz
+    12 vramsteg-1.0.1.tar.gz
+  ----
+  1695
+
+     3 vit-1.1.tar.gz
+    12 vit-1.2.beta1.tar.gz
+   131 vit-1.2.tar.gz
+  ----
+   146
+
+   476 task-2.3.0.ref.pdf
+    81 tw-ubcde11.pdf
+  ----
+   557
+
 ---
 
