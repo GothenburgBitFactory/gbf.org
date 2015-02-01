@@ -96,7 +96,7 @@
 
                tw.org  tt.org  hd.net  flod.us  tt.org/ bug    svar   status bugs   bugs   unit
                visits  visits  visits  visits   latest  visits visits visits found  fixed  tests
-               ------  ------  ------  -------  -----   -----  -----  -----  -----  -----
+               ------  ------  ------  -------  -----   -----  -----  -----  -----  -----  -----
 2014 January    10962     465      46       20                                  45     19   9605
      February   10901     264       4       11                                  35     30   9575
      March       6505     412                             179      4     71     17      5   9575
@@ -111,6 +111,14 @@
      December    5818     592                      59     361    227     10     20     77   8382
                ------  ------  ------  -------  -----   -----  -----  -----  -----  -----  -----
                 78527    6239      50       31    421    3945   2743   1007    304    275
+
+               tw.org  tt.org  hd.net  flod.us  tt.org/ bug    svar   status bugs   bugs   unit
+               visits  visits  visits  visits   latest  visits visits visits found  fixed  tests
+               ------  ------  ------  -------  -----   -----  -----  -----  -----  -----  -----
+2015 January     8404     730                      74     487    326     40     48     20   8481
+               ------  ------  ------  -------  -----   -----  -----  -----  -----  -----  -----
+                 8404     730                      74     487    326     40     48     20   8481
+
 
 ---
 
@@ -186,5 +194,5 @@
      October    3313   1390   1910     36    186    489            13     21
      November   2914   1193   2026     31    193    405            21     15
      December   3095   1183   1960     14    192    539             7     18
-
+2015 January    4370   1602   2716     92    332    826             9     40
 

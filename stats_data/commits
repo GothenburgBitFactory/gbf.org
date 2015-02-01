@@ -1,0 +1,25 @@
+#!/bin/bash
+
+TOTAL=0
+MONTH_START=2015-01-01
+MONTH_END=2015-01-31
+
+for REPO in ~/gbf/*.git
+do
+  if [[ -d $REPO ]]
+  then
+    cd $REPO
+    COMMITS=$(git log --pretty=oneline --date=short --since="${MONTH_START} 0:00:00" --until="${MONTH_END} 0:00:00" | wc -l)
+
+    if [[ $COMMITS -gt 0 ]]
+    then
+      printf "%-22s %4d\n" $(basename $REPO) $COMMITS
+    fi
+
+    TOTAL=$(expr $TOTAL + $COMMITS)
+  fi
+done
+
+echo   '                       ----'
+printf "TOTAL                  %4d\n" $TOTAL
+

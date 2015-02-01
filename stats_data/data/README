@@ -1,13 +1,13 @@
 # ssh twa
 # sudo su -
 # cd /var/log/apache2
-# cat/zcat /var/log/apache2/tasktools-access* > tt.log
-# cat/zcat /var/log/apache2/taskwarrior-access* > tw.log
+# cat/zcat /var/log/apache2/tasktools.org-access* > tt.log
+# cat/zcat /var/log/apache2/taskwarrior.org-access* > tw.log
 # vi tt.log
 # vi tw.log
 
 # tw.log
-:v/\/Dec\/d
+:v/\/Jan\//d
 
 :v/GET \/download/d
 :g/GET \/download\/ /d
@@ -19,7 +19,7 @@
 :1,$sort
 
 # tt.log
-:v/\/Dec\/d
+:v/\/Jan\//d
 
 :v/GET \/latest /d
 :v/" 200 /d
