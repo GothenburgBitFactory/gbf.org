@@ -112,11 +112,12 @@
                ------  ------  ------  -------  -----   -----  -----  -----  -----  -----  -----
                 78527    6239      50       31    421    3945   2743   1007    304    275
 
-               tw.org  tt.org  hd.net  flod.us  tt.org/ bug    svar   status bugs   bugs   unit
-               visits  visits  visits  visits   latest  visits visits visits found  fixed  tests
-               ------  ------  ------  -------  -----   -----  -----  -----  -----  -----  -----
-2015 January     8404     730                      74     487    326     40     48     20   8481
-               ------  ------  ------  -------  -----   -----  -----  -----  -----  -----  -----
+               tw.org  tt.org  hd.net  flod.us  tt.org/ bug    svar   status bugs   bugs   unit   Perl   Pythn  C++
+               visits  visits  visits  visits   latest  visits visits visits found  fixed  tests  tests  tests  tests
+               ------  ------  ------  -------  -----   -----  -----  -----  -----  -----  -----  -----  -----  -----
+2015 January     8404     730                      74     487    326     40     48     20   8481    202     63     51
+2015 February                                                                                       202     84     51
+               ------  ------  ------  -------  -----   -----  -----  -----  -----  -----  -----  -----  -----  -----
                  8404     730                      74     487    326     40     48     20   8481
 
 
