@@ -1,0 +1,35 @@
+#!/usr/bin/env perl
+
+use strict;
+use warnings;
+
+my %data;
+my $month;
+if (@ARGV &&
+    ! -f $ARGV[0])
+{
+  $month = shift @ARGV;
+}
+else
+{
+  $month = qw(Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec) [(localtime (time))[4]];
+}
+
+while (my $line = <>)
+{
+  next if $line !~ /\/${month}\//;
+  next if $line !~ /"GET /;
+  next if $line !~ /" 200 /;
+
+  chomp $line;
+  $line =~ s/^.+GET //;
+  $line =~ s/ HTTP.+$//;
+  $line =~ s/\?.+$//;
+
+  $data{$line}++;
+}
+
+print $month, "\n\n";
+printf ("%6d %s\n", $data{$_}, $_) for sort {$data{$b} <=> $data{$a}}keys %data;
+exit 0;
+
