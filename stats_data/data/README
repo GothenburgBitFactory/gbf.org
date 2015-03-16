@@ -1,25 +1,31 @@
-# ssh twa
-# sudo su -
-# cd /var/log/apache2
-# cat/zcat /var/log/apache2/tasktools.org-access* > tt.log
-# cat/zcat /var/log/apache2/taskwarrior.org-access* > tw.log
-# vi tt.log
-# vi tw.log
+ssh twa
+sudo su -
+cd /var/log/apache2
+tar czvf /tmp/tw.log.gz taskwarrior.org*
+tar czvf /tmp/tt.log.gz tasktools.org*
+^D
+^D
 
-# tw.log
-:v/\/Feb\//d
+scp twa:/tmp/t?.log.gz .
+tar xzvf tw.log.gz
+tar xzvf tt.log.gz
+gunzip *gz
 
-:v/GET \/download/d
-:g/GET \/download\/ /d
-:g/GET \/download /d
-:v/" 200 /d
-:1,$s/^.\+GET //
-:1,$s/ HTTP.\+$//
-:1,$s/\/download\///
-:1,$sort
+ssh twa
+sudo su -
+rm /tmp/t?.log.gz
+^D
+^D
 
-# tt.log
-:v/\/Feb\//d
+cat taskwarrior.org-access* > twa.log
+cat taskwarrior.org-error*  > twe.log
+cat tasktools.org-access*   > tta.log
+cat tasktools.org-error*    > tte.log
+rm taskwarrior.org* tasktools.org*
 
-:v/GET \/latest /d
-:v/" 200 /d
+./downloads Mar twa.log
+./latest    Mar tta.log
+./404s      Mar twe.log
+./404s      Mar tte.log
+
+
