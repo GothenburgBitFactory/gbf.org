@@ -6,14 +6,14 @@ tar czvf /tmp/tt.tar.gz tasktools.org*
 ^D
 ^D
 
-scp twa:/tmp/t?.log.gz .
+scp twa:/tmp/t?.tar.gz .
 tar xzvf tw.tar.gz
 tar xzvf tt.tar.gz
 gunzip *gz
 
 ssh twa
 sudo su -
-rm /tmp/t?.log.gz
+rm /tmp/t?.tar.gz
 ^D
 ^D
 
