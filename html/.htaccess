@@ -1,0 +1,7 @@
+# Policy: Support redirects for at least one year.
+
+# Added 2015-03-20
+REDIRECT 301 /gitweb                     https://git.tasktools.org/projects
+REDIRECT 301 /piwik                      http://see.tasktools.org/piwik
+REDIRECT 301 /tinderbox                  https://central.tasktools.org
+
