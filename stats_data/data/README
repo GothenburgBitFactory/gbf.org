@@ -21,7 +21,7 @@ cat taskwarrior.org-access* > twa.log
 cat taskwarrior.org-error*  > twe.log
 cat tasktools.org-access*   > tta.log
 cat tasktools.org-error*    > tte.log
-rm taskwarrior.org* tasktools.org*
+rm taskwarrior.org* tasktools.org* t?.tar
 
 ./downloads Mar twa.log
 ./latest    Mar tta.log
