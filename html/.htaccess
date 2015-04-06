@@ -5,3 +5,5 @@ REDIRECT 301 /gitweb                     https://git.tasktools.org/projects
 REDIRECT 301 /piwik                      http://see.tasktools.org/piwik
 REDIRECT 301 /tinderbox                  https://central.tasktools.org
 
+# Added 2015-04-05
+REDIRECT 301 /rfcs/gitweb                http://taskwarrior.org/docs/design/index.html
