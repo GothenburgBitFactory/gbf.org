@@ -7,3 +7,9 @@ REDIRECT 301 /tinderbox                  https://central.tasktools.org
 
 # Added 2015-04-05
 REDIRECT 301 /rfcs/gitweb                http://taskwarrior.org/docs/design/index.html
+
+# Added 2015-04-11
+REDIRECT 301 /admin                      /index.html
+REDIRECT 301 /public                     /index.html
+REDIRECT 301 /sites                      /index.html
+REDIRECT 301 /includes                   /index.html
