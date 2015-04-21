@@ -13,3 +13,6 @@ REDIRECT 301 /admin                      /index.html
 REDIRECT 301 /public                     /index.html
 REDIRECT 301 /sites                      /index.html
 REDIRECT 301 /includes                   /index.html
+
+# Added 2015-04-21
+REDIRECT 301 /assets                     /bootstrap
