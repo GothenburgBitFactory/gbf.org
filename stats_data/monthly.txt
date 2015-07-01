@@ -1571,4 +1571,37 @@ May 2015
   ----
    123
 
+June 2015
+
+     5 clog-1.1.0.tar.gz
+   110 task-2.3.0.tar.gz
+    41 task-2.4.0.tar.gz
+    26 task-2.4.1.tar.gz
+    19 task-2.4.2.tar.gz
+    18 task-2.4.3.tar.gz
+   817 task-2.4.4.tar.gz
+     8 task-data-anon.pl
+   123 taskd-1.0.0.tar.gz
+    15 taskd-1.1.0.beta1.tar.gz
+   419 taskd-1.1.0.tar.gz
+    50 tasksh-1.0.0.tar.gz
+     8 vramsteg-1.0.1.tar.gz
+  ----
+  1659
+
+   264 task-2.3.0.ref.pdf
+     7 task-2.4.0.ref.pdf
+     4 task-2.4.1.ref.pdf
+     6 task-2.4.2.ref.pdf
+    10 task-2.4.3.ref.pdf
+   115 task-2.4.4.ref.pdf
+    63 tw-ubcde11.pdf
+  ----
+   469
+
+     1 vit-1.1.tar.gz
+    86 vit-1.2.tar.gz
+  ----
+    87
+
 ---
