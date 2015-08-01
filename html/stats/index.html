@@ -61,9 +61,6 @@
             </a>
           </div>
           Visits to taskwarrior.org, tasktools.org and assorted web sites.
-          With the rollout of the Atlassian tools on multiple Rackspace machines,
-          we expect to see greater traffic to the *.tasktools.org domain, and
-          lesser traffic to takswarrior.org.
         </div>
 
         <div class="col-md-12">
@@ -72,9 +69,9 @@
               <img src="downloads.png" />
             </a>
           </div>
-          Note that only downloads directly from taskwarrior.org and sourceforge.com
-          are recorded.
-          Note that Vit, Taskserver and the PDFs now account for half the download
+          Note that only downloads directly from taskwarrior.org are now recorded.
+          SourceForge is no longer a contributor.
+          Note that Taskserver and the PDFs now account for half the download
           traffic.
         </div>
 
@@ -85,8 +82,11 @@
             </a>
           </div>
           Total downloads by version.
-          1.9.4 was available for a whole year while 2.0 was developed, which
-          explains the high download count for a single version.
+          This chart is indirectly measuring the time between releases,
+          and shows that 1.9.4 and 2.3.0 were the primary version for a year.
+          More recently multiple versions are simultaneously available.
+          HomeBrew, for example, downloads the tarballs from us, and the version
+          obtained is dependent on the freshness of the local brew repository.
         </div>
 
         <div class="col-md-12">
@@ -113,9 +113,10 @@
               <img src="commits.png" />
             </a>
           </div>
-          Development began in 2006, but used Subversion. That history was not
-          brought into git, but consisted of 790 or so commits.  The largest
-          spike represents 2.4.0, which has major new components.
+          Development began in 2006, but used CVS, then Subversion. That history
+          was not brought into git, but consisted of 790 or so commits.  The
+          largest spike represents 2.4.5, which has been undergoing a test suite
+          migration, and parser improvements.
         </div>
 
         <div class="col-md-12">
@@ -124,15 +125,15 @@
               <img src="tests.png" />
             </a>
           </div>
-          It is expected that there will ultimately be 15,000 unit tests.
+          It is expected that there will ultimately be 10,000 unit tests.
 
           The more unit tests we add, the harder it becomes to break task and not
           notice.  More tests should result in fewer bugs, except in the areas of
           new features, which tend to be buggy at first, until the bugs are found
           and the unit tests catch up.
 
-          The recent jump represents the integration of the new expression lexer,
-          parser and evaluator, which is exhaustively tested.
+          The recent drop represents the test suite migration to Python, which
+          included the removal of many duplicate and overlapping tests.
         </div>
 
         <div class="col-md-12">
@@ -165,6 +166,9 @@
           This char shows the downloads by version, and indicates the rate of
           adoption. Downloading old versions is caused by out-of-date links
           around the web, and when a release occurs mid-month.
+
+          Interestingly, the 2.3.0 download rate is increasing, despite five
+          subsequent releases, and is likely caused by HomeBrew.
         </div>
 
         <div class="col-md-12">
@@ -173,8 +177,14 @@
               <img src="composition.png" />
             </a>
           </div>
-          The test suite consists of test script/binaries written in different
-          languages. This chart tracks the conversion from Perl to Python.
+          The test suite consists of test script/binaries written in various
+          languages.
+
+          As of August 2015, there are no Perl tests remaining. There are now
+          a handful of Bash tests, which will grow, but will not become a
+          significant part of the test suite.  Instead it is for quickly
+          capturing tests, which eventually migrate into feature-specific
+          tests.
         </div>
 
         <div class="col-md-12">
@@ -184,7 +194,7 @@
             </a>
           </div>
           Social membership numbers are still rising.
-          Not sure what happened with G+.
+          G+ is dead.
         </div>
 
         <div class="col-md-12">
@@ -203,6 +213,7 @@
             </a>
           </div>
           Total top-10 404s.  A recent effort to reduce 404s is being tracked here.
+          These errors are now almost entirely speculative URL retrieval, hacking.
         </div>
       </div>
 
