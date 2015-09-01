@@ -1652,4 +1652,51 @@ July 2015
   ----
     98
 
+August 2015
+
+     6 clog-1.1.0.tar.gz
+    80 task-2.3.0.tar.gz
+    38 task-2.4.0.tar.gz
+    18 task-2.4.1.tar.gz
+    10 task-2.4.2.tar.gz
+    22 task-2.4.3.tar.gz
+   762 task-2.4.4.tar.gz
+    69 taskd-1.0.0.tar.gz
+     8 taskd-1.1.0.beta1.tar.gz
+   292 taskd-1.1.0.tar.gz
+    24 tasksh-1.0.0.tar.gz
+     7 vramsteg-1.0.1.tar.gz
+  ----
+  1336
+
+    46 export-csv.pl
+    44 export-html.pl
+    52 export-ical.pl
+    32 export-sql.py
+    32 export-tsv.pl
+    33 export-xml.pl
+    30 export-xml.py
+    33 export-xml.rb
+    33 export-yad.pl
+    32 export-yaml.pl
+    48 import-todo.sh.pl
+    33 import-yaml.pl
+  ----
+   448
+
+   247 task-2.3.0.ref.pdf
+     7 task-2.4.0.ref.pdf
+     4 task-2.4.1.ref.pdf
+     8 task-2.4.2.ref.pdf
+     7 task-2.4.3.ref.pdf
+   132 task-2.4.4.ref.pdf
+    84 tw-ubcde11.pdf
+  ----
+   489
+
+     2 vit-1.1.tar.gz
+   108 vit-1.2.tar.gz
+  ----
+   110
+
 ---
