@@ -4,6 +4,7 @@ use strict;
 use warnings;
 
 my %data;
+my $year = (localtime (time))[5] + 1900;
 my $month;
 if (@ARGV &&
     ! -f $ARGV[0])
@@ -17,7 +18,7 @@ else
 
 while (my $line = <>)
 {
-  next if $line !~ /\/${month}\//;
+  next if $line !~ /\/${month}\/${year}/;
   next if $line !~ /"GET /;
   next if $line !~ /" 200 /;
 
