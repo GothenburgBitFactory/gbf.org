@@ -20,3 +20,5 @@ REDIRECT 301 /assets                     /bootstrap
 # Added 2015-05-23
 REDIRECT 301 /performance                /projects/performance.html
 
+# Added 2015-09-20
+REDIRECT 301 /projects/kronisk.html      /index.html
