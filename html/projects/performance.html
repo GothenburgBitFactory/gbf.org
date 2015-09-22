@@ -34,14 +34,16 @@
           ['2.4.3',    2202, 100316, 40970, 28704, 2,  5427, 485, 0,    0, ''],
           ['2.4.4',    1986,  82594, 30231, 20583, 2,  7459, 594, 0,    0, ''],
           ['2.5.0.b1', 1996,  82746, 29343, 23014, 3,  4185, 459, 0,    0, ''],
-          ['2.5.0.b2', 1981,  87058, 30692, 20385, 4,  5620, 779, 0, 8575, '']
+          ['2.5.0.b2', 1981,  87058, 30692, 20385, 4,  5620, 779, 0, 8575, ''],
+          ['2.5.0.b3', 1813,  88823, 30157, 21323, 2,  4089, 466, 0, 9498, '']
         ]);
 
         var options = {
           legend: { position: 'top', maxLines: 3 },
           bar: { groupWidth: '75%' },
           isStacked: true,
-          colors: ['#007db1', '#8dc9e8', '#c8e2ea', '#8cc4a7', '#b42025', '#f59f1d', '#f5d312', '#aab300', '#909090']
+          colors: ['#007db1', '#8dc9e8', '#c8e2ea', '#8cc4a7', '#b42025', '#f59f1d', '#f5d312', '#aab300', '#909090'],
+          height: 300
         };
 
         var chart = new google.visualization.BarChart(document.getElementById('chart_next'));
@@ -59,14 +61,16 @@
           ['2.4.3',    2545, 101973, 38714, 27825, 2, 34025, 144028, 0,     0, ''],
           ['2.4.4',    2119,  82730, 35987, 22122, 2, 24623, 113907, 0,     0, ''],
           ['2.5.0.b1', 1849,  85220, 34020, 20372, 3, 23736, 106479, 0,     0, ''],
-          ['2.5.0.b2', 1956,  93477, 33848, 19844, 4, 22730, 107879, 0, 17731, '']
+          ['2.5.0.b2', 1956,  93477, 33848, 19844, 4, 22730, 107879, 0, 17731, ''],
+          ['2.5.0.b3', 1788,  92921, 37094, 17996, 3, 22445, 103105, 0, 15698, '']
         ]);
 
         options = {
           legend: { position: 'top', maxLines: 3 },
           bar: { groupWidth: '75%' },
           isStacked: true,
-          colors: ['#007db1', '#8dc9e8', '#c8e2ea', '#8cc4a7', '#b42025', '#f59f1d', '#f5d312', '#aab300', '#909090']
+          colors: ['#007db1', '#8dc9e8', '#c8e2ea', '#8cc4a7', '#b42025', '#f59f1d', '#f5d312', '#aab300', '#909090'],
+          height: 300
         };
 
         var chart = new google.visualization.BarChart(document.getElementById('chart_list'));
@@ -84,14 +88,16 @@
           ['2.4.3',    2199,  99229, 35266,  23011, 2, 190076, 685035, 0,     0, ''],
           ['2.4.4',    2007,  86177, 34083,  22561, 2, 129042, 576166, 0,     0, ''],
           ['2.5.0.b1', 2212,  89025, 35996,     73, 3, 136535, 512860, 0,     0, ''],
-          ['2.5.0.b2', 1960,  88474, 34144,     97, 4, 142191, 538818, 0, 68699, '']
+          ['2.5.0.b2', 1960,  88474, 34144,     97, 4, 142191, 538818, 0, 68699, ''],
+          ['2.5.0.b3', 1975,  91593, 33511,    102, 3, 130921, 515561, 0, 71783, '']
         ]);
 
         options = {
           legend: { position: 'top', maxLines: 3 },
           bar: { groupWidth: '75%' },
           isStacked: true,
-          colors: ['#007db1', '#8dc9e8', '#c8e2ea', '#8cc4a7', '#b42025', '#f59f1d', '#f5d312', '#aab300', '#909090']
+          colors: ['#007db1', '#8dc9e8', '#c8e2ea', '#8cc4a7', '#b42025', '#f59f1d', '#f5d312', '#aab300', '#909090'],
+          height: 300
         };
 
         var chart = new google.visualization.BarChart(document.getElementById('chart_all'));
@@ -109,14 +115,16 @@
           ['2.4.3',    3358,  31878, 0, 0,  232, 0, 0, 0,    0, ''],
           ['2.4.4',    2763,  24071, 0, 0,  218, 0, 0, 0,    0, ''],
           ['2.5.0.b1', 2150,  26359, 0, 0,  321, 0, 0, 0,    0, ''],
-          ['2.5.0.b2', 2164,  32139, 0, 0, 2880, 0, 0, 0, 5027, '']
+          ['2.5.0.b2', 2164,  32139, 0, 0, 2880, 0, 0, 0, 5027, ''],
+          ['2.5.0.b3', 2225,  34629, 0, 0, 1134, 0, 0, 0, 8079, '']
         ]);
 
         options = {
           legend: { position: 'top', maxLines: 3 },
           bar: { groupWidth: '75%' },
           isStacked: true,
-          colors: ['#007db1', '#8dc9e8', '#c8e2ea', '#8cc4a7', '#b42025', '#f59f1d', '#f5d312', '#aab300', '#909090']
+          colors: ['#007db1', '#8dc9e8', '#c8e2ea', '#8cc4a7', '#b42025', '#f59f1d', '#f5d312', '#aab300', '#909090'],
+          height: 300
         };
 
         var chart = new google.visualization.BarChart(document.getElementById('chart_add'));
@@ -125,23 +133,25 @@
         // Export
         data = google.visualization.arrayToDataTable([
           ['Version', 'Init', 'Load', 'GC', 'Filter', 'Commit', 'Sort', 'Render', 'Hooks', 'Other', { role: 'annotation' }],
-          ['2.1.2',    3676, 168502, 46187, 30621, 0, 0, 0, 0,      0, ''],
-          ['2.2.0',    2983, 186888, 48899, 29557, 1, 0, 0, 0,      0, ''],
-          ['2.3.0',    2041, 101469, 48356, 26074, 3, 0, 0, 0,      0, ''],
-          ['2.4.0',    2826, 172895, 43358, 25008, 4, 0, 0, 0,      0, ''],
-          ['2.4.1',    2242, 167486, 37997, 21452, 2, 0, 0, 0,      0, ''],
-          ['2.4.2',    2622,  95072, 38712, 19503, 3, 0, 0, 0,      0, ''],
-          ['2.4.3',    3109,  99629, 40102, 23303, 3, 0, 0, 0,      0, ''],
-          ['2.4.4',    2110,  86643, 33530, 21595, 2, 0, 0, 0,      0, ''],
-          ['2.5.0.b1', 1989,  83981, 30980,    72, 3, 0, 0, 0,      0, ''],
-          ['2.5.0.b2', 2113,  95731, 35873,    70, 5, 0, 0, 0, 194649, '']
+          ['2.1.2',    3676, 168502, 46187, 30621, 0, 0,      0, 0,      0, ''],
+          ['2.2.0',    2983, 186888, 48899, 29557, 1, 0,      0, 0,      0, ''],
+          ['2.3.0',    2041, 101469, 48356, 26074, 3, 0,      0, 0,      0, ''],
+          ['2.4.0',    2826, 172895, 43358, 25008, 4, 0,      0, 0,      0, ''],
+          ['2.4.1',    2242, 167486, 37997, 21452, 2, 0,      0, 0,      0, ''],
+          ['2.4.2',    2622,  95072, 38712, 19503, 3, 0,      0, 0,      0, ''],
+          ['2.4.3',    3109,  99629, 40102, 23303, 3, 0,      0, 0,      0, ''],
+          ['2.4.4',    2110,  86643, 33530, 21595, 2, 0,      0, 0,      0, ''],
+          ['2.5.0.b1', 1989,  83981, 30980,    72, 3, 0,      0, 0,      0, ''],
+          ['2.5.0.b2', 2113,  95731, 35873,    70, 5, 0,      0, 0, 194649, ''],
+          ['2.5.0.b3', 2000,  94398, 35729,    72, 2, 0, 163984, 0,  30569, '']
         ]);
 
         options = {
           legend: { position: 'top', maxLines: 3 },
           bar: { groupWidth: '75%' },
           isStacked: true,
-          colors: ['#007db1', '#8dc9e8', '#c8e2ea', '#8cc4a7', '#b42025', '#f59f1d', '#f5d312', '#aab300', '#909090']
+          colors: ['#007db1', '#8dc9e8', '#c8e2ea', '#8cc4a7', '#b42025', '#f59f1d', '#f5d312', '#aab300', '#909090'],
+          height: 300
         };
 
         var chart = new google.visualization.BarChart(document.getElementById('chart_export'));
@@ -159,14 +169,16 @@
           ['2.4.3',    2999,  158, 0, 0, 212068, 0, 0, 0,       0, ''],
           ['2.4.4',    2174,  156, 0, 0, 156014, 0, 0, 0,       0, ''],
           ['2.5.0.b1', 2065,  292, 0, 0, 158200, 0, 0, 0,       0, ''],
-          ['2.5.0.b2', 1851,  277, 0, 0, 150749, 0, 0, 0, 7534089, '']
+          ['2.5.0.b2', 1851,  277, 0, 0, 150749, 0, 0, 0, 7534089, ''],
+          ['2.5.0.b3', 2188,  334, 0, 0, 153700, 0, 0, 0,  921734, '']
         ]);
 
         options = {
           legend: { position: 'top', maxLines: 3 },
           bar: { groupWidth: '75%' },
           isStacked: true,
-          colors: ['#007db1', '#8dc9e8', '#c8e2ea', '#8cc4a7', '#b42025', '#f59f1d', '#f5d312', '#aab300', '#909090']
+          colors: ['#007db1', '#8dc9e8', '#c8e2ea', '#8cc4a7', '#b42025', '#f59f1d', '#f5d312', '#aab300', '#909090'],
+          height: 300
         };
 
         var chart = new google.visualization.BarChart(document.getElementById('chart_import'));
@@ -230,6 +242,17 @@
             variations between tests.
           </p>
 
+          <p>
+            Note: The 'other' category was introduced with 2.5.0.beta2,
+            represents the total runtime (launch to exit, measured internally),
+            with all the other categories subtracted. It therefore represents
+            unmeasured time.
+
+            In the case of <code>export</code> and <code>import</code>, the
+            'other' category is significant. With 2.5.0.beta3 the time spent
+            converting tasks to JSON is counted as 'render' time.
+          </p>
+
           <h3><code>task next</code></h3>
           <p>
             This test yields only the pending tasks.
@@ -248,7 +271,6 @@
           <p>
             This test yields all pending and completed tasks.
             This test is sensitive to changes in the <code>all</code> report definition.
-            <div id="chart_list"></div>
             <div id="chart_all"></div>
           </p>
 
@@ -261,12 +283,14 @@
           <h3><code>task export</code></h3>
           <p>
             This test exports all 8,086 tasks to a JSON file.
+            Starting with task-2.5.0.beta3, time spent composing JSON is measured as 'render' time.
             <div id="chart_export"></div>
           </p>
 
           <h3><code>task import</code></h3>
           <p>
              This test imports all 8,086 tasks from a JSON file.
+             The 'other' category represents mostly JSON parsing.
             <div id="chart_import"></div>
         </div>
       </div>
