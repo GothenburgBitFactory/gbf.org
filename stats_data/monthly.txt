@@ -1702,6 +1702,7 @@ August 2015
 September 2015
 
      8 clog-1.1.0.tar.gz
+   115 clog-1.2.0.tar.gz
     94 task-2.3.0.tar.gz
     27 task-2.4.0.tar.gz
     47 task-2.4.1.tar.gz
@@ -1715,8 +1716,9 @@ September 2015
    305 taskd-1.1.0.tar.gz
     25 tasksh-1.0.0.tar.gz
     13 vramsteg-1.0.1.tar.gz
+    88 vramsteg-1.1.0.tar.gz
   ----
-  1194
+  1397
 
     38 export-csv.pl
     40 export-html.pl
