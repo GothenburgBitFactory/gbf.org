@@ -1,10 +1,8 @@
 ssh twa
 sudo su -
 cd /var/log/apache2
-tar czvf /tmp/tw.tar.gz taskwarrior.org*
-tar czvf /tmp/tt.tar.gz tasktools.org*
-^D
-^D
+tar czvf /tmp/tw.tar.gz taskwarrior.org-{access,error}.log{,.1,.?.gz}
+tar czvf /tmp/tt.tar.gz tasktools.org-{access,error}.log{,.1,.?.gz}
 
 scp twa:/tmp/t?.tar.gz .
 tar xzvf tw.tar.gz
@@ -14,8 +12,6 @@ gunzip *gz
 ssh twa
 sudo su -
 rm /tmp/t?.tar.gz
-^D
-^D
 
 cat taskwarrior.org-access* > twa.log
 cat taskwarrior.org-error*  > twe.log
