@@ -1751,4 +1751,59 @@ September 2015
   ----
    136
 
+October 2015
+
+     4 clog-1.1.0.tar.gz
+   154 clog-1.2.0.tar.gz
+    76 clog-1.2.1.tar.gz
+   141 task-2.3.0.tar.gz
+    21 task-2.4.0.tar.gz
+    38 task-2.4.1.tar.gz
+     6 task-2.4.2.tar.gz
+    12 task-2.4.3.tar.gz
+   295 task-2.4.4.tar.gz
+     2 task-2.5.0.beta1.tar.gz
+    47 task-2.5.0.beta2.tar.gz
+    51 task-2.5.0.beta3.tar.gz
+   215 task-2.5.0.tar.gz
+    98 taskd-1.0.0.tar.gz
+     3 taskd-1.1.0.beta1.tar.gz
+   311 taskd-1.1.0.tar.gz
+    56 tasksh-1.0.0.tar.gz
+     7 vramsteg-1.0.1.tar.gz
+   175 vramsteg-1.1.0.tar.gz
+  ----
+  1712
+
+    39 export-csv.pl
+    45 export-html.pl
+    47 export-ical.pl
+    36 export-sql.py
+    37 export-tsv.pl
+    37 export-xml.pl
+    31 export-xml.py
+    34 export-xml.rb
+    36 export-yad.pl
+    37 export-yaml.pl
+    43 import-todo.sh.pl
+    40 import-yaml.pl
+  ----
+   462
+
+   200 task-2.3.0.ref.pdf
+    14 task-2.4.0.ref.pdf
+     5 task-2.4.1.ref.pdf
+     3 task-2.4.2.ref.pdf
+     2 task-2.4.3.ref.pdf
+    74 task-2.4.4.ref.pdf
+    55 task-2.5.0.ref.pdf
+    86 tw-ubcde11.pdf
+  ----
+   439
+
+     3 vit-1.1.tar.gz
+   117 vit-1.2.tar.gz
+  ----
+   120
+
 ---
