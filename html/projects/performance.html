@@ -22,6 +22,32 @@
       google.setOnLoadCallback(drawChart);
       function drawChart() {
 
+        // Overall combined
+        var data = google.visualization.arrayToDataTable([
+          ['Version', 'Total'],
+          ['2.1.2', 138],
+          ['2.2.0', 137],
+          ['2.3.0', 101],
+          ['2.4.0', 263],
+          ['2.4.1', 249],
+          ['2.4.2', 133],
+          ['2.4.3', 133],
+          ['2.4.4', 132],
+          ['2.5.0', 128],
+          ['2.5.1', 110]
+        ]);
+
+        var options = {
+          legend: { position: 'top', maxLines: 3 },
+          bar: { groupWidth: '75%' },
+          isStacked: false,
+          colors: ['#007db1', '#8dc9e8', '#c8e2ea', '#8cc4a7', '#b42025', '#f59f1d', '#f5d312', '#aab300', '#909090'],
+          height: 300
+        };
+
+        var chart = new google.visualization.BarChart(document.getElementById('chart_combined'));
+        chart.draw(data, options);
+
         // Next
         var data = google.visualization.arrayToDataTable([
           ['Version', 'Init', 'Load', 'GC', 'Filter', 'Commit', 'Sort', 'Render', 'Hooks', 'Other', { role: 'annotation' }],
@@ -222,7 +248,7 @@
 
           <p>
             The data used is the text of all the Shakespeare tragedies, with
-            data manipulation that turns every spoken line into a task. Why not?
+            data manipulation that turns every spoken line into a task.
             The result is a sample data set that includes 2,129 pending tasks
             and 5,957 completed tasks. This yields an 8,086 task database.
             This data is then queried twice to warm any caches.
@@ -237,7 +263,7 @@
           </p>
 
           <p>
-            Note: The 'other' category was introduced with 2.5.0.beta2,
+            Note: The 'other' category was introduced with 2.5.0 and
             represents the total runtime (launch to exit, measured internally),
             with all the other categories subtracted. It therefore represents
             unmeasured time.
@@ -245,6 +271,13 @@
             In the case of <code>export</code> and <code>import</code>, the
             'other' category is significant. With 2.5.0.beta3 the time spent
             converting tasks to JSON is counted as 'render' time.
+          </p>
+
+          <h3><code>All Tests Combined</code></h3>
+          <p>
+            Aggregated time (in seconds) for all 20 tests, by version.
+            This total is measured externally, and therefore includes unmeasured time, and launch time.
+            <div id="chart_combined"></div>
           </p>
 
           <h3><code>task next</code></h3>
