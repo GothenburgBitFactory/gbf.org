@@ -19,8 +19,8 @@ cat tasktools.org-access*   > tta.log
 cat tasktools.org-error*    > tte.log
 rm taskwarrior.org* tasktools.org* t?.tar
 
-./downloads Mar twa.log tta.log
-./latest    Mar tta.log
-./404s      Mar twe.log tte.log
-./popular   Mar twa.log tta.log
+./downloads [Mar [2015]] twa.log tta.log
+./latest    [Mar [2015]] tta.log
+./404s      [Mar [2015]] twe.log tte.log
+./popular   [Mar [2015]] twa.log tta.log
 

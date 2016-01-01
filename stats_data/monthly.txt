@@ -1863,56 +1863,57 @@ November 2015
 
 December 2015
 
-     3 clog-1.1.0.tar.gz
-    67 clog-1.2.1.tar.gz
-    39 task-2.3.0.tar.gz
+     4 clog-1.1.0.tar.gz
+    99 clog-1.2.1.tar.gz
+    46 task-2.3.0.tar.gz
      5 task-2.4.0.tar.gz
-    40 task-2.4.1.tar.gz
-     2 task-2.4.2.tar.gz
-    20 task-2.4.3.tar.gz
-    51 task-2.4.4.tar.gz
+    47 task-2.4.1.tar.gz
+     3 task-2.4.2.tar.gz
+    32 task-2.4.3.tar.gz
+    77 task-2.4.4.tar.gz
      1 task-2.5.0.beta1.tar.gz
-     3 task-2.5.0.beta2.tar.gz
-     3 task-2.5.0.beta3.tar.gz
-   255 task-2.5.0.tar.gz
-    35 taskd-1.0.0.tar.gz
-     1 taskd-1.1.0.beta1.tar.gz
-   188 taskd-1.1.0.tar.gz
-    21 tasksh-1.0.0.tar.gz
-     2 vramsteg-1.0.1.tar.gz
-    31 vramsteg-1.1.0.tar.gz
+     4 task-2.5.0.beta2.tar.gz
+     5 task-2.5.0.beta3.tar.gz
+   480 task-2.5.0.tar.gz
+    39 taskd-1.0.0.tar.gz
+     2 taskd-1.1.0.beta1.tar.gz
+   252 taskd-1.1.0.tar.gz
+    35 tasksh-1.0.0.tar.gz
+     5 vramsteg-1.0.1.tar.gz
+    53 vramsteg-1.1.0.tar.gz
   ----
-   767
+  1189
 
-    15 export-csv.pl
-    21 export-html.pl
-    17 export-ical.pl
-     8 export-sql.py
-    14 export-tsv.pl
-    14 export-xml.pl
-     7 export-xml.py
-     9 export-xml.rb
-    18 export-yad.pl
-    14 export-yaml.pl
-    21 import-todo.sh.pl
-    14 import-yaml.pl
+    26 export-csv.pl
+    33 export-html.pl
+    31 export-ical.pl
+    20 export-sql.py
+    24 export-tsv.pl
+    28 export-xml.pl
+    15 export-xml.py
+    17 export-xml.rb
+    27 export-yad.pl
+    25 export-yaml.pl
+    33 import-todo.sh.pl
+    25 import-yaml.pl
   ----
-   172
+   304
 
-   153 task-2.3.0.ref.pdf
-     5 task-2.4.0.ref.pdf
-     1 task-2.4.1.ref.pdf
-     2 task-2.4.2.ref.pdf
+   186 task-2.3.0.ref.pdf
+     8 task-2.4.0.ref.pdf
+     2 task-2.4.1.ref.pdf
+     4 task-2.4.2.ref.pdf
      2 task-2.4.3.ref.pdf
-     9 task-2.4.4.ref.pdf
-   362 task-2.5.0.ref.pdf
-    47 tw-ubcde11.pdf
+    10 task-2.4.4.ref.pdf
+   363 task-2.5.0.ref.pdf
+    38 task-latest.ref.pdf
+    62 tw-ubcde11.pdf
   ----
-   581
+   675
 
      3 vit-1.1.tar.gz
-    96 vit-1.2.tar.gz
+   131 vit-1.2.tar.gz
   ----
-    99
+   134
 
 ---

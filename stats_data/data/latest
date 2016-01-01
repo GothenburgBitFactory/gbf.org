@@ -5,15 +5,17 @@ use warnings;
 
 my $counter = 0;
 my $year = (localtime (time))[5] + 1900;
-my $month;
+my $month = qw(Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec) [(localtime (time))[4]];
 if (@ARGV &&
     ! -f $ARGV[0])
 {
   $month = shift @ARGV;
 }
-else
+
+if (@ARGV &&
+    ! -f $ARGV[0])
 {
-  $month = qw(Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec) [(localtime (time))[4]];
+  $year = shift @ARGV;
 }
 
 while (my $line = <>)
