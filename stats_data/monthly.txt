@@ -1973,52 +1973,56 @@ January 2016
 
 February 2016
 
-     1 clog-1.1.0.tar.gz
-    46 clog-1.2.1.tar.gz
-    19 task-2.3.0.tar.gz
-     2 task-2.4.0.tar.gz
-    12 task-2.4.1.tar.gz
+     4 clog-1.1.0.tar.gz
+   122 clog-1.2.1.tar.gz
+    76 task-2.3.0.tar.gz
+     8 task-2.4.0.tar.gz
+    30 task-2.4.1.tar.gz
      2 task-2.4.2.tar.gz
-    16 task-2.4.3.tar.gz
-    28 task-2.4.4.tar.gz
-   218 task-2.5.0.tar.gz
-    98 task-2.5.1.beta1.tar.gz
-    22 taskd-1.0.0.tar.gz
-   125 taskd-1.1.0.tar.gz
-    12 tasksh-1.0.0.tar.gz
-     1 vramsteg-1.0.1.tar.gz
-    30 vramsteg-1.1.0.tar.gz
+    30 task-2.4.3.tar.gz
+    74 task-2.4.4.tar.gz
+   322 task-2.5.0.tar.gz
+   162 task-2.5.1.beta1.tar.gz
+   131 task-2.5.1.tar.gz
+    41 taskd-1.0.0.tar.gz
+   277 taskd-1.1.0.tar.gz
+    37 tasksh-1.0.0.tar.gz
+     6 vramsteg-1.0.1.tar.gz
+    85 vramsteg-1.1.0.tar.gz
   ----
-   632
+  1407
 
-    14 export-csv.pl
-    15 export-html.pl
-    16 export-ical.pl
-    11 export-sql.py
-    14 export-tsv.pl
-    11 export-xml.pl
-    12 export-xml.py
-    10 export-xml.rb
-    10 export-yad.pl
-    10 export-yaml.pl
-    17 import-todo.sh.pl
-    11 import-yaml.pl
-    60 on-modify.timetrack.pl
+    29 export-csv.pl
+    38 export-html.pl
+    39 export-ical.pl
+    25 export-sql.py
+    29 export-tsv.pl
+    25 export-xml.pl
+    19 export-xml.py
+    19 export-xml.rb
+    25 export-yad.pl
+    28 export-yaml.pl
+    35 import-todo.sh.pl
+    27 import-yaml.pl
+    96 on-modify.timetrack.pl
   ----
-   211
+   434
 
-   107 task-2.3.0.ref.pdf
-     6 task-2.4.0.ref.pdf
-     9 task-2.4.2.ref.pdf
-     9 task-2.4.3.ref.pdf
-     2 task-2.4.4.ref.pdf
-    82 task-2.5.0.ref.pdf
-    35 tw-ubcde11.pdf
+   232 task-2.3.0.ref.pdf
+    27 task-2.4.0.ref.pdf
+     1 task-2.4.1.ref.pdf
+    10 task-2.4.2.ref.pdf
+    10 task-2.4.3.ref.pdf
+     5 task-2.4.4.ref.pdf
+   133 task-2.5.0.ref.pdf
+    56 task-2.5.1.ref.pdf
+    83 tw-ubcde11.pdf
   ----
-   250
+   557
 
-    64 vit-1.2.tar.gz
+     1 vit-1.1.tar.gz
+   135 vit-1.2.tar.gz
   ----
-    64
+   136
 
 ---
