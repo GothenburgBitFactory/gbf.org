@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>tasktools.org</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="http://tasktools.org">tasktools.org</a>
+          <a class="navbar-brand" href="http://taskwarrior.org">taskwarrior.org</a>
+          <a class="navbar-brand" href="http://holidata.net">holidata.net</a>
+          <a class="navbar-brand" href="http://flod.us">flod.us</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/about.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <h2>&nbsp;</h2>
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 main">
+          <h2>Timewarrior</h2>
+          <p>
+            Taskwarrior is a command-line time tracker.
+            It is in early development, and details will gradually emerge.
+          </p>
+          <ul>
+            <li><code>git clone https://git.tasktools.org/scm/tm/timew.git</code></li>
+            <li><a href="http://central.tasktools.org/timew-master.html">Flod testing 0.1.0</a></li>
+          </ul>
+
+          <h3>About</h3>
+          <p>
+            Taskwarrior focuses on managing tasks, and does not track time. But
+            it does have a hook system that allows easy integration of a third-
+            party time tracking solution.
+          </p>
+          <p>
+            Timewarrior aims to be the trime tracking solution of choice,
+            particularly for Taskwarrior users.
+          </p>
+          <p>
+            If you have time tracking needs, please tell us, so that Timewarrior
+            can support your use case and workflow.
+          </p>
+        </div>
+      </div>
+
+      <hr>
+      <footer>
+        Copyright &copy; 2016, <a href="/about.html">Göteborg Bit Factory</a>.
+      </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+    var pkBaseURL = (("https:" == document.location.protocol) ? "https://see.tasktools.org/piwik/" : "http://see.tasktools.org/piwik/");
+    document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));
+    </script><script type="text/javascript">
+    try {
+    var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 3);
+    piwikTracker.trackPageView();
+    piwikTracker.enableLinkTracking();
+    } catch( err ) {}
+    </script><noscript><p><img src="http://see.tasktools.org/piwik/piwik.php?idsite=3" style="border:0" alt="" /></p></noscript>
+  </body>
+</html>
