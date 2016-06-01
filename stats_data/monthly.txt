@@ -2133,4 +2133,60 @@ April 2016
   ----
    135
 
+May 2016
+
+     4 clog-1.1.0.tar.gz
+   309 clog-1.2.1.tar.gz
+    74 task-2.3.0.tar.gz
+     6 task-2.4.0.tar.gz
+    30 task-2.4.1.tar.gz
+     3 task-2.4.2.tar.gz
+    33 task-2.4.3.tar.gz
+    69 task-2.4.4.tar.gz
+    27 task-2.5.0.tar.gz
+    27 task-2.5.1.beta1.tar.gz
+   358 task-2.5.1.tar.gz
+    76 taskd-1.0.0.tar.gz
+   279 taskd-1.1.0.tar.gz
+    30 tasksh-1.0.0.tar.gz
+     9 vramsteg-1.0.1.tar.gz
+   284 vramsteg-1.1.0.tar.gz
+  ----
+  1618
+
+    43 export-csv.pl
+    33 export-html.pl
+    36 export-ical.pl
+    28 export-sql.py
+    35 export-tsv.pl
+    33 export-xml.pl
+    28 export-xml.py
+    30 export-xml.rb
+    38 export-yad.pl
+    35 export-yaml.pl
+    32 import-todo.sh.pl
+    31 import-yaml.pl
+    50 on-modify.timetrack.pl
+  ----
+   452
+
+   190 task-2.3.0.ref.pdf
+    14 task-2.4.0.ref.pdf
+     4 task-2.4.1.ref.pdf
+     9 task-2.4.2.ref.pdf
+     3 task-2.4.3.ref.pdf
+    15 task-2.4.4.ref.pdf
+    26 task-2.5.0.ref.pdf
+    96 task-2.5.1.ref.pdf
+    90 tw-ubcde11.pdf
+  ----
+   447
+
+     3 vit-1.1.tar.gz
+   127 vit-1.2.tar.gz
+  ----
+   130
+
+June 2016
+
 ---
