@@ -15,9 +15,10 @@ do
     then
       printf "%-22s %4d\n" $(basename $REPO) $COMMITS
 
-      eval "git log --format='%H %an %ae %ai' --date=short --since=\"${MONTH_START} 0:00:00\" --until=\"${MONTH_END} 0:00:00\"" | while read line
+      #eval "git log --format='%H %an %ae %ai' --date=short --since=\"${MONTH_START} 0:00:00\" --until=\"${MONTH_END} 0:00:00\"" | while read line
+      eval "git log --format='%an %ae' --date=short --since=\"${MONTH_START} 0:00:00\" --until=\"${MONTH_END} 0:00:00\"" | while read line
       do
-        if [[ ! $line =~ 'Beckingham' ]]
+        if [[ ! $line =~ 'Beckingham' && ! $line =~ 'Hernandez' ]]
         then
           echo "  $line"
         fi
