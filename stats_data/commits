@@ -14,6 +14,14 @@ do
     if [[ $COMMITS -gt 0 ]]
     then
       printf "%-22s %4d\n" $(basename $REPO) $COMMITS
+
+      eval "git log --format='%H %an %ae %ai' --date=short --since=\"${MONTH_START} 0:00:00\" --until=\"${MONTH_END} 0:00:00\"" | while read line
+      do
+        if [[ ! $line =~ 'Beckingham' ]]
+        then
+          echo "  $line"
+        fi
+      done
     fi
 
     TOTAL=$(expr $TOTAL + $COMMITS)
