@@ -33,4 +33,4 @@ REDIRECT 301 /projects/clog.html                 https://taskwarrior.org/docs/cl
 REDIRECT 301 /projects/clog                      https://taskwarrior.org/docs/clog
 
 # Added 2016-08-04
-REDIRECT 301 /latest                             /latest/task
+REDIRECT 301 /latest                             https://tasktools.org/latest/task
