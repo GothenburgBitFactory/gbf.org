@@ -2302,54 +2302,58 @@ July 2016
 August 2016
 
      1 clog-1.1.0.tar.gz
-     3 clog-1.2.1.tar.gz
-    78 clog-1.3.0.tar.gz
-    36 task-2.3.0.tar.gz
-    16 task-2.4.1.tar.gz
-     3 task-2.4.3.tar.gz
-    38 task-2.4.4.tar.gz
-    20 task-2.5.0.tar.gz
-   218 task-2.5.1.tar.gz
-     3 taskd-1.0.0.tar.gz
-   233 taskd-1.1.0.tar.gz
-    29 tasksh-1.0.0.tar.gz
-     1 timew-0.9.5.alpha.tar.gz
-   167 timew-1.0.0.beta1.tar.gz
-     2 vramsteg-1.0.1.tar.gz
-    17 vramsteg-1.1.0.tar.gz
+     4 clog-1.2.1.tar.gz
+   113 clog-1.3.0.tar.gz
+    76 task-2.3.0.tar.gz
+     1 task-2.4.0.tar.gz
+    19 task-2.4.1.tar.gz
+     1 task-2.4.2.tar.gz
+     5 task-2.4.3.tar.gz
+    60 task-2.4.4.tar.gz
+    36 task-2.5.0.tar.gz
+   387 task-2.5.1.tar.gz
+     5 taskd-1.0.0.tar.gz
+   380 taskd-1.1.0.tar.gz
+    89 tasksh-1.0.0.tar.gz
+     4 timew-0.9.5.alpha.tar.gz
+   180 timew-1.0.0.beta1.tar.gz
+   232 timew-1.0.0.tar.gz
+     3 vramsteg-1.0.1.tar.gz
+    25 vramsteg-1.1.0.tar.gz
   ----
-   865
+  1621
 
-     4 export-csv.pl
-     6 export-html.pl
-     6 export-ical.pl
-     3 export-sql.py
-     5 export-tsv.pl
-     7 export-xml.pl
-     5 export-xml.py
-     4 export-xml.rb
-     3 export-yad.pl
-     3 export-yaml.pl
-     6 import-todo.sh.pl
-     4 import-yaml.pl
-     6 on-modify.timetrack.pl
+     5 export-csv.pl
+     9 export-html.pl
+     9 export-ical.pl
+     6 export-sql.py
+     6 export-tsv.pl
+     9 export-xml.pl
+     7 export-xml.py
+     6 export-xml.rb
+     7 export-yad.pl
+     6 export-yaml.pl
+     7 import-todo.sh.pl
+     6 import-yaml.pl
+     7 on-modify.timetrack.pl
   ----
-    62
+    90
 
-   102 task-2.3.0.ref.pdf
-     6 task-2.4.0.ref.pdf
-     1 task-2.4.1.ref.pdf
-     5 task-2.4.2.ref.pdf
-     5 task-2.4.4.ref.pdf
-    18 task-2.5.0.ref.pdf
-   197 task-2.5.1.ref.pdf
-    43 tw-ubcde11.pdf
+   158 task-2.3.0.ref.pdf
+    10 task-2.4.0.ref.pdf
+     2 task-2.4.1.ref.pdf
+     7 task-2.4.2.ref.pdf
+     1 task-2.4.3.ref.pdf
+     9 task-2.4.4.ref.pdf
+    28 task-2.5.0.ref.pdf
+   311 task-2.5.1.ref.pdf
+    72 tw-ubcde11.pdf
   ----
-   377
+   598
 
-     1 vit-1.1.tar.gz
-    81 vit-1.2.tar.gz
+     2 vit-1.1.tar.gz
+   143 vit-1.2.tar.gz
   ----
-    82
+   145
 
 ---

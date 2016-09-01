@@ -21,7 +21,7 @@ if (@ARGV &&
 while (my $line = <>)
 {
   next if $line !~ /\/${month}\/${year}/;
-  next if $line !~ /GET \/latest /;
+  next if $line !~ /GET \/latest/;
   next if $line !~ /" 200 /;
 
   $counter++;

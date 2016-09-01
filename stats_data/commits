@@ -1,8 +1,8 @@
 #!/bin/bash
 
 TOTAL=0
-MONTH_START=2016-07-01
-MONTH_END=2016-08-01
+MONTH_START=2016-08-01
+MONTH_END=2016-09-01
 
 for REPO in ~/gbf/*.git
 do
@@ -17,7 +17,7 @@ do
 
       eval "git log --format='%an %ae' --date=short --since=\"${MONTH_START} 0:00:00\" --until=\"${MONTH_END} 0:00:00\"" | while read line
       do
-        if [[ ! $line =~ 'Beckingham' && ! $line =~ 'Hernandez' ]]
+        if [[ ! $line =~ 'Beckingham' && ! $line =~ 'Hernandez' && ! $line =~ 'Deimeke' ]]
         then
           echo "  $line"
         fi
