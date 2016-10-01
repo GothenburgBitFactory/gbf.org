@@ -1,4 +1,4 @@
-[Excluding: Paul, Federico]
+[Excluding: Paul, Federico, Dirk]
 
                   tw   ts   td   ti   vr   an   cl   fl   co   gu   vi  www  Total
                 ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----  -----
@@ -28,6 +28,7 @@
 2016 June          1         3    5                             4               13
 2016 July                         3                             1         6     10
 2016 August        1         1    1                                              3
+2016 September                    2                                              2
                 ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----  -----
-                  33        23   12                   1        56        28    153
+                  33        23   14                   1        56        28    155
 
