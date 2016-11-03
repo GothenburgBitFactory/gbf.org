@@ -2416,4 +2416,64 @@ September 2016
   ----
    125
 
+October 2016
+
+    26 anomaly-1.1.0.tar.gz
+     2 clog-1.1.0.tar.gz
+     4 clog-1.2.1.tar.gz
+    42 clog-1.3.0.tar.gz
+    20 task-2.3.0.tar.gz
+     8 task-2.4.0.tar.gz
+    24 task-2.4.1.tar.gz
+     1 task-2.4.2.tar.gz
+     6 task-2.4.3.tar.gz
+   126 task-2.4.4.tar.gz
+    15 task-2.5.0.tar.gz
+   373 task-2.5.1.tar.gz
+    50 taskd-1.0.0.tar.gz
+   313 taskd-1.1.0.tar.gz
+     6 tasksh-1.0.0.tar.gz
+   256 tasksh-1.1.0.tar.gz
+     3 timew-0.9.5.alpha.tar.gz
+     3 timew-1.0.0.beta1.tar.gz
+   249 timew-1.0.0.tar.gz
+     6 vramsteg-1.0.1.tar.gz
+    26 vramsteg-1.1.0.tar.gz
+  ----
+  1559
+
+     9 export-csv.pl
+     7 export-html.pl
+     9 export-ical.pl
+     8 export-sql.py
+     7 export-tsv.pl
+     6 export-xml.pl
+     9 export-xml.py
+     2 export-xml.rb
+    10 export-yad.pl
+     9 export-yaml.pl
+    12 gtdnext.sh
+     8 import-todo.sh.pl
+     6 import-yaml.pl
+     7 on-modify.timetrack.pl
+  ----
+   109
+
+   165 task-2.3.0.ref.pdf
+    24 task-2.4.0.ref.pdf
+     2 task-2.4.1.ref.pdf
+    10 task-2.4.2.ref.pdf
+     2 task-2.4.3.ref.pdf
+     7 task-2.4.4.ref.pdf
+    18 task-2.5.0.ref.pdf
+    92 task-2.5.1.ref.pdf
+    61 tw-ubcde11.pdf
+  ----
+   381
+
+     2 vit-1.1.tar.gz
+   132 vit-1.2.tar.gz
+  ----
+   134
+
 ---
