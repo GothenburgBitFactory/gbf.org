@@ -1,23 +1,36 @@
 ssh twa
 sudo su -
 cd /var/log/apache2
-tar czvf /tmp/tw.tar.gz taskwarrior.org-{access,error}.log{,.1,.?.gz}
-tar czvf /tmp/tt.tar.gz tasktools.org-{access,error}.log{,.1,.?.gz}
+tar czvf /tmp/tw.apache.tar.gz taskwarrior.org-{access,error}.log{,.1,.?.gz}
+tar czvf /tmp/tt.apache.tar.gz tasktools.org-{access,error}.log{,.1,.?.gz}
 
-scp twa:/tmp/t?.tar.gz .
-tar xzvf tw.tar.gz
-tar xzvf tt.tar.gz
-gunzip *gz
+cd /var/log/caddy
+tar czvf /tmp/tw.caddy.tar.gz taskwarrior.org-{access,errors}.log{,.1,.?.gz}
+tar czvf /tmp/tt.caddy.tar.gz tasktools.org-{access,errors}.log{,.1,.?.gz}
+
+scp twa:/tmp/t?.*.tar.gz .
 
 ssh twa
 sudo su -
-rm /tmp/t?.tar.gz
+rm /tmp/t?.*.tar.gz
 
+tar xzvf tw.apache.tar.gz
+tar xzvf tt.apache.tar.gz
+gunzip task*gz
 cat taskwarrior.org-access* > twa.log
 cat taskwarrior.org-error*  > twe.log
 cat tasktools.org-access*   > tta.log
 cat tasktools.org-error*    > tte.log
-rm taskwarrior.org* tasktools.org* t?.tar
+rm taskwarrior.org* tasktools.org* t?.apache.tar.gz
+
+tar xzvf tw.caddy.tar.gz
+tar xzvf tt.caddy.tar.gz
+gunzip task*gz
+cat taskwarrior.org-access* >> twa.log
+cat taskwarrior.org-error*  >> twe.log
+cat tasktools.org-access*   >> tta.log
+cat tasktools.org-error*    >> tte.log
+rm taskwarrior.org* tasktools.org* t?.caddy.tar.gz
 
 ./downloads [Mar [2015]] twa.log tta.log
 ./latest    [Mar [2015]] tta.log
