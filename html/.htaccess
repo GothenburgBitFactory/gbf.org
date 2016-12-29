@@ -31,3 +31,6 @@ REDIRECT 301 /download/vramsteg-1.0.1.tar.gz     /download/vramsteg-1.1.0.tar.gz
 # Added 2016-07-07
 REDIRECT 301 /projects/clog.html                 https://taskwarrior.org/docs/clog
 REDIRECT 301 /projects/clog                      https://taskwarrior.org/docs/clog
+
+# Added 2016-12-29
+REDIRECT 301 /latest                             https://tasktools.org/latest/task
