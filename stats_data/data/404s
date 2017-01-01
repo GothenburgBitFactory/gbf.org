@@ -20,21 +20,33 @@ if (@ARGV &&
 
 while (my $line = <>)
 {
-  next if $line !~ / ${month} /;
-  next if $line !~ / ${year}]/;
-  next if $line !~ /File does not exist: /;
-  next if $line =~ /favicon\.ico|robots\.txt/;
+  print $line;
+  if ($line =~ /File does not exist: / &&
+      $line !~ /favicon\.ico|robots\.txt/)
+  {
+    print "  file\n";
+    if ($line =~ / ${month} / ||
+        $line =~ /\/${month}\//)
+    {
+      print "  month\n";
+      if ($line =~ / ${year} / ||
+          $line =~ /\/${year}:/)
+      {
+        print "  year\n";
 
-  chomp $line;
-  $line =~ s/, referer:.+//;
-  my ($file) = $line =~ /File does not exist: (.+)/;
-  $data{$file}++;
+        chomp $line;
+        $line =~ s/, referer:.+//;
+        my ($file) = $line =~ /File does not exist: (.+)/;
+        $data{$file}++;
+      }
+    }
+  }
 }
 
 # Truncate anything with < 2 404s.
 for (keys %data)
 {
-  delete $data{$_} if $data{$_} == 1;
+  delete $data{$_} if $data{$_} < 2;
 }
 
 print $month, "\n\n";
