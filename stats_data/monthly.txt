@@ -1905,8 +1905,7 @@ December 2015
      4 task-2.4.2.ref.pdf
      2 task-2.4.3.ref.pdf
     10 task-2.4.4.ref.pdf
-   363 task-2.5.0.ref.pdf
-    38 task-latest.ref.pdf
+   401 task-2.5.0.ref.pdf
     62 tw-ubcde11.pdf
   ----
    675
@@ -2596,6 +2595,65 @@ December 2016
    143 vit-1.2.tar.gz
   ----
    147
+
+January 2017
+
+    19 anomaly-1.1.0.tar.gz
+     1 clog-1.1.0.tar.gz
+     4 clog-1.2.0.tar.gz
+     2 clog-1.2.1.tar.gz
+    18 clog-1.3.0.tar.gz
+     8 task-2.3.0.tar.gz
+     1 task-2.4.1.tar.gz
+     5 task-2.4.3.tar.gz
+   148 task-2.4.4.tar.gz
+    16 task-2.5.0.tar.gz
+   621 task-2.5.1.tar.gz
+     8 taskd-1.0.0.tar.gz
+   411 taskd-1.1.0.tar.gz
+    10 tasksh-1.0.0.tar.gz
+   267 tasksh-1.1.0.tar.gz
+     7 timew-0.9.5.alpha.tar.gz
+     9 timew-1.0.0.beta1.tar.gz
+   283 timew-1.0.0.tar.gz
+     2 vramsteg-1.0.1.tar.gz
+    20 vramsteg-1.1.0.tar.gz
+  ----
+  1860
+
+    96 export-csv.pl
+     8 export-html.pl
+    18 export-ical.pl
+    11 export-sql.py
+    10 export-tsv.pl
+     6 export-xml.pl
+     3 export-xml.py
+     3 export-xml.rb
+    12 export-yad.pl
+    12 export-yaml.pl
+    16 gtdnext.sh
+     5 import-todo.sh.pl
+    10 import-yaml.pl
+    22 on-modify.timetrack.pl
+  ----
+   232
+
+   196 task-2.3.0.ref.pdf
+    19 task-2.4.0.ref.pdf
+     5 task-2.4.1.ref.pdf
+     9 task-2.4.2.ref.pdf
+     3 task-2.4.3.ref.pdf
+    13 task-2.4.4.ref.pdf
+    32 task-2.5.0.ref.pdf
+   226 task-2.5.1.ref.pdf
+    75 tw-ubcde11.pdf
+  ----
+   578
+
+     6 vit-1.1.tar.gz
+   140 vit-1.2.tar.gz
+  ----
+   146
 
 ---
 
