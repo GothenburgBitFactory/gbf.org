@@ -1,4 +1,4 @@
-[Excluding: Paul, Federico, Dirk]
+[Excluding: Paul, Federico, Dirk, Wim, Tomas, Thomas]
 
                   tw   ts   td   ti   vr   an   cl   fl   co   gu   vi  www  Total
                 ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----  -----
@@ -39,6 +39,7 @@
                   tw   ts   td   ti   vr   an   cl   fl   co   gu   vi  www  Total
                 ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----  -----
 2017 January       5         2    1                                              8
+2017 February      4    1                                                 1      6
                 ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ---- ----  -----
-                   5         2    1                                              8
+                   9    1    2    1                                             14
 
