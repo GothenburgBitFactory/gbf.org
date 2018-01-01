@@ -4,19 +4,19 @@ use strict;
 use warnings;
 
 my %data;
-my $year = (localtime (time))[5] + 1900;
-my $month = qw(Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec) [(localtime (time))[4]];
-if (@ARGV &&
-    ! -f $ARGV[0])
-{
-  $month = shift @ARGV;
-}
-
-if (@ARGV &&
-    ! -f $ARGV[0])
-{
-  $year = shift @ARGV;
-}
+#my $year = (localtime (time))[5] + 1900;
+#my $month = qw(Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec) [(localtime (time))[4]];
+#if (@ARGV &&
+#    ! -f $ARGV[0])
+#{
+#  $month = shift @ARGV;
+#}
+#
+#if (@ARGV &&
+#    ! -f $ARGV[0])
+#{
+#  $year = shift @ARGV;
+#}
 
 while (my $line = <>)
 {
@@ -25,21 +25,21 @@ while (my $line = <>)
       $line !~ /favicon\.ico|robots\.txt/)
   {
     print "  file\n";
-    if ($line =~ / ${month} / ||
-        $line =~ /\/${month}\//)
-    {
-      print "  month\n";
-      if ($line =~ / ${year} / ||
-          $line =~ /\/${year}:/)
-      {
-        print "  year\n";
+#    if ($line =~ / ${month} / ||
+#        $line =~ /\/${month}\//)
+#    {
+#      print "  month\n";
+#      if ($line =~ / ${year} / ||
+#          $line =~ /\/${year}:/)
+#      {
+#        print "  year\n";
 
         chomp $line;
         $line =~ s/, referer:.+//;
         my ($file) = $line =~ /File does not exist: (.+)/;
         $data{$file}++;
-      }
-    }
+#      }
+#    }
   }
 }
 
@@ -49,7 +49,7 @@ for (keys %data)
   delete $data{$_} if $data{$_} < 2;
 }
 
-print $month, "\n\n";
+#print $month, "\n\n";
 printf ("%6d %s\n", $data{$_}, $_) for sort {$data{$b} <=> $data{$a}}keys %data;
 exit 0;
 

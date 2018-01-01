@@ -44,7 +44,7 @@ cat see.tasktools.org-errors*     > see.log
 cat sitka.tasktools.org-access*   > sia.log
 cat sitka.tasktools.org-errors*   > sie.log
 
-rm taskwarrior.org* *.tasktools.org* timewarrior.org* flod.us* holidata.net* ??.caddy.tar
+rm taskwarrior.org* *tasktools.org* timewarrior.net* flod.us* holidata.net* ??.caddy.tar
 
 ./downloads [Mar [2015]] twa.log tta.log
 ./latest    [Mar [2015]] tta.log

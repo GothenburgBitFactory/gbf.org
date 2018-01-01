@@ -4,23 +4,23 @@ use strict;
 use warnings;
 
 my %data;
-my $year = (localtime (time))[5] + 1900;
-my $month = qw(Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec) [(localtime (time))[4]];
-if (@ARGV &&
-    ! -f $ARGV[0])
-{
-  $month = shift @ARGV;
-}
-
-if (@ARGV &&
-    ! -f $ARGV[0])
-{
-  $year = shift @ARGV;
-}
+#my $year = (localtime (time))[5] + 1900;
+#my $month = qw(Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec) [(localtime (time))[4]];
+#if (@ARGV &&
+#    ! -f $ARGV[0])
+#{
+#  $month = shift @ARGV;
+#}
+#
+#if (@ARGV &&
+#    ! -f $ARGV[0])
+#{
+#  $year = shift @ARGV;
+#}
 
 while (my $line = <>)
 {
-  next if $line !~ /\/${month}\/${year}/;
+#  next if $line !~ /\/${month}\/${year}/;
   next if $line !~ /GET \/download/;
   next if $line =~ /GET \/download\/ /;
   next if $line =~ /GET \/download /;
@@ -34,7 +34,7 @@ while (my $line = <>)
   $data{$line}++;
 }
 
-print $month, "\n\n";
+#print $month, "\n\n";
 printf ("%6d %s\n", $data{$_}, $_) for sort keys %data;
 exit 0;
 

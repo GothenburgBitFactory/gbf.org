@@ -1,5 +1,6 @@
-June 2009
+2009
 
+     1 task-1.0.0.tar.gz
      2 task-1.4.1.pkg
      1 task-1.4.2.pkg
      1 task-1.4.3.pkg
@@ -7,14 +8,7 @@ June 2009
    170 task-1.7.1.tar.gz
     12 task_1.7.1-0ubuntu1_i386.deb
      1 task-1.7.1-2.fc10.i386.rpm
-
     79 beckingham.net
-  ----
-   267
-
-July 2009
-
-     1 task-1.0.0.tar.gz
      2 task-1.0.1.tar.gz
      1 task-1.1.0.tar.gz
      1 task_1.1.0-1_i386.deb
@@ -62,13 +56,6 @@ July 2009
      3 task-1.8.0-1.i386.rpm
      2 task-1.8.0-1.src.rpm
     20 task_1.8.0-0ubuntu1_i386.deb
-
-     0 beckingham.net
-  ----
-   579
-
-August 2009
-
     10 task-1.7.1.tar.gz
      1 task_1.7.1-0ubuntu1_i386.deb
    123 task-1.8.0.tar.gz
@@ -86,11 +73,6 @@ August 2009
      2 task-1.8.1-1.src.rpm
     56 task-1.8.1.pkg
     12 task-1.8.1-sl.pkg
-  ----
-   490
-
-September 2009
-
      1 task-1.0.1.tar.gz
      5 task-1.7.1.tar.gz
      1 task_1.7.1-0ubuntu1_i386.deb
@@ -111,11 +93,6 @@ September 2009
      2 task-1.8.2-1.src.rpm
     34 task-1.8.2.pkg
     39 task-1.8.2-sl.pkg
-  ----
-   599
-
-October 2009
-
      1 task-1.0.1.tar.gz
      1 task-1.1.0.tar.gz
      1 task-1.2.0.tar.gz
@@ -160,11 +137,6 @@ October 2009
      1 task-1.8.3-1.src.rpm
     79 task-1.8.3.tar.gz
      2 task-1.8.3-sl.pkg
-  ----
-   340
-
-November 2009
-
      4 task-1.7.1.tar.gz
     14 task-1.8.2.pkg
      8 task-1.8.2-sl.pkg
@@ -187,11 +159,6 @@ November 2009
      4 task-1.8.4-1.i386.rpm
      3 task-1.8.4-1.src.rpm
     11 task-1.8.4-sl.pkg
-  ----
-   429
-
-December 2009
-
      6 task-1.8.2.pkg
      1 task_1.8.3-1ubuntu1_i386.deb
      2 task-1.8.3.tar.gz
@@ -215,10 +182,8 @@ December 2009
      3 task-1.8.5-2.src.rpm
     30 task-1.8.5-sl.pkg
    265 task-1.8.5.tar.gz
-  ----
-   490
 
-January 2010
+2010
 
      3 task-1.8.2.pkg
      1 task_1.8.4-0ubuntu1_i386.deb
@@ -230,38 +195,27 @@ January 2010
      1 task-1.8.5-2.fc12.src.rpm
     25 task-1.8.5-sl.pkg
    160 task-1.8.5.tar.gz
-  ----
-   238
-
-February 2010
-
      3 task-1.8.2.pkg
-
      2 task_1.8.4-0ubuntu1_i386.deb
      2 task-1.8.4-sl.pkg
      3 task-1.8.4.tar.gz
-
     13 task_1.8.5-0ubuntu2_i386.deb
      2 task-1.8.5-2.fc11.i586.rpm
      1 task-1.8.5-2.fc12.i686.rpm
      1 task-1.8.5-2.src.rpm
      9 task-1.8.5-sl.pkg
     71 task-1.8.5.tar.gz
-
      1 task-1.9.0.beta1-1.fc12.i686.rpm
      7 task_1.9.0-1ubuntu1~beta1_i386.deb
     23 task-1.9.0.beta1.tar.gz
-
     12 task_1.9.0-1ubuntu1~beta2_i386.deb
      2 task-1.9.0.beta2-1.fc12.i686.rpm
     10 task-1.9.0.beta2-sl.pkg
     26 task-1.9.0.beta2.tar.gz
-
     14 task_1.9.0-1ubuntu1~beta3_i386.deb
      3 task-1.9.0.beta3-1.fc12.i686.rpm
      7 task-1.9.0.beta3-sl.pkg
     21 task-1.9.0.beta3.tar.gz
-
     23 task_1.9.0-0ubuntu1_i386.deb
      3 task-1.9.0-1.fc12.i686.rpm
      1 task-1.9.0-1.fc12.src.rpm
@@ -269,25 +223,13 @@ February 2010
      1 task-1.9.0-1.src.rpm
     16 task-1.9.0-sl.pkg
    195 task-1.9.0.tar.gz
-  ----
-   474
-
-    31 beta1
-    50 beta2
-    45 beta3
-
-March 2010
-
      7 task-1.8.2.pkg
-
      1 task_1.8.4-0ubuntu1_i386.deb
      5 task-1.8.4-sl.pkg
      8 task-1.8.4.tar.gz
-
      1 task_1.8.5-1ubuntu2_i386.deb
      5 task-1.8.5-sl.pkg
     26 task-1.8.5.tar.gz
-
     29 task_1.9.0-0ubuntu1_i386.deb
      4 task-1.9.0-1.fc12.i686.rpm
      3 task-1.9.0-1.fc12.src.rpm
@@ -295,59 +237,36 @@ March 2010
      2 task-1.9.0-1.src.rpm
     25 task-1.9.0-sl.pkg
    183 task-1.9.0.tar.gz
-  ----
-   301
-
-April 2010
-
      3 task-1.8.2.pkg
-
      1 task_1.8.4-0ubuntu1_i386.deb
      2 task-1.8.4-sl.pkg
      5 task-1.8.4.tar.gz
-
      1 task_1.8.5-1ubuntu2_i386.deb
      5 task-1.8.5-sl.pkg
     13 task-1.8.5.tar.gz
-
     44 task_1.9.0-0ubuntu1_i386.deb
      5 task-1.9.0-1.fc12.i686.rpm
      3 task-1.9.0-1.fc12.src.rpm
      1 task-1.9.0-1.i386.rpm
     19 task-1.9.0-sl.pkg
    188 task-1.9.0.tar.gz
-  ----
-   290
-
-May 2010
-
      3 task-1.8.2.pkg
-
      3 task-1.8.4-sl.pkg
      4 task-1.8.4.tar.gz
-
      3 task-1.8.5-sl.pkg
      8 task-1.8.5.tar.gz
-
     47 task_1.9.0-1ubuntu1_i386.deb
     25 task-1.9.0-sl.pkg
    153 task-1.9.0.tar.gz
-
     21 task_1.9.1-1ubuntu1_i386.deb
      1 task-1.9.1-1.fc12.i686.rpm
      1 task-1.9.1-1.fc12.src.rpm
      5 task-1.9.1-sl.pkg
    155 task-1.9.1.tar.gz
-  ----
-   429
-
-June 2010
-
      2 task-1.9.0-1.i386.rpm
      1 task-1.9.0-1.src.rpm
      3 task-1.9.0-sl.pkg
     15 task-1.9.0.tar.gz
-
      3 task_1.9.1-0ubuntu1_i386.deb
      6 task-1.9.1-1.fc12.i686.rpm
      2 task-1.9.1-1.fc12.src.rpm
@@ -355,20 +274,13 @@ June 2010
     23 task_1.9.1-2ubuntu1_i386.deb
     22 task-1.9.1-sl.pkg
    193 task-1.9.1.tar.gz
-  ----
-   279
-
-July 2010
-
      6 task-1.9.0.tar.gz
-
      1 task_1.9.1-0ubuntu1_i386.deb
      1 task_1.9.1-1ubuntu1_i386.deb
      7 task_1.9.1-2ubuntu1_i386.deb
      1 task-1.9.1-1.fc12.src.rpm
     11 task-1.9.1-sl.pkg
     83 task-1.9.1.tar.gz
-
     59 task_1.9.2-2ubuntu1_i386.deb
      1 task-1.9.2-2.fc12.i686.rpm
      3 task-1.9.2-2.fc12.src.rpm
@@ -379,11 +291,6 @@ July 2010
      8 task-1.9.2.pkg
     18 task-1.9.2-sl.pkg
    302 task-1.9.2.tar.gz
-  ----
-   514
-
-August 2010
-
      2 task_1.9.2-0ubuntu1_i386.deb
      5 task_1.9.2-1ubuntu1_i386.deb
     30 task_1.9.2-2ubuntu1_i386.deb
@@ -395,11 +302,6 @@ August 2010
      9 task-1.9.2.pkg
     21 task-1.9.2-sl.pkg
    244 task-1.9.2.tar.gz
-  ----
-   327
-
-September 2010
-
     10 task_1.9.2-0ubuntu1_i386.deb
     13 task_1.9.2-1ubuntu1_i386.deb
     46 task_1.9.2-2ubuntu1_i386.deb
@@ -410,11 +312,6 @@ September 2010
     11 task-1.9.2.pkg
     39 task-1.9.2-sl.pkg
    303 task-1.9.2.tar.gz
-  ----
-   433
-
-October 2010
-
     16 task_1.9.2-0ubuntu1_i386.deb
      1 task_1.9.2-1ubuntu1_i386.deb
     42 task_1.9.2-2ubuntu1_i386.deb
@@ -426,18 +323,12 @@ October 2010
    290 task-1.9.2.tar.gz
     55 task-1.9.3.beta1.tar.gz
     42 task-1.9.3.beta2.tar.gz
-  ----
-   511
-
-November 2010
-
      1 task-1.9.2-2.fc12.i686.rpm
      1 task-1.9.2-2.fc13.i686.rpm
      8 task_1.9.2-2ubuntu1_i386.deb
      8 task-1.9.2.pkg
     14 task-1.9.2-sl.pkg
     92 task-1.9.2.tar.gz
-
     53 task_1.9.3-0ubuntu1~karmic1_i386.deb
     56 task_1.9.3-0ubuntu1~maverick1_i386.deb
     14 task-1.9.3-1.el5.i386.rpm
@@ -448,16 +339,10 @@ November 2010
      6 task-1.9.3.pkg
     50 task-1.9.3-sl.pkg
    547 task-1.9.3.tar.gz
-  ----
-   892
-
-December 2010
-
      1 task-1.9.2-2.fc13.src.rpm
      3 task-1.9.2.pkg
      2 task-1.9.2-sl.pkg
      6 task-1.9.2.tar.gz
-
     54 task_1.9.3-0ubuntu1~karmic1_i386.deb
     41 task_1.9.3-0ubuntu1~maverick1_i386.deb
      4 task-1.9.3-1.el5.i386.rpm
@@ -467,10 +352,8 @@ December 2010
      9 task-1.9.3.pkg
     54 task-1.9.3-sl.pkg
    398 task-1.9.3.tar.gz
-  ----
-   584
 
-January 2011
+2011
 
      2 task-1.9.2.pkg
      2 task-1.9.2-sl.pkg
@@ -483,20 +366,11 @@ January 2011
     13 task-1.9.3.pkg
     62 task-1.9.3-sl.pkg
    371 task-1.9.3.tar.gz
-  ----
-   543
-
     37 vittk-1.0.tar.gz
     22 vittk-1.1.1.tar.gz
-  ----
-    59
-
-February 2011
-
      2 task-1.9.2.pkg
      2 task-1.9.2-sl.pkg
      6 task-1.9.2.tar.gz
-
     39 task_1.9.3-0ubuntu1~karmic1_i386.deb
     52 task_1.9.3-0ubuntu1~maverick1_i386.deb
      5 task-1.9.3-1.el5.i386.rpm
@@ -506,32 +380,21 @@ February 2011
     13 task-1.9.3.pkg
     88 task-1.9.3-sl.pkg
    411 task-1.9.3.tar.gz
-
    111 task-1.9.4.beta1.tar.gz
-  ----
-   735
-
      2 vittk-1.0.tar.gz
     34 vittk-1.1.1.tar.gz
      1 vittk-1.1.tar.gz
     57 vittk-1.2.tar.gz
     47 vittk-1.3.tar.gz
-  ----
-   141
-
-March 2011
-
      2 task-1.9.2-sl.pkg
      2 task-1.9.2.pkg
      2 task-1.9.2.tar.gz
-
      1 task-1.9.3-1.el5.i386.rpm
      7 task-1.9.3-sl.pkg
      1 task-1.9.3.pkg
     91 task-1.9.3.tar.gz
     15 task_1.9.3-0ubuntu1~karmic1_i386.deb
      9 task_1.9.3-0ubuntu1~maverick1_i386.deb
-
      8 task-1.9.4-1.el5.i386.rpm
      5 task-1.9.4-1.el6.i686.rpm
      4 task-1.9.4-1.fc13.i686.rpm
@@ -541,16 +404,8 @@ March 2011
    579 task-1.9.4.tar.gz
     45 task_1.9.4-0ubuntu1~lucid2_i386.deb
     77 task_1.9.4-0ubuntu1~maverick2_i386.deb
-  ----
-   978
-
      2 vittk-1.0.tar.gz
     42 vittk-1.3.tar.gz
-  ----
-    44
-
-April 2011
-
     16 task-1.9.4-1.el5.i386.rpm
     13 task-1.9.4-1.el6.i686.rpm
     19 task-1.9.4-1.fc13.i686.rpm
@@ -560,18 +415,9 @@ April 2011
    476 task-1.9.4.tar.gz
     53 task_1.9.4-0ubuntu1~lucid2_i386.deb
     68 task_1.9.4-0ubuntu1~maverick2_i386.deb
-  ----
-   770
-
    117 task.ref.pdf
-
      1 vittk-1.0.tar.gz
     49 vittk-1.3.tar.gz
-  ----
-    50
-
-May 2011
-
      2 task-1.9.3.pkg
     16 task-1.9.4-1.el5.i386.rpm
      4 task-1.9.4-1.el6.i686.rpm
@@ -582,21 +428,11 @@ May 2011
     77 task_1.9.4-0ubuntu1~lucid2_i386.deb
     60 task_1.9.4-0ubuntu1~maverick2_i386.deb
    102 task_1.9.4-0ubuntu1~natty1_i386.deb
-  ----
-  1607
-
    345 task.ref.pdf
-
      4 vittk-1.0.tar.gz
      2 vittk-1.2.tar.gz
     60 vittk-1.3.tar.gz
-  ----
-    66
-
-June 2011
-
      1 task-1.9.3.pkg
-
     10 task-1.9.4-1.el5.i386.rpm
      2 task-1.9.4-1.el6.i686.rpm
      4 task-1.9.4-1.fc13.i686.rpm
@@ -607,18 +443,9 @@ June 2011
     15 task_1.9.4-0ubuntu1~maverick2_i386.deb
     46 task_1.9.4-0ubuntu1~natty1_i386.deb
      1 task_1.9.4-0ubuntu1~natty1_x86_64.deb
-  ----
-   732
-
    147 task.ref.pdf
-
      1 vittk-1.0.tar.gz
     62 vittk-1.3.tar.gz
-  ----
-    63
-
-July 2011
-
      9 task-1.9.4-1.el5.i386.rpm
      3 task-1.9.4-1.el6.i686.rpm
      4 task-1.9.4-1.fc13.i686.rpm
@@ -628,19 +455,9 @@ July 2011
     56 task_1.9.4-0ubuntu1~lucid2_i386.deb
     16 task_1.9.4-0ubuntu1~maverick2_i386.deb
     75 task_1.9.4-0ubuntu1~natty1_i386.deb
-  ----
-   831
-
    114 task.ref.pdf
-
     54 vittk-1.3.tar.gz
-  ----
-    54
-
-August 2011
-
      1 task-1.9.3.tar.gz
-
      8 task-1.9.4-1.el5.i386.rpm
      5 task-1.9.4-1.el6.i686.rpm
      2 task-1.9.4-1.fc13.i686.rpm
@@ -650,19 +467,10 @@ August 2011
     47 task_1.9.4-0ubuntu1~lucid2_i386.deb
     28 task_1.9.4-0ubuntu1~maverick2_i386.deb
     76 task_1.9.4-0ubuntu1~natty1_i386.deb
-  ----
-   765
-
    118 task.ref.pdf
-
      1 vittk-1.0.tar.gz
      2 vittk-1.2.tar.gz
     40 vittk-1.3.tar.gz
-  ----
-    43
-
-September 2011
-
      4 task-1.9.4-1.el5.i386.rpm
      4 task-1.9.4-1.fc14.i686.rpm
     70 task-1.9.4-sl.pkg
@@ -670,23 +478,11 @@ September 2011
     35 task_1.9.4-0ubuntu1~lucid2_i386.deb
     17 task_1.9.4-0ubuntu1~maverick2_i386.deb
     49 task_1.9.4-0ubuntu1~natty1_i386.deb
-  ----
-   539
-
     73 task-2.0.0.beta1.tar.gz
     89 task-2.0.0.beta2.tar.gz
-  ----
-   162
-
    103 task.ref.pdf
-
      2 vittk-1.0.tar.gz
     36 vittk-1.3.tar.gz
-  ----
-    38
-
-October 2011
-
      2 task-1.9.4-1.el5.i386.rpm
      1 task-1.9.4-1.el6.i686.rpm
      7 task-1.9.4-1.fc14.i686.rpm
@@ -695,27 +491,14 @@ October 2011
     23 task_1.9.4-0ubuntu1~lucid2_i386.deb
      7 task_1.9.4-0ubuntu1~maverick2_i386.deb
     27 task_1.9.4-0ubuntu1~natty1_i386.deb
-  ----
-   392
-
     19 task-2.0.0.beta2.tar.gz
    153 task-2.0.0.beta3.tar.gz
    149 task-2.0.0.beta4.tar.gz
-  ----
-   321
-
     10 task.ref.pdf
     69 task-1.9.2.ref.pdf
    329 task-2.0.0.ref.pdf
-  ----
-   408
-
     86 tw-ubcde11.pdf
-
     32 vittk-1.3.tar.gz
-
-November 2011
-
      1 task-1.9.4-1.el5.i386.rpm
      3 task-1.9.4-1.el6.i686.rpm
      1 task-1.9.4-1.fc13.i686.rpm
@@ -725,25 +508,12 @@ November 2011
     32 task_1.9.4-0ubuntu1~lucid2_i386.deb
      4 task_1.9.4-0ubuntu1~maverick2_i386.deb
     24 task_1.9.4-0ubuntu1~natty1_i386.deb
-  ----
-   389
-
    237 task-2.0.0.beta4.tar.gz
-
     64 task-1.9.2.ref.pdf
    242 task-2.0.0.ref.pdf
-  ----
-   306
-
    174 tw-ubcde11.pdf
-
      2 vittk-1.2.tar.gz
     31 vittk-1.3.tar.gz
-  ----
-    33
-
-December 2011
-
      2 task-1.9.4-1.el5.i386.rpm
      2 task-1.9.4-1.el6.i686.rpm
      1 task-1.9.4-1.fc13.i686.rpm
@@ -753,21 +523,13 @@ December 2011
     21 task_1.9.4-0ubuntu1~lucid2_i386.deb
      9 task_1.9.4-0ubuntu1~maverick2_i386.deb
     34 task_1.9.4-0ubuntu1~natty1_i386.deb
-  ----
-   379
-
    244 task-2.0.0.beta4.tar.gz
-
     48 task-1.9.2.ref.pdf
    214 task-2.0.0.ref.pdf
-  ----
-   262
-
     63 tw-ubcde11.pdf
-
     27 vittk-1.3.tar.gz
 
-January 2012
+2012
 
      5 task-1.9.4-1.el6.i686.rpm
      3 task-1.9.4-1.fc14.i686.rpm
@@ -776,25 +538,12 @@ January 2012
     25 task_1.9.4-0ubuntu1~lucid2_i386.deb
      5 task_1.9.4-0ubuntu1~maverick2_i386.deb
     34 task_1.9.4-0ubuntu1~natty1_i386.deb
-  ----
-   401
-
    249 task-2.0.0.beta4.tar.gz
-
     86 task-1.9.2.ref.pdf
    216 task-2.0.0.ref.pdf
-  ----
-   302
-
     64 tw-ubcde11.pdf
-
      2 vittk-1.0.tar.gz
     39 vittk-1.3.tar.gz
-  ----
-    41
-
-February 2012
-
      6 task-1.9.4-1.el5.i386.rpm
      2 task-1.9.4-1.el6.i686.rpm
      7 task-1.9.4-1.fc13.i686.rpm
@@ -805,25 +554,12 @@ February 2012
     29 task_1.9.4-0ubuntu1~lucid2_i386.deb
     10 task_1.9.4-0ubuntu1~maverick2_i386.deb
     26 task_1.9.4-0ubuntu1~natty1_i386.deb
-  ----
-   397
-
    177 task-2.0.0.beta4.tar.gz
    106 task-2.0.0.beta5.tar.gz
-  ----
-   283
-
    107 task-1.9.2.ref.pdf
    237 task-2.0.0.ref.pdf
-  ----
-   344
-
     25 tw-ubcde11.pdf
-
     33 vittk-1.3.tar.gz
-
-March 2012
-
      1 task-1.9.4-1.el5.i386.rpm
      1 task-1.9.4-1.fc14.i686.rpm
     22 task-1.9.4-sl.pkg
@@ -831,9 +567,6 @@ March 2012
     12 task_1.9.4-0ubuntu1~lucid2_i386.deb
      3 task_1.9.4-0ubuntu1~maverick2_i386.deb
      9 task_1.9.4-0ubuntu1~natty1_i386.deb
-  ----
-   190
-
     11 task-2.0.0-1.fc16.i686.rpm
    201 task-2.0.0.RC1.tar.gz
      3 task-2.0.0.beta4.tar.gz
@@ -842,323 +575,161 @@ March 2012
     38 task_2.0.0-0deb
     23 task_2.0.0-0ubuntu2~oneiric2_i386.deb
      9 task_2.0.0.orig.tar.gz
-  ----
-   951
-
     33 task-1.9.2.ref.pdf
    758 task-2.0.0.ref.pdf
-  ----
-   791
-
     53 tw-ubcde11.pdf
-
     30 vittk-1.3.tar.gz
-
-April 2012
     22 task-2.0.0-1.fc16.i686.rpm
     99 task-2.0.0.pkg
    797 task-2.0.0.tar.gz
    106 task_2.0.0-0deb
     62 task_2.0.0-0ubuntu2~oneiric2_i386.deb
     25 task_2.0.0.orig.tar.gz
-  ----
-  1111
-
    619 task-2.0.0.ref.pdf
-
     36 tw-ubcde11.pdf
-
     29 vittk-1.3.tar.gz
-
-May 2012
     13 task-2.0.0-1.fc16.i686.rpm
     67 task-2.0.0.pkg
    528 task-2.0.0.tar.gz
     31 task_2.0.0-0deb
     23 task_2.0.0-0ubuntu2~oneiric2_i386.deb
      1 task_2.0.0.orig.tar.gz
-  ----
-   663
-
    384 task-2.0.0.ref.pdf
-
     27 tw-ubcde11.pdf
-
     21 vittk-1.3.tar.gz
-
-June 2012
      2 task-2.0.0-1.fc16.i686.rpm
     40 task-2.0.0.pkg
    489 task-2.0.0.tar.gz
     29 task_2.0.0-0deb
     22 task_2.0.0-0ubuntu2~oneiric2_i386.deb
-  ----
-   582
-
    349 task-2.0.0.ref.pdf
-
     21 tw-ubcde11.pdf
-
     29 vittk-1.3.tar.gz
-
-July 2012
      5 task-2.0.0-1.fc16.i686.rpm
     38 task-2.0.0.pkg
    351 task-2.0.0.tar.gz
     24 task_2.0.0-0deb
     17 task_2.0.0-0ubuntu2~oneiric2_i386.deb
-  ----
-   435
-
      8 task-2.1.0-l.pkg
     12 task-2.1.0.beta1.tar.gz
     18 task-2.1.0.beta2.tar.gz
     41 task-2.1.0.beta3.tar.gz
    104 task-2.1.0.tar.gz
-  ----
-   183
-
     22 task-2.1.1-l.pkg
      4 task-2.1.1-ml.pkg
    286 task-2.1.1.tar.gz
-  ----
-   312
-
    286 task-2.0.0.ref.pdf
     30 task-2.1.0.ref.pdf
    120 task-2.1.1.ref.pdf
-  ----
-   436
-
     26 tw-ubcde11.pdf
-
     31 vittk-1.3.tar.gz
-
-August 2012
     57 task-2.1.1-l.pkg
     62 task-2.1.1-ml.pkg
    814 task-2.1.1.tar.gz
-  ----
-   933
-
    584 task-2.1.1.ref.pdf
-
     29 tw-ubcde11.pdf
-
     38 vittk-1.3.tar.gz
-
-September 2012
     21 task-2.1.1-l.pkg
     28 task-2.1.1-ml.pkg
    394 task-2.1.1.tar.gz
-  ----
-   443
-
    490 task-2.1.2.tar.gz
-  ----
-   490
-
    383 task-2.1.1.ref.pdf
    171 task-2.1.2.ref.pdf
-  ----
-   554
-
     29 tw-ubcde11.pdf
-
     32 vittk-1.3.tar.gz
-
-October 2012
-
     38 task-2.1.1.tar.gz
    626 task-2.1.2.tar.gz
-  ----
-   664
-
     17 task-2.1.1.ref.pdf
    398 task-2.1.2.ref.pdf
-  ----
-   415
-
     34 tw-ubcde11.pdf
-
     28 vittk-1.3.tar.gz
-
-November 2012
-
     40 task-2.1.1.tar.gz
    532 task-2.1.2.tar.gz
-  ----
-   572
-
     25 task-2.1.1.ref.pdf
    360 task-2.1.2.ref.pdf
-  ----
-   385
-
     28 tw-ubcde11.pdf
-
     15 vittk-1.3.tar.gz
-
-December 2012
-
     49 task-2.1.1.tar.gz
    428 task-2.1.2.tar.gz
-  ----
-   477
-
      7 task-2.1.1.ref.pdf
    278 task-2.1.2.ref.pdf
-  ----
-   285
-
     20 tw-ubcde11.pdf
-
      4 vittk-1.3.tar.gz
 
-January 2013
+2013
 
    506 task-2.1.2.tar.gz
-
    403 task-2.1.2.ref.pdf
-
     13 tw-ubcde11.pdf
-
      6 vittk-1.3.tar.gz
-
-February 2013
-
    406 task-2.1.2.tar.gz
-
    353 task-2.1.2.ref.pdf
-
     16 tw-ubcde11.pdf
-
      6 vittk-1.3.tar.gz
-
-March 2013
-
    382 task-2.1.2.tar.gz
    184 task-2.2.0.beta1.tar.gz
     34 task-2.2.0.beta2.tar.gz
-  ----
-   600
-
    302 task-2.1.2.ref.pdf
-
     27 tw-ubcde11.pdf
-
      3 vittk-1.3.tar.gz
-
-April 2013
-
     79 task-2.1.2.tar.gz
-
      8 task-2.2.0.beta1.tar.gz
     41 task-2.2.0.beta2.tar.gz
     38 task-2.2.0.beta3.tar.gz
    762 task-2.2.0.tar.gz
-  ----
-   849
-
     72 task-2.1.2.ref.pdf
    359 task-2.2.0.ref.pdf
-  ----
-   431
-
     24 tw-ubcde11.pdf
-
      5 vittk-1.3.tar.gz
-
-May 2013
-
    541 task-2.2.0.tar.gz
-
    343 task-2.2.0.ref.pdf
-
     25 tw-ubcde11.pdf
-
      1 vittk-1.3.tar.gz
-
-June 1013
-
    394 task-2.2.0.tar.gz
-
    299 task-2.2.0.ref.pdf
-
     26 tw-ubcde11.pdf
-
      4 vittk-1.3.tar.gz
-
-July 2013
-
    416 task-2.2.0.tar.gz
-
    313 task-2.2.0.ref.pdf
-
     27 tw-ubcde11.pdf
-
      7 vittk-1.3.tar.gz
-
-August 2013
-
    436 task-2.2.0.tar.gz
-
    329 task-2.2.0.ref.pdf
-
     27 tw-ubcde11.pdf
-
      9 vittk-1.3.tar.gz
-
-September 2013
-
    496 task-2.2.0.tar.gz
    133 task-2.3.0.beta1.tar.gz
     73 taskd-1.0.0.beta1.tar.gz
     44 vramsteg-1.0.1.tar.gz
     10 vittk-1.3.tar.gz
-
    362 task-2.2.0.ref.pdf
     23 tw-ubcde11.pdf
-
-October 2013
-
    453 task-2.2.0.tar.gz
    152 task-2.3.0.beta1.tar.gz
     81 taskd-1.0.0.beta1.tar.gz
     23 vramsteg-1.0.1.tar.gz
-
    413 task-2.2.0.ref.pdf
     29 tw-ubcde11.pdf
-
-November 2013
-
    588 task-2.2.0.tar.gz
     24 task-2.3.0.beta1.tar.gz
    314 task-2.3.0.beta2.tar.gz
     11 taskd-1.0.0.beta1.tar.gz
    144 taskd-1.0.0.beta2.tar.gz
     33 vramsteg-1.0.1.tar.gz
-
    428 task-2.2.0.ref.pdf
     31 tw-ubcde11.pdf
-
     43 vit-1.1.tar.gz
-
-December 2013
-
    395 task-2.2.0.tar.gz
      4 task-2.3.0.beta1.tar.gz
    187 task-2.3.0.beta2.tar.gz
      4 taskd-1.0.0.beta1.tar.gz
     67 taskd-1.0.0.beta2.tar.gz
      8 vramsteg-1.0.1.tar.gz
-
    359 task-2.2.0.ref.pdf
     36 tw-ubcde11.pdf
-
     47 vit-1.1.tar.gz
 
-January 2014
+2014
 
    239 task-2.2.0.tar.gz
      1 task-2.3.0.beta1.tar.gz
@@ -1168,179 +739,81 @@ January 2014
     64 taskd-1.0.0.beta2.tar.gz
    264 taskd-1.0.0.tar.gz
      2 vramsteg-1.0.1.tar.gz
-  ----
-  1553
-
    224 task-2.2.0.ref.pdf
    328 task-2.3.0.ref.pdf
     41 tw-ubcde11.pdf
-  ----
-   593
-
     45 vit-1.1.tar.gz
-
-February 2014
-
    474 task-2.3.0.tar.gz
    141 taskd-1.0.0.tar.gz
      2 vramsteg-1.0.1.tar.gz
-  ----
-   617
-
    248 task-2.3.0.ref.pdf
     15 tw-ubcde11.pdf
-  ----
-   263
-
     33 vit-1.1.tar.gz
     19 vit-1.2.beta1.tar.gz
-  ----
-    52
-
-March 2014
-
     10 clog-1.1.0.tar.gz
   1138 task-2.3.0.tar.gz
    295 taskd-1.0.0.tar.gz
      7 vramsteg-1.0.1.tar.gz
-  ----
-  1450
-
    423 task-2.3.0.ref.pdf
    163 tw-ubcde11.pdf
-  ----
-   586
-
     14 vit-1.1.tar.gz
    264 vit-1.2.beta1.tar.gz
-  ----
-   278
-
-April 2014
-
     21 clog-1.1.0.tar.gz
    943 task-2.3.0.tar.gz
    400 taskd-1.0.0.tar.gz
     10 vramsteg-1.0.1.tar.gz
-  ----
-  1374
-
    466 task-2.3.0.ref.pdf
    110 tw-ubcde11.pdf
-  ----
-   576
-
     14 vit-1.1.tar.gz
     73 vit-1.2.beta1.tar.gz
    301 vit-1.2.tar.gz
-  ----
-   388
-
-May 2014
-
      7 clog-1.1.0.tar.gz
    787 task-2.3.0.tar.gz
    257 taskd-1.0.0.tar.gz
      7 vramsteg-1.0.1.tar.gz
-  ----
-  1058
-
    616 task-2.3.0.ref.pdf
     76 tw-ubcde11.pdf
-  ----
-   692
-
      5 vit-1.1.tar.gz
     17 vit-1.2.beta1.tar.gz
    283 vit-1.2.tar.gz
-  ----
-   305
-
-June 2014
-
     11 clog-1.1.0.tar.gz
    693 task-2.3.0.tar.gz
    275 taskd-1.0.0.tar.gz
     10 vramsteg-1.0.1.tar.gz
-  ----
-   989
-
    451 task-2.3.0.ref.pdf
     56 tw-ubcde11.pdf
-  ----
-   507
-
      2 vit-1.1.tar.gz
     30 vit-1.2.beta1.tar.gz
    280 vit-1.2.tar.gz
-  ----
-   312
-
-July 2014
-
    688 task-2.3.0.tar.gz
    275 taskd-1.0.0.tar.gz
      9 vramsteg-1.0.1.tar.gz
     12 clog-1.1.0.tar.gz
-  ----
-   984
-
      3 vit-1.1.tar.gz
     49 vit-1.2.beta1.tar.gz
    306 vit-1.2.tar.gz
-  ----
-   358
-
    548 task-2.3.0.ref.pdf
     53 tw-ubcde11.pdf
-  ----
-   601
-
-August 2014
-
    719 task-2.3.0.tar.gz
    267 taskd-1.0.0.tar.gz
     26 vramsteg-1.0.1.tar.gz
     28 clog-1.1.0.tar.gz
-  ----
-  1040
-
      4 vit-1.1.tar.gz
     40 vit-1.2.beta1.tar.gz
    290 vit-1.2.tar.gz
-  ----
-   334
-
    452 task-2.3.0.ref.pdf
     64 tw-ubcde11.pdf
-  ----
-   516
-
-September 2014
-
    842 task-2.3.0.tar.gz
    227 task-2.4.0.beta1.tar.gz
    300 taskd-1.0.0.tar.gz
     61 tasksh-1.0.0.beta1.tar.gz
     22 vramsteg-1.0.1.tar.gz
      8 clog-1.1.0.tar.gz
-  ----
-  1360
-
      6 vit-1.1.tar.gz
     34 vit-1.2.beta1.tar.gz
    232 vit-1.2.tar.gz
-  ----
-   272
-
    448 task-2.3.0.ref.pdf
     56 tw-ubcde11.pdf
-  ----
-   504
-
-
-October 2014
-
    702 task-2.3.0.tar.gz
    129 task-2.4.0.beta1.tar.gz
    165 task-2.4.0.beta2.tar.gz
@@ -1348,22 +821,11 @@ October 2014
     62 tasksh-1.0.0.beta1.tar.gz
     12 vramsteg-1.0.1.tar.gz
     12 clog-1.1.0.tar.gz
-  ----
-  1413
-
      3 vit-1.1.tar.gz
     16 vit-1.2.beta1.tar.gz
    148 vit-1.2.tar.gz
-  ----
-   167
-
    396 task-2.3.0.ref.pdf
     67 tw-ubcde11.pdf
-  ----
-   463
-
-November 2014
-
    854 task-2.3.0.tar.gz
     85 task-2.4.0.beta1.tar.gz
    165 task-2.4.0.beta2.tar.gz
@@ -1372,22 +834,11 @@ November 2014
     45 tasksh-1.0.0.beta1.tar.gz
     14 clog-1.1.0.tar.gz
     12 vramsteg-1.0.1.tar.gz
-  ----
-  1695
-
      3 vit-1.1.tar.gz
     12 vit-1.2.beta1.tar.gz
    131 vit-1.2.tar.gz
-  ----
-   146
-
    476 task-2.3.0.ref.pdf
     81 tw-ubcde11.pdf
-  ----
-   557
-
-December 2014
-
    570 task-2.3.0.tar.gz
     43 task-2.4.0.beta1.tar.gz
     68 task-2.4.0.beta2.tar.gz
@@ -1397,21 +848,14 @@ December 2014
     25 tasksh-1.0.0.tar.gz
     13 clog-1.1.0.tar.gz
     18 vramsteg-1.0.1.tar.gz
-  ----
-  1223
-
      3 vit-1.1.tar.gz
     14 vit-1.2.beta1.tar.gz
    106 vit-1.2.tar.gz
-  ----
-   123
-
    400 task-2.3.0.ref.pdf
     47 tw-ubcde11.pdf
-  ----
    447
 
-January 2105
+2015
 
    445 task-2.3.0.tar.gz
     18 task-2.4.0.beta1.tar.gz
@@ -1424,23 +868,12 @@ January 2105
      9 tasksh-1.0.0.beta1.tar.gz
    152 tasksh-1.0.0.tar.gz
     15 vramsteg-1.0.1.tar.gz
-  ----
-  2233
-
      3 vit-1.1.tar.gz
     17 vit-1.2.beta1.tar.gz
    158 vit-1.2.tar.gz
-  ----
-   178
-
     80 tw-ubcde11.pdf
    561 task-2.3.0.ref.pdf
    230 task-2.4.0.ref.pdf
-  ----
-   871
-
-February 2015
-
    424 task-2.3.0.tar.gz
     19 task-2.4.0.beta1.tar.gz
     15 task-2.4.0.beta2.tar.gz
@@ -1453,24 +886,13 @@ February 2015
      7 tasksh-1.0.0.beta1.tar.gz
     71 tasksh-1.0.0.tar.gz
     14 vramsteg-1.0.1.tar.gz
-  ----
-  1857
-
      2 vit-1.1.tar.gz
      7 vit-1.2.beta1.tar.gz
     80 vit-1.2.tar.gz
-  ----
-    89
-
     62 tw-ubcde11.pdf
    482 task-2.3.0.ref.pdf
     88 task-2.4.0.ref.pdf
     53 task-2.4.1.ref.pdf
-  ----
-   685
-
-March 2015
-
      8 clog-1.1.0.tar.gz
    132 task-2.3.0.tar.gz
     13 task-2.4.0.beta1.tar.gz
@@ -1484,25 +906,14 @@ March 2015
      8 tasksh-1.0.0.beta1.tar.gz
     69 tasksh-1.0.0.tar.gz
     15 vramsteg-1.0.1.tar.gz
-  ----
-  1457
-
    440 task-2.3.0.ref.pdf
     47 task-2.4.0.ref.pdf
     83 task-2.4.1.ref.pdf
     65 task-2.4.2.ref.pdf
     87 tw-ubcde11.pdf
-  ----
-   722
-
      1 vit-1.1.tar.gz
      9 vit-1.2.beta1.tar.gz
    130 vit-1.2.tar.gz
-  ----
-   140
-
-April 2015
-
     14 clog-1.1.0.tar.gz
    133 task-2.3.0.tar.gz
     20 task-2.4.0.beta1.tar.gz
@@ -1517,26 +928,15 @@ April 2015
      5 tasksh-1.0.0.beta1.tar.gz
     56 tasksh-1.0.0.tar.gz
     18 vramsteg-1.0.1.tar.gz
-  ----
-  1766
-
    388 task-2.3.0.ref.pdf
     25 task-2.4.0.ref.pdf
     14 task-2.4.1.ref.pdf
     75 task-2.4.2.ref.pdf
     65 task-2.4.3.ref.pdf
     69 tw-ubcde11.pdf
-  ----
-   636
-
      2 vit-1.1.tar.gz
     15 vit-1.2.beta1.tar.gz
    141 vit-1.2.tar.gz
-  ----
-   158
-
-May 2015
-
     17 clog-1.1.0.tar.gz
     88 task-2.3.0.tar.gz
      1 task-2.4.0.beta1.tar.gz
@@ -1553,9 +953,6 @@ May 2015
    214 taskd-1.1.0.tar.gz
     42 tasksh-1.0.0.tar.gz
     18 vramsteg-1.0.1.tar.gz
-  ----
-  1643
-
    283 task-2.3.0.ref.pdf
     24 task-2.4.0.ref.pdf
      7 task-2.4.1.ref.pdf
@@ -1563,16 +960,8 @@ May 2015
     58 task-2.4.3.ref.pdf
    102 task-2.4.4.ref.pdf
     77 tw-ubcde11.pdf
-  ----
-   563
-
      6 vit-1.1.tar.gz
    117 vit-1.2.tar.gz
-  ----
-   123
-
-June 2015
-
      5 clog-1.1.0.tar.gz
    110 task-2.3.0.tar.gz
     41 task-2.4.0.tar.gz
@@ -1586,9 +975,6 @@ June 2015
    419 taskd-1.1.0.tar.gz
     50 tasksh-1.0.0.tar.gz
      8 vramsteg-1.0.1.tar.gz
-  ----
-  1659
-
    264 task-2.3.0.ref.pdf
      7 task-2.4.0.ref.pdf
      4 task-2.4.1.ref.pdf
@@ -1596,16 +982,8 @@ June 2015
     10 task-2.4.3.ref.pdf
    115 task-2.4.4.ref.pdf
     63 tw-ubcde11.pdf
-  ----
-   469
-
      1 vit-1.1.tar.gz
     86 vit-1.2.tar.gz
-  ----
-    87
-
-July 2015
-
     10 clog-1.1.0.tar.gz
    277 task-2.3.0.tar.gz
     41 task-2.4.0.tar.gz
@@ -1618,9 +996,6 @@ July 2015
    324 taskd-1.1.0.tar.gz
     47 tasksh-1.0.0.tar.gz
     13 vramsteg-1.0.1.tar.gz
-  ----
-  1628
-
     21 export-csv.pl
     21 export-html.pl
     22 export-ical.pl
@@ -1634,9 +1009,6 @@ July 2015
     23 import-todo.sh.pl
     19 import-yaml.pl
     23 task-data-anon.pl
-  ----
-   263
-
    310 task-2.3.0.ref.pdf
      6 task-2.4.0.ref.pdf
      4 task-2.4.1.ref.pdf
@@ -1644,16 +1016,8 @@ July 2015
     14 task-2.4.3.ref.pdf
    121 task-2.4.4.ref.pdf
     77 tw-ubcde11.pdf
-  ----
-   547
-
      1 vit-1.1.tar.gz
     97 vit-1.2.tar.gz
-  ----
-    98
-
-August 2015
-
      6 clog-1.1.0.tar.gz
     80 task-2.3.0.tar.gz
     38 task-2.4.0.tar.gz
@@ -1666,9 +1030,6 @@ August 2015
    292 taskd-1.1.0.tar.gz
     24 tasksh-1.0.0.tar.gz
      7 vramsteg-1.0.1.tar.gz
-  ----
-  1336
-
     46 export-csv.pl
     44 export-html.pl
     52 export-ical.pl
@@ -1681,9 +1042,6 @@ August 2015
     32 export-yaml.pl
     48 import-todo.sh.pl
     33 import-yaml.pl
-  ----
-   448
-
    247 task-2.3.0.ref.pdf
      7 task-2.4.0.ref.pdf
      4 task-2.4.1.ref.pdf
@@ -1691,16 +1049,8 @@ August 2015
      7 task-2.4.3.ref.pdf
    132 task-2.4.4.ref.pdf
     84 tw-ubcde11.pdf
-  ----
-   489
-
      2 vit-1.1.tar.gz
    108 vit-1.2.tar.gz
-  ----
-   110
-
-September 2015
-
      8 clog-1.1.0.tar.gz
    115 clog-1.2.0.tar.gz
     94 task-2.3.0.tar.gz
@@ -1717,9 +1067,6 @@ September 2015
     25 tasksh-1.0.0.tar.gz
     13 vramsteg-1.0.1.tar.gz
     88 vramsteg-1.1.0.tar.gz
-  ----
-  1397
-
     38 export-csv.pl
     40 export-html.pl
     51 export-ical.pl
@@ -1733,9 +1080,6 @@ September 2015
     38 import-todo.sh.pl
     33 import-yaml.pl
      1 logo.tar.gz
-  ----
-   411
-
    295 task-2.3.0.ref.pdf
      5 task-2.4.0.ref.pdf
      1 task-2.4.1.ref.pdf
@@ -1743,16 +1087,8 @@ September 2015
     12 task-2.4.3.ref.pdf
    109 task-2.4.4.ref.pdf
    119 tw-ubcde11.pdf
-  ----
-   546
-
      3 vit-1.1.tar.gz
    133 vit-1.2.tar.gz
-  ----
-   136
-
-October 2015
-
      4 clog-1.1.0.tar.gz
    154 clog-1.2.0.tar.gz
     76 clog-1.2.1.tar.gz
@@ -1772,9 +1108,6 @@ October 2015
     56 tasksh-1.0.0.tar.gz
      7 vramsteg-1.0.1.tar.gz
    175 vramsteg-1.1.0.tar.gz
-  ----
-  1712
-
     39 export-csv.pl
     45 export-html.pl
     47 export-ical.pl
@@ -1787,9 +1120,6 @@ October 2015
     37 export-yaml.pl
     43 import-todo.sh.pl
     40 import-yaml.pl
-  ----
-   462
-
    200 task-2.3.0.ref.pdf
     14 task-2.4.0.ref.pdf
      5 task-2.4.1.ref.pdf
@@ -1798,16 +1128,8 @@ October 2015
     74 task-2.4.4.ref.pdf
     55 task-2.5.0.ref.pdf
     86 tw-ubcde11.pdf
-  ----
-   439
-
      3 vit-1.1.tar.gz
    117 vit-1.2.tar.gz
-  ----
-   120
-
-November 2015
-
      5 clog-1.1.0.tar.gz
     46 clog-1.2.0.tar.gz
     83 clog-1.2.1.tar.gz
@@ -1827,9 +1149,6 @@ November 2015
     31 tasksh-1.0.0.tar.gz
      7 vramsteg-1.0.1.tar.gz
    117 vramsteg-1.1.0.tar.gz
-  ----
-  1221
-
     26 export-csv.pl
     21 export-html.pl
     32 export-ical.pl
@@ -1842,9 +1161,6 @@ November 2015
     26 export-yaml.pl
     29 import-todo.sh.pl
     24 import-yaml.pl
-  ----
-   281
-
    174 task-2.3.0.ref.pdf
      8 task-2.4.0.ref.pdf
      1 task-2.4.1.ref.pdf
@@ -1853,16 +1169,8 @@ November 2015
     21 task-2.4.4.ref.pdf
    171 task-2.5.0.ref.pdf
     74 tw-ubcde11.pdf
-  ----
-   454
-
      3 vit-1.1.tar.gz
    108 vit-1.2.tar.gz
-  ----
-   111
-
-December 2015
-
      4 clog-1.1.0.tar.gz
     99 clog-1.2.1.tar.gz
     46 task-2.3.0.tar.gz
@@ -1881,9 +1189,6 @@ December 2015
     35 tasksh-1.0.0.tar.gz
      5 vramsteg-1.0.1.tar.gz
     53 vramsteg-1.1.0.tar.gz
-  ----
-  1189
-
     26 export-csv.pl
     33 export-html.pl
     31 export-ical.pl
@@ -1896,9 +1201,6 @@ December 2015
     25 export-yaml.pl
     33 import-todo.sh.pl
     25 import-yaml.pl
-  ----
-   304
-
    186 task-2.3.0.ref.pdf
      8 task-2.4.0.ref.pdf
      2 task-2.4.1.ref.pdf
@@ -1907,15 +1209,10 @@ December 2015
     10 task-2.4.4.ref.pdf
    401 task-2.5.0.ref.pdf
     62 tw-ubcde11.pdf
-  ----
-   675
-
      3 vit-1.1.tar.gz
    131 vit-1.2.tar.gz
-  ----
-   134
 
-January 2016
+2016
 
      3 clog-1.1.0.tar.gz
     87 clog-1.2.1.tar.gz
@@ -1935,9 +1232,6 @@ January 2016
     28 tasksh-1.0.0.tar.gz
      7 vramsteg-1.0.1.tar.gz
     42 vramsteg-1.1.0.tar.gz
-  ----
-  1076
-
     34 export-csv.pl
     32 export-html.pl
     29 export-ical.pl
@@ -1951,9 +1245,6 @@ January 2016
     34 import-todo.sh.pl
     23 import-yaml.pl
     61 on-modify.timetrack.pl
-  ----
-   365
-
    199 task-2.3.0.ref.pdf
      9 task-2.4.0.ref.pdf
      3 task-2.4.1.ref.pdf
@@ -1962,16 +1253,8 @@ January 2016
      4 task-2.4.4.ref.pdf
    149 task-2.5.0.ref.pdf
     81 tw-ubcde11.pdf
-  ----
-   453
-
      4 vit-1.1.tar.gz
    118 vit-1.2.tar.gz
-  ----
-   122
-
-February 2016
-
      4 clog-1.1.0.tar.gz
    122 clog-1.2.1.tar.gz
     76 task-2.3.0.tar.gz
@@ -1988,9 +1271,6 @@ February 2016
     37 tasksh-1.0.0.tar.gz
      6 vramsteg-1.0.1.tar.gz
     85 vramsteg-1.1.0.tar.gz
-  ----
-  1407
-
     29 export-csv.pl
     38 export-html.pl
     39 export-ical.pl
@@ -2004,9 +1284,6 @@ February 2016
     35 import-todo.sh.pl
     27 import-yaml.pl
     96 on-modify.timetrack.pl
-  ----
-   434
-
    232 task-2.3.0.ref.pdf
     27 task-2.4.0.ref.pdf
      1 task-2.4.1.ref.pdf
@@ -2016,16 +1293,8 @@ February 2016
    133 task-2.5.0.ref.pdf
     56 task-2.5.1.ref.pdf
     83 tw-ubcde11.pdf
-  ----
-   557
-
      1 vit-1.1.tar.gz
    135 vit-1.2.tar.gz
-  ----
-   136
-
-March 2016
-
      5 clog-1.1.0.tar.gz
     93 clog-1.2.1.tar.gz
     72 task-2.3.0.tar.gz
@@ -2042,9 +1311,6 @@ March 2016
     97 tasksh-1.0.0.tar.gz
      9 vramsteg-1.0.1.tar.gz
     77 vramsteg-1.1.0.tar.gz
-  ----
-  1460
-
     35 export-csv.pl
     34 export-html.pl
     43 export-ical.pl
@@ -2058,9 +1324,6 @@ March 2016
     34 import-todo.sh.pl
     34 import-yaml.pl
     76 on-modify.timetrack.pl
-  ----
-   467
-
    206 task-2.3.0.ref.pdf
     43 task-2.4.0.ref.pdf
     10 task-2.4.1.ref.pdf
@@ -2070,16 +1333,8 @@ March 2016
     68 task-2.5.0.ref.pdf
    138 task-2.5.1.ref.pdf
     84 tw-ubcde11.pdf
-  ----
-   585
-
      2 vit-1.1.tar.gz
    127 vit-1.2.tar.gz
-  ----
-   129
-
-April 2016
-
      6 clog-1.1.0.tar.gz
     76 clog-1.2.1.tar.gz
    251 task-2.3.0.tar.gz
@@ -2096,9 +1351,6 @@ April 2016
     28 tasksh-1.0.0.tar.gz
      6 vramsteg-1.0.1.tar.gz
     64 vramsteg-1.1.0.tar.gz
-  ----
-  1615
-
     28 export-csv.pl
     33 export-html.pl
     40 export-ical.pl
@@ -2112,9 +1364,6 @@ April 2016
     29 import-todo.sh.pl
     29 import-yaml.pl
     76 on-modify.timetrack.pl
-  ----
-   425
-
    196 task-2.3.0.ref.pdf
     21 task-2.4.0.ref.pdf
      2 task-2.4.1.ref.pdf
@@ -2124,16 +1373,8 @@ April 2016
     29 task-2.5.0.ref.pdf
     91 task-2.5.1.ref.pdf
     86 tw-ubcde11.pdf
-  ----
-   435
-
      4 vit-1.1.tar.gz
    131 vit-1.2.tar.gz
-  ----
-   135
-
-May 2016
-
      4 clog-1.1.0.tar.gz
    309 clog-1.2.1.tar.gz
     74 task-2.3.0.tar.gz
@@ -2150,9 +1391,6 @@ May 2016
     30 tasksh-1.0.0.tar.gz
      9 vramsteg-1.0.1.tar.gz
    284 vramsteg-1.1.0.tar.gz
-  ----
-  1618
-
     43 export-csv.pl
     33 export-html.pl
     36 export-ical.pl
@@ -2166,9 +1404,6 @@ May 2016
     32 import-todo.sh.pl
     31 import-yaml.pl
     50 on-modify.timetrack.pl
-  ----
-   452
-
    190 task-2.3.0.ref.pdf
     14 task-2.4.0.ref.pdf
      4 task-2.4.1.ref.pdf
@@ -2178,16 +1413,8 @@ May 2016
     26 task-2.5.0.ref.pdf
     96 task-2.5.1.ref.pdf
     90 tw-ubcde11.pdf
-  ----
-   447
-
      3 vit-1.1.tar.gz
    127 vit-1.2.tar.gz
-  ----
-   130
-
-June 2016
-
      3 clog-1.1.0.tar.gz
     31 clog-1.2.1.tar.gz
     31 clog-1.3.0.tar.gz
@@ -2206,9 +1433,6 @@ June 2016
     87 timew-0.9.5.alpha.tar.gz
      7 vramsteg-1.0.1.tar.gz
     36 vramsteg-1.1.0.tar.gz
-  ----
-  1027
-
      4 export-csv.pl
      6 export-html.pl
      7 export-ical.pl
@@ -2222,9 +1446,6 @@ June 2016
      8 import-todo.sh.pl
      5 import-yaml.pl
     14 on-modify.timetrack.pl
-  ----
-    88
-
    163 task-2.3.0.ref.pdf
     12 task-2.4.0.ref.pdf
      3 task-2.4.1.ref.pdf
@@ -2234,16 +1455,8 @@ June 2016
     40 task-2.5.0.ref.pdf
     78 task-2.5.1.ref.pdf
     91 tw-ubcde11.pdf
-  ----
-   404
-
      3 vit-1.1.tar.gz
     91 vit-1.2.tar.gz
-  ----
-    94
-
-July 2016
-
      1 clog-1.1.0.tar.gz
     14 clog-1.2.1.tar.gz
    103 clog-1.3.0.tar.gz
@@ -2262,9 +1475,6 @@ July 2016
     52 timew-1.0.0.beta1.tar.gz
      7 vramsteg-1.0.1.tar.gz
     32 vramsteg-1.1.0.tar.gz
-  ----
-  1261
-
      8 export-csv.pl
      9 export-html.pl
     10 export-ical.pl
@@ -2278,9 +1488,6 @@ July 2016
      7 import-todo.sh.pl
      8 import-yaml.pl
     12 on-modify.timetrack.pl
-  ----
-   120
-
    151 task-2.3.0.ref.pdf
     11 task-2.4.0.ref.pdf
      2 task-2.4.1.ref.pdf
@@ -2290,16 +1497,8 @@ July 2016
     38 task-2.5.1.ref.pdf
     14 task-latest.ref.pdf
     93 tw-ubcde11.pdf
-  ----
-   361
-
      4 vit-1.1.tar.gz
    157 vit-1.2.tar.gz
-  ----
-   161
-
-August 2016
-
      1 clog-1.1.0.tar.gz
      4 clog-1.2.1.tar.gz
    113 clog-1.3.0.tar.gz
@@ -2319,9 +1518,6 @@ August 2016
    232 timew-1.0.0.tar.gz
      3 vramsteg-1.0.1.tar.gz
     25 vramsteg-1.1.0.tar.gz
-  ----
-  1621
-
      5 export-csv.pl
      9 export-html.pl
      9 export-ical.pl
@@ -2335,9 +1531,6 @@ August 2016
      7 import-todo.sh.pl
      6 import-yaml.pl
      7 on-modify.timetrack.pl
-  ----
-    90
-
    158 task-2.3.0.ref.pdf
     10 task-2.4.0.ref.pdf
      2 task-2.4.1.ref.pdf
@@ -2347,16 +1540,8 @@ August 2016
     28 task-2.5.0.ref.pdf
    311 task-2.5.1.ref.pdf
     72 tw-ubcde11.pdf
-  ----
-   598
-
      2 vit-1.1.tar.gz
    143 vit-1.2.tar.gz
-  ----
-   145
-
-September 2016
-
     31 anomaly-1.1.0.tar.gz
      5 clog-1.1.0.tar.gz
      7 clog-1.2.1.tar.gz
@@ -2378,9 +1563,6 @@ September 2016
    347 timew-1.0.0.tar.gz
      5 vramsteg-1.0.1.tar.gz
     35 vramsteg-1.1.0.tar.gz
-  ----
-  1839
-
      7 export-csv.pl
      8 export-html.pl
      6 export-ical.pl
@@ -2395,9 +1577,6 @@ September 2016
      5 import-todo.sh.pl
      8 import-yaml.pl
      9 on-modify.timetrack.pl
-  ----
-   114
-
    162 task-2.3.0.ref.pdf
     17 task-2.4.0.ref.pdf
      1 task-2.4.1.ref.pdf
@@ -2407,16 +1586,8 @@ September 2016
     29 task-2.5.0.ref.pdf
    113 task-2.5.1.ref.pdf
     69 tw-ubcde11.pdf
-  ----
-   437
-
      4 vit-1.1.tar.gz
    121 vit-1.2.tar.gz
-  ----
-   125
-
-October 2016
-
     26 anomaly-1.1.0.tar.gz
      2 clog-1.1.0.tar.gz
      4 clog-1.2.1.tar.gz
@@ -2438,9 +1609,6 @@ October 2016
    249 timew-1.0.0.tar.gz
      6 vramsteg-1.0.1.tar.gz
     26 vramsteg-1.1.0.tar.gz
-  ----
-  1559
-
      9 export-csv.pl
      7 export-html.pl
      9 export-ical.pl
@@ -2455,9 +1623,6 @@ October 2016
      8 import-todo.sh.pl
      6 import-yaml.pl
      7 on-modify.timetrack.pl
-  ----
-   109
-
    165 task-2.3.0.ref.pdf
     24 task-2.4.0.ref.pdf
      2 task-2.4.1.ref.pdf
@@ -2467,16 +1632,8 @@ October 2016
     18 task-2.5.0.ref.pdf
     92 task-2.5.1.ref.pdf
     61 tw-ubcde11.pdf
-  ----
-   381
-
      2 vit-1.1.tar.gz
    132 vit-1.2.tar.gz
-  ----
-   134
-
-November 2016
-
     31 anomaly-1.1.0.tar.gz
      2 clog-1.1.0.tar.gz
      3 clog-1.2.1.tar.gz
@@ -2498,9 +1655,6 @@ November 2016
    220 timew-1.0.0.tar.gz
      5 vramsteg-1.0.1.tar.gz
     21 vramsteg-1.1.0.tar.gz
-  ----
-  1716
-
     10 export-csv.pl
      5 export-html.pl
      4 export-ical.pl
@@ -2515,9 +1669,6 @@ November 2016
      2 import-todo.sh.pl
      3 import-yaml.pl
      3 on-modify.timetrack.pl
-  ----
-    70
-
    147 task-2.3.0.ref.pdf
     20 task-2.4.0.ref.pdf
      3 task-2.4.1.ref.pdf
@@ -2527,16 +1678,8 @@ November 2016
     35 task-2.5.0.ref.pdf
    101 task-2.5.1.ref.pdf
     54 tw-ubcde11.pdf
-  ----
-   376
-
      4 vit-1.1.tar.gz
    104 vit-1.2.tar.gz
-  ----
-   108
-
-December 2016
-
     36 anomaly-1.1.0.tar.gz
      2 clog-1.1.0.tar.gz
      1 clog-1.2.0.tar.gz
@@ -2558,9 +1701,6 @@ December 2016
    370 timew-1.0.0.tar.gz
      1 vramsteg-1.0.1.tar.gz
     26 vramsteg-1.1.0.tar.gz
-  ----
-  2469
-
    106 export-csv.pl
     14 export-html.pl
     15 export-ical.pl
@@ -2575,9 +1715,6 @@ December 2016
     15 import-todo.sh.pl
      3 import-yaml.pl
     14 on-modify.timetrack.pl
-  ----
-   280
-
    209 task-2.3.0.ref.pdf
     36 task-2.4.0.ref.pdf
      7 task-2.4.1.ref.pdf
@@ -2588,243 +1725,77 @@ December 2016
    174 task-2.5.1.ref.pdf
     58 task-latest.ref.pdf
    128 tw-ubcde11.pdf
-  ----
-   706
-
      4 vit-1.1.tar.gz
    143 vit-1.2.tar.gz
-  ----
-   147
 
-January 2017
+2017
 
-    19 anomaly-1.1.0.tar.gz
-     1 clog-1.1.0.tar.gz
-     4 clog-1.2.0.tar.gz
-     2 clog-1.2.1.tar.gz
-    18 clog-1.3.0.tar.gz
-     8 task-2.3.0.tar.gz
-     1 task-2.4.1.tar.gz
-     5 task-2.4.3.tar.gz
-   148 task-2.4.4.tar.gz
-    16 task-2.5.0.tar.gz
-   621 task-2.5.1.tar.gz
-     8 taskd-1.0.0.tar.gz
-   411 taskd-1.1.0.tar.gz
-    10 tasksh-1.0.0.tar.gz
-   267 tasksh-1.1.0.tar.gz
-     7 timew-0.9.5.alpha.tar.gz
-     9 timew-1.0.0.beta1.tar.gz
-   283 timew-1.0.0.tar.gz
-     2 vramsteg-1.0.1.tar.gz
-    20 vramsteg-1.1.0.tar.gz
-  ----
-  1860
-
-    96 export-csv.pl
-     8 export-html.pl
-    18 export-ical.pl
-    11 export-sql.py
-    10 export-tsv.pl
-     6 export-xml.pl
-     3 export-xml.py
-     3 export-xml.rb
-    12 export-yad.pl
-    12 export-yaml.pl
-    16 gtdnext.sh
-     5 import-todo.sh.pl
-    10 import-yaml.pl
-    22 on-modify.timetrack.pl
-  ----
-   232
-
-   196 task-2.3.0.ref.pdf
-    19 task-2.4.0.ref.pdf
-     5 task-2.4.1.ref.pdf
-     9 task-2.4.2.ref.pdf
-     3 task-2.4.3.ref.pdf
-    13 task-2.4.4.ref.pdf
-    32 task-2.5.0.ref.pdf
-   226 task-2.5.1.ref.pdf
-    75 tw-ubcde11.pdf
-  ----
-   578
-
-     6 vit-1.1.tar.gz
-   140 vit-1.2.tar.gz
-  ----
-   146
-
-February 2017
-
-    17 anomaly-1.1.0.tar.gz
-     1 clog-1.1.0.tar.gz
-     6 clog-1.2.0.tar.gz
-     3 clog-1.2.1.tar.gz
-    26 clog-1.3.0.tar.gz
-     2 task-2.3.0.tar.gz
-     1 task-2.4.2.tar.gz
-     5 task-2.4.3.tar.gz
-   168 task-2.4.4.tar.gz
-     8 task-2.5.0.tar.gz
-   590 task-2.5.1.tar.gz
-     3 taskd-1.0.0.tar.gz
-   418 taskd-1.1.0.tar.gz
-   209 tasksh-1.1.0.tar.gz
-     1 timew-0.9.5.alpha.tar.gz
-     1 timew-1.0.0.beta1.tar.gz
-   248 timew-1.0.0.tar.gz
-     3 vramsteg-1.0.1.tar.gz
-    30 vramsteg-1.1.0.tar.gz
-  ----
-  1740
-
-    71 export-csv.pl
-     7 export-html.pl
-     8 export-ical.pl
-     7 export-sql.py
-     6 export-tsv.pl
-     2 export-xml.pl
-     4 export-xml.py
-     4 export-xml.rb
-     2 export-yad.pl
-     3 export-yaml.pl
-    21 gtdnext.sh
-     6 import-todo.sh.pl
-     4 import-yaml.pl
-    17 on-modify.timetrack.pl
-  ----
-   162
-
-   168 task-2.3.0.ref.pdf
-     3 task-2.3.0.ref.pdf
-    12 task-2.4.0.ref.pdf
-     2 task-2.4.1.ref.pdf
-    10 task-2.4.2.ref.pdf
-     2 task-2.4.3.ref.pdf
-    28 task-2.4.4.ref.pdf
-    29 task-2.5.0.ref.pdf
-   219 task-2.5.1.ref.pdf
-    65 tw-ubcde11.pdf
-  ----
-   538
-
-     3 vit-1.1.tar.gz
-   114 vit-1.2.tar.gz
-  ----
-   117
-
-March 2017
-
-    22 anomaly-1.1.0.tar.gz
-     2 clog-1.1.0.tar.gz
-    33 clog-1.3.0.tar.gz
-     3 task-2.3.0.tar.gz
-     1 task-2.4.0.tar.gz
-     1 task-2.4.1.tar.gz
-     7 task-2.4.3.tar.gz
-   335 task-2.4.4.tar.gz
-     8 task-2.5.0.tar.gz
-   642 task-2.5.1.tar.gz
-     6 taskd-1.0.0.tar.gz
-   384 taskd-1.1.0.tar.gz
-     3 tasksh-1.0.0.tar.gz
-   235 tasksh-1.1.0.tar.gz
-     1 timew-1.0.0.beta1.tar.gz
-   229 timew-1.0.0.tar.gz
-    25 vramsteg-1.1.0.tar.gz
-  ----
-  1937
-
-    67 export-csv.pl
-     5 export-html.pl
-     8 export-ical.pl
-     6 export-sql.py
-     3 export-tsv.pl
-     3 export-xml.pl
-     4 export-xml.py
-     1 export-xml.rb
-     5 export-yad.pl
-     2 export-yaml.pl
-    33 gtdnext.sh
-    21 import-todo.sh.pl
-     5 import-yaml.pl
-    15 on-modify.timetrack.pl
-  ----
-   178
-
-   177 task-2.3.0.ref.pdf
-    12 task-2.4.0.ref.pdf
-     6 task-2.4.1.ref.pdf
-    12 task-2.4.2.ref.pdf
-     1 task-2.4.3.ref.pdf
-    15 task-2.4.4.ref.pdf
-    28 task-2.5.0.ref.pdf
-   177 task-2.5.1.ref.pdf
-   120 tw-ubcde11.pdf
-  ----
-   548
-
-     1 vit-1.1.tar.gz
-   118 vit-1.2.tar.gz
-  ----
-   119
-
-April 2017
-
-    23 anomaly-1.1.0.tar.gz
-     2 clog-1.1.0.tar.gz
+   150 anomaly-1.1.0.tar.gz
+    10 clog-1.1.0.tar.gz
      9 clog-1.2.0.tar.gz
-     5 clog-1.2.1.tar.gz
-    40 clog-1.3.0.tar.gz
-     1 task-2.3.0.tar.gz
-     1 task-2.4.2.tar.gz
-     6 task-2.4.3.tar.gz
-   121 task-2.4.4.tar.gz
-    13 task-2.5.0.tar.gz
-   677 task-2.5.1.tar.gz
-     2 taskd-1.0.0.tar.gz
-   398 taskd-1.1.0.tar.gz
-     1 tasksh-1.0.0.tar.gz
-   282 tasksh-1.1.0.tar.gz
-   367 timew-1.0.0.tar.gz
-     2 vramsteg-1.0.1.tar.gz
-    32 vramsteg-1.1.0.tar.gz
-  ----
-  1982
+    23 clog-1.2.1.tar.gz
+   218 clog-1.3.0.tar.gz
+    19 clog-latest.tar.gz
+    13 task-2.3.0.tar.gz
+     8 task-2.4.0.tar.gz
+     7 task-2.4.1.tar.gz
+    47 task-2.4.3.tar.gz
+   916 task-2.4.4.tar.gz
+    67 task-2.5.0.tar.gz
+  6416 task-2.5.1.tar.gz
+    86 task-latest.tar.gz
+    11 taskd-1.0.0.tar.gz
+  3612 taskd-1.1.0.tar.gz
+   801 taskd-latest.tar.gz
+    15 tasksh-1.0.0.tar.gz
+   315 tasksh-1.1.0.tar.gz
+  1646 tasksh-1.2.0.tar.gz
+  1069 tasksh-latest.tar.gz
+     6 timew-0.9.5.alpha.tar.gz
+     7 timew-1.0.0.beta1.tar.gz
+  2715 timew-1.0.0.tar.gz
+    10 vramsteg-1.0.1.tar.gz
+   176 vramsteg-1.1.0.tar.gz
+ -----
+ 18372
 
-    61 export-csv.pl
-     5 export-html.pl
-     7 export-ical.pl
-    32 export-sql.py
-     2 export-xml.pl
-     3 export-xml.py
-     3 export-xml.rb
-     1 export-yad.pl
-     2 export-yaml.pl
-    19 gtdnext.sh
-     8 import-todo.sh.pl
-     4 import-yaml.pl
-    10 on-modify.timetrack.pl
-  ----
-   157
+   830 export-csv.pl
+    87 export-html.pl
+   124 export-ical.pl
+  1335 export-sql.py
+    49 export-tsv.pl
+    57 export-xml.pl
+    59 export-xml.py
+    12 export-xml.rb
+    45 export-yad.pl
+    29 export-yaml.pl
+   149 gtdnext.sh
+    53 import-todo.sh.pl
+    37 import-yaml.pl
+   139 on-modify.timetrack.pl
+ -----
+  3005
 
-   181 task-2.3.0.ref.pdf
-     9 task-2.4.0.ref.pdf
-     4 task-2.4.1.ref.pdf
-     6 task-2.4.2.ref.pdf
-     3 task-2.4.3.ref.pdf
-    19 task-2.4.4.ref.pdf
-    26 task-2.5.0.ref.pdf
-   191 task-2.5.1.ref.pdf
-    56 tw-ubcde11.pdf
-  ----
-   495
+  1518 task-2.3.0.ref.pdf
+     3 task-2.3.0.ref.pdf
+     5 task-2.3.0.ref.pdf
+    70 task-2.4.0.ref.pdf
+    11 task-2.4.1.ref.pdf
+    30 task-2.4.2.ref.pdf
+    12 task-2.4.3.ref.pdf
+   127 task-2.4.4.ref.pdf
+   270 task-2.5.0.ref.pdf
+  1684 task-2.5.1.ref.pdf
+   319 task-latest.ref.pdf
+   234 tw-ubcde11.pdf
+ -----
+  4283
 
-     1 vit-1.1.tar.gz
-   134 vit-1.2.tar.gz
-  ----
-   135
+     7 vit-1.1.tar.gz
+   893 vit-1.2.tar.gz
+    68 vit-latest.tar.gz
+ -----
+   968
 
 ---
 

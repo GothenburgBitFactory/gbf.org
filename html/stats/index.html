@@ -44,212 +44,163 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-          <h3><img align="center" src="logo-s.png" /> Taskwarrior Statistics</h3>
+          <h3><img align="center" src="logo-s.png" /> Taskwarrior Annual Statistics</h3>
           <p>
-            Interesting statistics from the taskwarrior web site and repository.
-            These data form a baseline against which to measure changes.
-            This page will be updated after the end of each month.
+            Annual numbers are not sensitive to seasonal variations, or release
+            cycles, and show more reliable indicators of trends.
           </p>
         </div>
 
         <div class="col-md-12">
           <div class="col-md-3">
-            <a href="visits.png" class="thumbnail">
-              <img src="visits.png">
+            <a href="annual_visits.png" class="thumbnail">
+              <img src="annual_visits.png" />
             </a>
           </div>
-          Visits to the various web sites.
+          Visits to taskwarrior.org and assorted web sites.
         </div>
 
         <div class="col-md-12">
           <div class="col-md-3">
-            <a href="downloads.png" class="thumbnail">
-              <img src="downloads.png" />
+            <a href="annual_downloads.png" class="thumbnail">
+              <img src="annual_downloads.png" />
             </a>
           </div>
-          Note that only downloads directly from taskwarrior.org are now recorded.
-          SourceForge (twsf) is no longer a contributor.
-          Note that Taskserver and the PDFs now account for half the download
-          traffic.
+          Downloads direct from taskwarrior.org.
+          Other sources of packages exist, but we do not have data.
+          Note how the Taskserver and the various PDFs are a significant part of the downloads.
         </div>
 
         <div class="col-md-12">
           <div class="col-md-3">
-            <a href="versions.png" class="thumbnail">
-              <img src="versions.png" />
+            <a href="annual_registrations.png" class="thumbnail">
+              <img src="annual_registrations.png" />
             </a>
           </div>
-          Total downloads by version.
-
-          This chart is indirectly measuring the time between releases,
-          and shows that 1.9.4 and 2.3.0 were the primary version for over a year.
-          More recently multiple versions are simultaneously available.
-          HomeBrew, for example, downloads the tarballs from us, and the version
-          obtained is dependent on the freshness of the local brew repository.
+          Registrations to taskwarrior.org.  These numbers indicate the number of
+          users that are reporting bugs, and mostly reflects the bug find rate.
         </div>
 
         <div class="col-md-12">
           <div class="col-md-3">
-            <a href="minor.png" class="thumbnail">
-              <img src="minor.png" />
+            <a href="annual_commits.png" class="thumbnail">
+              <img src="annual_commits.png" />
             </a>
           </div>
-          Total downloads by minor version.
-          As more and more people download binary packages, which we do not provide,
-          the downloads are gradually decreasing as those packages become more
-          available and up to date.
+          Activity in the code repositories have been growing for years.
+          This is not something that the monthly statistics reveal.
+
+          You can see the development of Flod, Taskserver and Timewarrior in
+          the data.
+
+          It is likely that 2017 will have the most activity of all, but the
+          use of libshared will cause a reduction in the numbers.
         </div>
 
         <div class="col-md-12">
           <div class="col-md-3">
-            <a href="major.png" class="thumbnail">
-              <img src="major.png" />
+            <a href="annual_issues.png" class="thumbnail">
+              <img src="annual_issues.png" />
             </a>
           </div>
-          Total downloads by major version.
+          Taskwarrior is the largest contributor to the issues list.
+          New features in 2017 are likely to cause a spike.
+
+          The fix rate is impressive - 250+ bugs/yr.
         </div>
 
         <div class="col-md-12">
           <div class="col-md-3">
-            <a href="commits.png" class="thumbnail">
-              <img src="commits.png" />
+            <a href="annual_feed.png" class="thumbnail">
+              <img src="annual_feed.png" />
             </a>
           </div>
-          Development began in 2006, but used CVS, then Subversion. That history
-          was not brought into git, but consisted of 790 commits.  The
-          largest spike represents Timewarrior development.
+          Downloads of feed.rss. 2017 will likely exceed all previous years.
+        </div>
+
+<!--
+        <div class="col-md-12">
+          <div class="col-md-3">
+            <a href="annual_404s.png" class="thumbnail">
+              <img src="annual_404s.png" />
+            </a>
+          </div>
+          Top-10 404s, which are being actively reduced.
+          Note that data for 2014 is only three months, therefore the chart is
+          actually showing a reduction.
+          Recent data collection problems is causing the gap.
+        </div>
+-->
+        <div class="col-md-12">
+          <div class="col-md-3">
+            <a href="annual_latest.png" class="thumbnail">
+              <img src="annual_latest.png" />
+            </a>
+          </div>
+
+          There was a data collection issue, which explains the 2012 gap.
         </div>
 
         <div class="col-md-12">
           <div class="col-md-3">
-            <a href="tests.png" class="thumbnail">
-              <img src="tests.png" />
+            <a href="annual_adoption.png" class="thumbnail">
+              <img src="annual_adoption.png" />
             </a>
           </div>
 
-          This chart shows how the test suite sizeѕ change over time for all
-          projects, and should generally show a migration towards libshared.
-          This means overall tests should decrease while libshared is integrated,
-          then will rise more slowly.
-
-          We are almost at the point where libshared has the largest test suite,
-          and will be the case as of March 2017.
+          Annual Taskwarrior version downloads.
         </div>
 
         <div class="col-md-12">
           <div class="col-md-3">
-            <a href="issues.png" class="thumbnail">
-              <img src="issues.png" />
+            <a href="annual_td_adoption.png" class="thumbnail">
+              <img src="annual_td_adoption.png" />
             </a>
           </div>
-          The add rate and resolve rate usually track each other well, except in the
-          lead up to a release, where the testing is greater.
 
-          There is always a shift toward fixing right before a release.
+          Annual Taskserver version downloads.
         </div>
 
         <div class="col-md-12">
           <div class="col-md-3">
-            <a href="os.png" class="thumbnail">
-              <img src="os.png" />
+            <a href="annual_ts_adoption.png" class="thumbnail">
+              <img src="annual_ts_adoption.png" />
             </a>
           </div>
-          This is the distribution of operating systems for our site visitors.
+
+          Annual Tasksh version downloads.
         </div>
 
         <div class="col-md-12">
           <div class="col-md-3">
-            <a href="adoption.png" class="thumbnail">
-              <img src="adoption.png" />
+            <a href="annual_cl_adoption.png" class="thumbnail">
+              <img src="annual_cl_adoption.png" />
             </a>
           </div>
-          This char shows the downloads by version, and indicates the rate of
-          adoption. Downloading old versions is caused by out-of-date links
-          around the web, and when a release occurs mid-month.
 
-          Due to source-package links (Slack, HomeBrew ...) older versions
-          are still being downloaded, whereas in the past there were more
-          distinct migrations to newer versions.
-
-          This is a problem because we see more users with support questions
-          for old versions.
+          Annual Clog version downloads.
         </div>
 
         <div class="col-md-12">
           <div class="col-md-3">
-            <a href="social.png" class="thumbnail">
-              <img src="social.png" />
+            <a href="annual_vr_adoption.png" class="thumbnail">
+              <img src="annual_vr_adoption.png" />
             </a>
           </div>
-          Social membership numbers are still rising.
-          G+ is dead, mostly because we never did anything there.
+
+          Annual Vramsteg version downloads.
         </div>
 
         <div class="col-md-12">
           <div class="col-md-3">
-            <a href="feed.png" class="thumbnail">
-              <img src="feed.png" />
+            <a href="annual_ti_adoption.png" class="thumbnail">
+              <img src="annual_ti_adoption.png" />
             </a>
           </div>
-          Downloads of feed.rss. This correlates well with the news items released.
+
+          Annual Timewarrior version downloads.
         </div>
 
-        <div class="col-md-12">
-          <div class="col-md-3">
-            <a href="404s.png" class="thumbnail">
-              <img src="404s.png" />
-            </a>
-          </div>
-          Total top-10 404s.  A recent effort to reduce 404s is being tracked here.
-          These errors are now almost entirely speculative URL retrieval, hacking.
-
-          Note that a script glitch is preventing reporting of this data.
-        </div>
-
-        <div class="col-md-12">
-          <div class="col-md-3">
-            <a href="td_adoption.png" class="thumbnail">
-              <img src="td_adoption.png" />
-            </a>
-          </div>
-          Taskserver version adoption.
-        </div>
-
-        <div class="col-md-12">
-          <div class="col-md-3">
-            <a href="cl_adoption.png" class="thumbnail">
-              <img src="cl_adoption.png" />
-            </a>
-          </div>
-          Clog version adoption.
-        </div>
-
-        <div class="col-md-12">
-          <div class="col-md-3">
-            <a href="ts_adoption.png" class="thumbnail">
-              <img src="ts_adoption.png" />
-            </a>
-          </div>
-          Tasksh version adoption.
-        </div>
-
-        <div class="col-md-12">
-          <div class="col-md-3">
-            <a href="vr_adoption.png" class="thumbnail">
-              <img src="vr_adoption.png" />
-            </a>
-          </div>
-          Vramsteg version adoption.
-        </div>
-
-        <div class="col-md-12">
-          <div class="col-md-3">
-            <a href="ti_adoption.png" class="thumbnail">
-              <img src="ti_adoption.png" />
-            </a>
-          </div>
-          Timewarrior version adoption.
-        </div>
       </div>
 
       <hr>
