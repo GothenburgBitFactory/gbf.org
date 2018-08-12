@@ -4,30 +4,24 @@ use strict;
 use warnings;
 
 my $counter = 0;
-#my $year = (localtime (time))[5] + 1900;
-#my $month = qw(Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec) [(localtime (time))[4]];
-#if (@ARGV &&
-#    ! -f $ARGV[0])
-#{
-#  $month = shift @ARGV;
-#}
-#
-#if (@ARGV &&
-#    ! -f $ARGV[0])
-#{
-#  $year = shift @ARGV;
-#}
+my $year = (localtime (time))[5] + 1900;
+
+if (@ARGV &&
+    ! -f $ARGV[0])
+{
+  $year = shift @ARGV;
+}
 
 while (my $line = <>)
 {
-#  next if $line !~ /\/${month}\/${year}/;
+  next if $line !~ /\/${year}/;
   next if $line !~ /GET \/latest/;
   next if $line !~ /" 200 /;
 
   $counter++;
 }
 
-#print $month, "\n\n";
+print $year, "\n\n";
 printf "%6d LATEST\n", $counter;
 exit 0;
 
