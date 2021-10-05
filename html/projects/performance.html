@@ -8,13 +8,11 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <link rel="shortcut icon" href="/favicon.ico">
-
   <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
   <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   <![endif]-->
-
   <!-- Google Chart -->
   <script type="text/javascript" src="https://www.google.com/jsapi"></script>
   <script type="text/javascript">
@@ -22,7 +20,6 @@
     google.setOnLoadCallback(drawChart);
 
     function drawChart() {
-
       // Overall combined
       var data = google.visualization.arrayToDataTable([
         ['Version', 'Total'],
@@ -63,7 +60,6 @@
         ['2.5.0', 1806, 87569, 32645, 18855, 2, 4143, 426, 0, 6893, ''],
         ['2.5.1', 1693, 65585, 278, 13836, 2, 3906, 298, 0, 7243, '']
       ]);
-
       var options = {
         legend: {position: 'top', maxLines: 3},
         bar: {groupWidth: '75%'},
@@ -207,7 +203,6 @@
     }
   </script>
 </head>
-
 <body>
 <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
   <div class="container-fluid">
@@ -231,7 +226,6 @@
   </div>
 </div>
 <h2>&nbsp;</h2>
-
 <div class="container-fluid">
   <div class="row">
     <div class="col-md-12 main">
@@ -239,72 +233,60 @@
       <p>
         The performance charts are generated using <a href="https://developers.google.com/chart">Google Charts</a>, and represent the results from running <code>make performance</code>for a release build.
         All times shown are microseconds (μs).
-
         <a href="https://en.wikipedia.org/wiki/Millisecond">The average human eye blink takes 350,000 μs</a>.
       </p>
-
       <p>
         The data used is the text of all the Shakespeare tragedies, with data manipulation that turns every spoken line into a task.
         The result is a sample data set that includes 2,129 pending tasks and 5,957 completed tasks.
         This yields an 8,086 task database.
         This data is then queried twice to warm any caches.
       </p>
-
       <p>
         The tests are all run on the same hardware, OS, and under similar load.
         Because of this, any OS upgrade or new hardware requires all tests to be re-run, and sometimes this is not possible because of toolchain differences.
         It is expected that there will be minor variations between tests.
       </p>
-
       <p>
         Note: The 'other' category was introduced with 2.5.0 and represents the total runtime (launch to exit, measured internally), with all the other categories subtracted.
         It therefore represents unmeasured time.
-
         In the case of <code>export</code> and <code>import</code>, the 'other' category is significant.
         With 2.5.0.beta3 the time spent converting tasks to JSON is counted as 'render' time.
       </p>
-
       <h3><code>All Tests Combined</code></h3>
       <p>
         Aggregated time (in seconds) for all 20 tests, by version.
         This total is measured externally, and therefore includes unmeasured time, and launch time.
       </p>
       <div id="chart_combined"></div>
-
       <h3><code>task next</code></h3>
       <p>
         This test yields only the pending tasks.
         This test is sensitive to changes in the <code>next</code> report definition.
       </p>
       <div id="chart_next"></div>
-
       <h3><code>task list</code></h3>
       <p>
         This test yields only the pending tasks.
         This test is sensitive to changes in the <code>list</code> report definition.
       </p>
       <div id="chart_list"></div>
-
       <h3><code>task all</code></h3>
       <p>
         This test yields all pending and completed tasks.
         This test is sensitive to changes in the <code>all</code> report definition.
       </p>
       <div id="chart_all"></div>
-
       <h3><code>task add</code></h3>
       <p>
         This test adds a task with project, priority, tags and an average-sized description.
       </p>
       <div id="chart_add"></div>
-
       <h3><code>task export</code></h3>
       <p>
         This test exports all 8,086 tasks to a JSON file.
         Starting with task-2.5.0.beta3, time spent composing JSON is measured as 'render' time.
       </p>
       <div id="chart_export"></div>
-
       <h3><code>task import</code></h3>
       <p>
         This test imports all 8,086 tasks from a JSON file.
@@ -312,13 +294,11 @@
       <div id="chart_import"></div>
     </div>
   </div>
-
   <hr>
   <footer>
     Copyright &copy; 2017, <a href="/about.html">Göteborg Bit Factory</a>.
   </footer>
 </div>
-
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="/bootstrap/js/bootstrap.min.js"></script>
 </body>
