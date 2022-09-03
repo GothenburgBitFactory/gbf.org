@@ -1,0 +1,40 @@
+{{ partial "header.html" . }}
+
+<main role="main">
+  <div class="jumbotron">
+    <div class="container">
+      {{ .Content }}
+    </div>
+  </div>
+  <div class="container project-container">
+        {{ range $project := (.Pages.ByParam "rank").Reverse }}
+        <div class="project-panel">
+          {{ $release := index $.Site.Data ( .File.Dir | replaceRE "/$" "" ) }}
+          <h3>
+            <a href="{{ $project.RelPermalink }}">{{ $project.Title }}</a>
+            <small><span class="label label-success">{{ if $release }}{{ index $release "version" }}{{ end }}</span></small>
+          </h3>
+          {{ if $release }}
+          <p>
+            <a href="{{ index $release "url" }}"><i class="bi bi-download"></i> {{ index $release "name" }}.tar.gz</a>
+          </p>
+          {{ end }}
+          {{ if $project.Params.Source }}
+          <p>
+            <a href="{{ $project.Params.Source }}"><i class="bi bi-github"></i> Source</a>
+          </p>
+          {{ end }}
+          {{ if $project.Params.Homepage }}
+          <p>
+            <a href="{{ $project.Params.Homepage }}"><i class="bi bi-house-fill"></i> Homepage</a>
+          </p>
+          {{ end }}
+          <p>
+            {{ $project.Description }}
+          </p>
+        </div>
+        {{ end }}
+      </div>
+</main>
+
+{{ partial "footer.html" . }}

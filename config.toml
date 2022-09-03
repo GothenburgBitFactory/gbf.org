@@ -1,0 +1,11 @@
+baseURL = "https://gothenburgbitfactory.org"
+languageCode = "en-us"
+title = "Gothenburg Bit Factory"
+theme = "bootstrap"
+publishDir = "html"
+
+[params]
+description = ""
+
+[markup.goldmark.renderer]
+unsafe= true
