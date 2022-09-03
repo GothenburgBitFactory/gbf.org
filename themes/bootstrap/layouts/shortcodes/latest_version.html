@@ -1,0 +1,1 @@
+{{ $release := index $.Site.Data ( .Get 0 ) }}{{ with $release }}{{- index . "version" -}}{{ end }}

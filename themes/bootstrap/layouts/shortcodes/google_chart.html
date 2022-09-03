@@ -1,0 +1,23 @@
+{{ with .Get 0 }}
+<div id="chart_{{ . }}"></div>
+<script type="text/javascript">
+    function load_and_draw_{{ . | safeJS }}() {
+        google.charts.load("visualization", "1", {packages: ["corechart"]}).then(() => {
+            $.ajax({url: "/data/{{ . }}.json", dataType: "json"})
+            .done(jsonData => {
+                const data = google.visualization.arrayToDataTable(jsonData);
+                const chart = new google.visualization.BarChart(document.getElementById("chart_{{ . }}"));
+                chart.draw(data, {
+                    legend: {position: 'top', maxLines: 3},
+                    bar: {groupWidth: '75%'},
+                    isStacked: true,
+                    colors: ['#007db1', '#8dc9e8', '#c8e2ea', '#8cc4a7', '#b42025', '#f59f1d', '#f5d312', '#aab300', '#909090'],
+                    height: 300
+                });
+            })
+        });
+    }
+
+    load_and_draw_{{ . | safeJS }}();
+</script>
+{{ end }}
