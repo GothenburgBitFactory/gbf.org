@@ -33,10 +33,10 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        {{/* $url := .URL */}}
+        {{ $url := .Permalink }}
         {{ with .Site.Menus.main }}
         {{ range $menu := . }}
-        <li {{/* if eq $url .URL */}}class="active"{{/* end */}}><a href="{{/* .URL */}}">{{/* .Name */}}</a></li>
+        <li {{ if eq $url .Permalink }}class="active"{{ end }}><a href="{{ .Permalink }}">{{ .Name }}</a></li>
         {{ end }}
         {{ end }}
       </ul>
