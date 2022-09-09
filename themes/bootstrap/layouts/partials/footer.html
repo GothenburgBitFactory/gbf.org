@@ -1,8 +1,8 @@
 {{ $baseUrl := .Site.BaseURL | replaceRE "/$" "" }}
 
-<footer class="footer">
+<footer>
   <div class="container">
-    <div class="col-md-2">
+    <div class="footer-item">
       <p class="text-muted">
         Related Sites
         <br>
@@ -13,7 +13,7 @@
         <a href="https://timewarrior.net">timewarrior.net</a>
       </p>
     </div>
-    <div class="col-md-2">
+    <div class="footer-item">
       <p class="text-muted">
         Contact
         <br>
@@ -21,7 +21,7 @@
         <br>
       </p>
     </div>
-    <div class="col-md-2">
+    <div class="footer-item">
       <p class="text-muted">
         Copyright &copy; {{ now.Year }} <a href="https://github.com/GothenburgBitFactory">Göteborg Bit Factory</a>
       </p>
@@ -31,6 +31,7 @@
     </div>
   </div>
 </footer>
+
 <script src="{{ $baseUrl }}/js/jquery.min.js"></script>
 <script src="{{ $baseUrl }}/js/bootstrap.min.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
