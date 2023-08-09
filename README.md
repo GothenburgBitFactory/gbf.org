@@ -1,4 +1,4 @@
-# gothenburgbitfactory.org Site Repository
+# GBF Site Repository
 
 This repository contains the content of [gothenburgbitfactory.org](https://gothenburgbitfactory.org).
 
