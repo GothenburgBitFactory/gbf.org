@@ -16,7 +16,6 @@ It is used in our test suites.
 
 * `git clone https://github.com/GothenburgBitFactory/vramsteg.git`
 * `brew install vramsteg`
-* [Demonstration](https://www.youtube.com/watch?v=1vo3x4WwQyM)
 
 ## About
 

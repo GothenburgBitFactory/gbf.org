@@ -13,7 +13,6 @@ It targets mostly modern xterm capabilities, supports 256 colors, the mouse, and
 It provides a C API, for maximum utility.
 
 * `git clone https://github.com/GothenburgBitFactory/vitapi.git`
-* [Color quantization demo](https://www.youtube.com/watch?v=mSPsRabNJhw)
 
 ## About
 
