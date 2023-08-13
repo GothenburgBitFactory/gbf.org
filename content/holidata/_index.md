@@ -5,6 +5,7 @@ layout: single
 description: "A holiday calculation utility."
 source: "https://github.com/GothenburgBitFactory/holidata"
 homepage: "https://pypi.org/project/holidata/"
+menu: main
 rank: 27
 ---
 

@@ -5,6 +5,7 @@ layout: single
 description: " A lightweight, fast, curses-based front end to Taskwarrior."
 source: "https://github.com/vit-project/vit"
 rank: 369
+menu: main
 aliases:
     - /projects/vit
 ---

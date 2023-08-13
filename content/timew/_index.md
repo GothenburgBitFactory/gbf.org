@@ -6,6 +6,7 @@ description: "A command line time-tracking utility for use as a standalone tool,
 homepage: "https://timewarrior.net"
 source: "https://github.com/GothenburgBitFactory/timewarrior"
 rank: 850
+menu: main
 aliases:
     - /projects/timewarrior
 ---

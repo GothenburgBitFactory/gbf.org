@@ -4,6 +4,7 @@ lang: en
 layout: single
 description: "A lightweight, easy to use, simple alternative to ncurses."
 source: "https://github.com/GothenburgBitFactory/vitapi"
+menu: main
 rank: 0
 ---
 # Vitapi
