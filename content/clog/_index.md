@@ -21,4 +21,4 @@ Clog is a colorized log tail utility.
 Clog can spot patterns in an input stream and colorize or suppress the lines.
 It can also decorate the lines with time- or date-stamps.
 
-Visit the [Clog documentation home](https://taskwarrior.org/docs/clog) for full details.
+Visit the [Clog documentation home](/clog/docs) for full details.
