@@ -13,7 +13,7 @@ Vitapi (it started as an acronym) is a lightweight, easy to use, and above all, 
 It targets mostly modern xterm capabilities, supports 256 colors, the mouse, and a nice powerful color model.
 It provides a C API, for maximum utility.
 
-* `git clone https://github.com/GothenburgBitFactory/vitapi.git`
+{{< project_facts vitapi >}}
 
 ## About
 

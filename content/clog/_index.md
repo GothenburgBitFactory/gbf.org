@@ -14,8 +14,7 @@ aliases:
 
 Clog is a colorized log tail utility.
 
-* Current release: {{< latest_version clog >}}
-* Repository: [https://github.com/GothenburgBitFactory/clog](https://github.com/GothenburgBitFactory/clog)
+{{< project_facts clog >}}
 
 ## About
 

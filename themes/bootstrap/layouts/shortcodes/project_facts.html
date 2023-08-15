@@ -1,0 +1,5 @@
+<ul>
+    {{ $release := index $.Site.Data (.Get 0) }}{{ with $release }}<li><a href="{{ index $release "url" }}"><i class="bi bi-download"></i> Release {{ index . "version" }}</a></li>{{ end }}
+    {{ if .Page.Params.Source }}<li><a href="{{ .Page.Params.Source }}"><i class="bi bi-github"></i> Source</a></li>{{ end }}
+    {{ if .Page.Params.Homepage }}<li><a href="{{ .Page.Params.Homepage }}"><i class="bi bi-house-fill"></i> Homepage</a></li>{{ end }}
+</ul>

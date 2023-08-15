@@ -12,10 +12,13 @@ aliases:
 # Anomaly
 
 Anomaly can detect anomalous data in a numeric stream.
+
+{{< project_facts anomaly >}}
+
+## About
+
 In order to do this, anomaly needs to see a stream of numeric data, and apply one of its detection methods.
 If an anomaly is detected, a response is made, chosen from one or more built in methods.
-
-* `git clone https://github.com/GothenburgBitFactory/anomaly.git`
 
 ## Numeric Stream
 

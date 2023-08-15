@@ -13,8 +13,7 @@ rank: 27
 
 Holidata is a utility for algorithmically producing holiday dates for a given locale and year.
 
-* Current release: {{< latest_version holidata >}}
-* Repository: [https://github.com/GothenburgBitFactory/holidata](https://github.com/GothenburgBitFactory/holidata)
+{{< project_facts holidata >}}
 
 ## About
 

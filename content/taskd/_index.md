@@ -14,8 +14,7 @@ aliases:
 The Taskserver is a lightweight, secure server providing multi-user, multi-client access to task data.
 This allows true syncing between desktop and mobile clients.
 
-* `git clone --recursive https://github.com/GothenburgBitFactory/taskserver.git`
-* `brew install taskd`
+{{< project_facts taskd >}}
 
 ## About
 

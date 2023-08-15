@@ -15,8 +15,7 @@ Vramsteg, from the Swedish framsteg (progress), is a CLI progress bar that can b
 It supports color, labels, percentage completion, elapsed time and estimates.
 It is used in our test suites.
 
-* `git clone https://github.com/GothenburgBitFactory/vramsteg.git`
-* `brew install vramsteg`
+{{< project_facts vramsteg >}}
 
 ## About
 

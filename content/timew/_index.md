@@ -14,9 +14,7 @@ aliases:
  
 Timewarrior is a command-line time tracker.
 
-* `git clone --recursive https://github.com/GothenburgBitFactory/timewarrior.git`
-* [Project website](https://timewarrior.net)
-* [GitHub repository](https://github.com/GothenburgBitFactory/timewarrior)
+{{< project_facts timew >}}
 
 ## About
 

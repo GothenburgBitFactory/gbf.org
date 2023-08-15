@@ -13,8 +13,7 @@ aliases:
 
 VIT (Visual Interactive Taskwarrior) is a lightweight, curses-based front end for Taskwarrior that provides a convenient way to quickly navigate and process tasks.
 
-* `git clone https://github.com/scottkosty/vit.git`
-* `brew install vit`
+{{< project_facts vit >}}
 
 ## About
 

@@ -14,13 +14,12 @@ aliases:
 
 Taskwarrior is a command-line todo list manager.
 
+{{< project_facts task >}}
+
 It maintains a task list, allowing you to add/remove, and otherwise manipulate your tasks.
 Taskwarrior has a rich set of subcommands that allow you to do sophisticated things.
 You'll find it has customizable reports, charts, GTD features, device syncing, documentation, extensions, themes, holiday files and much more.
 
-* `git clone https://github.com/GothenburgBitFactory/taskwarrior.git`
-* `brew install task`
-* [Support website](https://taskwarrior.org)
 * [Performance Testing](/task/performance)
 * [Talks](talks) given at UBUCON
 * [RFCs](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/rfcs/)
