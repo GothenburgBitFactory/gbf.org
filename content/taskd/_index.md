@@ -11,7 +11,7 @@ aliases:
 ---
 # Taskserver
 
-The Taskserver is a lightweight, secure server providing multi-user, multi-client access to task data.
+Taskserver is a lightweight, secure server providing multi-user, multi-client access to task data.
 This allows true syncing between desktop and mobile clients.
 
 {{< project_facts taskd >}}
