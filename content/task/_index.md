@@ -22,9 +22,9 @@ You'll find it has customizable reports, charts, GTD features, device syncing, d
 * [Support website](https://taskwarrior.org)
 * [Performance Testing](/task/performance)
 * [Talks](talks) given at UBUCON
-* [RFCs](https://github.com/GothenburgBitFactory/taskwarrior/tree/develop/docs/rfcs)
+* [RFCs](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/rfcs/)
 * [What is the latest version?](/task/latest)
-* [Future plans](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/docs/rfcs/plans.md)
+* [Future plans](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/rfcs/plans.md)
 * [Download](https://taskwarrior.org/download)
 
 ## About
