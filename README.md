@@ -1,6 +1,6 @@
 # GBF Site Repository
 
-This repository contains the content of [gothenburgbitfactory.org](https://gothenburgbitfactory.org).
+> ⚠️ The GBF site repository has migrated to [GothenburgBitFactory.github.io](https://github.com/GothenburgBitFactory/GothenburgBitFactory.github.io)
 
 ## Contributing
 
